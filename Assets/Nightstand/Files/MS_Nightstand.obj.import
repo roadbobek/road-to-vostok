@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ggtm7sy00cf1"
+path="res://.godot/imported/MS_Nightstand.obj-fa0392da6f2edece745c99468a882ffa.mesh"
+
+[deps]
+
+source_file="res://Assets/Nightstand/Files/MS_Nightstand.obj"
+dest_files=["res://.godot/imported/MS_Nightstand.obj-fa0392da6f2edece745c99468a882ffa.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

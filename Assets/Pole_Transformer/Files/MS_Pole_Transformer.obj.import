@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fww1i2s0wb7"
+path="res://.godot/imported/MS_Pole_Transformer.obj-11a76a151b8495cba8535411a9b08c1d.mesh"
+
+[deps]
+
+source_file="res://Assets/Pole_Transformer/Files/MS_Pole_Transformer.obj"
+dest_files=["res://.godot/imported/MS_Pole_Transformer.obj-11a76a151b8495cba8535411a9b08c1d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

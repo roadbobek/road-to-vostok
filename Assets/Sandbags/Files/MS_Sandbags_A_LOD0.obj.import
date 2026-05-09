@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dniuuy0rvulrl"
+path="res://.godot/imported/MS_Sandbags_A_LOD0.obj-7fd76b0d40948b9b4524dc4e68fb47b5.mesh"
+
+[deps]
+
+source_file="res://Assets/Sandbags/Files/MS_Sandbags_A_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Sandbags_A_LOD0.obj-7fd76b0d40948b9b4524dc4e68fb47b5.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

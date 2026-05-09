@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1oajfuyj0twx"
+path="res://.godot/imported/MS_Cabinet_Medical.obj-c96233773a9bcba2d19d78ab74ff417d.mesh"
+
+[deps]
+
+source_file="res://Assets/Cabinet_Medical/Files/MS_Cabinet_Medical.obj"
+dest_files=["res://.godot/imported/MS_Cabinet_Medical.obj-c96233773a9bcba2d19d78ab74ff417d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7bl7qk720lt2"
+path="res://.godot/imported/MS_House_Village_E_Area_01.obj-ec3fb6e72c459667c5a12cf84464b886.mesh"
+
+[deps]
+
+source_file="res://Assets/House_Village_E/Files/MS_House_Village_E_Area_01.obj"
+dest_files=["res://.godot/imported/MS_House_Village_E_Area_01.obj-ec3fb6e72c459667c5a12cf84464b886.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

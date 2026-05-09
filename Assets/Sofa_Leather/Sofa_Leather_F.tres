@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dhpecr1o1637v"]
+
+[ext_resource type="Texture2D" uid="uid://npqccpdpixkr" path="res://Assets/Sofa_Leather/Files/Icon_Sofa_Leather.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dkhsh6bx5eguw" path="res://Assets/Sofa_Leather/Sofa_Leather_7x4.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Sofa_Leather"
+name = "Sofa (Leather)"
+inventory = "Sofa (Leather)"
+rotated = "Sofa (Leather)"
+equipment = "Sofa (Leather)"
+display = "Sofa L."
+type = "Furniture"
+value = 2400
+rarity = 4
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(7, 4)
+audio = null
+material = null
+generalist = true

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://daoqmu4auuhti"
+path="res://.godot/imported/MS_Lamp_Floor_Collider.obj-86a6c9005cddaff7953c2b3ee44396ca.mesh"
+
+[deps]
+
+source_file="res://Assets/Lamp_Floor/Files/MS_Lamp_Floor_Collider.obj"
+dest_files=["res://.godot/imported/MS_Lamp_Floor_Collider.obj-86a6c9005cddaff7953c2b3ee44396ca.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqfx3ok48g5an"
+path="res://.godot/imported/MS_Sofa_Leather.obj-ad11869b5b533bf492d97a7607869df9.mesh"
+
+[deps]
+
+source_file="res://Assets/Sofa_Leather/Files/MS_Sofa_Leather.obj"
+dest_files=["res://.godot/imported/MS_Sofa_Leather.obj-ad11869b5b533bf492d97a7607869df9.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cjm5hbv8q3g2i"
+path="res://.godot/imported/MS_Railroad_Crossing_Double.obj-3249cc2d1dbbff443f991a18abdfb3f8.mesh"
+
+[deps]
+
+source_file="res://Assets/Railroad/Files/MS_Railroad_Crossing_Double.obj"
+dest_files=["res://.godot/imported/MS_Railroad_Crossing_Double.obj-3249cc2d1dbbff443f991a18abdfb3f8.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

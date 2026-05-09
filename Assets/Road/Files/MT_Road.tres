@@ -1,0 +1,20 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://d1ij4l5r8dh70"]
+
+[ext_resource type="Shader" uid="uid://4hr5wx8clbdy" path="res://Shaders/Alpha.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cb2v040yx7xah" path="res://Assets/Road/Files/TX_Road_AL.tga" id="2"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = null
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.6
+shader_parameter/opacity = 0.5
+shader_parameter/fractional = false
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = false
+shader_parameter/snowFading = true
+shader_parameter/snowAmount = 0.0
+shader_parameter/marking = false

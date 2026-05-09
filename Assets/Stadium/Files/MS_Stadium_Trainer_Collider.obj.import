@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8kt5er7lntra"
+path="res://.godot/imported/MS_Stadium_Trainer_Collider.obj-6c451a6711abcff751a68be047b94753.mesh"
+
+[deps]
+
+source_file="res://Assets/Stadium/Files/MS_Stadium_Trainer_Collider.obj"
+dest_files=["res://.godot/imported/MS_Stadium_Trainer_Collider.obj-6c451a6711abcff751a68be047b94753.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

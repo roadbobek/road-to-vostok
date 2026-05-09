@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6x031hijsy5m"
+path="res://.godot/imported/MS_Radiator_Large.obj-be622c0739db00326234eaf8ca85309c.mesh"
+
+[deps]
+
+source_file="res://Assets/Radiator/Files/MS_Radiator_Large.obj"
+dest_files=["res://.godot/imported/MS_Radiator_Large.obj-be622c0739db00326234eaf8ca85309c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

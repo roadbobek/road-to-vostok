@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nu6ykjqomc3h"
+path="res://.godot/imported/MS_Market_Shelf_A.obj-6aa19a7be23cf3d3c7c8c72e55aadced.mesh"
+
+[deps]
+
+source_file="res://Assets/Market/Files/MS_Market_Shelf_A.obj"
+dest_files=["res://.godot/imported/MS_Market_Shelf_A.obj-6aa19a7be23cf3d3c7c8c72e55aadced.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

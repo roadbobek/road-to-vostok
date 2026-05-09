@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dy3fxei7gmj5p"
+path="res://.godot/imported/MS_Rack_Carpet.obj-6667188fdddf6ecb56171b7e570a3ed9.mesh"
+
+[deps]
+
+source_file="res://Assets/Rack_Carpet/Files/MS_Rack_Carpet.obj"
+dest_files=["res://.godot/imported/MS_Rack_Carpet.obj-6667188fdddf6ecb56171b7e570a3ed9.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://3s74xlq7qqn5"
+path="res://.godot/imported/MS_Pipe_Concrete.obj-97f05243ff0d34f5f1a0b3bf55b80a55.mesh"
+
+[deps]
+
+source_file="res://Assets/Pipe_Concrete/Files/MS_Pipe_Concrete.obj"
+dest_files=["res://.godot/imported/MS_Pipe_Concrete.obj-97f05243ff0d34f5f1a0b3bf55b80a55.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

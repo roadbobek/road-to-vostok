@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b46g1d8xn71q3"
+path="res://.godot/imported/MS_Radio_Military_Antenna.obj-a51e1e4bc4097206248c251838feaf22.mesh"
+
+[deps]
+
+source_file="res://Assets/Radio_Military/Files/MS_Radio_Military_Antenna.obj"
+dest_files=["res://.godot/imported/MS_Radio_Military_Antenna.obj-a51e1e4bc4097206248c251838feaf22.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

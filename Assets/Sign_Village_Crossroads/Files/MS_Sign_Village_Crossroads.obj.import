@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbbn4jiudyhyn"
+path="res://.godot/imported/MS_Sign_Village_Crossroads.obj-687aaed7ee6ab2667a59baddc9ec2a89.mesh"
+
+[deps]
+
+source_file="res://Assets/Sign_Village_Crossroads/Files/MS_Sign_Village_Crossroads.obj"
+dest_files=["res://.godot/imported/MS_Sign_Village_Crossroads.obj-687aaed7ee6ab2667a59baddc9ec2a89.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cknj3njf7bbmh"
+path="res://.godot/imported/MS_Pole_Light_Metal_Double.obj-7d8af289dd38655ded3b2ef23c5918cd.mesh"
+
+[deps]
+
+source_file="res://Assets/Pole_Light_Metal/Files/MS_Pole_Light_Metal_Double.obj"
+dest_files=["res://.godot/imported/MS_Pole_Light_Metal_Double.obj-7d8af289dd38655ded3b2ef23c5918cd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

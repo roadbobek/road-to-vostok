@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cb7iybkxolelo"
+path="res://.godot/imported/MS_Canteen_Steps.obj-882fb230d6ec2cec32786ae70e3aaa1b.mesh"
+
+[deps]
+
+source_file="res://Assets/Canteen/Files/MS_Canteen_Steps.obj"
+dest_files=["res://.godot/imported/MS_Canteen_Steps.obj-882fb230d6ec2cec32786ae70e3aaa1b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

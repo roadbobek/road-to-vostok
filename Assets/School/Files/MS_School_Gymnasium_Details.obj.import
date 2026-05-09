@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bu46vkqwtuhkk"
+path="res://.godot/imported/MS_School_Gymnasium_Details.obj-2fb7a0d2e774dd66c4b80d192a1642aa.mesh"
+
+[deps]
+
+source_file="res://Assets/School/Files/MS_School_Gymnasium_Details.obj"
+dest_files=["res://.godot/imported/MS_School_Gymnasium_Details.obj-2fb7a0d2e774dd66c4b80d192a1642aa.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdkvj022te7b4"
+path="res://.godot/imported/MS_Chair_School.obj-1ab3a40c742a6277f1059fba687af5bb.mesh"
+
+[deps]
+
+source_file="res://Assets/Chair_School/Files/MS_Chair_School.obj"
+dest_files=["res://.godot/imported/MS_Chair_School.obj-1ab3a40c742a6277f1059fba687af5bb.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

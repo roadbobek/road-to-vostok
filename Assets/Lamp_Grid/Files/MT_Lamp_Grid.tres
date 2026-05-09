@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c5wysw8iblsrb"]
+
+[ext_resource type="Shader" uid="uid://bnpmqgmrvt1yi" path="res://Shaders/Standard.gdshader" id="1"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x66xr"]
+load_path = "res://.godot/imported/TX_Lamp_Grid_AL.png-886d69ee92689c3ccd3f4b60da5fe8aa.s3tc.ctex"
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = SubResource("CompressedTexture2D_x66xr")
+shader_parameter/normal = null
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.1
+shader_parameter/dynamic = false
+shader_parameter/fractional = false
+shader_parameter/enableRain = false
+shader_parameter/enableSnow = false
+shader_parameter/snowTop = 0.0
+shader_parameter/snowSide = 0.0
+shader_parameter/snowBottom = 0.0
+shader_parameter/occlusion = false
+shader_parameter/noise = false
+shader_parameter/metal = false
+shader_parameter/super = false
+shader_parameter/glow = false
+shader_parameter/viewmodel = false
+shader_parameter/fresnel = 0.5

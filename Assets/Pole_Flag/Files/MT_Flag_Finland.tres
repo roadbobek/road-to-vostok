@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cg483afqs23a5"]
+
+[ext_resource type="Shader" uid="uid://cy1twciaslb0c" path="res://Shaders/Flag.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://br3koaktxxk8h" path="res://Assets/Pole_Flag/Files/TX_Flag_Finland_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c4jtafw0xdegt" path="res://Modular/Textures/TX_Perlin_Noise_A.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c5dv6m7sx3h8v" path="res://Assets/Pole_Flag/Files/TX_Flag_NR.png" id="4"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("4")
+shader_parameter/noise = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/distortion = 1.0

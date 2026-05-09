@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4fdeatt1r0u4"
+path="res://.godot/imported/MS_Police_Tire_FL.obj-d5dca0ab45513d3adb167081a3b93f45.mesh"
+
+[deps]
+
+source_file="res://Assets/Police/Files/MS_Police_Tire_FL.obj"
+dest_files=["res://.godot/imported/MS_Police_Tire_FL.obj-d5dca0ab45513d3adb167081a3b93f45.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

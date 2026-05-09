@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhceyj5orpalq"
+path="res://.godot/imported/MS_Crate_Military.obj-bd75b1b146594aa00ac7c8506d578c80.mesh"
+
+[deps]
+
+source_file="res://Assets/Crate_Military/Files/MS_Crate_Military.obj"
+dest_files=["res://.godot/imported/MS_Crate_Military.obj-bd75b1b146594aa00ac7c8506d578c80.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

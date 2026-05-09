@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bs6j1u1r3o4aw"
+path="res://.godot/imported/MS_Stool_Military.obj-5b18bdc0bbc99c2d5c1dae9b410e7fb2.mesh"
+
+[deps]
+
+source_file="res://Assets/Stool_Military/Files/MS_Stool_Military.obj"
+dest_files=["res://.godot/imported/MS_Stool_Military.obj-5b18bdc0bbc99c2d5c1dae9b410e7fb2.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

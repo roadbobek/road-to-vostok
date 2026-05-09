@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d4m1x3rrd566p"
+path="res://.godot/imported/MS_Shack_Sport_Interior.obj-0b37d68159bdf3877e856c32bc543c4b.mesh"
+
+[deps]
+
+source_file="res://Assets/Shack_Sport/Files/MS_Shack_Sport_Interior.obj"
+dest_files=["res://.godot/imported/MS_Shack_Sport_Interior.obj-0b37d68159bdf3877e856c32bc543c4b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkmss7kkc2ckk"
+path="res://.godot/imported/MS_Stadium_Sweeper_Collider.obj-284970ffd84f3c0156876fd6ee73985c.mesh"
+
+[deps]
+
+source_file="res://Assets/Stadium/Files/MS_Stadium_Sweeper_Collider.obj"
+dest_files=["res://.godot/imported/MS_Stadium_Sweeper_Collider.obj-284970ffd84f3c0156876fd6ee73985c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

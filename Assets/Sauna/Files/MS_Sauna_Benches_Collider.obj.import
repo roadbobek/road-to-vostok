@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dje7a0jdj1c2t"
+path="res://.godot/imported/MS_Sauna_Benches_Collider.obj-23d659df6fe38bd4f3d9814d2fe364d2.mesh"
+
+[deps]
+
+source_file="res://Assets/Sauna/Files/MS_Sauna_Benches_Collider.obj"
+dest_files=["res://.godot/imported/MS_Sauna_Benches_Collider.obj-23d659df6fe38bd4f3d9814d2fe364d2.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
