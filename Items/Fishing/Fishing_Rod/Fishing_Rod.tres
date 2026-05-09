@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="FishingData" format=3 uid="uid://b8fl50ujxkcdy"]
+
+[ext_resource type="Texture2D" uid="uid://cfxgqvqpowqua" path="res://Items/Fishing/Fishing_Rod/Files/Icon_Fishing_Rod.png" id="1"]
+[ext_resource type="Script" uid="uid://cbmas3vt8ksrk" path="res://Scripts/FishingData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://bync81te5erap" path="res://Items/Fishing/Fishing_Rod/Fishing_Rod_6x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+highPosition = Vector3(0.05, -0.05, -0.3)
+lowPosition = Vector3(0.05, -0.05, -0.3)
+inspectPosition = Vector3(0.05, -0.1, -0.35)
+inspectRotation = Vector3(0, 0, 10)
+collisionPosition = Vector3(0.05, -0.05, -0.15)
+collisionRotation = Vector3(-45, 0, 0)
+file = "Fishing_Rod"
+name = "Fishing Rod"
+inventory = "Fishing Rod"
+rotated = "F. Rod"
+equipment = "Fishing Rod"
+display = "F. Rod"
+type = "Fishing"
+weight = 0.6
+value = 480
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(6, 1)
+audio = null
+slots = ["Primary", "Secondary"]
+material = null
+civilian = true
+orientation = 90.0
+metadata/_custom_type_script = "uid://cbmas3vt8ksrk"

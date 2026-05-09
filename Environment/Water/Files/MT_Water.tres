@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cnxip0yksmfwd"]
+
+[ext_resource type="Material" uid="uid://wggebdqw68sc" path="res://Environment/Water/Files/MT_Underwater.tres" id="1"]
+[ext_resource type="Shader" uid="uid://y2n745gcv0qe" path="res://Shaders/Water.gdshader" id="2"]
+[ext_resource type="Texture2D" uid="uid://blkeet2df3pnx" path="res://Environment/Water/Files/TX_Water_A_NR.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ckxsf3vv6duy8" path="res://Environment/Water/Files/TX_Water_B_NR.png" id="4"]
+
+[resource]
+render_priority = -1
+next_pass = ExtResource("1")
+shader = ExtResource("2")
+shader_parameter/color = Color(0.118041, 0.118041, 0.0787371, 1)
+shader_parameter/edgeFade = 10.0
+shader_parameter/waveA = ExtResource("3")
+shader_parameter/waveB = ExtResource("4")
+shader_parameter/waveIntensity = 0.2
+shader_parameter/waveSpeed = 0.1
+shader_parameter/enableRain = true
+shader_parameter/SSREnabled = true

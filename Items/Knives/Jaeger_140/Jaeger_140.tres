@@ -1,0 +1,39 @@
+[gd_resource type="Resource" script_class="KnifeData" format=3 uid="uid://pfrku2gts7cu"]
+
+[ext_resource type="Texture2D" uid="uid://cdy8utkalaagt" path="res://Items/Knives/Jaeger_140/Files/Icon_Jaeger_140.png" id="1"]
+[ext_resource type="Script" uid="uid://bcabv268vnjb7" path="res://Scripts/KnifeData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://blsb0lqvvmnib" path="res://Items/Knives/Jaeger_140/Jaeger_140_2x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+damage = 20.0
+collisionSize = Vector3(0.05, 0.05, 0.3)
+highPosition = Vector3(-0.02, -0.05, -0.15)
+highRotation = Vector3(0, 0, -2)
+lowPosition = Vector3(-0.02, -0.05, -0.15)
+lowRotation = Vector3(0, 0, -2)
+inspectPosition = Vector3(0, -0.06, -0.12)
+inspectRotation = Vector3(0, 0, -15)
+collisionPosition = Vector3(-0.02, -0.05, -0.15)
+file = "Jaeger_140"
+name = "Jaeger 140"
+inventory = "Jaeger 140"
+rotated = "Jaeger"
+equipment = "Jaeger 140"
+display = "Jaeger"
+type = "Knife"
+weight = 0.2
+value = 150
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 1)
+suppressorOffset = 1.0
+audio = null
+slots = ["Knife"]
+material = null
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.02

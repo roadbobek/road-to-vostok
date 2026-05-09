@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://5r66gm3ncdme"]
+
+[ext_resource type="Resource" uid="uid://jutv7t0bvdds" path="res://Items/Clothing/Windbreaker_Black/Windbreaker_Black.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b02r5jgmywopt" path="res://Items/Weapons/Glock_17/Glock_17.tres" id="2"]
+[ext_resource type="Resource" uid="uid://c6q8lx8cutyuk" path="res://Items/Weapons/Glock_17/Glock_17_Magazine.tres" id="3"]
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cpixle81rvhej" path="res://Items/Medical/Tourniquet/Tourniquet.tres" id="5"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

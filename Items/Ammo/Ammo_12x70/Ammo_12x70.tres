@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ikjjty3jvhpg"]
+
+[ext_resource type="Texture2D" uid="uid://br0ofua7aj8hb" path="res://Items/Ammo/Ammo_12x70/Files/Icon_Ammo_12x70.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://bpqitumrg5u6h" path="res://Items/Ammo/Ammo_12x70/Ammo_12x70_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Ammo_12x70"
+name = "12/70"
+inventory = "12/70"
+rotated = "12/70"
+equipment = "12/70"
+display = "12/70"
+type = "Ammo"
+weight = 0.3
+value = 200
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+showAmount = true
+defaultAmount = 10
+maxAmount = 300
+stackable = true
+civilian = true
+military = true
+generalist = true
+gunsmith = true

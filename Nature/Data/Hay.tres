@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpawnerChunkData" format=3 uid="uid://2aoebnkf0m4l"]
+
+[ext_resource type="Material" uid="uid://ge6rb2hvs1w1" path="res://Nature/Grass/Files/MT_Hay.tres" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://827wjxrim3q2" path="res://Nature/Grass/Files/MS_Grass.obj" id="2"]
+[ext_resource type="Script" uid="uid://d3abg51jgmr3k" path="res://Scripts/SpawnerChunkData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+mesh = ExtResource("2")
+LOD = null
+collider = null
+material = ExtResource("1")
+renderEnd = 200.0
+density = 5.0
+farDensity = 5.0
+maxScale = 1.5
+metadata/_custom_type_script = "uid://d3abg51jgmr3k"

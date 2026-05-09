@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ru55o43w1334"]
+
+[ext_resource type="AudioStream" uid="uid://b0ffl8a4d8i2u" path="res://Audio/Water/Files/Swim_Submerged_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://d0xviktcgiw4i" path="res://Audio/Water/Files/Swim_Submerged_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://0kwltn43g2du" path="res://Audio/Water/Files/Swim_Submerged_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://cctcfvvlnbyxw" path="res://Audio/Water/Files/Swim_Submerged_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://bilmc54rfslyc" path="res://Audio/Water/Files/Swim_Submerged_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://ba2scn5fj6g6o" path="res://Audio/Water/Files/Swim_Submerged_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://cyw0yy6ns6mar" path="res://Audio/Water/Files/Swim_Submerged_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://djh4hye5mcyxh" path="res://Audio/Water/Files/Swim_Submerged_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]

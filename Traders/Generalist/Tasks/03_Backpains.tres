@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://q2a57c418w3v"]
+
+[ext_resource type="Resource" uid="uid://ceicdsbpbmg5r" path="res://Items/Misc/Pillow/Pillow.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cryvk47ad2vkm" path="res://Items/Medical/Lotion/Lotion.tres" id="2"]
+[ext_resource type="Resource" uid="uid://0pca1n785vih" path="res://Items/Medical/Painkillers/Painkillers.tres" id="3"]
+[ext_resource type="Resource" uid="uid://6s2bmj3x3iur" path="res://Items/Electronics/Narva/Narva.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Generalist"
+name = "Backpains"
+difficulty = "Easy"
+description = "When you get to my age, everything hurts and your body is like those French cars, constant issues and in need of repair.
+
+I usually don't complain, but my fucking back is killing me. Every morning when I wake up, it feels like a gunshot directly to my spine. It won't be long until you're just like me and those cursed French cars.
+
+If you happen to find something that could help with my back, I would highly appreciate it."
+deliver = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+receive = [ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

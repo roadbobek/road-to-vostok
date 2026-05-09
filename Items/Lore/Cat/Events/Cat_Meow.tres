@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://jri2jc62dfli"]
+
+[ext_resource type="AudioStream" uid="uid://klgf41p8moe" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://ptpolrj3w5ix" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://f6agdjbhkfwt" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://wbktj5ai4w47" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://co2q4pr8fo6k5" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://da3tgs0xylyvq" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://hj4fjymuhggu" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cu6gjrf7kytmr" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://bvu6j67o362h6" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://bagp6cihn0ji2" path="res://Items/Lore/Cat/Audio/Cat_Meow_High_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://d1rxktflwxarn" path="res://Items/Lore/Cat/Audio/Cat_Meow_Low_01.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://c53tmdyagwslm" path="res://Items/Lore/Cat/Audio/Cat_Meow_Low_02.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://eonhnswb3nkt" path="res://Items/Lore/Cat/Audio/Cat_Meow_Low_03.wav" id="13"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="14"]
+
+[resource]
+script = ExtResource("14")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

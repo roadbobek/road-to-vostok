@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://ltp81vhrouvx"]
+
+[ext_resource type="Resource" uid="uid://b7wkv2c8c7mwf" path="res://Items/Medical/Medkit/Medkit.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cwjxdkr0hsnl" path="res://Items/Medical/Splint/Splint.tres" id="2"]
+[ext_resource type="Resource" uid="uid://ch5e0qnwxlt5j" path="res://Items/Medical/AFAK/AFAK.tres" id="3"]
+[ext_resource type="Resource" uid="uid://b667obokrwkfd" path="res://Items/Medical/Thermal_Blanket/Thermal_Blanket.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cuo736lbjn77s" path="res://Items/Medical/IFAK/IFAK.tres" id="5"]
+[ext_resource type="Resource" uid="uid://cpixle81rvhej" path="res://Items/Medical/Tourniquet/Tourniquet.tres" id="6"]
+[ext_resource type="Resource" uid="uid://ygegi2ve0sds" path="res://Items/Medical/Tissues/Tissues.tres" id="7"]
+[ext_resource type="Resource" uid="uid://cryvk47ad2vkm" path="res://Items/Medical/Lotion/Lotion.tres" id="8"]
+[ext_resource type="Resource" uid="uid://d1333r7v0mwe0" path="res://Items/Medical/Deodorant/Deodorant.tres" id="9"]
+[ext_resource type="Resource" uid="uid://dsuhmpvpsv7xw" path="res://Items/Medical/Balm/Balm.tres" id="10"]
+[ext_resource type="Resource" uid="uid://c6amibu4amevd" path="res://Items/Medical/Wipes/Wipes.tres" id="11"]
+[ext_resource type="Resource" uid="uid://m2iy7n8ivd84" path="res://Items/Medical/Bandage/Bandage.tres" id="12"]
+[ext_resource type="Resource" uid="uid://dnn3w5ss88w67" path="res://Items/Medical/Saline/Saline.tres" id="13"]
+[ext_resource type="Resource" uid="uid://c5u5yo45p5ru1" path="res://Items/Medical/Antiseptic/Antiseptic.tres" id="14"]
+[ext_resource type="Resource" uid="uid://0pca1n785vih" path="res://Items/Medical/Painkillers/Painkillers.tres" id="15"]
+[ext_resource type="Resource" uid="uid://dtwtwb5pn2vy0" path="res://Items/Medical/Antibiotics/Antibiotics.tres" id="16"]
+[ext_resource type="Resource" uid="uid://dwuyiagsv4w02" path="res://Items/Medical/Cold_Medicine/Cold_Medicine.tres" id="17"]
+[ext_resource type="Resource" uid="uid://bxhbnvi700n0l" path="res://Items/Medical/Melatonin/Melatonin.tres" id="18"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="19"]
+
+[resource]
+script = ExtResource("19")
+items = [ExtResource("1"), ExtResource("1"), ExtResource("2"), ExtResource("2"), ExtResource("3"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("5"), ExtResource("6"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("8"), ExtResource("9"), ExtResource("9"), ExtResource("10"), ExtResource("10"), ExtResource("11"), ExtResource("11"), ExtResource("12"), ExtResource("12"), ExtResource("12"), ExtResource("12"), ExtResource("13"), ExtResource("13"), ExtResource("14"), ExtResource("14"), ExtResource("15"), ExtResource("15"), ExtResource("16"), ExtResource("16"), ExtResource("17"), ExtResource("17"), ExtResource("18"), ExtResource("18")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

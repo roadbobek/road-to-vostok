@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://b4xar871ujh"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 8
+name = "Attack Helicopters"
+type = "Dynamic"
+zone = "Border Zone"
+function = "Helicopter"
+description = "The Border Zone demilitarization is starting to crumble and it is obvious that previous rules no longer apply.
+
+While official sources ensure nothing has changed, attack helicopters have started making frequent patrols and airspace violations near the Border Zone."
+possibility = 25
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

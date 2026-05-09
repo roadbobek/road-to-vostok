@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://ce37binpx2a1q"]
+
+[ext_resource type="Resource" uid="uid://ikjjty3jvhpg" path="res://Items/Ammo/Ammo_12x70/Ammo_12x70.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bfbtp8mix1dxv" path="res://Items/Weapons/Remington_870/Events/Remington_870_Ammo_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://c1notfg34pmn1" path="res://Items/Attachments/Salvo/Salvo.tres" id="3"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3_r8rua"]
+[ext_resource type="Resource" uid="uid://bg2t6jnddlacu" path="res://Items/Weapons/Remington_870/Events/Remington_870_Fire.tres" id="4"]
+[ext_resource type="Resource" uid="uid://buo78t8h51tj0" path="res://Items/Weapons/Remington_870/Events/Remington_870_Fire_Suppressed.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://cfoqoyq4m6dsn" path="res://Items/Weapons/Remington_870/Files/Icon_Remington_870.png" id="6"]
+[ext_resource type="Resource" uid="uid://q82lqwgwcxju" path="res://Items/Weapons/Remington_870/Events/Remington_870_Insert.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dbn60f1qdtnhb" path="res://Items/Weapons/Remington_870/Events/Remington_870_Insert_End.tres" id="8"]
+[ext_resource type="Resource" uid="uid://1rp66j68gl0o" path="res://Items/Weapons/Remington_870/Events/Remington_870_Insert_Start.tres" id="9"]
+[ext_resource type="Resource" uid="uid://bvfmibykgy6gj" path="res://Items/Weapons/Remington_870/Events/Remington_870_Reload.tres" id="10"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="11"]
+[ext_resource type="Resource" uid="uid://b37odrhd6gfmv" path="res://Items/Weapons/Common/Tails/Shotgun_Tail_Indoor.tres" id="12"]
+[ext_resource type="Resource" uid="uid://b2rdlxl2tqjo8" path="res://Items/Weapons/Common/Tails/Shotgun_Tail_Indoor_Suppressed.tres" id="13"]
+[ext_resource type="Resource" uid="uid://b3q01slvhssdt" path="res://Items/Weapons/Remington_870/Events/Remington_870_Tail_Outdoor.tres" id="14"]
+[ext_resource type="Resource" uid="uid://3066vnmkm6xp" path="res://Items/Weapons/Common/Tails/Shotgun_Tail_Outdoor_Suppressed.tres" id="15"]
+[ext_resource type="PackedScene" uid="uid://b5tw5ax61yxx0" path="res://Items/Weapons/Remington_870/Remington_870_6x2.tscn" id="16"]
+
+[resource]
+script = ExtResource("11")
+weaponType = "Shotgun"
+weaponAction = "Manual"
+fireSemi = ExtResource("4")
+fireSuppressed = ExtResource("5")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("14")
+reload = ExtResource("10")
+insertStart = ExtResource("9")
+insertEnd = ExtResource("8")
+insert = ExtResource("7")
+tailIndoor = ExtResource("12")
+tailIndoorSuppressed = ExtResource("13")
+tailOutdoorSuppressed = ExtResource("15")
+ammo = ExtResource("1")
+caliber = "12/70"
+casing = 3
+damage = 40.0
+penetration = 2
+fireRate = 0.08
+magazineSize = 10
+kick = 10.15
+kickPower = 20.0
+verticalRecoil = 10.1
+horizontalRecoil = 10.01
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideMovement = 0.1
+slideSpeed = 2.0
+lowPosition = Vector3(0, -0.1, -0.24)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.05, -0.18)
+aimPosition = Vector3(0, -0.026, -0.16)
+cantedPosition = Vector3(0, -0.05, -0.14)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(0.1, -0.05, -0.02)
+inspectRotation = Vector3(0, 0, 5)
+collisionPosition = Vector3(0.03, -0.2, -0.26)
+collisionRotation = Vector3(40, 15, 0)
+file = "Remington_870"
+name = "RM-870"
+inventory = "RM-870"
+rotated = "RM-870"
+equipment = "RM-870"
+display = "RM-870"
+type = "Weapon"
+subtype = "Shotgun"
+weight = 3.6
+value = 550
+icon = ExtResource("6")
+tetris = ExtResource("16")
+size = Vector2(6, 2)
+suppressorScale = 0.4
+suppressorOffset = -30.0
+compatible = Array[ExtResource("3_r8rua")]([ExtResource("3")])
+slots = Array[String](["Primary"])
+showCondition = true
+maxAmount = 8
+repairs = true
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.03

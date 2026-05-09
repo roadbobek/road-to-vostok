@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://dt8kkgj5siffd"]
+
+[ext_resource type="Texture2D" uid="uid://dxtx66vusmwa7" path="res://Items/Attachments/Hybrid/Files/Icon_Hybrid.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dc671gxyjeux1" path="res://Items/Attachments/Hybrid/Hybrid_2x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Hybrid"
+name = "Hybrid"
+inventory = "Hybrid"
+rotated = "Hybrid"
+equipment = "Hybrid"
+display = "Hybrid"
+type = "Attachment"
+subtype = "Muzzle"
+weight = 0.5
+value = 750
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 1)
+audio = null
+material = null
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.03

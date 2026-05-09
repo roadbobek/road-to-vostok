@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnmbgw40jl4yg"
+path="res://.godot/imported/MS_POSP_Static_LOD1.obj-bcc633afd1935d86589abd3dc69d0d1a.mesh"
+
+[deps]
+
+source_file="res://Items/Attachments/POSP/Files/MS_POSP_Static_LOD1.obj"
+dest_files=["res://.godot/imported/MS_POSP_Static_LOD1.obj-bcc633afd1935d86589abd3dc69d0d1a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

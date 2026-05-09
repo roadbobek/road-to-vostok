@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://duvov5k52o55u"]
+
+[ext_resource type="AudioStream" uid="uid://sdniqswh3ogm" path="res://Items/Weapons/AKS-74U/Audio/AKS-74U_Fire_Suppressed.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+randomPitch = true

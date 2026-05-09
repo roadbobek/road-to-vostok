@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7vwjpfippc8b"
+path="res://.godot/imported/Military_Combat_20 (Painu vittuun rotta!).wav-85ac6d9d89809b7c1a688f2b47f404ee.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_20 (Painu vittuun rotta!).wav"
+dest_files=["res://.godot/imported/Military_Combat_20 (Painu vittuun rotta!).wav-85ac6d9d89809b7c1a688f2b47f404ee.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

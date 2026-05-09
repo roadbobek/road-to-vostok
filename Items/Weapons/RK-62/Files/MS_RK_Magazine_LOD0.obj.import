@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxp6vo2t66bi1"
+path="res://.godot/imported/MS_RK_Magazine_LOD0.obj-9ae0dd3a8b81ed5963059aaf9473cacf.mesh"
+
+[deps]
+
+source_file="res://Items/Weapons/RK-62/Files/MS_RK_Magazine_LOD0.obj"
+dest_files=["res://.godot/imported/MS_RK_Magazine_LOD0.obj-9ae0dd3a8b81ed5963059aaf9473cacf.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

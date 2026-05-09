@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://djbf0kmsb22su"]
+
+[ext_resource type="Resource" uid="uid://bobupe4aei6w7" path="res://Audio/Use/Drink_Can.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dfhq3nomyftbc" path="res://Items/Consumables/Soda_Lemon/Files/Icon_Soda_Lemon.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://c4vm646f1py4i" path="res://Items/Consumables/Soda_Lemon/Soda_Lemon_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Soda_Lemon"
+name = "Soda (Lemon)"
+inventory = "Soda"
+rotated = "Soda"
+equipment = "Soda"
+display = "Soda L."
+type = "Consumables"
+weight = 0.3
+value = 100
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+energy = 10.0
+hydration = 40.0
+mental = 10.0
+material = null
+freezable = true
+civilian = true
+generalist = true

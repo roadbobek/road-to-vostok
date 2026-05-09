@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://jmjlor2nygof"]
+
+[ext_resource type="Resource" uid="uid://br1yf3717fbki" path="res://Audio/Use/Snus.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://k1jc8edwlnoi" path="res://Items/Consumables/Snus/Files/Icon_Snus.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://pigv1rbtxags" path="res://Items/Consumables/Snus/Snus_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Snus"
+name = "Snus"
+inventory = "Snus"
+rotated = "Snus"
+equipment = "Snus"
+display = "Snus"
+type = "Consumables"
+weight = 0.1
+value = 125
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Use"
+audio = ExtResource("1")
+mental = 25.0
+material = null
+civilian = true
+military = true

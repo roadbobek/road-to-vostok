@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cr6m5inlqm8bj"]
+
+[ext_resource type="AudioStream" uid="uid://bmwhc7ugebpuf" path="res://Audio/Character/Files/Impact_Armor_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bab2fhmtkw7w8" path="res://Audio/Character/Files/Impact_Armor_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://ptcfn3p1uoh1" path="res://Audio/Character/Files/Impact_Armor_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dj15v81qevrc8" path="res://Audio/Character/Files/Impact_Armor_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]

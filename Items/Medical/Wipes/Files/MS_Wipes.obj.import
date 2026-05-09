@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://uqkr1ww51gia"
+path="res://.godot/imported/MS_Wipes.obj-396d25cb7661dac3e4e0043b19d3b0bc.mesh"
+
+[deps]
+
+source_file="res://Items/Medical/Wipes/Files/MS_Wipes.obj"
+dest_files=["res://.godot/imported/MS_Wipes.obj-396d25cb7661dac3e4e0043b19d3b0bc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

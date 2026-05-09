@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b1424tusx84nr"]
+
+[ext_resource type="Texture2D" uid="uid://t1g8dj288mn3" path="res://Items/Electronics/Batteries/Files/Icon_Batteries.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://b33fydq6w4lbn" path="res://Items/Electronics/Batteries/Batteries_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Batteries"
+name = "Batteries"
+inventory = "Batteries"
+rotated = "Batteries"
+equipment = "Batteries"
+display = "Batteries"
+type = "Electronics"
+weight = 0.1
+value = 100
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+civilian = true
+industrial = true
+military = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="SpawnerChunkData" format=3 uid="uid://bue3c0le8wf47"]
+
+[ext_resource type="ArrayMesh" uid="uid://doosg1o1563qg" path="res://Nature/Stones/Files/MS_Stone_Group_Collider.obj" id="1"]
+[ext_resource type="Material" uid="uid://deii0fkigjwn0" path="res://Nature/Stones/Files/MT_Stone.tres" id="2"]
+[ext_resource type="ArrayMesh" uid="uid://btv3pw1abd1ve" path="res://Nature/Stones/Files/MS_Stone_Group_A.obj" id="3"]
+[ext_resource type="Script" uid="uid://d3abg51jgmr3k" path="res://Scripts/SpawnerChunkData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+mesh = ExtResource("3")
+LOD = null
+collider = ExtResource("1")
+material = ExtResource("2")
+renderEnd = 150.0
+surface = "Rock"
+area = 500.0
+density = 0.2
+farDensity = 0.2
+minDistance = 5.0
+maxScale = 3.0
+perimeter = 2
+perimeterType = 3
+metadata/_custom_type_script = "uid://d3abg51jgmr3k"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://k25c3sa1sv0l"]
+
+[ext_resource type="AudioStream" uid="uid://bs3i1sjdawjp" path="res://Audio/Footsteps/Files/Footstep_Asphalt_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dbiixxn6471cv" path="res://Audio/Footsteps/Files/Footstep_Asphalt_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://hf2kyo0yl003" path="res://Audio/Footsteps/Files/Footstep_Asphalt_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dqte60l023x23" path="res://Audio/Footsteps/Files/Footstep_Asphalt_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://d3h637cy0y5ka" path="res://Audio/Footsteps/Files/Footstep_Asphalt_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dsv3sdrgiwvko" path="res://Audio/Footsteps/Files/Footstep_Asphalt_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c0b05innirkw4" path="res://Audio/Footsteps/Files/Footstep_Asphalt_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bcmkw3o08mi7i" path="res://Audio/Footsteps/Files/Footstep_Asphalt_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+volume = -5.0

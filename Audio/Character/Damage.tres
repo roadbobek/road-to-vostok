@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://d22h4d2kjikh2"]
+
+[ext_resource type="AudioStream" uid="uid://cyb16mogwb8ip" path="res://Audio/Character/Files/Damage_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dlskoc54f68fn" path="res://Audio/Character/Files/Damage_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://85txq8a8eyjq" path="res://Audio/Character/Files/Damage_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://7bi1f4ut2pkt" path="res://Audio/Character/Files/Damage_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://vg0wwp44bvn7"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://3wil4odlfuik" path="res://Items/Fishing/Pike/Files/Icon_Pike.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://c7gk63svqo0ho" path="res://Items/Fishing/Pike/Pike_5x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Pike"
+name = "Pike"
+inventory = "Pike"
+rotated = "Pike"
+equipment = "Pike"
+display = "Pike"
+type = "Fish"
+weight = 5.0
+value = 250
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(5, 2)
+usable = true
+phrase = "Eat Raw"
+audio = ExtResource("1")
+health = -10.0
+energy = 20.0
+hydration = 5.0
+mental = -80.0
+material = null
+orientation = 90.0
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

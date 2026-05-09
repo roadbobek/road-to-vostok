@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bkl0ih8gmyaii"
+path="res://.godot/imported/Military_Random_11 (Yskä).wav-42d68ee55bba294e972cbbeb28f9e19c.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Random_11 (Yskä).wav"
+dest_files=["res://.godot/imported/Military_Random_11 (Yskä).wav-42d68ee55bba294e972cbbeb28f9e19c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

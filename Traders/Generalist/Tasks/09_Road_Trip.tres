@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://dkevcjyd4qjq8"]
+
+[ext_resource type="Resource" uid="uid://4ii4vylg31st" path="res://Items/Electronics/Battery/Battery.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bjfn3wrfobb7r" path="res://Items/Electronics/Battery_Cables/Battery_Cables.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cow27c5brsjer" path="res://Items/Electronics/Inverter/Inverter.tres" id="3"]
+[ext_resource type="Resource" uid="uid://84cqptihq4ki" path="res://Items/Misc/Jerry_Can/Jerry_Can.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bm6olwamm6vg6" path="res://Items/Misc/Oil_Filter/Oil_Filter.tres" id="5"]
+[ext_resource type="Resource" uid="uid://c04t23mut6d6c" path="res://Items/Electronics/Casette_Player/Casette_Player.tres" id="6"]
+[ext_resource type="Resource" uid="uid://ck4tywl25mlta" path="res://Items/Electronics/Casette_Radio/Casette_Radio.tres" id="7"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="8"]
+
+[resource]
+script = ExtResource("8")
+trader = "Generalist"
+name = "Road Trip"
+difficulty = "Hard"
+description = "I'm tired of this shithole. I'm planning to take a one-way road trip to the North and leave all this misery behind.
+
+Have you ever visited the North? What a shame, that place has remained totally unaffected by all this bullshit. It's like nothing ever happened there. I'm talking about pristine nature, wildlife and crystal-clear rivers for catching those juicy arctic trouts.
+
+I would be already driving there, but those filthy Bandits stole my car battery and a bunch of other items from the trunk, so I'm still stuck here.
+
+Maybe you could help me with this? Bring back my stolen items and I have something special for you."
+deliver = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+receive = [ExtResource("6"), ExtResource("7")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

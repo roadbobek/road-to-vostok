@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://cxb82pd0gd1y8"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 2
+name = "Doctor returns to School"
+type = "Trader"
+map = "School"
+function = "ActivateTrader"
+description = "Doctor is a trader who specializes in medicine and holds an improvised clinic inside an abandoned school building in Area 05.
+
+After visiting Grandma for a \"welfare check,\" Doctor returns to his clinic and is ready to provide medical services for the injured."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

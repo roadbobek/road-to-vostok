@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bitmmjw2lmik1"]
+
+[ext_resource type="Shader" uid="uid://v64djolp3feh" path="res://Shaders/Rock.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://df1gc6nhetq4t" path="res://Nature/Rocks/Files/TX_Rock_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bffo5x5majnww" path="res://Nature/Rocks/Files/TX_Moss_AL.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b7bwt46lykbpt" path="res://Nature/Rocks/Files/TX_Rock_NR.png" id="4"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("4")
+shader_parameter/moss = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.3
+shader_parameter/enableMoss = true
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = true
+shader_parameter/snowTop = 0.85
+shader_parameter/snowSide = 0.70000001043084
+shader_parameter/snowBottom = 0.90000001341108

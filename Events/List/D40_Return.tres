@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://bcirlkj34etsw"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 40
+name = "Traders return to Area 05"
+type = "Trader"
+zone = "Area 05"
+function = "ActivateTrader"
+description = "The escalation of recent events has seemed to stop and Area 05 did not spiral into full chaos.
+
+All traders are returning back to Area 05."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://brg1x8b2ajn5t"]
+
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b1sep48e0g10h" path="res://Items/Weapons/P320/Events/P320_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bb1t7emje6k8m" path="res://Items/Weapons/P320/Events/P320_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://by56nbnnhotaw" path="res://Items/Weapons/P320/P320_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://4ucmwplea2im" path="res://Items/Attachments/Rider/Rider.tres" id="5"]
+[ext_resource type="Resource" uid="uid://da4a0u1jpbh3t" path="res://Items/Attachments/RMR/RMR.tres" id="6"]
+[ext_resource type="Resource" uid="uid://bu3mwrs046c04" path="res://Items/Attachments/SRO/SRO.tres" id="7"]
+[ext_resource type="Resource" uid="uid://ntwh3iihlyn7" path="res://Items/Weapons/P320/Events/P320_Fire.tres" id="8"]
+[ext_resource type="Resource" uid="uid://pijb12pbx2cm" path="res://Items/Weapons/P320/Events/P320_Fire_Suppressed.tres" id="9"]
+[ext_resource type="Texture2D" uid="uid://dulcs7o6dgpa8" path="res://Items/Weapons/P320/Files/Icon_P320.png" id="10"]
+[ext_resource type="Resource" uid="uid://cxf3m54mrnllg" path="res://Items/Weapons/P320/Events/P320_Magazine_Attach_Empty.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cp8vnou5cnjob" path="res://Items/Weapons/P320/Events/P320_Magazine_Attach_Tactical.tres" id="12"]
+[ext_resource type="Resource" uid="uid://145vnyb76jip" path="res://Items/Weapons/P320/Events/P320_Magazine_Detach.tres" id="13"]
+[ext_resource type="Resource" uid="uid://d1g8iqregmh08" path="res://Items/Weapons/P320/Events/P320_Reload_Empty.tres" id="14"]
+[ext_resource type="Resource" uid="uid://ctv24sjfhu8um" path="res://Items/Weapons/P320/Events/P320_Reload_Tactical.tres" id="15"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="16"]
+[ext_resource type="Resource" uid="uid://bv51qaj31jw1i" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Indoor.tres" id="17"]
+[ext_resource type="Resource" uid="uid://deolnh21ftwvm" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Indoor_Suppressed.tres" id="18"]
+[ext_resource type="Resource" uid="uid://cpka3tp3cjq54" path="res://Items/Weapons/P320/Events/P320_Tail_Outdoor.tres" id="19"]
+[ext_resource type="Resource" uid="uid://nupfsljlplp" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Outdoor_Supressed.tres" id="20"]
+[ext_resource type="PackedScene" uid="uid://dk85p0fqx1hc8" path="res://Items/Weapons/P320/P320_3x2.tscn" id="21"]
+
+[resource]
+script = ExtResource("16")
+weaponType = "Pistol"
+weaponAction = "Semi"
+fireSemi = ExtResource("8")
+fireAuto = null
+fireSuppressed = ExtResource("9")
+charge = ExtResource("3")
+reloadEmpty = ExtResource("14")
+reloadTactical = ExtResource("15")
+magazineAttachEmpty = ExtResource("11")
+magazineAttachTactical = ExtResource("12")
+magazineDetach = ExtResource("13")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("19")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("17")
+tailIndoorSuppressed = ExtResource("18")
+tailOutdoorSuppressed = ExtResource("20")
+ammo = ExtResource("1")
+caliber = "9×19"
+casing = 1
+damage = 25.0
+penetration = 1
+fireRate = 0.08
+magazineSize = 17
+kick = 0.05
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.25
+horizontalRecoil = 0.02
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.035
+slideSpeed = 2.0
+slideLock = true
+lowPosition = Vector3(0.02, -0.1, -0.25)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.05, -0.3)
+aimPosition = Vector3(0, -0.014, -0.27)
+cantedPosition = Vector3(0, -0.05, -0.22)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(0.04, -0.05, -0.28)
+inspectRotation = Vector3(0, 0, 10)
+collisionPosition = Vector3(0.03, -0.125, -0.225)
+collisionRotation = Vector3(35, 15, 0)
+file = "P320"
+name = "P3"
+inventory = "P3"
+rotated = "P3"
+equipment = "P3"
+display = "P3"
+type = "Weapon"
+subtype = "Pistol"
+weight = 0.8
+value = 1150
+rarity = 1
+icon = ExtResource("10")
+tetris = ExtResource("21")
+size = Vector2(3, 2)
+opticOffset = -5.0
+suppressorScale = 0.45
+suppressorOffset = -30.0
+magazineOpticOffset = -5.0
+magazineSuppressorScale = 0.45
+magazineSuppressorOffset = Vector2(-30, 0)
+opticSuppressorScale = 0.45
+opticSuppressorOffset = Vector2(-30, -5)
+fullyModdedScale = 0.45
+fullyModdedOffset = Vector2(-30, -5)
+audio = null
+compatible = [ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7")]
+slots = ["Primary", "Secondary"]
+material = null
+showCondition = true
+repairs = true
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.025

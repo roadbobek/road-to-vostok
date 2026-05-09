@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://eveth2npbtub"]
+
+[ext_resource type="Resource" uid="uid://bb7m04vfguheg" path="res://Items/Electronics/Polaris/Polaris.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="2"]
+[ext_resource type="Resource" uid="uid://drbmbs25hk4qy" path="res://Items/Consumables/Energy_Drink/Energy_Drink.tres" id="3"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+trader = "Doctor"
+name = "Night Surgery"
+difficulty = "Intermediate"
+description = "Even though I'm not specialized in surgery, I find myself quite skillful working with organs and human anatomy.
+
+Daytime operations are a walk in the park for me when there's enough light, but at night, it gets more tricky. Operating in dim lighting or sometimes even in total darkness relies more on hand-feel and intuition, but it's always riskier for the patient.
+
+Some sort of bright headlamp would probably solve this issue until the power grid is fully restored. I have tried to find one, but unfortunately no luck so far."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

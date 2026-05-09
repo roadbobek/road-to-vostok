@@ -1,0 +1,33 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bbdh21n6evlfg"]
+
+[ext_resource type="Shader" uid="uid://cdmegr0q0v2h2" path="res://Shaders/Foliage.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cgtjaecvx2ais" path="res://Nature/Sticks/Files/TX_Sticks_AL.tga" id="2"]
+[ext_resource type="Texture2D" uid="uid://berf12k73ah2w" path="res://Nature/Sticks/Files/TX_Sticks_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/YNormal = 0.5
+shader_parameter/highlight = 0.5
+shader_parameter/variationNoise = null
+shader_parameter/enableNoise = false
+shader_parameter/enableVariation = false
+shader_parameter/groundGradient = false
+shader_parameter/nearClip = 0.1
+shader_parameter/farClip = 0.1999999955296
+shader_parameter/clipDistance = 20.0
+shader_parameter/fadeDistance = 80.0
+shader_parameter/windNoise = null
+shader_parameter/enableWind = false
+shader_parameter/windIntensity = 0.1
+shader_parameter/windSpeed = 1.5
+shader_parameter/rainEffect = 0.25
+shader_parameter/enableSnow = true
+shader_parameter/snowNoise = false
+shader_parameter/snowTop = 0.0
+shader_parameter/snowSide = 0.0
+shader_parameter/snowBottom = 0.5000000074506

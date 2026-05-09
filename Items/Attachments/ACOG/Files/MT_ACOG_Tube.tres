@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ocs4a3ekw4uo"]
+
+[ext_resource type="Shader" uid="uid://4hr5wx8clbdy" path="res://Shaders/Alpha.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://ciahu158fh0ot" path="res://Items/Attachments/ACOG/Files/TX_ACOG_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://djvcqh0wlsora" path="res://Items/Attachments/ACOG/Files/TX_ACOG_NR.png" id="3"]
+
+[resource]
+render_priority = 11
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.0
+shader_parameter/opacity = 0.1
+shader_parameter/fractional = false
+shader_parameter/enableRain = false
+shader_parameter/enableSnow = false
+shader_parameter/snowFading = false
+shader_parameter/snowAmount = 0.0
+shader_parameter/marking = false

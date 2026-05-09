@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://rdt1h863ux4u"
+path="res://.godot/imported/MS_Micro_Static_LOD0.obj-3897dc6c9b9449a79e7ac9f4d3ad816c.mesh"
+
+[deps]
+
+source_file="res://Items/Attachments/Micro/Files/MS_Micro_Static_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Micro_Static_LOD0.obj-3897dc6c9b9449a79e7ac9f4d3ad816c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cq215iuu1bron"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://2rtlaxurim4j" path="res://Items/Consumables/Field_Ration/Files/Icon_Field_Ration.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bib37u87mjybb" path="res://Items/Consumables/Field_Ration/Field_Ration_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Field_Ration"
+name = "Field Ration"
+inventory = "Field Ration"
+rotated = "Field Ration"
+equipment = "Field Ration"
+display = "F. Ration"
+type = "Consumables"
+weight = 1.2
+value = 475
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 100.0
+hydration = 25.0
+mental = 50.0
+material = null
+military = true
+gunsmith = true

@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://cvn6jq6u10yn1"]
+
+[ext_resource type="Resource" uid="uid://brxcl1enfq0t4" path="res://Items/Ammo/Ammo_762x39/Ammo_762x39.tres" id="1"]
+[ext_resource type="Resource" uid="uid://nqve6rjm72cp" path="res://Items/Weapons/RK-62/Events/RK_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cnuqcrnp2eiht" path="res://Items/Weapons/RK-62/Events/RK_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://di60j617td8rt" path="res://Items/Weapons/RK-62/RK_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://moa25x0m0x5r" path="res://Items/Attachments/ACOG/ACOG.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dv56bjr6htpe0" path="res://Items/Attachments/EXPS/EXPS.tres" id="6"]
+[ext_resource type="Resource" uid="uid://c1nusi3dm47xo" path="res://Items/Attachments/HMR/HMR.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dt8kkgj5siffd" path="res://Items/Attachments/Hybrid/Hybrid.tres" id="8"]
+[ext_resource type="Resource" uid="uid://dx62y7184t26a" path="res://Items/Attachments/Kobra/Kobra.tres" id="9"]
+[ext_resource type="Resource" uid="uid://c6hedss4rdsdn" path="res://Items/Attachments/Leopard/Leopard.tres" id="10"]
+[ext_resource type="Resource" uid="uid://qkbwug4sq5q8" path="res://Items/Attachments/Micro/Micro.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cppuy3n62ydju" path="res://Items/Attachments/Monster/Monster.tres" id="12"]
+[ext_resource type="Resource" uid="uid://cogfxlhwg5nil" path="res://Items/Attachments/MRO/MRO.tres" id="13"]
+[ext_resource type="Resource" uid="uid://cqv2tuvswh0cu" path="res://Items/Attachments/PRO/PRO.tres" id="14"]
+[ext_resource type="Resource" uid="uid://bot7nd2iribcq" path="res://Items/Attachments/SOCOM/SOCOM.tres" id="15"]
+[ext_resource type="Resource" uid="uid://cdauqaxtic7we" path="res://Items/Attachments/Thor/Thor.tres" id="16"]
+[ext_resource type="Resource" uid="uid://byn6o8jflcgin" path="res://Items/Attachments/Vudu/Vudu.tres" id="17"]
+[ext_resource type="Resource" uid="uid://d2e0e6yi8fi3k" path="res://Items/Weapons/RK-62/Events/RK_Fire_Auto.tres" id="18"]
+[ext_resource type="Resource" uid="uid://can5v75oddj05" path="res://Items/Weapons/RK-62/Events/RK_Fire_Semi.tres" id="19"]
+[ext_resource type="Resource" uid="uid://tyc41l0wkux6" path="res://Items/Weapons/RK-62/Events/RK_Fire_Suppressed.tres" id="20"]
+[ext_resource type="Texture2D" uid="uid://d1648lq88q2vm" path="res://Items/Weapons/RK-62/Files/Icon_RK-62.png" id="21"]
+[ext_resource type="Resource" uid="uid://cpiqhbag6sua7" path="res://Items/Weapons/RK-62/Events/RK_Magazine_Attach_Empty.tres" id="22"]
+[ext_resource type="Resource" uid="uid://bolr20b1mbilk" path="res://Items/Weapons/RK-62/Events/RK_Magazine_Attach_Tactical.tres" id="23"]
+[ext_resource type="Resource" uid="uid://ggucjirxwg7y" path="res://Items/Weapons/RK-62/Events/RK_Magazine_Detach.tres" id="24"]
+[ext_resource type="Resource" uid="uid://dr607fgcsmqe2" path="res://Items/Weapons/RK-62/Events/RK_Reload_Empty.tres" id="25"]
+[ext_resource type="Resource" uid="uid://dg3j53cuigvtm" path="res://Items/Weapons/RK-62/Events/RK_Reload_Tactical.tres" id="26"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="27"]
+[ext_resource type="Resource" uid="uid://dgwwanxgihdd6" path="res://Items/Weapons/Common/Tails/Rifle_Tail_Indoor.tres" id="28"]
+[ext_resource type="Resource" uid="uid://djgwyvd4ll43d" path="res://Items/Weapons/Common/Tails/Rifle_Tail_Indoor_Suppressed.tres" id="29"]
+[ext_resource type="Resource" uid="uid://ba03orypl0t82" path="res://Items/Weapons/RK-62/Events/RK_Tail_Outdoor.tres" id="30"]
+[ext_resource type="Resource" uid="uid://c2si02h2x4lnr" path="res://Items/Weapons/Common/Tails/Rifle_Tail_Outdoor_Suppressed.tres" id="31"]
+[ext_resource type="PackedScene" uid="uid://coxi5nuugh5uq" path="res://Items/Weapons/RK-62/RK-62_6x2.tscn" id="32"]
+
+[resource]
+script = ExtResource("27")
+weaponType = "Rifle"
+weaponAction = "Semi-Auto"
+fireSemi = ExtResource("19")
+fireAuto = ExtResource("18")
+fireSuppressed = ExtResource("20")
+charge = ExtResource("3")
+reloadEmpty = ExtResource("25")
+reloadTactical = ExtResource("26")
+magazineAttachEmpty = ExtResource("22")
+magazineAttachTactical = ExtResource("23")
+magazineDetach = ExtResource("24")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("30")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("28")
+tailIndoorSuppressed = ExtResource("29")
+tailOutdoorSuppressed = ExtResource("31")
+ammo = ExtResource("1")
+caliber = "7.62x39"
+casing = 2
+damage = 40.0
+penetration = 4
+fireRate = 0.08
+magazineSize = 30
+kick = 0.06
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.06
+horizontalRecoil = 0.01
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.12
+slideSpeed = 2.0
+selectorRotation = Vector2(5, -5)
+useMount = true
+lowPosition = Vector3(0.02, -0.1, -0.18)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.07, -0.16)
+aimPosition = Vector3(0, -0.057, -0.14)
+cantedPosition = Vector3(0, -0.075, -0.15)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(0, -0.1, -0.14)
+inspectRotation = Vector3(-6, 0, -2.5)
+collisionPosition = Vector3(0.03, -0.15, -0.12)
+collisionRotation = Vector3(45, 15, 0)
+file = "RK_62"
+name = "RK-62"
+inventory = "RK-62"
+rotated = "RK-62"
+equipment = "RK-62"
+display = "RK-62"
+type = "Weapon"
+subtype = "Rifle"
+weight = 3.8
+value = 2200
+icon = ExtResource("21")
+tetris = ExtResource("32")
+size = Vector2(6, 2)
+magazineOffset = 5.0
+opticOffset = -10.0
+suppressorOffset = -10.0
+magazineSuppressorOffset = Vector2(-10, 5)
+opticSuppressorOffset = Vector2(-5, -10)
+fullyModdedOffset = Vector2(-10, 0)
+audio = null
+compatible = [ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17")]
+slots = ["Primary"]
+material = null
+showCondition = true
+repairs = true
+civilian = true
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.04

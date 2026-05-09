@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://bdoyeqlc532r8"]
+
+[ext_resource type="Resource" uid="uid://c5u5yo45p5ru1" path="res://Items/Medical/Antiseptic/Antiseptic.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dtwtwb5pn2vy0" path="res://Items/Medical/Antibiotics/Antibiotics.tres" id="2"]
+[ext_resource type="Resource" uid="uid://m2iy7n8ivd84" path="res://Items/Medical/Bandage/Bandage.tres" id="3"]
+[ext_resource type="Resource" uid="uid://0pca1n785vih" path="res://Items/Medical/Painkillers/Painkillers.tres" id="4"]
+[ext_resource type="Resource" uid="uid://dk1t0xewej74t" path="res://Items/Misc/Rags/Rags.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Doctor"
+name = "Infections"
+difficulty = "Intermediate"
+description = "You know what one of the most common issues is here? It's infections.
+
+When you have poor hygiene and uncleaned wounds, it's a perfect combo for bacteria and germs. Whenever there's a patient with any kind of cuts or scrapes, there's pretty much always an infection by default.
+
+I do still have some medical supplies left for infections, but those will run out sooner or later. Once that happens, the mortality rate here is going to take a dark turn."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3"), ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

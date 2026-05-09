@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmf5sphx11ey4"
+path="res://.godot/imported/Military_Idle_03 (Sektorissa ei liikettä).wav-9989f3d04586e1300315b56fc16b3065.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Idle_03 (Sektorissa ei liikettä).wav"
+dest_files=["res://.godot/imported/Military_Idle_03 (Sektorissa ei liikettä).wav-9989f3d04586e1300315b56fc16b3065.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

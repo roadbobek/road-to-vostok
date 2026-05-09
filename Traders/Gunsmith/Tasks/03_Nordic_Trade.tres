@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://b13brcx2l260n"]
+
+[ext_resource type="Resource" uid="uid://jmjlor2nygof" path="res://Items/Consumables/Snus/Snus.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cd6kxphaliqe2" path="res://Items/Grenades/M43/M43.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Gunsmith"
+name = "Nordic Trade"
+difficulty = "Intermediate"
+description = "Even though I don't understand the Swedes, they do three things right. They have a good navy, good cars and good tobacco products. There's still something wrong with them, they seem too happy and social. It's definitely unnatural.
+
+Don't get me wrong, they are good neighbors and such, but I don't know. Maybe they are too rich and always well-dressed or maybe it's just the hockey thing.
+
+However, in the spirit of good neighbors, there's a fair trade we could do. I call this one \"switching the desserts\". Bring me some of those Swedish delicacies and I'll give you some Finnish ones. It's a deal where there are only winners, a Nordic trade in a way without any rivalry."
+deliver = [ExtResource("1"), ExtResource("1"), ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("2"), ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

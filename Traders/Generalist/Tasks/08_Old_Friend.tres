@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://dvdc4s2b5igt8"]
+
+[ext_resource type="Resource" uid="uid://bfnyyk0tav34b" path="res://Items/Weapons/KP-31/KP-31.tres" id="1"]
+[ext_resource type="Resource" uid="uid://1h5tgbafb8av" path="res://Items/Weapons/KP-31/KP-31_Drum.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bslygnphq4cud" path="res://Items/Weapons/M78/M78.tres" id="3"]
+[ext_resource type="Resource" uid="uid://dt5qkegmchp0b" path="res://Items/Weapons/M78/M78_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cg71ikrrh5yf1" path="res://Items/Ammo/Ammo_308/Ammo_308.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Generalist"
+name = "Old Friend"
+difficulty = "Hard"
+description = "Want to hear military stories?
+
+Back in the day, when I was doing my conscript service, we still had a few of those KP-31's lying around in the warehouse.
+
+One range day, we actually got a chance to test those. We were not allowed to use full-auto with those drum mags, but when it was my turn, I couldn't resist. I changed the fire mode, squeezed the trigger and 71 rounds of pure magic came out of my barrel.
+
+Sometimes I still hear that \"prat-prat-prat\" sound faintly in my dreams. Damn, I miss that gun. Someday I will once again reunite with my magical old friend, someday..."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3"), ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

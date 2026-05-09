@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="CasetteData" format=3 uid="uid://crygwxhtsanj7"]
+
+[ext_resource type="Texture2D" uid="uid://di7ja7ixnkki4" path="res://Items/Electronics/Casette_Electrofolk/Files/Icon_Casette_Electrofolk.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cagykbfpo6qg6" path="res://Items/Electronics/Casette_Electrofolk/Files/Icon_Casette_Electrofolk_Preview.png" id="2"]
+[ext_resource type="Script" uid="uid://b8syw8cg4twc2" path="res://Scripts/CasetteData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://d2xotqycitvex" path="res://Items/Electronics/Casette_Electrofolk/Casette_Electrofolk_1x1.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://bio6sjb3cdtk0" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Ruslana.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dx64pn8aoaeuu" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Pappa_Se_Antoi_Hevosen.tres" id="6"]
+[ext_resource type="Resource" uid="uid://dnk3nyyx0i87s" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Lempi.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dmtcjxhl8dn1v" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Mistä_Sä_Tiesit_Tulla.tres" id="8"]
+[ext_resource type="Resource" uid="uid://cf14jhsjwa6p4" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Vandringsman.tres" id="9"]
+[ext_resource type="Resource" uid="uid://6l2ni031dchg" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Haavakko.tres" id="10"]
+[ext_resource type="Resource" uid="uid://mbmaomobspmg" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Rautahepo.tres" id="11"]
+[ext_resource type="Resource" uid="uid://b2htnii5ebtnr" path="res://Items/Electronics/Casette_Electrofolk/Tracks/Junna_Mukula.tres" id="12"]
+
+[resource]
+script = ExtResource("3")
+preview = ExtResource("2")
+artist = "Electrofolk (Junna)"
+tracks = [ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+licensed = true
+file = "Casette_Electrofolk"
+name = "Casette (Electrofolk)"
+inventory = "Casette"
+rotated = "Casette"
+equipment = "Casette"
+display = "Casette"
+type = "Electronics"
+subtype = "Casette"
+weight = 0.1
+value = 150
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("4")
+audio = null
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://b8syw8cg4twc2"

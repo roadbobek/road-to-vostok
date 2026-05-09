@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ciosris1iqecw"
+path="res://.godot/imported/MS_Tree_A_Collider.obj-fae8f739b478f09c452bc2d60bf87b31.mesh"
+
+[deps]
+
+source_file="res://Nature/Trees/Files/MS_Tree_A_Collider.obj"
+dest_files=["res://.godot/imported/MS_Tree_A_Collider.obj-fae8f739b478f09c452bc2d60bf87b31.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

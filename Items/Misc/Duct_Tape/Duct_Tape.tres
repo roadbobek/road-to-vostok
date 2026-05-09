@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://o5hiiqvev8j5"]
+
+[ext_resource type="Texture2D" uid="uid://v3u1ylcedon4" path="res://Items/Misc/Duct_Tape/Files/Icon_Duct_Tape.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://sfc1y0adurjb" path="res://Items/Misc/Duct_Tape/Duct_Tape_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Duct_Tape"
+name = "Duct Tape"
+inventory = "D. Tape"
+rotated = "D. Tape"
+equipment = "D. Tape"
+display = "D. Tape"
+type = "Misc"
+weight = 0.2
+value = 50
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+civilian = true
+industrial = true

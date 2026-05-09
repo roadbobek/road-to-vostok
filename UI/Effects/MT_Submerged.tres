@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cn1ox8df1b8gl"]
+
+[ext_resource type="Shader" uid="uid://c8ckxkl3rh1ab" path="res://Shaders/Submerged.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/color = Color(0.281187, 0.281187, 0.281187, 1)
+shader_parameter/blur = 2.0
+shader_parameter/blend = 0.5
+shader_parameter/noise = 0.5

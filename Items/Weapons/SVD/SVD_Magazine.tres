@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ysjki8fraee8"]
+
+[ext_resource type="Resource" uid="uid://8oa16vvtseh5" path="res://Items/Ammo/Ammo_762x54R/Ammo_762x54R.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bobi76y2aow5p" path="res://Items/Weapons/SVD/Files/Icon_SVD_Magazine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://ctgmjbtmexetv" path="res://Items/Weapons/SVD/SVD_Magazine_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "SVD_Magazine"
+name = "VSD Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+value = 150
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+audio = null
+compatible = [ExtResource("1")]
+material = null
+showAmount = true
+defaultAmount = 10
+maxAmount = 10
+military = true
+orientation = 90.0
+wallOffset = 0.025
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqcnm8etxgvcl"
+path="res://.godot/imported/Military_Random_03 (Oispa teetä).wav-b2af6e1ee2e22c3835f442bf8567c8b1.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Random_03 (Oispa teetä).wav"
+dest_files=["res://.godot/imported/Military_Random_03 (Oispa teetä).wav-b2af6e1ee2e22c3835f442bf8567c8b1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

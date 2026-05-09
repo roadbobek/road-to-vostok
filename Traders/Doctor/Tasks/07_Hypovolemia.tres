@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://dbf0cju87k43y"]
+
+[ext_resource type="Resource" uid="uid://dnn3w5ss88w67" path="res://Items/Medical/Saline/Saline.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bivdbtv152u4k" path="res://Items/Misc/Water_Lock/Water_Lock.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Doctor"
+name = "Hypovolemia"
+difficulty = "Intermediate"
+description = "Hydration is extremely important. Just last week, I found a few pale Nomads who were curled up in the forest with low blood pressure.
+
+After taking a closer look, the reason was simpler than expected. Correct, it was dehydration and a thing that we doctors call hypovolemia.
+
+Hypovolemia is basically a loss of both salt and water content in your body and if it gets really bad, then you're screwed like those Nomads and met with a hypovolemic shock. Fortunately, the treatment for these symptoms is really simple, you just stick a saline solution into a peripheral vein and you're good to go.
+
+Whenever you find those saline bottles, always remember to bring them to me and we will surely find some deal that could work for both of us."
+deliver = [ExtResource("1"), ExtResource("1"), ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

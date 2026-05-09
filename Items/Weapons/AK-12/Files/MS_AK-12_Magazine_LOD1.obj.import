@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bnnwp2k7wvfx6"
+path="res://.godot/imported/MS_AK-12_Magazine_LOD1.obj-04c0190d723e5f8fbf9e0180f0b80dd9.mesh"
+
+[deps]
+
+source_file="res://Items/Weapons/AK-12/Files/MS_AK-12_Magazine_LOD1.obj"
+dest_files=["res://.godot/imported/MS_AK-12_Magazine_LOD1.obj-04c0190d723e5f8fbf9e0180f0b80dd9.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://blum1hn12u83q"]
+
+[ext_resource type="Resource" uid="uid://c0miqekrbn64x" path="res://Items/Consumables/Potato/Potato.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bqp1vv7hn1nnx" path="res://Assets/Fridge/Fridge_F.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Generalist"
+name = "Tutorial Task 3 (Furniture)"
+difficulty = "Hard"
+description = "There's one more thing to learn.
+
+Some items that you might receive from crafting, trading or tasks are Furniture items, which are used for shelter customization.
+
+Once you receive a Furniture item, it will be stored to a separate inventory called the Furniture Catalog, so it doesn't appear in your normal inventory.
+
+Furniture Catalog is only accessible when you are inside of shelters, but you will always receive a message \"New Furniture Added [Catalog]\" when the catalog is updated.
+
+Try getting new furniture by completing this task:
+1. Press Start Delivery
+2. Select Potato
+3. Press Complete
+4. Notice the message \"New Furniture Added [Catalog]\"
+
+You can learn more about shelter customization and Furniture Catalog from the tutorial billboard called Shelters."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

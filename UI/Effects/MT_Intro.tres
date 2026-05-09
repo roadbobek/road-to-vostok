@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dnxsivv4avsu1"]
+
+[ext_resource type="Shader" uid="uid://clpqiyt7uhihp" path="res://Shaders/Intro.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/resolution = Vector2(1920, 1080)
+shader_parameter/roll = true
+shader_parameter/rollSpeed = 1.0
+shader_parameter/rollTiling = 50.0
+shader_parameter/rollDistort = 0.001
+shader_parameter/noiseLines = 0.1
+shader_parameter/noiseStatic = 0.1
+shader_parameter/discolor = true
+shader_parameter/aberration = 0.001
+shader_parameter/brightness = 1.5
+shader_parameter/warpAmount = 2.0
+shader_parameter/vignetteAmount = 0.5
+shader_parameter/vignetteOpacity = 1.0

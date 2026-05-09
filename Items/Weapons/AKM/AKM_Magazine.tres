@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dmfnobc77qndj"]
+
+[ext_resource type="Resource" uid="uid://brxcl1enfq0t4" path="res://Items/Ammo/Ammo_762x39/Ammo_762x39.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://ca1i1rrijyvnx" path="res://Items/Weapons/AKM/Files/Icon_AKM_Magazine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dxfghx5tgst4j" path="res://Items/Weapons/AKM/AKM_Magazine_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "AKM_Magazine"
+name = "KA-M Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+weight = 0.3
+value = 110
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+audio = null
+compatible = [ExtResource("1")]
+material = null
+showAmount = true
+defaultAmount = 30
+maxAmount = 30
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.03
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

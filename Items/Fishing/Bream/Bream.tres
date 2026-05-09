@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bymfl01kb4ug8"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://kjlm2ppuuspx" path="res://Items/Fishing/Bream/Files/Icon_Bream.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://chx2cflkbfh73" path="res://Items/Fishing/Bream/Bream_3x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Bream"
+name = "Bream"
+inventory = "Bream"
+rotated = "Bream"
+equipment = "Bream"
+display = "Bream"
+type = "Fish"
+weight = 3.5
+value = 120
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(3, 2)
+usable = true
+phrase = "Eat Raw"
+audio = ExtResource("1")
+health = -10.0
+energy = 15.0
+hydration = 5.0
+mental = -80.0
+material = null
+orientation = 90.0
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ud7hnaq1sij4"]
+
+[ext_resource type="AudioStream" uid="uid://brg8sjedasuh3" path="res://Audio/Dynamic/Files/Magpie_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://c6ht2b57j7swl" path="res://Audio/Dynamic/Files/Magpie_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://ccd4mo7sproxg" path="res://Audio/Dynamic/Files/Magpie_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://0woqly0skkrc" path="res://Audio/Dynamic/Files/Magpie_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://ca17wjjaah7wo" path="res://Audio/Dynamic/Files/Magpie_05.wav" id="5"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]

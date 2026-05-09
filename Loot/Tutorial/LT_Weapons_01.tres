@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://baa5kcosi8poa"]
+
+[ext_resource type="Resource" uid="uid://cb8bi3dns427v" path="res://Items/Weapons/Makarov/Makarov.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cx061e27dfjiy" path="res://Items/Weapons/Colt_1911/Colt_1911.tres" id="2"]
+[ext_resource type="Resource" uid="uid://b02r5jgmywopt" path="res://Items/Weapons/Glock_17/Glock_17.tres" id="3"]
+[ext_resource type="Resource" uid="uid://brg1x8b2ajn5t" path="res://Items/Weapons/P320/P320.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b0iekqppydldm" path="res://Items/Weapons/MP5SD/MP5SD.tres" id="5"]
+[ext_resource type="Resource" uid="uid://blut7c0bosdj" path="res://Items/Weapons/MP5K/MP5K.tres" id="6"]
+[ext_resource type="Resource" uid="uid://byoyvndegvo8a" path="res://Items/Weapons/MP5/MP5.tres" id="7"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="8"]
+
+[resource]
+script = ExtResource("8")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

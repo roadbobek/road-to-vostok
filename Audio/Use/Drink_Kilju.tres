@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://b8vs2flxr1whu"]
+
+[ext_resource type="AudioStream" uid="uid://brxl60ix82pdr" path="res://Audio/Use/Files/Drink_Kilju_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://d0dde233xxgey" path="res://Audio/Use/Files/Drink_Kilju_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c62bxqws6kgy6" path="res://Audio/Use/Files/Drink_Kilju_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://b7hos26u7jd20"]
+
+[ext_resource type="AudioStream" uid="uid://bbvmg37r2t7al" path="res://Audio/Voices/Military/Files/Military_Damage_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://csioiemobwp2k" path="res://Audio/Voices/Military/Files/Military_Damage_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://b7uay7lvdktyq" path="res://Audio/Voices/Military/Files/Military_Damage_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://cdqnhjam1gk0k" path="res://Audio/Voices/Military/Files/Military_Damage_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://lrj5k5hufvj6" path="res://Audio/Voices/Military/Files/Military_Damage_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bg4hhmamrdy0f" path="res://Audio/Voices/Military/Files/Military_Damage_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dupfah8wc4e1l" path="res://Audio/Voices/Military/Files/Military_Damage_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bao6dsafkpxam" path="res://Audio/Voices/Military/Files/Military_Damage_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cipkwxm5qw3mr" path="res://Audio/Voices/Military/Files/Military_Damage_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://b5cpfhumk5nxt" path="res://Audio/Voices/Military/Files/Military_Damage_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://ccbl7uaj38dem" path="res://Audio/Voices/Military/Files/Military_Damage_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://s7bwdnoc0egi" path="res://Audio/Voices/Military/Files/Military_Damage_12.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://piic6it05b7h" path="res://Audio/Voices/Military/Files/Military_Damage_13.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://bgbpjwf0fe2ug" path="res://Audio/Voices/Military/Files/Military_Damage_14.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://dt1tt3te1e6cu" path="res://Audio/Voices/Military/Files/Military_Damage_15.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://d0ec2klriciyj" path="res://Audio/Voices/Military/Files/Military_Damage_16.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://dgfiexjouw5x2" path="res://Audio/Voices/Military/Files/Military_Damage_17.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://ccj7fhgx5dkh4" path="res://Audio/Voices/Military/Files/Military_Damage_18.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://jnpmevtecusj" path="res://Audio/Voices/Military/Files/Military_Damage_19.wav" id="19"]
+[ext_resource type="AudioStream" uid="uid://3qio3yckf6k7" path="res://Audio/Voices/Military/Files/Military_Damage_20.wav" id="20"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="21"]
+
+[resource]
+script = ExtResource("21")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("19"), ExtResource("20")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SpawnerSceneData" format=3 uid="uid://dpkb0jnja56fr"]
+
+[ext_resource type="PackedScene" uid="uid://cso1feei1fart" path="res://Nature/Rocks/Rock_A.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d1n4flwckv31h" path="res://Nature/Rocks/Rock_B.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://b3ne0vhyemby4" path="res://Nature/Rocks/Rock_C.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cpsj4da4xth3p" path="res://Nature/Rocks/Rock_D.tscn" id="4"]
+[ext_resource type="Script" uid="uid://ce8xbvy7sfxhn" path="res://Scripts/SpawnerSceneData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+scenes = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+yOffset = -0.5
+area = 500.0
+minDistance = 10.0
+minScale = 2.0
+maxScale = 3.0
+perimeter = 5
+perimeterType = 3
+metadata/_custom_type_script = "uid://ce8xbvy7sfxhn"

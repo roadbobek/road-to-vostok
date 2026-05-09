@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cn2gl50ajchl"]
+
+[ext_resource type="Shader" uid="uid://dqcwk0bk0483k" path="res://Shaders/Trunk.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cw7pxqswu1p03" path="res://Nature/Trees/Files/TX_Tree_Trunk_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://chhfx88viox48" path="res://Nature/Trees/Files/TX_Tree_Trunk_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/enableWind = true
+shader_parameter/windHeight = 5.0
+shader_parameter/enableSnow = true
+shader_parameter/snowTop = 0.0
+shader_parameter/snowSide = 0.7
+shader_parameter/snowBottom = 0.90000001341108
+shader_parameter/trunkBlend = false
+shader_parameter/trunkTexture = null

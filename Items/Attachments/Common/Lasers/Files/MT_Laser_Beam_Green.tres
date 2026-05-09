@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ddkoc06kavopc"]
+
+[ext_resource type="Shader" uid="uid://cc8waur50ngml" path="res://Shaders/Laser.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://ggl0tp4aigbe" path="res://Items/Attachments/Common/Lasers/Files/TX_Laser_Alpha.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bjdiix1xq8k01" path="res://Items/Attachments/Common/Lasers/Files/TX_Laser_Noise.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/tint = Color(0, 1, 0, 1)
+shader_parameter/alpha = ExtResource("2")
+shader_parameter/noise = ExtResource("3")
+shader_parameter/point = false

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bxhbnvi700n0l"]
+
+[ext_resource type="Texture2D" uid="uid://df6tu6263a66v" path="res://Items/Medical/Melatonin/Files/Icon_Melatonin.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://0814gvbw6iv" path="res://Items/Medical/Melatonin/Melatonin_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Melatonin"
+name = "Melatonin"
+inventory = "Melaton."
+rotated = "Melaton."
+equipment = "Melaton."
+display = "Melaton."
+type = "Medical"
+weight = 0.1
+value = 75
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+energy = -20.0
+hydration = -20.0
+mental = 20.0
+temperature = -100.0
+material = null
+civilian = true
+doctor = true

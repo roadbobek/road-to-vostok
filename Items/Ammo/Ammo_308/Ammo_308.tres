@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cg71ikrrh5yf1"]
+
+[ext_resource type="Texture2D" uid="uid://byo307pp1i86r" path="res://Items/Ammo/Ammo_308/Files/Icon_Ammo_308.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://ddlom7i2yphee" path="res://Items/Ammo/Ammo_308/Ammo_308_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Ammo_308"
+name = ".308"
+inventory = ".308"
+rotated = ".308"
+equipment = ".308"
+display = ".308"
+type = "Ammo"
+weight = 0.6
+value = 400
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+showAmount = true
+defaultAmount = 30
+maxAmount = 300
+stackable = true
+military = true
+gunsmith = true

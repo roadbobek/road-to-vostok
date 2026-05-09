@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://cogfxlhwg5nil"]
+
+[ext_resource type="Texture2D" uid="uid://br60atl8vsjnu" path="res://Items/Attachments/MRO/Files/Icon_MRO.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://lwc0681pju2k" path="res://Items/Attachments/MRO/MRO_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "MRO"
+name = "RMO"
+inventory = "RMO"
+rotated = "RMO"
+equipment = "RMO"
+display = "RMO"
+type = "Attachment"
+subtype = "Optic"
+weight = 0.3
+value = 740
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.03

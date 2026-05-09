@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d17pvi0ffr7b4"
+path="res://.godot/imported/Military_Combat_14 (Antaudu tai tapan!).wav-bb00ca9748f7be0855b33cb62a38f5f7.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_14 (Antaudu tai tapan!).wav"
+dest_files=["res://.godot/imported/Military_Combat_14 (Antaudu tai tapan!).wav-bb00ca9748f7be0855b33cb62a38f5f7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

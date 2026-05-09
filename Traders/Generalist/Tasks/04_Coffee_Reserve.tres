@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://2h081230b00m"]
+
+[ext_resource type="Resource" uid="uid://dnxpmsniepxy8" path="res://Items/Consumables/Coffee/Coffee.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bn27w3ysw8dif" path="res://Items/Misc/Coffee_Filter/Coffee_Filter.tres" id="2"]
+[ext_resource type="Resource" uid="uid://oefq1h1bogv5" path="res://Items/Misc/Map/Map.tres" id="3"]
+[ext_resource type="Resource" uid="uid://dwi5pjdds2oul" path="res://Items/Misc/Mess_Kit/Mess_Kit.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cbfv3wplv6l3o" path="res://Items/Consumables/Water_Bottle/Water_Bottle.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Generalist"
+name = "Coffee Reserve"
+difficulty = "Easy"
+description = "There are few things in life that are non-negotiable. There's morning coffee at 6:00, afternoon coffee at 12:00 and dinner coffee at 18:00. When manual labor is involved, coffee breaks in between are also mandatory and basically prescribed by law.
+
+If you want to remain alive here in Area 05, the constant flow of caffeine should be your primary goal.
+
+As a matter of fact, I should probably increase my strategic coffee reserve a bit, since the consumption lately has been above average."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3"), ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

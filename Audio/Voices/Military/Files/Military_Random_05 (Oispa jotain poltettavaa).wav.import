@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sff75366afru"
+path="res://.godot/imported/Military_Random_05 (Oispa jotain poltettavaa).wav-f142e87ff6a9c4c67882a5fa8534ca50.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Random_05 (Oispa jotain poltettavaa).wav"
+dest_files=["res://.godot/imported/Military_Random_05 (Oispa jotain poltettavaa).wav-f142e87ff6a9c4c67882a5fa8534ca50.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

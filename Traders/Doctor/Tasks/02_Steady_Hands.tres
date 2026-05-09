@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://pat8afhcy7d3"]
+
+[ext_resource type="Resource" uid="uid://bxnacphobsyiq" path="res://Items/Consumables/Cigars/Cigars.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b667obokrwkfd" path="res://Items/Medical/Thermal_Blanket/Thermal_Blanket.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Doctor"
+name = "Steady Hands"
+difficulty = "Easy"
+description = "I do have to admit that sometimes my hand-eye coordination and fine motor skills are a bit rusty.
+
+Especially in surgeries and working with a scalpel, I often get the shakes and small mistakes here and there are unavoidable. I think it's mostly related to my age, but I have found that smoking a few cigars before the operation keeps my hands more steady.
+
+As a doctor, I do not recommend smoking, but desperate times require desperate actions.
+
+If you happen to find a few cigars somewhere, perhaps you could deliver those to me? But don't tell the Generalist, I just told him to stop smoking, so we don't create any controversial guidance. Let's keep this between me and you."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

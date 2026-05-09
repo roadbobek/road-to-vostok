@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dwuyiagsv4w02"]
+
+[ext_resource type="Resource" uid="uid://coc7h7ist4qip" path="res://Audio/Use/Drugs_Box.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bc6hhyabxmak0" path="res://Items/Medical/Cold_Medicine/Files/Icon_Cold_Medicine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://b3gj242m5tl33" path="res://Items/Medical/Cold_Medicine/Cold_Medicine_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Cold_Medicine"
+name = "Cold Medicine"
+inventory = "C. Med."
+rotated = "C. Med."
+equipment = "C. Med."
+display = "C. Med."
+type = "Medical"
+weight = 0.1
+value = 75
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+health = 5.0
+material = null
+civilian = true
+generalist = true
+doctor = true

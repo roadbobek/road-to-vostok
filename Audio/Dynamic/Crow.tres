@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://7kuncbh7gt1l"]
+
+[ext_resource type="AudioStream" uid="uid://bjpspx8fh5wb3" path="res://Audio/Dynamic/Files/Crow_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dwk3ld4vmi003" path="res://Audio/Dynamic/Files/Crow_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://ckm3t4nkolxg2" path="res://Audio/Dynamic/Files/Crow_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bun5ka7e78vn5" path="res://Audio/Dynamic/Files/Crow_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://bphtjwfsafgyq" path="res://Audio/Dynamic/Files/Crow_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://c3sehoi4ypfin" path="res://Audio/Dynamic/Files/Crow_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://cwrr2jlpwpegs" path="res://Audio/Dynamic/Files/Crow_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://ccg6bx1a5vijd" path="res://Audio/Dynamic/Files/Crow_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cvp27m266u0fw" path="res://Audio/Dynamic/Files/Crow_Group_01.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://4arpxdhtjlsn" path="res://Audio/Dynamic/Files/Crow_Group_02.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]

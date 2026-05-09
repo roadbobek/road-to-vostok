@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://l2jlgvo34u0j"
+path="res://.godot/imported/Military_Combat_13 (Missä minun ammukset!).wav-cc0338dbf0f3fe325611c00cd3b80463.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_13 (Missä minun ammukset!).wav"
+dest_files=["res://.godot/imported/Military_Combat_13 (Missä minun ammukset!).wav-cc0338dbf0f3fe325611c00cd3b80463.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://bt5g4e8uiw8o1"]
+
+[ext_resource type="Resource" uid="uid://58ry5rvcunu7" path="res://Items/Weapons/RK-95/RK-95.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cvn6jq6u10yn1" path="res://Items/Weapons/RK-62/RK-62.tres" id="2"]
+[ext_resource type="Resource" uid="uid://ywosn1uh8nus" path="res://Items/Weapons/RK-62/RK-62M.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bs7bykd4myn7j" path="res://Items/Weapons/M4A1/M4A1.tres" id="4"]
+[ext_resource type="Resource" uid="uid://csidq6e15jnub" path="res://Items/Weapons/MK18/MK18.tres" id="5"]
+[ext_resource type="Resource" uid="uid://clsx5wbmjv8r2" path="res://Items/Weapons/HK416/HK416.tres" id="6"]
+[ext_resource type="Resource" uid="uid://dngkoqjdy35pe" path="res://Items/Weapons/KAR-21/KAR-21_223.tres" id="7"]
+[ext_resource type="Resource" uid="uid://y3n3l4oble8b" path="res://Items/Weapons/KAR-21/KAR-21_308.tres" id="8"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

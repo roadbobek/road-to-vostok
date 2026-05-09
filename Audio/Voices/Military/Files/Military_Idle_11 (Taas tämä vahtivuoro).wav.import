@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy2o4lx3nau23"
+path="res://.godot/imported/Military_Idle_11 (Taas tämä vahtivuoro).wav-741aaa315615fd501509e81d446273a3.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Idle_11 (Taas tämä vahtivuoro).wav"
+dest_files=["res://.godot/imported/Military_Idle_11 (Taas tämä vahtivuoro).wav-741aaa315615fd501509e81d446273a3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

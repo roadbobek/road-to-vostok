@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://buo78t8h51tj0"]
+
+[ext_resource type="AudioStream" uid="uid://biwcrrl8bpdn0" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Fire_Suppressed.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+randomPitch = true

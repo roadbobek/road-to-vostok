@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://kovqk53sqo2s"]
+
+[ext_resource type="Shader" uid="uid://1g1dcwqgccps" path="res://Shaders/Hair.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://dgb31kq8mplxn" path="res://Traders/Generalist/Files/TX_Generalist_Hair_AL.tga" id="2"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/opacity = 1.0

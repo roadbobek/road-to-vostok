@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxxn00asinh5w"
+path="res://.godot/imported/Military_Combat_08 (Vauhtia!Vauhtia!).wav-11da2ed6850d5972f28c8565d62ca9fa.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_08 (Vauhtia!Vauhtia!).wav"
+dest_files=["res://.godot/imported/Military_Combat_08 (Vauhtia!Vauhtia!).wav-11da2ed6850d5972f28c8565d62ca9fa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c1nr1gop3fjfd"]
+
+[ext_resource type="Resource" uid="uid://b8vs2flxr1whu" path="res://Audio/Use/Drink_Kilju.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://deb8m3qt7nfe6" path="res://Items/Consumables/Kilju/Files/Icon_Kilju.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://m48devk8xq7t" path="res://Items/Consumables/Kilju/Kilju_3x3.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://bohb7builytcn" path="res://Items/Misc/Bucket/Bucket.tres" id="5"]
+
+[resource]
+script = ExtResource("3")
+file = "Kilju"
+name = "Kilju"
+inventory = "Kilju"
+rotated = "Kilju"
+equipment = "Kilju"
+display = "Kilju"
+type = "Consumables"
+weight = 2.5
+value = 1000
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(3, 3)
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+used = [ExtResource("5")]
+energy = 50.0
+hydration = 100.0
+mental = 100.0
+material = null

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cuo736lbjn77s"]
+
+[ext_resource type="Resource" uid="uid://c15m7nmtph08y" path="res://Audio/Use/IFAK.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bqupq0r742b5q" path="res://Items/Medical/IFAK/Files/Icon_IFAK.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dwgs2nydpgre0" path="res://Items/Medical/IFAK/IFAK_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "IFAK"
+name = "IFAK"
+inventory = "IFAK"
+rotated = "IFAK"
+equipment = "IFAK"
+display = "IFAK"
+type = "Medical"
+weight = 0.5
+value = 440
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+health = 50.0
+bleeding = true
+fracture = true
+burn = true
+rupture = true
+headshot = true
+material = null
+military = true

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://0pca1n785vih"]
+
+[ext_resource type="Resource" uid="uid://coc7h7ist4qip" path="res://Audio/Use/Drugs_Box.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://mn0h68x81mgo" path="res://Items/Medical/Painkillers/Files/Icon_Painkillers.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://cp8fd65besui7" path="res://Items/Medical/Painkillers/Painkillers_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Painkillers"
+name = "Painkill."
+inventory = "Painkill."
+rotated = "Painkill."
+equipment = "Painkill."
+display = "Painkill."
+type = "Medical"
+weight = 0.1
+value = 150
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+health = 20.0
+material = null
+civilian = true
+doctor = true

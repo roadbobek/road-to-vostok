@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cndtdo542t371"]
+
+[ext_resource type="AudioStream" uid="uid://bk83wgvkmnsmn" path="res://Audio/Voices/Military/Files/Military_Death_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cbc2foyvvkuwt" path="res://Audio/Voices/Military/Files/Military_Death_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cpf3rombydfcl" path="res://Audio/Voices/Military/Files/Military_Death_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dnf6a7wdos1w1" path="res://Audio/Voices/Military/Files/Military_Death_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://c6qi5u6fsgbsl" path="res://Audio/Voices/Military/Files/Military_Death_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cfpxsslf2v7v" path="res://Audio/Voices/Military/Files/Military_Death_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dfdwv0maj56sa" path="res://Audio/Voices/Military/Files/Military_Death_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cjhnd7o2bj2gv" path="res://Audio/Voices/Military/Files/Military_Death_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://y7t01hrigbue" path="res://Audio/Voices/Military/Files/Military_Death_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cifxs20se5onh" path="res://Audio/Voices/Military/Files/Military_Death_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://uhrnfnig51p0" path="res://Audio/Voices/Military/Files/Military_Death_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://dw34hogdiw1xq" path="res://Audio/Voices/Military/Files/Military_Death_12.wav" id="12"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="13"]
+
+[resource]
+script = ExtResource("13")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

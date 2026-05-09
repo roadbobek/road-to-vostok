@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://epkc73ljb8s0"]
+
+[ext_resource type="Texture2D" uid="uid://bualrehme483p" path="res://Items/Clothing/Fleece_Tactical_Brown/Files/Icon_Fleece_Tactical_Brown.png" id="1"]
+[ext_resource type="Material" uid="uid://cn7kr0kgut452" path="res://Items/Clothing/Fleece_Tactical_Brown/Files/MT_Fleece_Tactical_Brown_Sleeves.tres" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://c4h3ijv8am0ux" path="res://Items/Clothing/Fleece_Tactical_Brown/Fleece_Tactical_Brown_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Fleece_Tactical_Brown"
+name = "Tactical Fleece (Brown)"
+inventory = "T. Fleece"
+rotated = "T. Fleece"
+equipment = "T. Fleece"
+display = "T. Fleece"
+type = "Clothing"
+weight = 0.8
+value = 80
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+slots = ["Torso"]
+material = ExtResource("2")
+capacity = 5.0
+insulation = 20.0
+civilian = true
+military = true
+gunsmith = true

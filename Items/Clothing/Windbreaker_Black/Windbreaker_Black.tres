@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://jutv7t0bvdds"]
+
+[ext_resource type="Texture2D" uid="uid://bai8avwwgrt67" path="res://Items/Clothing/Windbreaker_Black/Files/Icon_Windbreaker_Black.png" id="1"]
+[ext_resource type="Material" uid="uid://bex7ou6iq2eps" path="res://Items/Clothing/Windbreaker_Black/Files/MT_Windbreaker_Black_Sleeves.tres" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dyn7c0m04f5xb" path="res://Items/Clothing/Windbreaker_Black/Windbreaker_Black_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Windbreaker_Black"
+name = "Windbreaker (Black)"
+inventory = "Windbreaker"
+rotated = "Windbreaker"
+equipment = "Windbr."
+display = "Windbr."
+type = "Clothing"
+weight = 0.2
+value = 35
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+slots = ["Torso"]
+material = ExtResource("2")
+capacity = 5.0
+insulation = 15.0
+civilian = true
+generalist = true

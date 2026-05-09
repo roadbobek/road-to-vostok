@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cq8uy4asehjqa"]
+
+[ext_resource type="AudioStream" uid="uid://b7ljlw73o1oca" path="res://Items/Weapons/Mosin/Audio/Mosin_Tail_Outdoor.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+randomPitch = true

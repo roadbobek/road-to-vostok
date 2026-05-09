@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b667obokrwkfd"]
+
+[ext_resource type="Resource" uid="uid://dai4pomnchway" path="res://Audio/Use/Bandage_Plastic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://2sm8kp7dq1s5" path="res://Items/Medical/Thermal_Blanket/Files/Icon_Thermal_Blanket.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bi10ij342f3du" path="res://Items/Medical/Thermal_Blanket/Thermal_Blanket_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Thermal_Blanket"
+name = "Thermal Blanket"
+inventory = "Thermal Blanket"
+rotated = "Thermal Blanket"
+equipment = "Thermal"
+display = "Thermal"
+type = "Medical"
+weight = 0.2
+value = 250
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+usable = true
+phrase = "Use"
+audio = ExtResource("1")
+temperature = 100.0
+material = null
+military = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

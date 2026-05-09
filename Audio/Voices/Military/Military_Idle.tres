@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bbdhd58qohiim"]
+
+[ext_resource type="AudioStream" uid="uid://8gwp2boc61wk" path="res://Audio/Voices/Military/Files/Military_Idle_01 (Onko kukaan kuullut Kapteenista).wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://k1fq2jcr4qxw" path="res://Audio/Voices/Military/Files/Military_Idle_02 (Onko uutisia Kapteenista).wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cmf5sphx11ey4" path="res://Audio/Voices/Military/Files/Military_Idle_03 (Sektorissa ei liikettä).wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://c5gckgvduv8ri" path="res://Audio/Voices/Military/Files/Military_Idle_04 (Sektorissa ei liikettä, ei täällä ole ketään).wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://u05qwbc8ihb6" path="res://Audio/Voices/Military/Files/Military_Idle_05 (Kotiin tekee mieli).wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cwfjgdp2qw5qp" path="res://Audio/Voices/Military/Files/Military_Idle_06 (Kylläpä kaikki vituttaa).wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c5dcsnhyb7hry" path="res://Audio/Voices/Military/Files/Military_Idle_07 (En jaksa sinua, oikeasti).wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://chldmvu0166hc" path="res://Audio/Voices/Military/Files/Military_Idle_08 (Alkaa vituttaa tuo kyttäily).wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cr2sn6jkvpnfk" path="res://Audio/Voices/Military/Files/Military_Idle_09 (En halua olla vahtivuorossa).wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://tcki2li6quay" path="res://Audio/Voices/Military/Files/Military_Idle_10 (En halua kyttäillä enää).wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://dy2o4lx3nau23" path="res://Audio/Voices/Military/Files/Military_Idle_11 (Taas tämä vahtivuoro).wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://cl0xmvchu600p" path="res://Audio/Voices/Military/Files/Military_Idle_12 (Partio liikkeellä).wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://b6hq4yrfncvug" path="res://Audio/Voices/Military/Files/Military_Idle_13 (Olisi pitänyt valita ilmavoimat).wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://u8fkicb1vh4l" path="res://Audio/Voices/Military/Files/Military_Idle_14 (Sektori tähystyksessä).wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://delvm1oostlnj" path="res://Audio/Voices/Military/Files/Military_Idle_15 (Huomio sektoriin).wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://b1ybbd1asaabd" path="res://Audio/Voices/Military/Files/Military_Idle_16 (Ei havaintoa).wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://b5wnjjhpjdob0" path="res://Audio/Voices/Military/Files/Military_Idle_17 (Ei näy ketään).wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://looubbr6ce6l" path="res://Audio/Voices/Military/Files/Military_Idle_18 (Ottakaa yhteyttä komentopaikalle).wav" id="18"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="19"]
+
+[resource]
+script = ExtResource("19")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cevok2dyahjxx"
+path="res://.godot/imported/MS_MP5SD_LOD1.obj-9ae9845bcc9b22fe2fd51a90e1f230fe.mesh"
+
+[deps]
+
+source_file="res://Items/Weapons/MP5SD/Files/MS_MP5SD_LOD1.obj"
+dest_files=["res://.godot/imported/MS_MP5SD_LOD1.obj-9ae9845bcc9b22fe2fd51a90e1f230fe.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

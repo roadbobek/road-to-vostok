@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://drbk82tpax0ih"]
+
+[ext_resource type="Resource" uid="uid://dwibfugefbvvt" path="res://Items/Clothing/Jacket_M62/Jacket_M62.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cx061e27dfjiy" path="res://Items/Weapons/Colt_1911/Colt_1911.tres" id="2"]
+[ext_resource type="Resource" uid="uid://c5iuq2rtq83lu" path="res://Items/Weapons/Colt_1911/Colt_1911_Magazine.tres" id="3"]
+[ext_resource type="Resource" uid="uid://dtu78yi4510mj" path="res://Items/Ammo/Ammo_45ACP/Ammo_45ACP.tres" id="4"]
+[ext_resource type="Resource" uid="uid://m2iy7n8ivd84" path="res://Items/Medical/Bandage/Bandage.tres" id="5"]
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="6"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

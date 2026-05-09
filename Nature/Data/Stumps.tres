@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="SpawnerChunkData" format=3 uid="uid://bqli6rvisdelf"]
+
+[ext_resource type="ArrayMesh" uid="uid://cscry48gt367y" path="res://Nature/Stumps/Files/MS_Stump_LOD3.obj" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://bqu53sh0jjtke" path="res://Nature/Stumps/Files/MS_Stump_Collider.obj" id="2"]
+[ext_resource type="Material" uid="uid://3h7ym3msh0vt" path="res://Nature/Stumps/Files/MT_Stump.tres" id="3"]
+[ext_resource type="ArrayMesh" uid="uid://b5icgwa2801tq" path="res://Nature/Stumps/Files/MS_Stump_LOD0.obj" id="4"]
+[ext_resource type="Script" uid="uid://d3abg51jgmr3k" path="res://Scripts/SpawnerChunkData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+mesh = ExtResource("4")
+LOD = ExtResource("1")
+collider = ExtResource("2")
+material = ExtResource("3")
+renderEnd = 150.0
+surface = "Wood"
+area = 500.0
+density = 0.1
+farDensity = 0.1
+minDistance = 5.0
+maxScale = 2.0
+perimeter = 2
+perimeterType = 3
+metadata/_custom_type_script = "uid://d3abg51jgmr3k"

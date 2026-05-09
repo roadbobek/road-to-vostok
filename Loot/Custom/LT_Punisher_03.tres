@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://bexdeslnkb1la"]
+
+[ext_resource type="Resource" uid="uid://bg31ca6psv4uf" path="res://Items/Clothing/Beanie_Flame/Beanie_Flame.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bxnacphobsyiq" path="res://Items/Consumables/Cigars/Cigars.tres" id="2"]
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="3"]
+[ext_resource type="Resource" uid="uid://drgxtdflwqknk" path="res://Items/Consumables/Chocolate_War/Chocolate_War.tres" id="4"]
+[ext_resource type="Resource" uid="uid://m8akhgds1v0x" path="res://Items/Misc/Matches/Matches.tres" id="5"]
+[ext_resource type="Resource" uid="uid://4jjvvsqgr12c" path="res://Items/Keys/Key_Cellar.tres" id="6"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("4"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

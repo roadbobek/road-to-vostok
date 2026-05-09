@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bct3142ex82ly"]
+
+[ext_resource type="AudioStream" uid="uid://cmwxc28338fkl" path="res://Audio/Character/Files/Impact_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://nowsalpkdo8y" path="res://Audio/Character/Files/Impact_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://woe4jadg1ons" path="res://Audio/Character/Files/Impact_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://ctgiy3hb4gvnw" path="res://Audio/Character/Files/Impact_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://up8qu18pn6rw"]
+
+[ext_resource type="AudioStream" uid="uid://dgm8wyu1lb2mc" path="res://Audio/Knives/Files/Knife_Holster_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://be0ei71vbaya5" path="res://Audio/Knives/Files/Knife_Holster_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://ckayhaww8bluw" path="res://Audio/Knives/Files/Knife_Holster_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]

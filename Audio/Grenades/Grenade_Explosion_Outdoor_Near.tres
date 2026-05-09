@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dsgshcnljc1nx"]
+
+[ext_resource type="AudioStream" uid="uid://43ex0gyamqon" path="res://Audio/Grenades/Files/Grenade_Explosion_Outdoor_Near_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dghrbi2bdhg61" path="res://Audio/Grenades/Files/Grenade_Explosion_Outdoor_Near_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bjvo8b1mp37k" path="res://Audio/Grenades/Files/Grenade_Explosion_Outdoor_Near_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]

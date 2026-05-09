@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://cjm05cyr0nt8v"]
+
+[ext_resource type="Resource" uid="uid://crd2iuncw3jni" path="res://Items/Ammo/Ammo_46x30/Ammo_46x30.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dpfi4kbpusfoa" path="res://Items/Ammo/Ammo_9x39/Ammo_9x39.tres" id="2"]
+[ext_resource type="Resource" uid="uid://8oa16vvtseh5" path="res://Items/Ammo/Ammo_762x54R/Ammo_762x54R.tres" id="3"]
+[ext_resource type="Resource" uid="uid://c8uojeljtbo8i" path="res://Items/Rigs/LVPC/LVPC_Winter.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bn4kyo7csu6qs" path="res://Items/Armor/Armor_Plate_IV.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Gunsmith"
+name = "Ammo Delivery"
+difficulty = "Intermediate"
+description = "You will find most of the ammo types in my stock. Whether you're into squirrel hunting or human hunting, there are options for all.
+
+When it comes to ammo, 7.62x39 and .223 are the best sellers by a big margin. Sometimes there are still those annoying customers who seek something more exotic, but it's hard to maintain a stock for every weird request.
+
+Maybe you could do a quick ammo delivery run for me? We could expand the portfolio a bit, so to speak."
+deliver = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+receive = [ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

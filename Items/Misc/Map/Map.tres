@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://oefq1h1bogv5"]
+
+[ext_resource type="Texture2D" uid="uid://ocw5iceyypfo" path="res://Items/Misc/Map/Files/Icon_Map.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://gdhim2ppsfwd" path="res://Items/Misc/Map/Map_2x2.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Map"
+name = "Map"
+inventory = "Map"
+rotated = "Map"
+equipment = "Map"
+display = "Map"
+type = "Misc"
+weight = 0.2
+value = 250
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 2)
+audio = null
+slots = ["Map"]
+material = null
+civilian = true
+generalist = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dnxpmsniepxy8"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cfriakg60eo6a" path="res://Items/Consumables/Coffee/Files/Icon_Coffee.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bed11ksbpmtba" path="res://Items/Consumables/Coffee/Coffee_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Coffee"
+name = "Coffee"
+inventory = "Coffee"
+rotated = "Coffee"
+equipment = "Coffee"
+display = "Coffee"
+type = "Consumables"
+weight = 0.5
+value = 175
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Chew"
+audio = ExtResource("1")
+energy = 20.0
+hydration = -10.0
+mental = -20.0
+material = null
+civilian = true
+grandma = true

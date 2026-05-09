@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgdtwyq4tnmvk"
+path="res://.godot/imported/MS_Thermal_Blanket.obj-7d0cb9adf4f734d7bfb6df8c772380b7.mesh"
+
+[deps]
+
+source_file="res://Items/Medical/Thermal_Blanket/Files/MS_Thermal_Blanket.obj"
+dest_files=["res://.godot/imported/MS_Thermal_Blanket.obj-7d0cb9adf4f734d7bfb6df8c772380b7.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

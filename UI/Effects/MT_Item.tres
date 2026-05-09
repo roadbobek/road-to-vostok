@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bigofhlj5i476"]
+
+[ext_resource type="Shader" uid="uid://cfihhyyk6l742" path="res://Shaders/Item.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/exposure = 1.3
+shader_parameter/contrast = 1.1
+shader_parameter/posterize = false

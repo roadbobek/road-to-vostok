@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://chkpttcyr5p52"]
+
+[ext_resource type="Texture2D" uid="uid://baqjs78i7nhry" path="res://Items/Armor/Files/Icon_Armor_Plate_II.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://d4ffqqahxlorg" path="res://Items/Armor/Armor_Plate_II_2x2.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Armor_Plate_II"
+name = "Armor Plate (II)"
+inventory = "Armor Plate"
+rotated = "Armor Plate"
+equipment = "Armor Plate"
+display = "Armor"
+type = "Armor"
+weight = 1.5
+value = 200
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 2)
+audio = null
+material = null
+showCondition = true
+plate = true
+protection = 1
+rating = "II"
+military = true
+gunsmith = true

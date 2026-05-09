@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://cb8bi3dns427v"]
+
+[ext_resource type="Resource" uid="uid://dpbmvai4gm5d7" path="res://Items/Ammo/Ammo_9x18/Ammo_9x18.tres" id="1"]
+[ext_resource type="Resource" uid="uid://wpmd1sxietf0" path="res://Items/Weapons/Makarov/Events/Makarov_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://c6dbehgpkvvit" path="res://Items/Weapons/Makarov/Events/Makarov_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://i0n4smi6sbfv" path="res://Items/Weapons/Makarov/Makarov_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cq6ah1k5t1fdy" path="res://Items/Weapons/Makarov/Events/Makarov_Fire.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://c74baojj407qr" path="res://Items/Weapons/Makarov/Files/Icon_Makarov.png" id="6"]
+[ext_resource type="Resource" uid="uid://ufn3ayfkqc6d" path="res://Items/Weapons/Makarov/Events/Makarov_Magazine_Attach_Empty.tres" id="7"]
+[ext_resource type="Resource" uid="uid://d31c4jww6g07x" path="res://Items/Weapons/Makarov/Events/Makarov_Magazine_Attach_Tactical.tres" id="8"]
+[ext_resource type="Resource" uid="uid://cbjnrcyv4yhcb" path="res://Items/Weapons/Makarov/Events/Makarov_Magazine_Detach.tres" id="9"]
+[ext_resource type="Resource" uid="uid://cd6mb5tgd2xn1" path="res://Items/Weapons/Makarov/Events/Makarov_Reload_Empty.tres" id="10"]
+[ext_resource type="Resource" uid="uid://ddo8cjc4jcs7h" path="res://Items/Weapons/Makarov/Events/Makarov_Reload_Tactical.tres" id="11"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="12"]
+[ext_resource type="Resource" uid="uid://bv51qaj31jw1i" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Indoor.tres" id="13"]
+[ext_resource type="Resource" uid="uid://deolnh21ftwvm" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Indoor_Suppressed.tres" id="14"]
+[ext_resource type="Resource" uid="uid://b4tawjvnixtac" path="res://Items/Weapons/Makarov/Events/Makarov_Tail_Outdoor.tres" id="15"]
+[ext_resource type="Resource" uid="uid://nupfsljlplp" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Outdoor_Supressed.tres" id="16"]
+[ext_resource type="PackedScene" uid="uid://dxacq701ik55o" path="res://Items/Weapons/Makarov/Makarov_2x2.tscn" id="17"]
+
+[resource]
+script = ExtResource("12")
+weaponType = "Pistol"
+weaponAction = "Semi"
+fireSemi = ExtResource("5")
+fireAuto = null
+fireSuppressed = null
+charge = ExtResource("3")
+reloadEmpty = ExtResource("10")
+reloadTactical = ExtResource("11")
+magazineAttachEmpty = ExtResource("7")
+magazineAttachTactical = ExtResource("8")
+magazineDetach = ExtResource("9")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("15")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("13")
+tailIndoorSuppressed = ExtResource("14")
+tailOutdoorSuppressed = ExtResource("16")
+ammo = ExtResource("1")
+caliber = "9×18"
+casing = 1
+damage = 25.0
+penetration = 1
+fireRate = 0.08
+magazineSize = 8
+kick = 0.05
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.25
+horizontalRecoil = 0.02
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.03
+slideSpeed = 50.0
+slideLock = true
+lowPosition = Vector3(0.02, -0.1, -0.25)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.05, -0.3)
+aimPosition = Vector3(0, -0.012, -0.27)
+cantedPosition = Vector3(0, -0.05, -0.22)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(0.05, -0.05, -0.35)
+inspectRotation = Vector3(0, 0, 10)
+collisionPosition = Vector3(0.03, -0.125, -0.225)
+collisionRotation = Vector3(35, 15, 0)
+file = "Makarov"
+name = "Karov"
+inventory = "Karov"
+rotated = "Karov"
+equipment = "Karov"
+display = "Karov"
+type = "Weapon"
+subtype = "Pistol"
+weight = 0.75
+value = 250
+icon = ExtResource("6")
+tetris = ExtResource("17")
+size = Vector2(2, 2)
+audio = null
+compatible = [ExtResource("4")]
+slots = ["Primary", "Secondary"]
+material = null
+showCondition = true
+repairs = true
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.02

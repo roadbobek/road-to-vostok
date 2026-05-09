@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c3e0nmd23cdya"]
+
+[ext_resource type="Texture2D" uid="uid://c7st7s27ax42k" path="res://Items/Misc/Mattress/Files/Icon_Mattress.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://70njt2enh52f" path="res://Items/Misc/Mattress/Mattress_7x3.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Mattress"
+name = "Mattress"
+inventory = "Mattress"
+rotated = "Mattress"
+equipment = "Mattress"
+display = "Mattress"
+type = "Misc"
+weight = 4.5
+value = 110
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(7, 3)
+audio = null
+energy = -20.0
+hydration = -20.0
+mental = 20.0
+temperature = -100.0
+material = null
+civilian = true
+generalist = true
+grandma = true

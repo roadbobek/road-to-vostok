@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://dv56bjr6htpe0"]
+
+[ext_resource type="Texture2D" uid="uid://6lkl58bsibi8" path="res://Items/Attachments/EXPS/Files/Icon_EXPS.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://bdg5qf4vhgg8s" path="res://Items/Attachments/EXPS/EXPS_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+reticleSize = Vector3(0.06, 0.2, 0.3)
+file = "EXPS"
+name = "EXP"
+inventory = "EXP"
+rotated = "EXP"
+equipment = "EXP"
+display = "EXP"
+type = "Attachment"
+subtype = "Optic"
+weight = 0.5
+value = 850
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+suppressorOffset = 1.0
+audio = null
+material = null
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.04

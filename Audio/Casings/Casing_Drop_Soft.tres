@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cubkebtmj4i2h"]
+
+[ext_resource type="AudioStream" uid="uid://cvx71e3ijmbdy" path="res://Audio/Casings/Files/Casing_Drop_Soft_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://clfj0cp4jyc1p" path="res://Audio/Casings/Files/Casing_Drop_Soft_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dm3merrkc6i7" path="res://Audio/Casings/Files/Casing_Drop_Soft_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://4xo5pk7dq3ux" path="res://Audio/Casings/Files/Casing_Drop_Soft_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cyfbbm0vytq0d" path="res://Audio/Casings/Files/Casing_Drop_Soft_05.wav" id="5"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]

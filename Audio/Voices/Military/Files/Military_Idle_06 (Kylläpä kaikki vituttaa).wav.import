@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwfjgdp2qw5qp"
+path="res://.godot/imported/Military_Idle_06 (Kylläpä kaikki vituttaa).wav-14d7345e1ee06d289d36446206fdee80.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Idle_06 (Kylläpä kaikki vituttaa).wav"
+dest_files=["res://.godot/imported/Military_Idle_06 (Kylläpä kaikki vituttaa).wav-14d7345e1ee06d289d36446206fdee80.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

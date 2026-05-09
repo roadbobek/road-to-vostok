@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://jc64pew300g7"]
+
+[ext_resource type="Texture2D" uid="uid://wabediqe3xe7" path="res://Terrains/Tutorial/Files/TX_Tutorial_Start.png" id="1"]
+
+[resource]
+transparency = 2
+alpha_scissor_threshold = 0.0
+alpha_antialiasing_mode = 1
+alpha_antialiasing_edge = 0.2
+cull_mode = 2
+shading_mode = 0
+albedo_color = Color(0, 1, 0, 1)
+albedo_texture = ExtResource("1")

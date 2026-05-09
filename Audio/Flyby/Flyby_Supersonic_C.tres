@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://c0gmgfppvffjt"]
+
+[ext_resource type="AudioStream" uid="uid://nnf6nl3fs8hq" path="res://Audio/Flyby/Files/Flyby_Supersonic_C_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://lplg1ppa1jjx" path="res://Audio/Flyby/Files/Flyby_Supersonic_C_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bd0ttfcyji8x8" path="res://Audio/Flyby/Files/Flyby_Supersonic_C_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://6m4qhvqavt7u" path="res://Audio/Flyby/Files/Flyby_Supersonic_C_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://da3g3mapq4ta5" path="res://Audio/Flyby/Files/Flyby_Supersonic_C_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://x8w3pose0pl7" path="res://Audio/Flyby/Files/Flyby_Supersonic_C_06.wav" id="6"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]

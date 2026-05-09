@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://ch8tq3uq4qnsf"]
+
+[ext_resource type="Resource" uid="uid://y25acg8kfydb" path="res://Items/Lore/Patient_Report/Patient_Report.tres" id="1"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+items = [ExtResource("1")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

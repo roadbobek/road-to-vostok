@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://byrjl4t6b0ft4"]
+
+[ext_resource type="Resource" uid="uid://dlsru3tyaywdu" path="res://Audio/Use/Eat_Can.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dqoruq8b3cqw1" path="res://Items/Consumables/Canned_Pea_Soup/Files/Icon_Canned_Pea_Soup.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://skjl6r6fj5ap" path="res://Items/Consumables/Canned_Pea_Soup/Canned_Pea_Soup_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Canned_Pea_Soup"
+name = "Canned Pea Soup"
+inventory = "Pea Soup"
+rotated = "Pea Soup"
+equipment = "Pea Soup"
+display = "Pea Soup"
+type = "Consumables"
+weight = 0.5
+value = 100
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 40.0
+hydration = 10.0
+mental = 5.0
+material = null
+freezable = true
+civilian = true

@@ -1,0 +1,6 @@
+[gd_resource type="ParticleProcessMaterial" format=3 uid="uid://bqie0t7si7jn3"]
+
+[resource]
+gravity = Vector3(0, 0, 0)
+anim_speed_min = 1.0
+anim_speed_max = 1.0

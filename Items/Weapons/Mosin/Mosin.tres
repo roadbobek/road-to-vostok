@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://comkdkef4s0ur"]
+
+[ext_resource type="Resource" uid="uid://8oa16vvtseh5" path="res://Items/Ammo/Ammo_762x54R/Ammo_762x54R.tres" id="1"]
+[ext_resource type="Resource" uid="uid://ctnom3pjj2y5l" path="res://Items/Weapons/Mosin/Events/Mosin_Ammo_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://blhms5luhtnsm" path="res://Items/Attachments/PU/PU.tres" id="3"]
+[ext_resource type="Resource" uid="uid://b3rnwbgiddd1w" path="res://Items/Weapons/Mosin/Events/Mosin_Fire.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://davp53rph2g1y" path="res://Items/Weapons/Mosin/Files/Icon_Mosin.png" id="5"]
+[ext_resource type="Resource" uid="uid://twyjx4x5tb18" path="res://Items/Weapons/Mosin/Events/Mosin_Insert.tres" id="6"]
+[ext_resource type="Resource" uid="uid://s8a2h6igajab" path="res://Items/Weapons/Mosin/Events/Mosin_Insert_End.tres" id="7"]
+[ext_resource type="Resource" uid="uid://bgwb10b284rw2" path="res://Items/Weapons/Mosin/Events/Mosin_Insert_Start.tres" id="8"]
+[ext_resource type="Resource" uid="uid://c35tak6tjcnfx" path="res://Items/Weapons/Mosin/Events/Mosin_Reload.tres" id="9"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="10"]
+[ext_resource type="Resource" uid="uid://ivpladtseqts" path="res://Items/Weapons/Common/Tails/Sniper_Tail_Indoor.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cq8uy4asehjqa" path="res://Items/Weapons/Mosin/Events/Mosin_Tail_Outdoor.tres" id="12"]
+[ext_resource type="PackedScene" uid="uid://cvostocmsyyfr" path="res://Items/Weapons/Mosin/Mosin_7x2.tscn" id="13"]
+
+[resource]
+script = ExtResource("10")
+weaponType = "Bolt"
+weaponAction = "Manual"
+fireSemi = ExtResource("4")
+fireAuto = null
+fireSuppressed = null
+charge = null
+reloadEmpty = null
+reloadTactical = null
+magazineAttachEmpty = null
+magazineAttachTactical = null
+magazineDetach = null
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("12")
+reload = ExtResource("9")
+insertStart = ExtResource("8")
+insertEnd = ExtResource("7")
+insert = ExtResource("6")
+tailIndoor = ExtResource("11")
+tailIndoorSuppressed = null
+tailOutdoorSuppressed = null
+ammo = ExtResource("1")
+caliber = "7.62x54R"
+casing = 2
+damage = 50.0
+penetration = 4
+fireRate = 0.08
+magazineSize = 5
+kick = 0.15
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.1
+horizontalRecoil = 0.01
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideMovement = 0.1
+slideSpeed = 50.0
+lowPosition = Vector3(0, -0.14, -0.35)
+lowRotation = Vector3(15, 15, 0)
+highPosition = Vector3(0.05, -0.05, -0.35)
+aimPosition = Vector3(0, -0.026, -0.32)
+cantedPosition = Vector3(0, -0.05, -0.3)
+cantedRotation = Vector3(0, 0, -35)
+inspectPosition = Vector3(0, -0.05, -0.3)
+inspectRotation = Vector3(0, 0, 5)
+collisionPosition = Vector3(0.03, -0.2, -0.26)
+collisionRotation = Vector3(40, 15, 0)
+file = "Mosin"
+name = "Mosin"
+inventory = "Mosin"
+rotated = "Mosin"
+equipment = "Mosin"
+display = "Mosin"
+type = "Weapon"
+subtype = "Bolt"
+weight = 4.0
+value = 450
+icon = ExtResource("5")
+tetris = ExtResource("13")
+size = Vector2(7, 2)
+audio = null
+compatible = [ExtResource("3")]
+slots = ["Primary"]
+material = null
+showCondition = true
+maxAmount = 5
+repairs = true
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.04

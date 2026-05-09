@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4u3ukmvfb6ny"
+path="res://.godot/imported/Military_Combat_03 (Seis, kädet ylös).wav-4d84ddc7a3a48d2e6cb7293c176a5b4d.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_03 (Seis, kädet ylös).wav"
+dest_files=["res://.godot/imported/Military_Combat_03 (Seis, kädet ylös).wav-4d84ddc7a3a48d2e6cb7293c176a5b4d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

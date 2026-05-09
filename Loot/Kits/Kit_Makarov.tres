@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://b1jb3vlfoknda"]
+
+[ext_resource type="Resource" uid="uid://mn5302uql36q" path="res://Items/Backpacks/Backpack_Nomad/Backpack_Nomad.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cb8bi3dns427v" path="res://Items/Weapons/Makarov/Makarov.tres" id="2"]
+[ext_resource type="Resource" uid="uid://i0n4smi6sbfv" path="res://Items/Weapons/Makarov/Makarov_Magazine.tres" id="3"]
+[ext_resource type="Resource" uid="uid://dpbmvai4gm5d7" path="res://Items/Ammo/Ammo_9x18/Ammo_9x18.tres" id="4"]
+[ext_resource type="Resource" uid="uid://m2iy7n8ivd84" path="res://Items/Medical/Bandage/Bandage.tres" id="5"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

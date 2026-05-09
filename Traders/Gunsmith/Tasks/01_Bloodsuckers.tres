@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://6f2fcyeuakfv"]
+
+[ext_resource type="Resource" uid="uid://bjkml1406vcmw" path="res://Items/Clothing/Hat_Mosquito/Hat_Mosquito.tres" id="1"]
+[ext_resource type="Resource" uid="uid://di60j617td8rt" path="res://Items/Weapons/RK-62/RK_Magazine.tres" id="2"]
+[ext_resource type="Resource" uid="uid://brxcl1enfq0t4" path="res://Items/Ammo/Ammo_762x39/Ammo_762x39.tres" id="3"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+trader = "Gunsmith"
+name = "Bloodsuckers"
+difficulty = "Easy"
+description = "Ain't that something? A new man and a new rifle, always a welcome sight.
+
+Forget the small talk. You want something reliable and cheap? Sure, but a few favors first, since you don't climb the ranks immediately around here. Where should we start? There are definitely some supply runs you could do, but you look a bit flimsy, so maybe you need something simple first. Let me think a moment.
+
+Okay, I have an idea. You know in the summertime, those flying suckers start to piss me off. You would assume those bastards would not get into these bunkers, but trust me, they do. Every single summer, there's buzzing around the clock.
+
+Here's a suitable task for you. Find me something to get rid of those bloodsuckers and then we'll talk more."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

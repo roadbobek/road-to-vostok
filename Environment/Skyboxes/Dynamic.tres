@@ -1,0 +1,38 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://1isvfsnhjpsb"]
+
+[ext_resource type="Shader" uid="uid://h4ghiq3swhhp" path="res://Shaders/Sky.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://bq48u1g6td2i0" path="res://Environment/Textures/Aurora.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b06wgojycuoym" path="res://Environment/Textures/Moon.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d2c041yuisvdp" path="res://Environment/Textures/Clouds.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://4fuofv3ujq02" path="res://Environment/Textures/Overcast.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://25kvqojl7hwl" path="res://Environment/Textures/Stars.jpg" id="6"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/skyColor = Color(0.137255, 0.156863, 0.176471, 1)
+shader_parameter/horizonColor = Color(0.109804, 0.12549041, 0.1411768, 0.8)
+shader_parameter/groundColor = Color(0.0686275, 0.0784315, 0.0882355, 0.5)
+shader_parameter/overcast = 0.0
+shader_parameter/reflection = 4.0
+shader_parameter/horizonBlur = 0.1
+shader_parameter/neutralTexture = ExtResource("4")
+shader_parameter/overcastTexture = ExtResource("5")
+shader_parameter/sunColor = Color(1, 0.901961, 0.705882, 1)
+shader_parameter/sunSize = 0.05
+shader_parameter/sunBlur = 1.0
+shader_parameter/sunGlowSize = 0.5
+shader_parameter/sunGlowIntensity = 1.0
+shader_parameter/sunReflection = 20.0
+shader_parameter/moonTexture = ExtResource("3")
+shader_parameter/moonColor = Color(0.784314, 0.823529, 0.862745, 1)
+shader_parameter/moonSize = 0.05
+shader_parameter/moonGlowSize = 0.2
+shader_parameter/moonGlowIntensity = 0.05
+shader_parameter/moonReflection = 20.0
+shader_parameter/starsTexture = ExtResource("6")
+shader_parameter/starsReflection = 5.0
+shader_parameter/auroraTexture = ExtResource("2")
+shader_parameter/auroraColor = Color(0.0781553, 0.156428, 0.156428, 1)
+shader_parameter/auroraIntensity = 0.0
+shader_parameter/auroraMovement = 0.5
+shader_parameter/auroraReflection = 10.0

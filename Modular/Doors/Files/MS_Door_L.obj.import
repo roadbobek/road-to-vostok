@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmeprbsxfxvwi"
+path="res://.godot/imported/MS_Door_L.obj-d7a2e7ce2af84351d83be2d9c94e5259.mesh"
+
+[deps]
+
+source_file="res://Modular/Doors/Files/MS_Door_L.obj"
+dest_files=["res://.godot/imported/MS_Door_L.obj-d7a2e7ce2af84351d83be2d9c94e5259.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

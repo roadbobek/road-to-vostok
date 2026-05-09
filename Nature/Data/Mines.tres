@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpawnerSceneData" format=3 uid="uid://cin3xwrg5h1k4"]
+
+[ext_resource type="PackedScene" uid="uid://dfj8a4htck2tu" path="res://Assets/POM-3/POM-3.tscn" id="1"]
+[ext_resource type="Script" uid="uid://ce8xbvy7sfxhn" path="res://Scripts/SpawnerSceneData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+scenes = [ExtResource("1")]
+runtime = true
+border = true
+density = 0.1
+farDensity = 0.1
+minDistance = 10.0
+perimeterType = 1
+metadata/_custom_type_script = "uid://ce8xbvy7sfxhn"

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6lwuarnannii"
+path="res://.godot/imported/MS_Happy_Stove_LOD0.obj-22ef4387d5b71fc366a3eb546d265381.mesh"
+
+[deps]
+
+source_file="res://Items/Misc/Happy_Stove/Files/MS_Happy_Stove_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Happy_Stove_LOD0.obj-22ef4387d5b71fc366a3eb546d265381.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

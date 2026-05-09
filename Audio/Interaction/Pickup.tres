@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://c0u7ixswjfb3n"]
+
+[ext_resource type="AudioStream" uid="uid://so5e7duxcrla" path="res://Audio/Interaction/Files/Item_Pickup_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bsp0cmtjfrsc" path="res://Audio/Interaction/Files/Item_Pickup_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://28jasaduesxy" path="res://Audio/Interaction/Files/Item_Pickup_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+volume = -5.0

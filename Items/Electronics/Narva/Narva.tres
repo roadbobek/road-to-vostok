@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://6s2bmj3x3iur"]
+
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://drcx64c4b6m5l" path="res://Items/Electronics/Narva/Files/Icon_Narva.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://b8d2owf6vf176" path="res://Items/Electronics/Narva/Narva_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Narva"
+name = "Narva"
+inventory = "Narva"
+rotated = "Narva"
+equipment = "Narva"
+display = "Narva"
+type = "Electronics"
+subtype = "Light"
+weight = 0.2
+value = 180
+icon = ExtResource("2")
+tetris = ExtResource("4")
+audio = null
+compatible = [ExtResource("1")]
+slots = ["Light"]
+material = null
+showCondition = true
+power = 1
+color = Color(0.941176, 0.901961, 0.784314, 1)
+civilian = true
+industrial = true
+military = true
+generalist = true
+gunsmith = true

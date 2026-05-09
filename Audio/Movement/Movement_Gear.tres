@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ckpbfiof3qnug"]
+
+[ext_resource type="AudioStream" uid="uid://86hfekwbf5t8" path="res://Audio/Movement/Files/Movement_Gear_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cjlmcnyl46mff" path="res://Audio/Movement/Files/Movement_Gear_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bgrfl42j3mwxq" path="res://Audio/Movement/Files/Movement_Gear_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://c1plx05fto75s" path="res://Audio/Movement/Files/Movement_Gear_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cq1lyssln4p0w" path="res://Audio/Movement/Files/Movement_Gear_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bu0hxfwftnwpl" path="res://Audio/Movement/Files/Movement_Gear_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dxgxqa4sxoaex" path="res://Audio/Movement/Files/Movement_Gear_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://ddt82eyf18nya" path="res://Audio/Movement/Files/Movement_Gear_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://dyyccek01t46r" path="res://Audio/Movement/Files/Movement_Gear_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://3n2dbfgbg7la" path="res://Audio/Movement/Files/Movement_Gear_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cg7hxps0lglmb" path="res://Audio/Movement/Files/Movement_Gear_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://c03ld2ju165av" path="res://Audio/Movement/Files/Movement_Gear_12.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://dupg8i02lutmg" path="res://Audio/Movement/Files/Movement_Gear_13.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://cpvhsf2pv0j8d" path="res://Audio/Movement/Files/Movement_Gear_14.wav" id="14"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="15"]
+
+[resource]
+script = ExtResource("15")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")]
+volume = -5.0
+randomPitch = true

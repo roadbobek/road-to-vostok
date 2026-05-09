@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bm86l1vsqy0q3"]
+
+[ext_resource type="AudioStream" uid="uid://ct400sjlxdtc6" path="res://Audio/Dynamic/Files/Tank_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://b0v4nfkkj1x52" path="res://Audio/Dynamic/Files/Tank_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dv5p7cwdu8rbv" path="res://Audio/Dynamic/Files/Tank_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dea1htylvt5ga" path="res://Audio/Dynamic/Files/Tank_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]

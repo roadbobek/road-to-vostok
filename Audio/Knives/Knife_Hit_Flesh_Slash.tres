@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ro6if7usftvw"]
+
+[ext_resource type="AudioStream" uid="uid://byxcxiimap5f7" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dv27w6dtv3lr" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://lg3xb7i244q6" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://0oeymiwq1amy" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://co87sgbeu6tse" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://w4s0odelhmii" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://plqdmc2rcrtx" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://uh5mesxsj23v" path="res://Audio/Knives/Files/Knife_Hit_Flesh_Slash_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]

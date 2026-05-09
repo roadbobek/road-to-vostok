@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://84cqptihq4ki"]
+
+[ext_resource type="Texture2D" uid="uid://ejvw57mb7i13" path="res://Items/Misc/Jerry_Can/Files/Icon_Jerry_Can.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cbywk116opmjp" path="res://Items/Misc/Jerry_Can/Jerry_Can_3x3.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Jerry_Can"
+name = "Jerry Can"
+inventory = "Jerry Can"
+rotated = "Jerry Can"
+equipment = "Jerry Can"
+display = "Jerry C."
+type = "Misc"
+weight = 3.5
+value = 120
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(3, 3)
+audio = null
+material = null
+showCondition = true
+civilian = true
+industrial = true
+military = true
+gunsmith = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

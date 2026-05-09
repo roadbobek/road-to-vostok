@@ -1,0 +1,20 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cc8bn5fgoj3j0"]
+
+[ext_resource type="Shader" uid="uid://c638ny6pv177r" path="res://Shaders/Clip.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://dyaubfwo308cd" path="res://Terrains/Utility/Files/TX_Wire_AL.tga" id="2"]
+[ext_resource type="Texture2D" uid="uid://cruhohb3ce15e" path="res://Terrains/Utility/Files/TX_Wire_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.1
+shader_parameter/opacity = 1.0
+shader_parameter/fractional = false
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = true
+shader_parameter/snowAmount = 0.80000001192096
+shader_parameter/metal = true

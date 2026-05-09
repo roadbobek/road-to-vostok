@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="TraderData" format=3 uid="uid://gvk23vim5c2d"]
+
+[ext_resource type="Resource" uid="uid://0im6hbeyft6b" path="res://Audio/Voices/Generalist/Generalist_End.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bboad8sykmqf6" path="res://Traders/Generalist/Files/Icon_Generalist.png" id="2"]
+[ext_resource type="Resource" uid="uid://cyh74mtggn7kq" path="res://Audio/Voices/Generalist/Generalist_Random.tres" id="3"]
+[ext_resource type="Script" uid="uid://dgp3dpjyuueif" path="res://Scripts/TraderData.gd" id="4"]
+[ext_resource type="Resource" uid="uid://drwud6tjjlhah" path="res://Audio/Voices/Generalist/Generalist_Start.tres" id="5"]
+[ext_resource type="Resource" uid="uid://d3olptbq6wu2b" path="res://Audio/Voices/Generalist/Generalist_Task.tres" id="6"]
+[ext_resource type="Resource" uid="uid://d3k4k6jmqdyxm" path="res://Traders/Generalist/Tutorial/01_Tutorial.tres" id="7"]
+[ext_resource type="Resource" uid="uid://cqgi1bqrpyj6v" path="res://Traders/Generalist/Tutorial/02_Tutorial.tres" id="8"]
+[ext_resource type="Resource" uid="uid://blum1hn12u83q" path="res://Traders/Generalist/Tutorial/03_Tutorial.tres" id="9"]
+[ext_resource type="Resource" uid="uid://ck724iww7gvra" path="res://Audio/Voices/Generalist/Generalist_Trade.tres" id="10"]
+
+[resource]
+script = ExtResource("4")
+icon = ExtResource("2")
+name = "Generalist"
+tasks = [ExtResource("7"), ExtResource("8"), ExtResource("9")]
+randomVoices = ExtResource("3")
+startVoices = ExtResource("5")
+endVoices = ExtResource("1")
+tradeVoices = ExtResource("10")
+taskVoices = ExtResource("6")

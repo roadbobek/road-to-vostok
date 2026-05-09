@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="SpawnerSceneData" format=3 uid="uid://bhkquaa3k5ted"]
+
+[ext_resource type="PackedScene" uid="uid://ckf8p0c1bss2d" path="res://Nature/Trees/Tree_A.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cwh672os5d4jn" path="res://Nature/Trees/Tree_B.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://djcioq4evrn8p" path="res://Nature/Trees/Tree_C.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://bmlnfte6ke8kc" path="res://Nature/Trees/Tree_D.tscn" id="4"]
+[ext_resource type="Script" uid="uid://ce8xbvy7sfxhn" path="res://Scripts/SpawnerSceneData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+scenes = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+normals = false
+density = 1.0
+farDensity = 0.5
+minDistance = 4.0
+maxScale = 2.0
+perimeterType = 3
+metadata/_custom_type_script = "uid://ce8xbvy7sfxhn"

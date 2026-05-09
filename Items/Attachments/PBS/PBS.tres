@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://bgiuvnbg7gt6e"]
+
+[ext_resource type="Texture2D" uid="uid://crqj7wr5mljdt" path="res://Items/Attachments/PBS/Files/Icon_PBS.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dc7585le0d5tb" path="res://Items/Attachments/PBS/PBS_2x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "PBS"
+name = "PBS"
+inventory = "PBS"
+rotated = "PBS"
+equipment = "PBS"
+display = "PBS"
+type = "Attachment"
+subtype = "Muzzle"
+weight = 0.6
+value = 330
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 1)
+audio = null
+material = null
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.035

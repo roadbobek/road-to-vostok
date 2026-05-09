@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="CatData" format=3 uid="uid://dafbqptisatvs"]
+
+[ext_resource type="Texture2D" uid="uid://h4er1aeo5ek6" path="res://Items/Lore/Cat/Files/Icon_Box.png" id="1"]
+[ext_resource type="Resource" uid="uid://jri2jc62dfli" path="res://Items/Lore/Cat/Events/Cat_Meow.tres" id="2"]
+[ext_resource type="Script" uid="uid://cq1jg7nj35b1q" path="res://Scripts/CatData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bw4dkj3ioflmx" path="res://Items/Lore/Cat/Cat_5x3.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+meow = ExtResource("2")
+meowRotation = Vector2(0, 25)
+file = "Cat"
+name = "Cat"
+inventory = "Cat"
+rotated = "Cat"
+equipment = "Cat"
+display = "Cat"
+type = "Lore"
+value = 2500
+rarity = 3
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(5, 3)
+audio = null
+material = null
+metadata/_custom_type_script = "uid://cq1jg7nj35b1q"

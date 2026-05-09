@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bnhhtbrdabid2"]
+
+[ext_resource type="AudioStream" uid="uid://b75n8jodhyiq" path="res://Audio/Bullets/Files/Bullet_Crack_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://de60l6hc37f36" path="res://Audio/Bullets/Files/Bullet_Crack_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dpvxbr2c0nlks" path="res://Audio/Bullets/Files/Bullet_Crack_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://c8rwsdukavwc" path="res://Audio/Bullets/Files/Bullet_Crack_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://0jrbf4bo4dk4" path="res://Audio/Bullets/Files/Bullet_Crack_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://c388xoawrjw7c" path="res://Audio/Bullets/Files/Bullet_Crack_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://f4yp0i2ecly3" path="res://Audio/Bullets/Files/Bullet_Crack_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://66alxc8jd2x3" path="res://Audio/Bullets/Files/Bullet_Crack_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cngg73vtxpdml" path="res://Audio/Bullets/Files/Bullet_Crack_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://bysn88rlvtbl5" path="res://Audio/Bullets/Files/Bullet_Crack_10.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dgwwanxgihdd6"]
+
+[ext_resource type="AudioStream" uid="uid://dyptjm8mj6hra" path="res://Items/Weapons/Common/Tails/Files/Rifle_Tail_Indoor.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+randomPitch = true
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

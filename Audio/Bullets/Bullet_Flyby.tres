@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://byp25jrs76r74"]
+
+[ext_resource type="AudioStream" uid="uid://b7q48816lu55h" path="res://Audio/Bullets/Files/Bullet_Flyby_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dw5xb671al8ar" path="res://Audio/Bullets/Files/Bullet_Flyby_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://byx8oksiojiwv" path="res://Audio/Bullets/Files/Bullet_Flyby_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dwo2o06fqkcnh" path="res://Audio/Bullets/Files/Bullet_Flyby_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://c3bb84b1rqwl1" path="res://Audio/Bullets/Files/Bullet_Flyby_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dv67ym3xvfse" path="res://Audio/Bullets/Files/Bullet_Flyby_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://br5ybkp1bdki" path="res://Audio/Bullets/Files/Bullet_Flyby_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cg0olndduu7xb" path="res://Audio/Bullets/Files/Bullet_Flyby_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://dsio1bf65x0kn" path="res://Audio/Bullets/Files/Bullet_Flyby_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cdgmn4cfb085j" path="res://Audio/Bullets/Files/Bullet_Flyby_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://wbnampboicrg" path="res://Audio/Bullets/Files/Bullet_Flyby_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://cqlseg3nsgiuk" path="res://Audio/Bullets/Files/Bullet_Flyby_12.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://7kjbnrxb3f87" path="res://Audio/Bullets/Files/Bullet_Flyby_13.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://hcyhp5x34a0a" path="res://Audio/Bullets/Files/Bullet_Flyby_14.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cse4bfxxmidqs" path="res://Audio/Bullets/Files/Bullet_Flyby_15.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://d0abh8aysdase" path="res://Audio/Bullets/Files/Bullet_Flyby_16.wav" id="16"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="17"]
+
+[resource]
+script = ExtResource("17")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bdrd5ap35ycf8"]
+
+[ext_resource type="Texture2D" uid="uid://wvleqwjfnffs" path="res://Effects/Files/TX_Smoke.png" id="1"]
+
+[resource]
+transparency = 1
+specular_mode = 2
+disable_fog = true
+albedo_color = Color(0.501961, 0, 0, 0.25098)
+albedo_texture = ExtResource("1")
+backlight_enabled = true
+backlight = Color(1, 1, 1, 1)
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false

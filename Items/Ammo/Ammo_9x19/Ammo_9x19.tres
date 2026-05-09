@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://caoxynlo2jhgc"]
+
+[ext_resource type="Texture2D" uid="uid://cn8bldaykh0cy" path="res://Items/Ammo/Ammo_9x19/Files/Icon_Ammo_9x19.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dwih4f1b1qnir" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Ammo_9x19"
+name = "9x19"
+inventory = "9x19"
+rotated = "9x19"
+equipment = "9x19"
+display = "9x19"
+type = "Ammo"
+weight = 0.4
+value = 250
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+showAmount = true
+defaultAmount = 50
+maxAmount = 300
+stackable = true
+civilian = true
+military = true
+generalist = true
+gunsmith = true

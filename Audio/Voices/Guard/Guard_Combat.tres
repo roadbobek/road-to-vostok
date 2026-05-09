@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ew7nlol68dh2"]
+
+[ext_resource type="AudioStream" uid="uid://birsghrctca5e" path="res://Audio/Voices/Guard/Files/Guard_Combat_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cyigpvpagkxvp" path="res://Audio/Voices/Guard/Files/Guard_Combat_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://caefmehtx352d" path="res://Audio/Voices/Guard/Files/Guard_Combat_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://cmqv0r0ltx3xl" path="res://Audio/Voices/Guard/Files/Guard_Combat_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://bqcf6oyj28p82" path="res://Audio/Voices/Guard/Files/Guard_Combat_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://c1kslijfd745" path="res://Audio/Voices/Guard/Files/Guard_Combat_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bug0xbya8tgeu" path="res://Audio/Voices/Guard/Files/Guard_Combat_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://c8ci6xg8j25e8" path="res://Audio/Voices/Guard/Files/Guard_Combat_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cbqr7wndqcipw" path="res://Audio/Voices/Guard/Files/Guard_Combat_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cpbdqxcidw73c" path="res://Audio/Voices/Guard/Files/Guard_Combat_10.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

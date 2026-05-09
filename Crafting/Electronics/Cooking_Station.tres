@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://c7dhlxaj48e80"]
+
+[ext_resource type="Resource" uid="uid://bynm5jbrrwdh1" path="res://Audio/Crafting/Craft_Electronic.tres" id="1"]
+[ext_resource type="Resource" uid="uid://uf5qaxfx41yq" path="res://Items/Electronics/Hotplate/Hotplate.tres" id="2"]
+[ext_resource type="Resource" uid="uid://4ii4vylg31st" path="res://Items/Electronics/Battery/Battery.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bjfn3wrfobb7r" path="res://Items/Electronics/Battery_Cables/Battery_Cables.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cow27c5brsjer" path="res://Items/Electronics/Inverter/Inverter.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dgrx15uo0qr8x" path="res://Items/Electronics/Cooking_Station/Cooking_Station.tres" id="6"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+name = "Cooking Station"
+time = 5.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+output = [ExtResource("6")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

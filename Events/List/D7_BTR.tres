@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://bqssaiuxxdtaq"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 7
+name = "BTR Patrols"
+type = "Dynamic"
+zone = "Vostok"
+function = "BTR"
+description = "The military faction has started to use armored vehicles in the Vostok area.
+
+Military BTR's are equipped with heavy machine guns and patrols have been seen across main roads and key locations."
+possibility = 25
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

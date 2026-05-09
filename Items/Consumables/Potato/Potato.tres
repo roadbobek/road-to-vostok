@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c0miqekrbn64x"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://6yt4pfeg8tkl" path="res://Items/Consumables/Potato/Files/Icon_Potato.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dtpbe57vc1kyu" path="res://Items/Consumables/Potato/Potato_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Potato"
+name = "Potato"
+inventory = "Potato"
+rotated = "Potato"
+equipment = "Potato"
+display = "Potato"
+type = "Consumables"
+weight = 0.2
+value = 10
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Eat (Raw)"
+audio = ExtResource("1")
+energy = 10.0
+hydration = -5.0
+mental = -10.0
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

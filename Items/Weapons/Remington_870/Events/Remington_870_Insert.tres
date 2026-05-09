@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://q82lqwgwcxju"]
+
+[ext_resource type="AudioStream" uid="uid://x68101de20if" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Insert_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cgd6aau2wsxvu" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Insert_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dimaqkrwvkhl5" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Insert_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://b0fq18klu550b" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Insert_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://dnw8ej3a120q2" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Insert_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cd2w1807fuv4d" path="res://Items/Weapons/Remington_870/Audio/Remington_870_Insert_06.wav" id="6"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

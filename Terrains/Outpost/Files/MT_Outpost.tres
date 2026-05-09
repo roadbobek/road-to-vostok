@@ -1,0 +1,74 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://55bnoay1wm7w"]
+
+[ext_resource type="Shader" uid="uid://di66owgqyx0f5" path="res://Shaders/Terrain.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://b5nw0qtwq5pnh" path="res://Terrains/Textures/TX_Grass_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cj4c168tofpsf" path="res://Terrains/Textures/TX_Grass_NR.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dkw713m6mg1mb" path="res://Terrains/Textures/TX_Ground_AL.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dytnvd6xquwo1" path="res://Terrains/Textures/TX_Ground_NR.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dpqqqneajlkxh" path="res://Terrains/Textures/TX_Hay_AL.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b7ktoomrlyvkh" path="res://Terrains/Textures/TX_Hay_NR.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://duonbjjwuya0w" path="res://Terrains/Textures/TX_Field_AL.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://nrrieh7k1p5a" path="res://Terrains/Textures/TX_Field_NR.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d3qejta3n33ta" path="res://Terrains/Textures/TX_Dirt_AL.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://crdmpd2kvk0am" path="res://Terrains/Textures/TX_Dirt_NR.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ce8cb52pdustp" path="res://Terrains/Textures/TX_Rocks_AL.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://2ahb53fxw6vh" path="res://Terrains/Textures/TX_Rocks_NR.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dmbdbiii3a2r3" path="res://Modular/Textures/TX_Checker.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b82pqsjqpnok0" path="res://Terrains/Textures/TX_Grass_Far_AL.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cmlhq3ejuvc6r" path="res://Terrains/Textures/TX_Hay_Far_AL.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://btt6w4hj0ytih" path="res://Terrains/Textures/TX_Bump_NR.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://donot3l3dird3" path="res://Terrains/Outpost/Files/TX_Outpost_Roads.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bn5huoc5gqkp7" path="res://Terrains/Textures/TX_Snow_NR.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://27rkjeiwojdg" path="res://Terrains/Textures/TX_Trash_AL.tga" id="20"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/ABaseAlbedo = ExtResource("2")
+shader_parameter/ABaseNormal = ExtResource("3")
+shader_parameter/AOverlayAlbedo = ExtResource("4")
+shader_parameter/AOverlayNormal = ExtResource("5")
+shader_parameter/ADryLimiter = 0.5
+shader_parameter/AWetLimiter = 0.20000000298024
+shader_parameter/ABump = 0.5000000074506
+shader_parameter/RBaseAlbedo = ExtResource("10")
+shader_parameter/RBaseNormal = ExtResource("11")
+shader_parameter/ROverlayAlbedo = ExtResource("12")
+shader_parameter/ROverlayNormal = ExtResource("13")
+shader_parameter/RBlend = 1.0
+shader_parameter/RDryLimiter = 0.5
+shader_parameter/RWetLimiter = 0.5
+shader_parameter/RBump = 0.5000000074506
+shader_parameter/GBaseAlbedo = ExtResource("8")
+shader_parameter/GBaseNormal = ExtResource("9")
+shader_parameter/GOverlayAlbedo = ExtResource("8")
+shader_parameter/GOverlayNormal = ExtResource("9")
+shader_parameter/GBlend = 1.0
+shader_parameter/GDryLimiter = 0.5
+shader_parameter/GWetLimiter = 0.30000000447036
+shader_parameter/GBump = 0.5
+shader_parameter/BBaseAlbedo = ExtResource("6")
+shader_parameter/BBaseNormal = ExtResource("7")
+shader_parameter/BOverlayAlbedo = ExtResource("6")
+shader_parameter/BOverlayNormal = ExtResource("7")
+shader_parameter/BBlend = 1.0
+shader_parameter/BDryLimiter = 0.5
+shader_parameter/BWetLimiter = 0.30000000447036
+shader_parameter/BBump = 0.5
+shader_parameter/enableGrass = true
+shader_parameter/enableHay = true
+shader_parameter/farDistance = 40.0
+shader_parameter/grassFar = ExtResource("15")
+shader_parameter/hayFar = ExtResource("16")
+shader_parameter/enableRoads = true
+shader_parameter/enableBump = true
+shader_parameter/enableTrash = true
+shader_parameter/roadMask = ExtResource("18")
+shader_parameter/roadBump = ExtResource("17")
+shader_parameter/trash = ExtResource("20")
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = true
+shader_parameter/snowNormal = ExtResource("19")
+shader_parameter/debug = false
+shader_parameter/checkerMap = ExtResource("14")

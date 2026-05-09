@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cp3fd08eyxrq1"]
+
+[ext_resource type="Texture2D" uid="uid://pwvqvakkabid" path="res://Items/Clothing/Jacket_Santa/Files/Icon_Jacket_Santa.png" id="1"]
+[ext_resource type="Material" uid="uid://b64pyrcg5bahy" path="res://Items/Clothing/Jacket_Santa/Files/MT_Jacket_Santa_Sleeves.tres" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bljwboa6kg812" path="res://Items/Clothing/Jacket_Santa/Jacket_Santa_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Jacket_Santa"
+name = "Santa Jacket"
+inventory = "Santa Jacket"
+rotated = "Santa Jacket"
+equipment = "Santa J."
+display = "Santa J."
+type = "Clothing"
+weight = 0.4
+value = 500
+rarity = 2
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+slots = ["Torso"]
+material = ExtResource("2")
+capacity = 5.0
+insulation = 20.0
+civilian = true

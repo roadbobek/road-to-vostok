@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bxnacphobsyiq"]
+
+[ext_resource type="Resource" uid="uid://d1bmh8snupllm" path="res://Audio/Use/Smoke.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bxex62hde6lme" path="res://Items/Consumables/Cigars/Files/Icon_Cigars.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bsxnpxaddqp4k" path="res://Items/Consumables/Cigars/Cigars_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Cigars"
+name = "Cigars"
+inventory = "Cigars"
+rotated = "Cigars"
+equipment = "Cigars"
+display = "Cigars"
+type = "Consumables"
+weight = 0.4
+value = 450
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+usable = true
+phrase = "Smoke"
+audio = ExtResource("1")
+mental = 50.0
+material = null
+civilian = true

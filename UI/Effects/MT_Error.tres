@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://4bxa1sl63c7n"]
+
+[ext_resource type="Shader" uid="uid://c0ugwqxpryhmm" path="res://Shaders/Error.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/thickness = 2.000000095
+shader_parameter/intensity = 0.2000000095

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="SpawnerChunkData" format=3 uid="uid://uwsq3gc3c2pe"]
+
+[ext_resource type="ArrayMesh" uid="uid://dcu7bddd08ms" path="res://Assets/Hay_Bale/Files/MS_Hay_Bale_LOD1.obj" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://cuom5fy1p7ek0" path="res://Assets/Hay_Bale/Files/MS_Hay_Bale_Collider.obj" id="2"]
+[ext_resource type="Material" uid="uid://b1i2cey0m05lb" path="res://Assets/Hay_Bale/Files/MT_Hay_Bale.tres" id="3"]
+[ext_resource type="ArrayMesh" uid="uid://bjl1hn68ojm1" path="res://Assets/Hay_Bale/Files/MS_Hay_Bale_LOD0.obj" id="4"]
+[ext_resource type="Script" uid="uid://d3abg51jgmr3k" path="res://Scripts/SpawnerChunkData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+mesh = ExtResource("4")
+LOD = ExtResource("1")
+collider = ExtResource("2")
+material = ExtResource("3")
+layer = 1
+renderEnd = 600.0
+surface = "Grass"
+density = 0.05
+farDensity = 0.05
+minDistance = 5.0
+maxScale = 1.5
+perimeter = 2
+perimeterType = 3
+metadata/_custom_type_script = "uid://d3abg51jgmr3k"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cp6fpfior02vw"]
+
+[ext_resource type="AudioStream" uid="uid://b6gsqh4b108o0" path="res://Items/Weapons/Colt_1911/Audio/Colt_1911_Magazine_Attach_Empty.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

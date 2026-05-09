@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://boof4wv8k6fec"
+path="res://.godot/imported/MS_Laser_Point.obj-f20405ddba7e9fdf7b3404817835e478.mesh"
+
+[deps]
+
+source_file="res://Items/Attachments/Common/Lasers/Files/MS_Laser_Point.obj"
+dest_files=["res://.godot/imported/MS_Laser_Point.obj-f20405ddba7e9fdf7b3404817835e478.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cs5vulpp7oqx2"
+path="res://.godot/imported/MS_Minefield_Terrain.obj-ac7c8c99efd4497b53fb1d0c7e22c9ca.mesh"
+
+[deps]
+
+source_file="res://Terrains/Minefield/Files/MS_Minefield_Terrain.obj"
+dest_files=["res://.godot/imported/MS_Minefield_Terrain.obj-ac7c8c99efd4497b53fb1d0c7e22c9ca.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

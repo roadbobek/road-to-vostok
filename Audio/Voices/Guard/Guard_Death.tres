@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ghi8gaeimf4m"]
+
+[ext_resource type="AudioStream" uid="uid://cd0myml7stj8k" path="res://Audio/Voices/Guard/Files/Guard_Death_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cweixm6tdy0pp" path="res://Audio/Voices/Guard/Files/Guard_Death_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://pgjsbkhvi3sd" path="res://Audio/Voices/Guard/Files/Guard_Death_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dwycj6v30j55v" path="res://Audio/Voices/Guard/Files/Guard_Death_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cfivny27w7edw" path="res://Audio/Voices/Guard/Files/Guard_Death_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bhnjb86w7hpyy" path="res://Audio/Voices/Guard/Files/Guard_Death_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bdaqmyjbcgee6" path="res://Audio/Voices/Guard/Files/Guard_Death_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://cc1pfvw6whodo" path="res://Audio/Voices/Guard/Files/Guard_Death_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://r2ayjvdmvnwk" path="res://Audio/Voices/Guard/Files/Guard_Death_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cbil06po17ose" path="res://Audio/Voices/Guard/Files/Guard_Death_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://ewioy27n8u46" path="res://Audio/Voices/Guard/Files/Guard_Death_11.wav" id="11"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="12"]
+
+[resource]
+script = ExtResource("12")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

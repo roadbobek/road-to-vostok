@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cbfv3wplv6l3o"]
+
+[ext_resource type="Resource" uid="uid://dfgroek3kc1sm" path="res://Audio/Use/Drink_Bottle.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bdqergjpcj3mb" path="res://Items/Consumables/Water_Bottle/Files/Icon_Water_Bottle.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://ii02m3wjheko" path="res://Items/Consumables/Water_Bottle/Water_Bottle_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Water_Bottle"
+name = "Water Bottle"
+inventory = "Water"
+rotated = "Water"
+equipment = "Water"
+display = "Water"
+type = "Consumable"
+weight = 0.5
+value = 300
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+hydration = 75.0
+mental = 15.0
+material = null
+freezable = true
+civilian = true
+industrial = true
+military = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ch5e0qnwxlt5j"]
+
+[ext_resource type="Resource" uid="uid://c15m7nmtph08y" path="res://Audio/Use/IFAK.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dab0tpkro2fi7" path="res://Items/Medical/AFAK/Files/Icon_AFAK.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bdyfpe0netwt2" path="res://Items/Medical/AFAK/AFAK_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "AFAK"
+name = "AFAK"
+inventory = "AFAK"
+rotated = "AFAK"
+equipment = "AFAK"
+display = "AFAK"
+type = "Medical"
+weight = 1.2
+value = 2850
+rarity = 2
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+health = 100.0
+energy = 100.0
+hydration = 100.0
+mental = 100.0
+temperature = 100.0
+bleeding = true
+fracture = true
+burn = true
+insanity = true
+rupture = true
+headshot = true
+material = null
+military = true

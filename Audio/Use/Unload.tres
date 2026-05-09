@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ckmc7k34lnq0x"]
+
+[ext_resource type="AudioStream" uid="uid://nrty6la8hbu7" path="res://Audio/Use/Files/Unload.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]

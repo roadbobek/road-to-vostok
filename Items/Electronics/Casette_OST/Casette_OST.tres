@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="CasetteData" format=3 uid="uid://otcuy746h7dx"]
+
+[ext_resource type="Texture2D" uid="uid://bfsiw3n4q6tpa" path="res://Items/Electronics/Casette_OST/Files/Icon_Casette_OST.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://3iprw3dl62i0" path="res://Items/Electronics/Casette_OST/Files/Icon_Casette_OST_Preview.png" id="2"]
+[ext_resource type="Script" uid="uid://b8syw8cg4twc2" path="res://Scripts/CasetteData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://knmfgjkb1y56" path="res://Items/Electronics/Casette_OST/Casette_OST_1x1.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://dy824fygux0lm" path="res://Items/Electronics/Casette_OST/Tracks/OST_Alive.tres" id="5"]
+[ext_resource type="Resource" uid="uid://w8550sy2hmub" path="res://Items/Electronics/Casette_OST/Tracks/OST_Daybreak.tres" id="6"]
+[ext_resource type="Resource" uid="uid://ckno2m1qkp2y5" path="res://Items/Electronics/Casette_OST/Tracks/OST_Far.tres" id="7"]
+[ext_resource type="Resource" uid="uid://xlcejed7ojgb" path="res://Items/Electronics/Casette_OST/Tracks/OST_Lost.tres" id="8"]
+[ext_resource type="Resource" uid="uid://ddvvjvh067pvm" path="res://Items/Electronics/Casette_OST/Tracks/OST_Rain.tres" id="9"]
+[ext_resource type="Resource" uid="uid://drj140i6m0yao" path="res://Items/Electronics/Casette_OST/Tracks/OST_Road.tres" id="10"]
+[ext_resource type="Resource" uid="uid://7h7ob012ekkr" path="res://Items/Electronics/Casette_OST/Tracks/OST_Trailer.tres" id="11"]
+[ext_resource type="Resource" uid="uid://dn8wgov2xefdd" path="res://Items/Electronics/Casette_OST/Tracks/OST_Winds.tres" id="12"]
+
+[resource]
+script = ExtResource("3")
+preview = ExtResource("2")
+artist = "OST"
+tracks = [ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+file = "Casette_OST"
+name = "Casette (OST)"
+inventory = "Casette"
+rotated = "Casette"
+equipment = "Casette"
+display = "Casette"
+type = "Electronics"
+subtype = "Casette"
+weight = 0.1
+value = 150
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("4")
+audio = null
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://b8syw8cg4twc2"

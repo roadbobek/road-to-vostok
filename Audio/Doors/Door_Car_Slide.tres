@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://nar54svhdu4i"]
+
+[ext_resource type="AudioStream" uid="uid://bhk05faw21dwa" path="res://Audio/Doors/Files/Door_Car_Slide_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dmjec0oyc16bm" path="res://Audio/Doors/Files/Door_Car_Slide_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c0f23p618fcxm" path="res://Audio/Doors/Files/Door_Car_Slide_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]

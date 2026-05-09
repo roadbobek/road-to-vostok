@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cb641mub6ny4d"]
+
+[ext_resource type="Shader" uid="uid://emvp7bjkbhdc" path="res://Shaders/Scope.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://hmnt8s6aaq38" path="res://Items/Attachments/Vudu/Files/TX_Vudu_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cyrg4n41oc3b1" path="res://Items/Attachments/Vudu/Files/TX_Vudu_NR.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c0pqum2bw5em2" path="res://Items/Attachments/Vudu/Files/TX_Vudu_AO.png" id="4"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.0
+shader_parameter/occlusion = ExtResource("4")
+shader_parameter/occlusionAmount = 1.0
+shader_parameter/dynamic = true
+shader_parameter/fractional = false
+shader_parameter/enableRain = true
+shader_parameter/metal = true
+shader_parameter/viewmodel = false

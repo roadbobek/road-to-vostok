@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://lvcxlfxwwon7"]
+
+[ext_resource type="Texture2D" uid="uid://bbmi617lgkbg0" path="res://Items/Misc/Toilet_Paper/Files/Icon_Toilet_Paper.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://da25rt0rkq56l" path="res://Items/Misc/Toilet_Paper/Toilet_Paper_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Toilet_Paper"
+name = "Toilet Paper"
+inventory = "T. Paper"
+rotated = "T. Paper"
+equipment = "T. Paper"
+display = "T. Paper"
+type = "Misc"
+weight = 0.1
+value = 25
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+civilian = true
+doctor = true

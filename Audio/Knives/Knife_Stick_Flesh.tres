@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cj2yaa6lm7f1u"]
+
+[ext_resource type="AudioStream" uid="uid://ccipauson12cl" path="res://Audio/Knives/Files/Knife_Stick_Flesh_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://b1my7dhf1koe4" path="res://Audio/Knives/Files/Knife_Stick_Flesh_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cckrk5xtl0ce1" path="res://Audio/Knives/Files/Knife_Stick_Flesh_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]

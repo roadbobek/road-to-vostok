@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://b0gf1siffnju8"]
+
+[ext_resource type="AudioStream" uid="uid://cdmbsh2dh21hc" path="res://Audio/Dynamic/Files/Woodpidgeon_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dkxa5hqxxyav4" path="res://Audio/Dynamic/Files/Woodpidgeon_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://b1jj1kljinyx6" path="res://Audio/Dynamic/Files/Woodpidgeon_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]

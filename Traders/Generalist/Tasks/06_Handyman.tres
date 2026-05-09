@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://bqbbym2nlq1ep"]
+
+[ext_resource type="Resource" uid="uid://7n1jq66sgffy" path="res://Items/Misc/Lumber/Lumber.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dles1nhq168uw" path="res://Items/Misc/Toolbox/Toolbox.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bohb7builytcn" path="res://Items/Misc/Bucket/Bucket.tres" id="3"]
+[ext_resource type="Resource" uid="uid://o5hiiqvev8j5" path="res://Items/Misc/Duct_Tape/Duct_Tape.tres" id="4"]
+[ext_resource type="Resource" uid="uid://ft4ugh4fth52" path="res://Items/Misc/Nails/Nails.tres" id="5"]
+[ext_resource type="Resource" uid="uid://c2gmwypl4oevt" path="res://Assets/Table_Office/Table_Office_F.tres" id="6"]
+[ext_resource type="Resource" uid="uid://cnfkeirl4m866" path="res://Assets/Cabinet_Office/Cabinet_Office_F.tres" id="7"]
+[ext_resource type="Resource" uid="uid://da3lkjj50vi8i" path="res://Assets/Chair_Office/Chair_Office_F.tres" id="8"]
+[ext_resource type="Resource" uid="uid://c010y5m3l3nga" path="res://Assets/Carpet/Carpet_Persian_F.tres" id="9"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="10"]
+
+[resource]
+script = ExtResource("10")
+trader = "Generalist"
+name = "Handyman"
+difficulty = "Intermediate"
+description = "You know that old lady who still lives near the Border Zone? Well, she's blind and no matter how many times I have warned her about electronics, she keeps fiddling around with different buttons and then everything gets messed up!
+
+Now there's a broken stove, the freezer has melted and apparently the radio is once again \"misbehaving.\" On top of this, during a storm last week, a tree fell directly onto her porch roof and it has now somewhat collapsed, so we are dealing with a clusterfuck of issues.
+
+I'm getting tired of being her handyman, but I promised to help this one last time."
+deliver = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+receive = [ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

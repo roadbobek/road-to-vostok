@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://cgdo2mat053xg"]
+
+[ext_resource type="Resource" uid="uid://bg31ca6psv4uf" path="res://Items/Clothing/Beanie_Flame/Beanie_Flame.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bbes57arj2els" path="res://Items/Keys/Key_Bunker.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Gunsmith"
+name = "Hitman"
+difficulty = "Hard"
+description = "In Area 05, there’s a guy we call the Punisher. He comes from the Finnish criminal underworld, some say he’s a debt collector for one of the major biker gangs.
+
+Every now and then, this guy steps in and asks for fucking payments for some self-made debt. Usually, I would shoot these clowns at the front door but this one is as tough as nails. Punisher and his minions also recently stole a police van, so they even have a lightly armored vehicle now.
+
+Somebody has to put an end to this clown show, so I basically need a hitman. Bring me his head or something else to prove that he’s dead and I will give you the keys to my storage bunker."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

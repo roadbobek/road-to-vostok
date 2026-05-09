@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://bu3mwrs046c04"]
+
+[ext_resource type="Texture2D" uid="uid://dy6bowj2771ii" path="res://Items/Attachments/SRO/Files/Icon_SRO.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cu8rpmkvbs6tr" path="res://Items/Attachments/SRO/SRO_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "SRO"
+name = "RSO"
+inventory = "RSO"
+rotated = "RSO"
+equipment = "RSO"
+display = "RSO"
+type = "Attachment"
+subtype = "Optic"
+weight = 0.1
+value = 840
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+military = true
+orientation = 90.0
+wallOffset = 0.025

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://bs788yfx3lr43"]
+
+[ext_resource type="Resource" uid="uid://qtei2gm7er1e" path="res://Items/Consumables/Beer/Beer.tres" id="1"]
+[ext_resource type="Resource" uid="uid://comkdkef4s0ur" path="res://Items/Weapons/Mosin/Mosin.tres" id="2"]
+[ext_resource type="Resource" uid="uid://blhms5luhtnsm" path="res://Items/Attachments/PU/PU.tres" id="3"]
+[ext_resource type="Resource" uid="uid://8oa16vvtseh5" path="res://Items/Ammo/Ammo_762x54R/Ammo_762x54R.tres" id="4"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+trader = "Generalist"
+name = "Six Pack"
+difficulty = "Hard"
+description = "Every man has a weak spot, mine is warm cheap beer, especially on a frosty winter morning.
+
+When winter comes, you have to keep them warm and close to your body. It may sound gross, but trust me, you don't want to drink a wheat sorbet when you're roaming around in the cold. Armpits or crotch are the best spots to keep them warm, you radiate a lot of heat from there and you can keep an entire six-pack warm if you can manage them right.
+
+Speaking of six-packs, I could definitely take one for my road trip, six for the road, as they say."
+deliver = [ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("4"), ExtResource("4")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

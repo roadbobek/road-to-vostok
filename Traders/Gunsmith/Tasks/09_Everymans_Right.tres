@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://djnyrgnqxuk5c"]
+
+[ext_resource type="Resource" uid="uid://chvp357vm5vtc" path="res://Items/Electronics/PV7/PV7.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bmbe1igdlig75" path="res://Assets/Sign_Border_Zone/Sign_Border_Zone_F.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Gunsmith"
+name = "Everyman's Right"
+difficulty = "Hard"
+description = "I recently took a hike out to the Border Zone and collected some mushrooms.
+
+In Finland, we have Everyman’s Rights, which grant us the right to use nature regardless of who owns or occupies the area. It’s probably the best law we have.
+
+However, I have to admit that sometimes I step into a grey area and collect stuff that isn't just mushrooms. For example, a few months ago, I found a fallen Border Zone sign in a ditch. Since it was covered in leaves and dirt, I figured it belonged to nature which makes it part of Everyman’s Rights in my mind.
+
+Even though this sign is a nice decorative piece, it’s a bit too colorful for my taste. You seem like a man who would appreciate this. Maybe we can do a small trade for it, but I'm not giving this away for anything cheap."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

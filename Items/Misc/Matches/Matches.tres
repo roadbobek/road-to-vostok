@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://m8akhgds1v0x"]
+
+[ext_resource type="Texture2D" uid="uid://bbmsupn1cp8fn" path="res://Items/Misc/Matches/Files/Icon_Matches.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://d2d07vosg5sc7" path="res://Items/Misc/Matches/Matches_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Matches"
+name = "Matches"
+inventory = "Mat."
+rotated = "Mat."
+equipment = "Mat."
+display = "Mat."
+type = "Misc"
+subtype = "Matches"
+weight = 0.1
+value = 20
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+slots = ["Matches"]
+material = null
+showAmount = true
+defaultAmount = 20
+maxAmount = 300
+stackable = true
+civilian = true
+military = true
+gunsmith = true
+grandma = true

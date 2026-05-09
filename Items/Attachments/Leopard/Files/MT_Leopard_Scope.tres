@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cs60k02rdf8ox"]
+
+[ext_resource type="Shader" uid="uid://emvp7bjkbhdc" path="res://Shaders/Scope.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://b51e4i2y6bgys" path="res://Items/Attachments/Leopard/Files/TX_Leopard_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bbb6msner2xv8" path="res://Items/Attachments/Leopard/Files/TX_Leopard_NR.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bi3r0yr6wl3ns" path="res://Items/Attachments/Leopard/Files/TX_Leopard_AO.png" id="4"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.0
+shader_parameter/occlusion = ExtResource("4")
+shader_parameter/occlusionAmount = 1.0
+shader_parameter/dynamic = true
+shader_parameter/fractional = false
+shader_parameter/enableRain = true
+shader_parameter/metal = true
+shader_parameter/viewmodel = false

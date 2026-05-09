@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://j34q62g10gpj"]
+
+[ext_resource type="Resource" uid="uid://dn6fbt6umamxn" path="res://Items/Grenades/F1/F1.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c8vbxxxmejyky" path="res://Items/Grenades/RGD-5/RGD-5.tres" id="2"]
+[ext_resource type="Resource" uid="uid://hsn4uvwfsftr" path="res://Items/Grenades/M50/M50.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cd6kxphaliqe2" path="res://Items/Grenades/M43/M43.tres" id="4"]
+[ext_resource type="Resource" uid="uid://pfrku2gts7cu" path="res://Items/Knives/Jaeger_140/Jaeger_140.tres" id="5"]
+[ext_resource type="Resource" uid="uid://bmntroomtw10g" path="res://Items/Knives/Skrama_200/Skrama_200.tres" id="6"]
+[ext_resource type="Resource" uid="uid://b4i42kg6wf6oo" path="res://Items/Knives/Skrama_240/Skrama_240.tres" id="7"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="8"]
+
+[resource]
+script = ExtResource("8")
+items = [ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("1"), ExtResource("2"), ExtResource("2"), ExtResource("2"), ExtResource("2"), ExtResource("2"), ExtResource("2"), ExtResource("2"), ExtResource("2"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("3"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

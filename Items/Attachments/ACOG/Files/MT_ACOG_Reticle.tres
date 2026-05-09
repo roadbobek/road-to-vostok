@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dujw0ucswerpk"]
+
+[ext_resource type="Shader" uid="uid://ct2ohfsf4tikk" path="res://Shaders/Reticle.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://db05lrv35tlt8" path="res://Items/Attachments/ACOG/Files/TX_ACOG_Reticle.png" id="2"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/scope = true
+shader_parameter/reticle = ExtResource("2")
+shader_parameter/opacity = 0.0
+shader_parameter/size = 0.1
+shader_parameter/intensity = 5.0

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://d1bmh8snupllm"]
+
+[ext_resource type="AudioStream" uid="uid://hrqixyna1dqj" path="res://Audio/Use/Files/Smoke_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dh6umcox6g2it" path="res://Audio/Use/Files/Smoke_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cp37mk8865nm4" path="res://Audio/Use/Files/Smoke_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

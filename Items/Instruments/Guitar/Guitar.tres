@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="InstrumentData" format=3 uid="uid://bm7nd66j6hgen"]
+
+[ext_resource type="Texture2D" uid="uid://dxldjbdxhtqls" path="res://Items/Instruments/Guitar/Files/Icon_Guitar.png" id="1"]
+[ext_resource type="Script" uid="uid://ck45qc22fxjsx" path="res://Scripts/InstrumentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://doefb36lrt8vj" path="res://Items/Instruments/Guitar/Guitar_5x2.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+idlePosition = Vector3(-0.065, -0.01, 0)
+playPosition = Vector3(0, -0.05, -0.05)
+collisionRotation = Vector3(10, 10, 0)
+file = "Guitar"
+name = "Guitar"
+inventory = "Guitar"
+rotated = "Guitar"
+equipment = "Guitar"
+display = "Guitar"
+type = "Instrument"
+weight = 2.2
+value = 1280
+rarity = 2
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(5, 2)
+audio = null
+slots = ["Primary", "Secondary"]
+material = null
+civilian = true

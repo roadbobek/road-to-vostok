@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bhro0didtogxa"]
+
+[ext_resource type="AudioStream" uid="uid://cfog4sudp1k53" path="res://Audio/Water/Files/Swim_Surface_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cvylf743d74pr" path="res://Audio/Water/Files/Swim_Surface_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://yo8f0wk65e2o" path="res://Audio/Water/Files/Swim_Surface_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bv6iqv45slg2a" path="res://Audio/Water/Files/Swim_Surface_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://c76p85u811lti" path="res://Audio/Water/Files/Swim_Surface_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bluafgb86efxb" path="res://Audio/Water/Files/Swim_Surface_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://b4vfv66a86i5u" path="res://Audio/Water/Files/Swim_Surface_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://ochkgbscvw1m" path="res://Audio/Water/Files/Swim_Surface_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="CasetteData" format=3 uid="uid://ck4tywl25mlta"]
+
+[ext_resource type="Texture2D" uid="uid://b84gl3c8c2ekm" path="res://Items/Electronics/Casette_Radio/Files/Icon_Casette_Radio.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://sax3jcy4v6px" path="res://Items/Electronics/Casette_Radio/Files/Icon_Casette_Radio_Preview.png" id="2"]
+[ext_resource type="Script" uid="uid://b8syw8cg4twc2" path="res://Scripts/CasetteData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bpfedes7o6xxt" path="res://Items/Electronics/Casette_Radio/Casette_Radio_1x1.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://b4n5om6oh5ewp" path="res://Items/Electronics/Casette_Radio/Tracks/Radio_Vostok_Tango.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dyvm3vcew026" path="res://Items/Electronics/Casette_Radio/Tracks/Radio_Kun_Jalat_Vielä_Kantaa.tres" id="6"]
+[ext_resource type="Resource" uid="uid://q1v5illq7vrw" path="res://Items/Electronics/Casette_Radio/Tracks/Radio_Rakkaus_On_Kuollut.tres" id="7"]
+[ext_resource type="Resource" uid="uid://bqaauwn5fccsk" path="res://Items/Electronics/Casette_Radio/Tracks/Radio_Viimeinen_Ruusu.tres" id="8"]
+
+[resource]
+script = ExtResource("3")
+preview = ExtResource("2")
+artist = "Radio Hits"
+tracks = [ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+file = "Casette_Radio"
+name = "Casette (Radio Hits)"
+inventory = "Casette"
+rotated = "Casette"
+equipment = "Casette"
+display = "Casette"
+type = "Electronics"
+subtype = "Casette"
+weight = 0.1
+value = 150
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("4")
+audio = null
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://b8syw8cg4twc2"

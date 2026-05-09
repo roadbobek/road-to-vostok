@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cgue782gx47v0"]
+
+[ext_resource type="Texture2D" uid="uid://6twn0y66d843" path="res://Effects/Files/TX_Muzzle_Flash.png" id="1"]
+
+[resource]
+transparency = 4
+blend_mode = 1
+albedo_color = Color(1, 1, 1, 0.501961)
+albedo_texture = ExtResource("1")
+emission_enabled = true
+emission = Color(1, 0.586819, 0.349302, 1)
+emission_energy_multiplier = 10.0
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false

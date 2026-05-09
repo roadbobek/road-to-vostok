@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cicemk35gl7ch"
+path="res://.godot/imported/Military_Combat_18 (Missä Kapteeni!).wav-9145f0b14a495a4b417d286f5afeb148.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_18 (Missä Kapteeni!).wav"
+dest_files=["res://.godot/imported/Military_Combat_18 (Missä Kapteeni!).wav-9145f0b14a495a4b417d286f5afeb148.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

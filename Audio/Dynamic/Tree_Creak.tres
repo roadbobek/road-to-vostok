@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://skp3s2ruhfl5"]
+
+[ext_resource type="AudioStream" uid="uid://bhxc8d64bymj7" path="res://Audio/Dynamic/Files/Tree_Creak_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://2kpwfcvsbbxq" path="res://Audio/Dynamic/Files/Tree_Creak_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c25re6pa5yogu" path="res://Audio/Dynamic/Files/Tree_Creak_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://brt1wgafrbyfk" path="res://Audio/Dynamic/Files/Tree_Creak_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cp06fh8javq28" path="res://Audio/Dynamic/Files/Tree_Creak_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cg8nl3klrv6vg" path="res://Audio/Dynamic/Files/Tree_Creak_06.wav" id="6"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://drwud6tjjlhah"]
+
+[ext_resource type="AudioStream" uid="uid://dqki4yavp60x8" path="res://Audio/Voices/Generalist/Files/Generalist_Start_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://kuqxl36p5o4l" path="res://Audio/Voices/Generalist/Files/Generalist_Start_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://blp0mh7b8sf5" path="res://Audio/Voices/Generalist/Files/Generalist_Start_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://srqll1a80xu3" path="res://Audio/Voices/Generalist/Files/Generalist_Start_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://dsgfoj0vn03j8" path="res://Audio/Voices/Generalist/Files/Generalist_Start_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://d4rtpjbn7jhp" path="res://Audio/Voices/Generalist/Files/Generalist_Start_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://b35b2quunng1" path="res://Audio/Voices/Generalist/Files/Generalist_Start_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://db385wlrijt70" path="res://Audio/Voices/Generalist/Files/Generalist_Start_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://d2qm3uakkm7dd" path="res://Audio/Voices/Generalist/Files/Generalist_Start_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://svumjcgmo88r" path="res://Audio/Voices/Generalist/Files/Generalist_Start_10.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]
+volume = -17.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

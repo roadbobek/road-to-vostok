@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cfixi7hobp1or"]
+
+[ext_resource type="AudioStream" uid="uid://b4rhgfued1oe0" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://rvt6ceacndw7" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bejwpc2fxucyk" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://d23cqo1vd8beh" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cqg6pm0dx7x8m" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://n5pycjiejl4s" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://24ytqddi38eq" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://6u8dfkutm0k" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://drv1foi4713qo" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://c13yo4qii8tu1" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://x8nypampdgdo" path="res://Audio/Voices/Bandit/Files/Bandit_Combat_11.wav" id="11"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="12"]
+
+[resource]
+script = ExtResource("12")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

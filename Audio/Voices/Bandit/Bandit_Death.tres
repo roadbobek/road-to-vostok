@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dirny5ieauyf7"]
+
+[ext_resource type="AudioStream" uid="uid://xbtuc2ykefpq" path="res://Audio/Voices/Bandit/Files/Bandit_Death_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dvnlqfm827n27" path="res://Audio/Voices/Bandit/Files/Bandit_Death_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://tjl8v4k4cqkw" path="res://Audio/Voices/Bandit/Files/Bandit_Death_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dpioe5par8d7w" path="res://Audio/Voices/Bandit/Files/Bandit_Death_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://i7qbd4a0pr4o" path="res://Audio/Voices/Bandit/Files/Bandit_Death_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://c6mdkhhu2ns40" path="res://Audio/Voices/Bandit/Files/Bandit_Death_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dmjpe7pj1pr0t" path="res://Audio/Voices/Bandit/Files/Bandit_Death_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bicrkhgnsev7j" path="res://Audio/Voices/Bandit/Files/Bandit_Death_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cxo4u0sgrf5ba" path="res://Audio/Voices/Bandit/Files/Bandit_Death_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://inmwsoafosym" path="res://Audio/Voices/Bandit/Files/Bandit_Death_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cve5ph6w0iw78" path="res://Audio/Voices/Bandit/Files/Bandit_Death_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://c0b8m3piixwow" path="res://Audio/Voices/Bandit/Files/Bandit_Death_12.wav" id="12"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="13"]
+
+[resource]
+script = ExtResource("13")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]

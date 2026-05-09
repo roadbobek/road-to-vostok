@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c8uojeljtbo8i"]
+
+[ext_resource type="Resource" uid="uid://chkpttcyr5p52" path="res://Items/Armor/Armor_Plate_II.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b0gycju3narj2" path="res://Items/Armor/Armor_Plate_IIIA.tres" id="2"]
+[ext_resource type="Resource" uid="uid://b3sjx7xiu6io0" path="res://Items/Armor/Armor_Plate_III.tres" id="3"]
+[ext_resource type="Resource" uid="uid://b513263cvisw" path="res://Items/Armor/Armor_Plate_III+.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bn4kyo7csu6qs" path="res://Items/Armor/Armor_Plate_IV.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://byi4u3cc7yh1n" path="res://Items/Rigs/LVPC/Files/Icon_LVPC_Winter.png" id="6"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="7"]
+[ext_resource type="PackedScene" uid="uid://be4mvdlgwiy4w" path="res://Items/Rigs/LVPC/LVPC_Winter_3x3.tscn" id="8"]
+
+[resource]
+script = ExtResource("7")
+file = "LVPC_Winter"
+name = "LVPC (Winter)"
+inventory = "LVPC"
+rotated = "LVPC"
+equipment = "LVPC"
+display = "LVPC"
+type = "Rig"
+weight = 0.5
+value = 380
+rarity = 1
+icon = ExtResource("6")
+tetris = ExtResource("8")
+size = Vector2(3, 3)
+audio = null
+compatible = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+slots = ["Rig"]
+material = null
+capacity = 10.0
+insulation = 3.0
+carrier = true
+military = true

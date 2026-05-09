@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bwnt6dh4up86p"]
+
+[ext_resource type="Shader" uid="uid://dhntu0usgjkcf" path="res://Shaders/Cable.gdshader" id="1"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = null
+shader_parameter/normal = null

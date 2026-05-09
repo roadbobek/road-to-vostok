@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://bh118authhpvo"]
+
+[ext_resource type="Resource" uid="uid://drifg3ow8l11p" path="res://Audio/Crafting/Craft_Boil.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dwi5pjdds2oul" path="res://Items/Misc/Mess_Kit/Mess_Kit.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bq3lwwd07yg5s" path="res://Items/Fishing/Perch/Perch.tres" id="3"]
+[ext_resource type="Resource" uid="uid://c0miqekrbn64x" path="res://Items/Consumables/Potato/Potato.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cbfv3wplv6l3o" path="res://Items/Consumables/Water_Bottle/Water_Bottle.tres" id="5"]
+[ext_resource type="Resource" uid="uid://brpdqhd43st2l" path="res://Items/Consumables/Cooked_Fish_Soup/Cooked_Fish_Soup.tres" id="6"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+name = "Fish Soup (Cooked)"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+output = [ExtResource("6")]
+heat = true
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

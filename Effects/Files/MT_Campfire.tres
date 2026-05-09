@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bixbe28a5impq"]
+
+[ext_resource type="Shader" uid="uid://dblq2crs0vccp" path="res://Shaders/Flipbook.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://7xevlnk8aib" path="res://Effects/Files/TX_Campfire.png" id="2"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/flipbook = ExtResource("2")
+shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/intensity = 4.0
+shader_parameter/HFrames = 8
+shader_parameter/VFrames = 8
+shader_parameter/loop = true
+shader_parameter/limitTilt = true

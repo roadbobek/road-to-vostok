@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://qkbwug4sq5q8"]
+
+[ext_resource type="Texture2D" uid="uid://c8l7alulriy6" path="res://Items/Attachments/Micro/Files/Icon_Micro.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dqu6rrmm6t76v" path="res://Items/Attachments/Micro/Micro_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Micro"
+name = "Micro"
+inventory = "Micro"
+rotated = "Micro"
+equipment = "Micro"
+display = "Micro"
+type = "Attachment"
+subtype = "Optic"
+weight = 0.2
+value = 450
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.025

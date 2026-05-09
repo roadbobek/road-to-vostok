@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://looubbr6ce6l"
+path="res://.godot/imported/Military_Idle_18 (Ottakaa yhteyttä komentopaikalle).wav-684d401f89f261d1daa5e3e2ee1fd6cd.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Idle_18 (Ottakaa yhteyttä komentopaikalle).wav"
+dest_files=["res://.godot/imported/Military_Idle_18 (Ottakaa yhteyttä komentopaikalle).wav-684d401f89f261d1daa5e3e2ee1fd6cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

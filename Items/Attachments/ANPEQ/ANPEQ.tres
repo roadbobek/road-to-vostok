@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://b8txn3xwvwhy5"]
+
+[ext_resource type="Texture2D" uid="uid://do6rjyw57d8pa" path="res://Items/Attachments/ANPEQ/Files/Icon_ANPEQ_Side.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://c0h30xwqu0hai" path="res://Items/Attachments/ANPEQ/ANPEQ_1x1_Side.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "ANPEQ"
+name = "AN-15"
+inventory = "AN-15"
+rotated = "AN-15"
+equipment = "AN-15"
+display = "AN-15"
+type = "Attachment"
+subtype = "Laser"
+weight = 0.2
+value = 2250
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+military = true
+orientation = 90.0
+wallOffset = 0.04

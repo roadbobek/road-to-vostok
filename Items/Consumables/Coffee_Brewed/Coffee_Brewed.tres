@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d38a2kcpt7gwl"]
+
+[ext_resource type="Resource" uid="uid://b8vs2flxr1whu" path="res://Audio/Use/Drink_Kilju.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dhoofq7xw887j" path="res://Items/Consumables/Coffee_Brewed/Files/Icon_Coffee_Brewed.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://chxe7gh5rh2r7" path="res://Items/Consumables/Coffee_Brewed/Coffee_Brewed_2x2.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://dwi5pjdds2oul" path="res://Items/Misc/Mess_Kit/Mess_Kit.tres" id="5"]
+
+[resource]
+script = ExtResource("3")
+file = "Coffee_Brewed"
+name = "Coffee (Brewed)"
+inventory = "Coffee (Brewed)"
+rotated = "Coffee (Brewed)"
+equipment = "Coffee (Brewed)"
+display = "C. Brewed"
+type = "Consumables"
+weight = 0.8
+value = 500
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+used = [ExtResource("5")]
+energy = 80.0
+hydration = 40.0
+mental = 25.0
+material = null
+freezable = true

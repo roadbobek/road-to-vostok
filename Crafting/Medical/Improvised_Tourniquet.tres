@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://52bg2nshoh6l"]
+
+[ext_resource type="Resource" uid="uid://bdhorw6h3eb62" path="res://Audio/Crafting/Craft_Fabric.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dk1t0xewej74t" path="res://Items/Misc/Rags/Rags.tres" id="2"]
+[ext_resource type="Resource" uid="uid://vomiyw8ijn2i" path="res://Items/Misc/Sticks/Sticks.tres" id="3"]
+[ext_resource type="Resource" uid="uid://n2jmvtirkx3u" path="res://Items/Medical/Tourniquet_Improvised/Tourniquet_Improvised.tres" id="4"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+name = "Tourniquet (Improvised)"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3")]
+output = [ExtResource("4")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

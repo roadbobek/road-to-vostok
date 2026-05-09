@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://c33he2qxbvbgv"]
+
+[ext_resource type="AudioStream" uid="uid://b75i6juv8yc7" path="res://Items/Weapons/M4A1/Audio/M4A1_Magazine_Attach_Empty.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

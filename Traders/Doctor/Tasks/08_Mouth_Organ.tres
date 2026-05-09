@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://f0grvf60qcl1"]
+
+[ext_resource type="Resource" uid="uid://b60v6745xnqf4" path="res://Items/Instruments/Harmonica/Harmonica.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b7wkv2c8c7mwf" path="res://Items/Medical/Medkit/Medkit.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Doctor"
+name = "Mouth Organ"
+difficulty = "Hard"
+description = "Music is the best antidepressant there is. Before my medical studies, I actually used to play the saxophone and horns in our navy orchestra and traveled across the country with those fancy golden pipes. Quite a career shift indeed.
+
+I tried playing my old instruments a few years ago, but you need healthy lungs for those, so I couldn't even get a sound out of the damn things anymore. My passion for mouth organs and musical skills is still there, but I think the cigars have done their damage already.
+
+It's never too late to start with an easier instrument, but I would need something really tiny that is suitable for an old cigar man like me. Maybe in the next life."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("2"), ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

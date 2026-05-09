@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bf6x3nvvwicgx"]
+
+[ext_resource type="Shader" uid="uid://cctlr3kwhc1lt" path="res://Shaders/Vignette.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/tint = Color(0.501961, 0, 0, 1)
+shader_parameter/intensity = 1.0
+shader_parameter/opacity = 0.0

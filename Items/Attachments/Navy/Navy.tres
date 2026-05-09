@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://bjk6l3ooygr18"]
+
+[ext_resource type="Texture2D" uid="uid://x6ccph4nfd8m" path="res://Items/Attachments/Navy/Files/Icon_Navy.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cgbwletlv7tav" path="res://Items/Attachments/Navy/Navy_2x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Navy"
+name = "Navy"
+inventory = "Navy"
+rotated = "Navy"
+equipment = "Navy"
+display = "Navy"
+type = "Attachment"
+subtype = "Muzzle"
+weight = 0.4
+value = 880
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 1)
+audio = null
+material = null
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.03

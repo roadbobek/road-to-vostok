@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://chvp357vm5vtc"]
+
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dwlp72tba7n1b" path="res://Items/Electronics/PV7/Files/Icon_PV7.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://byme0yjexowpj" path="res://Items/Electronics/PV7/PV7_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "PV7"
+name = "PV7"
+inventory = "PV7"
+rotated = "PV7"
+equipment = "PV7"
+display = "PV7"
+type = "Electronics"
+subtype = "NVG"
+weight = 1.2
+value = 2750
+rarity = 2
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+compatible = [ExtResource("1")]
+slots = ["NVG"]
+material = null
+showCondition = true
+power = 2
+color = Color(0.471116, 0.670589, 0.512986, 1)
+military = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

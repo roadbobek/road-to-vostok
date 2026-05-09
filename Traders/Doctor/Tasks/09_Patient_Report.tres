@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://bqfk2sadvagls"]
+
+[ext_resource type="Resource" uid="uid://y25acg8kfydb" path="res://Items/Lore/Patient_Report/Patient_Report.tres" id="1"]
+[ext_resource type="Resource" uid="uid://ch5e0qnwxlt5j" path="res://Items/Medical/AFAK/AFAK.tres" id="2"]
+[ext_resource type="Resource" uid="uid://u8oce3jxiqdr" path="res://Assets/Posters/Poster_Posture_F.tres" id="3"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+trader = "Doctor"
+name = "Patient Report"
+difficulty = "Hard"
+description = "When the situation started, our hospitals were overbooked within the first hour. We actually had to convert the school's gymnasium into an emergency triage site.
+
+I think I left one of my earliest patient reports there. I need that report to help with my memory, since it isn't what it used to be. The symptoms and specific details from that report are starting to blur for me.
+
+Maybe you could search the gymnasium, the place where the kids used to play and climb ropes. It should be there somewhere."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

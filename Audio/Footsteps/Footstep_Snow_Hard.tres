@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dmkspftteq2qg"]
+
+[ext_resource type="AudioStream" uid="uid://dch1buusqaypb" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://b00ypgypy41c5" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bd2bovlywq55y" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bc57i1be2xkfh" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://drntmhu6jn5x4" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dj8lcoh3tg26e" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bq5dshg7wab0p" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://c1baxjdc6gl2i" path="res://Audio/Footsteps/Files/Footstep_Snow_Hard_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+volume = -5.0

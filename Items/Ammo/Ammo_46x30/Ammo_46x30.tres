@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://crd2iuncw3jni"]
+
+[ext_resource type="Texture2D" uid="uid://cc60hji778ur5" path="res://Items/Ammo/Ammo_46x30/Files/Icon_Ammo_46x30.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://g1c8lhyeg2cs" path="res://Items/Ammo/Ammo_46x30/Ammo_46x30_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Ammo_46x30"
+name = "4.6x30"
+inventory = "4.6"
+rotated = "4.6"
+equipment = "4.6"
+display = "4.6"
+type = "Ammo"
+weight = 0.5
+value = 400
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+showAmount = true
+defaultAmount = 50
+maxAmount = 300
+stackable = true
+military = true

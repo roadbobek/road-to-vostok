@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://0hru0ey0fbye"]
+
+[ext_resource type="Shader" uid="uid://dblq2crs0vccp" path="res://Shaders/Flipbook.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://c4cdd3suih143" path="res://Effects/Files/TX_Candle_Firesheet.tga" id="2"]
+
+[resource]
+render_priority = -4
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/flipbook = ExtResource("2")
+shader_parameter/color = Color(0.998451, 0.796325, 0.516955, 1)
+shader_parameter/intensity = 100.0
+shader_parameter/HFrames = 8
+shader_parameter/VFrames = 8
+shader_parameter/loop = true
+shader_parameter/limitTilt = true

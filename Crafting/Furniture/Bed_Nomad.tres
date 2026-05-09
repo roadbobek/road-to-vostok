@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://vba1qe2yfitx"]
+
+[ext_resource type="Resource" uid="uid://bjhxgu6nhj071" path="res://Audio/Crafting/Craft_Generic.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c3e0nmd23cdya" path="res://Items/Misc/Mattress/Mattress.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bcwd8o2x2rapf" path="res://Items/Misc/Sleeping_Bag/Sleeping_Bag.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bnx5juuuhl6w1" path="res://Assets/Bed_Nomad/Bed_Nomad_F.tres" id="4"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+name = "Bed (Nomad)"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3")]
+output = [ExtResource("4")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

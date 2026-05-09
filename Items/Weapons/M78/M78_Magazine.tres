@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dt5qkegmchp0b"]
+
+[ext_resource type="Resource" uid="uid://cg71ikrrh5yf1" path="res://Items/Ammo/Ammo_308/Ammo_308.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cavxbjmjqshec" path="res://Items/Weapons/M78/Files/Icon_M78_Magazine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://c7mepj2gadmit" path="res://Items/Weapons/M78/M78_Magazine_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "M78_Magazine"
+name = "M78 Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+weight = 0.3
+value = 450
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+audio = null
+compatible = [ExtResource("1")]
+material = null
+showAmount = true
+defaultAmount = 20
+maxAmount = 20
+military = true
+orientation = 90.0
+wallOffset = 0.03
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

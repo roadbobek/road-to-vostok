@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://cbgn40sjxbf45"]
+
+[ext_resource type="Resource" uid="uid://cuo736lbjn77s" path="res://Items/Medical/IFAK/IFAK.tres" id="1"]
+[ext_resource type="Resource" uid="uid://csidq6e15jnub" path="res://Items/Weapons/MK18/MK18.tres" id="2"]
+[ext_resource type="Resource" uid="uid://ucfkjsytbq0a" path="res://Items/Weapons/M4A1/STANAG_Magazine.tres" id="3"]
+[ext_resource type="Resource" uid="uid://moa25x0m0x5r" path="res://Items/Attachments/ACOG/ACOG.tres" id="4"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+trader = "Gunsmith"
+name = "Medic"
+difficulty = "Hard"
+description = "In the military, there are only two roles that matter, a rifleman and a medic. Leaders, artillery and other support elements are just extra fluff in my opinion.
+
+I actually have a personal medic just for myself. He’s a skillful Nomad and we have a simple tactic if an attack phase is needed. In our tactic, I shoot and if I get shot, he puts a fentanyl lollipop in my mouth and the train keeps moving. It’s never stop the madness, just occasional pain relief and push forward.
+
+My medic could actually use a few extra lollipops just in case. I think those can be found inside IFAKs, so if you happen to find a couple of those, there’s a deal opportunity for us once again."
+deliver = [ExtResource("1"), ExtResource("1"), ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("3"), ExtResource("4")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

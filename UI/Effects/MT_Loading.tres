@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://hkde7bwg7viq"]
+
+[ext_resource type="Shader" uid="uid://dj6t7vd3k3ji4" path="res://Shaders/Loading.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://jrior17672b2" path="res://UI/Sprites/Icon_Loading.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/spin_texture = ExtResource("2")
+shader_parameter/color = Color(0, 1, 0, 1)
+shader_parameter/clockwise = true
+shader_parameter/speed = 1.0

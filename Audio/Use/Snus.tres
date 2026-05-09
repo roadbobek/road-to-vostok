@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://br1yf3717fbki"]
+
+[ext_resource type="AudioStream" uid="uid://bqn7afrg10d1u" path="res://Audio/Use/Files/Snus_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://c0ieqkoy7qby4" path="res://Audio/Use/Files/Snus_02.wav" id="2"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+audioClips = [ExtResource("1"), ExtResource("2")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

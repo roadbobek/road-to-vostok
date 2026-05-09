@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://cd2y1je2jggds"]
+
+[ext_resource type="Resource" uid="uid://bwq5sxcussofe" path="res://Audio/Crafting/Craft_Wood.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dles1nhq168uw" path="res://Items/Misc/Toolbox/Toolbox.tres" id="2"]
+[ext_resource type="Resource" uid="uid://7n1jq66sgffy" path="res://Items/Misc/Lumber/Lumber.tres" id="3"]
+[ext_resource type="Resource" uid="uid://c3e0nmd23cdya" path="res://Items/Misc/Mattress/Mattress.tres" id="4"]
+[ext_resource type="Resource" uid="uid://dygdan20avth6" path="res://Items/Misc/Blanket/Blanket.tres" id="5"]
+[ext_resource type="Resource" uid="uid://ceicdsbpbmg5r" path="res://Items/Misc/Pillow/Pillow.tres" id="6"]
+[ext_resource type="Resource" uid="uid://cn1fyfsusmg0h" path="res://Assets/Bed_Civilian/Bed_Civilian_F.tres" id="7"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="8"]
+
+[resource]
+script = ExtResource("8")
+name = "Bed (Civilian)"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+output = [ExtResource("7")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

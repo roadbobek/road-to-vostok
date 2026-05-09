@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://cbnl1p74mbg8i"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 3
+name = "Fighter Jets"
+type = "Dynamic"
+zone = "Area 05"
+function = "FighterJet"
+description = "After the Area 05 evacuation and Border Zone demilitarization, things have started to take a wrong turn and a show of force is needed.
+
+The Finnish military will start performing non-lethal, high-visibility aerial flybys with fighter jets that appear in the sky frequently."
+possibility = 25
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

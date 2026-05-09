@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dwibfugefbvvt"]
+
+[ext_resource type="Texture2D" uid="uid://ptpr3j4yaue7" path="res://Items/Clothing/Jacket_M62/Files/Icon_Jacket_M62.png" id="1"]
+[ext_resource type="Material" uid="uid://dqqec04fiemeu" path="res://Items/Clothing/Jacket_M62/Files/MT_Jacket_M62_Sleeves.tres" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://cjaln3p7wudys" path="res://Items/Clothing/Jacket_M62/Jacket_M62_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Jacket_M62"
+name = "M62 Jacket"
+inventory = "M62 Jacket"
+rotated = "M62 Jacket"
+equipment = "M62 J."
+display = "M62 J."
+type = "Clothing"
+weight = 0.8
+value = 125
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+slots = ["Torso"]
+material = ExtResource("2")
+capacity = 5.0
+insulation = 15.0
+civilian = true
+military = true
+generalist = true
+gunsmith = true

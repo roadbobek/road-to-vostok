@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b4m46p12jo41r"]
+
+[ext_resource type="Texture2D" uid="uid://d0gwohgu1bwuu" path="res://Items/Clothing/Jacket_Winter_Red/Files/Icon_Jacket_Winter_Red.png" id="1"]
+[ext_resource type="Material" uid="uid://ba8au6dtjw0pk" path="res://Items/Clothing/Jacket_Winter_Red/Files/MT_Jacket_Winter_Red_Sleeves.tres" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://b3koc8l4ggglg" path="res://Items/Clothing/Jacket_Winter_Red/Jacket_Winter_Red_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Jacket_Winter_Red"
+name = "Winter Jacket (Red)"
+inventory = "Winter Jacket"
+rotated = "Winter Jacket"
+equipment = "Winter J."
+display = "Winter J."
+type = "Clothing"
+weight = 0.6
+value = 40
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+slots = ["Torso"]
+material = ExtResource("2")
+capacity = 5.0
+insulation = 40.0
+civilian = true
+generalist = true

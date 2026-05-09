@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://b7ep5hs5m3c4l"]
+
+[ext_resource type="AudioStream" uid="uid://b4gyuv16k1ys5" path="res://Audio/Movement/Files/Movement_Cloth_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bet2qgxnejf2v" path="res://Audio/Movement/Files/Movement_Cloth_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dacqo0maedi2f" path="res://Audio/Movement/Files/Movement_Cloth_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://clabndsp425xi" path="res://Audio/Movement/Files/Movement_Cloth_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://csttt4xpwi7kf" path="res://Audio/Movement/Files/Movement_Cloth_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://c6bslm8tn8rpo" path="res://Audio/Movement/Files/Movement_Cloth_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dydjgyaahdblx" path="res://Audio/Movement/Files/Movement_Cloth_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://rrb70vm1pysx" path="res://Audio/Movement/Files/Movement_Cloth_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://c1gnumijnglj7" path="res://Audio/Movement/Files/Movement_Cloth_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://dfduf47od6jpq" path="res://Audio/Movement/Files/Movement_Cloth_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://b4qxb85co5xt" path="res://Audio/Movement/Files/Movement_Cloth_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bakc10luu36if" path="res://Audio/Movement/Files/Movement_Cloth_12.wav" id="12"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="13"]
+
+[resource]
+script = ExtResource("13")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12")]
+volume = -10.0
+randomPitch = true

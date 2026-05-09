@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://bfnyyk0tav34b"]
+
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="1"]
+[ext_resource type="Resource" uid="uid://barf2x5p42011" path="res://Items/Weapons/KP-31/Events/KP-31_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://dtl2dhi38h4n" path="res://Items/Weapons/KP-31/Events/KP-31_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://1h5tgbafb8av" path="res://Items/Weapons/KP-31/KP-31_Drum.tres" id="4"]
+[ext_resource type="Resource" uid="uid://blm8jw8rsqpds" path="res://Items/Weapons/KP-31/Events/KP-31_Fire_Auto.tres" id="5"]
+[ext_resource type="Resource" uid="uid://df7ie6febwtax" path="res://Items/Weapons/KP-31/Events/KP-31_Fire_Semi.tres" id="6"]
+[ext_resource type="Texture2D" uid="uid://d0trd50kl0nc1" path="res://Items/Weapons/KP-31/Files/Icon_KP-31.png" id="7"]
+[ext_resource type="Resource" uid="uid://c37o3058pdh1i" path="res://Items/Weapons/KP-31/Events/KP-31_Magazine_Attach_Empty.tres" id="8"]
+[ext_resource type="Resource" uid="uid://cig67uq750qvq" path="res://Items/Weapons/KP-31/Events/KP-31_Magazine_Attach_Tactical.tres" id="9"]
+[ext_resource type="Resource" uid="uid://w1kelv5cpfd0" path="res://Items/Weapons/KP-31/Events/KP-31_Magazine_Detach.tres" id="10"]
+[ext_resource type="Resource" uid="uid://by6vo7sbm528p" path="res://Items/Weapons/KP-31/Events/KP-31_Reload_Empty.tres" id="11"]
+[ext_resource type="Resource" uid="uid://bibpyh4bp8j5p" path="res://Items/Weapons/KP-31/Events/KP-31_Reload_Tactical.tres" id="12"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="13"]
+[ext_resource type="Resource" uid="uid://d2g7df648qmbh" path="res://Items/Weapons/Common/Tails/SMG_Tail_Indoor.tres" id="14"]
+[ext_resource type="Resource" uid="uid://cbieyouwpkuas" path="res://Items/Weapons/Common/Tails/SMG_Tail_Indoor_Suppressed.tres" id="15"]
+[ext_resource type="Resource" uid="uid://db0vt3vlmf6rx" path="res://Items/Weapons/KP-31/Events/KP-31_Tail_Outdoor.tres" id="16"]
+[ext_resource type="Resource" uid="uid://cgqu47axau7a" path="res://Items/Weapons/Common/Tails/SMG_Tail_Outdoor_Suppressed.tres" id="17"]
+[ext_resource type="PackedScene" uid="uid://bh7h8qngidb62" path="res://Items/Weapons/KP-31/KP-31_5x2.tscn" id="18"]
+
+[resource]
+script = ExtResource("13")
+weaponType = "SMG"
+weaponAction = "Semi-Auto"
+fireSemi = ExtResource("6")
+fireAuto = ExtResource("5")
+fireSuppressed = null
+charge = ExtResource("3")
+reloadEmpty = ExtResource("11")
+reloadTactical = ExtResource("12")
+magazineAttachEmpty = ExtResource("8")
+magazineAttachTactical = ExtResource("9")
+magazineDetach = ExtResource("10")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("16")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("14")
+tailIndoorSuppressed = ExtResource("15")
+tailOutdoorSuppressed = ExtResource("17")
+ammo = ExtResource("1")
+caliber = "9x19"
+casing = 1
+damage = 25.0
+penetration = 1
+fireRate = 0.07
+magazineSize = 70
+kick = 0.05
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.05
+horizontalRecoil = 0.01
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.1
+lowPosition = Vector3(0.02, -0.14, -0.3)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.05, -0.275)
+aimPosition = Vector3(0, -0.035, -0.25)
+cantedPosition = Vector3(0, -0.075, -0.24)
+cantedRotation = Vector3(0, 0, -40)
+inspectPosition = Vector3(0.02, -0.05, -0.275)
+inspectRotation = Vector3(0, 0, 5)
+collisionPosition = Vector3(0.03, -0.15, -0.12)
+collisionRotation = Vector3(45, 15, 0)
+file = "KP_31"
+name = "KP-31"
+inventory = "KP-31"
+rotated = "KP-31"
+equipment = "KP-31"
+display = "KP-31"
+type = "Weapon"
+subtype = "SMG"
+weight = 4.6
+value = 5200
+rarity = 2
+icon = ExtResource("7")
+tetris = ExtResource("18")
+size = Vector2(5, 2)
+audio = null
+compatible = [ExtResource("4")]
+slots = ["Primary", "Secondary"]
+material = null
+showCondition = true
+repairs = true
+civilian = true
+military = true
+orientation = 90.0
+wallOffset = 0.04

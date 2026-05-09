@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://utlmnbwgvwl5"]
+
+[ext_resource type="Resource" uid="uid://drifg3ow8l11p" path="res://Audio/Crafting/Craft_Boil.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dwi5pjdds2oul" path="res://Items/Misc/Mess_Kit/Mess_Kit.tres" id="2"]
+[ext_resource type="Resource" uid="uid://byrjl4t6b0ft4" path="res://Items/Consumables/Canned_Pea_Soup/Canned_Pea_Soup.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cbfv3wplv6l3o" path="res://Items/Consumables/Water_Bottle/Water_Bottle.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cwvdetajqdvif" path="res://Items/Consumables/Cooked_Pea_Soup/Cooked_Pea_Soup.tres" id="5"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+name = "Pea Soup (Cooked)"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4")]
+output = [ExtResource("5")]
+heat = true
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

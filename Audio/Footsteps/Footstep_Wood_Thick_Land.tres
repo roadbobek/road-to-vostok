@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cpwa1yuyk8o1l"]
+
+[ext_resource type="AudioStream" uid="uid://bxq55fc7p57k4" path="res://Audio/Footsteps/Files/Footstep_Wood_Thick_Land_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://qacurbkxdu7l" path="res://Audio/Footsteps/Files/Footstep_Wood_Thick_Land_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c6fyfj2f3p0hm" path="res://Audio/Footsteps/Files/Footstep_Wood_Thick_Land_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://c4egoqcwc8xkw" path="res://Audio/Footsteps/Files/Footstep_Wood_Thick_Land_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+volume = -5.0

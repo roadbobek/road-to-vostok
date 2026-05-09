@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="SpawnerChunkData" format=3 uid="uid://210vk0q67hkp"]
+
+[ext_resource type="ArrayMesh" uid="uid://bo7fu0axg0aix" path="res://Nature/Trees/Files/MS_Tree_Damaged_LOD3.obj" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://bslqsfkanxchj" path="res://Nature/Trees/Files/MS_Tree_Damaged_Collider.obj" id="2"]
+[ext_resource type="Material" uid="uid://cy11f245kyqxt" path="res://Nature/Trees/Files/MT_Tree_Damaged.tres" id="3"]
+[ext_resource type="ArrayMesh" uid="uid://y25v6bgwxtqc" path="res://Nature/Trees/Files/MS_Tree_Damaged_LOD0.obj" id="4"]
+[ext_resource type="Script" uid="uid://d3abg51jgmr3k" path="res://Scripts/SpawnerChunkData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+mesh = ExtResource("4")
+LOD = ExtResource("1")
+collider = ExtResource("2")
+material = ExtResource("3")
+renderEnd = 600.0
+surface = "Wood"
+normals = false
+density = 0.2
+farDensity = 0.2
+minDistance = 2.0
+maxScale = 2.5
+perimeter = 2
+perimeterType = 3
+metadata/_custom_type_script = "uid://d3abg51jgmr3k"

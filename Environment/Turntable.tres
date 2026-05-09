@@ -1,0 +1,28 @@
+[gd_resource type="Environment" format=3 uid="uid://buepyexeh3j8a"]
+
+[ext_resource type="Material" uid="uid://1isvfsnhjpsb" path="res://Environment/Skyboxes/Dynamic.tres" id="1"]
+
+[sub_resource type="Sky" id="Sky_lf1su"]
+sky_material = ExtResource("1")
+
+[resource]
+background_mode = 3
+sky = SubResource("Sky_lf1su")
+ambient_light_source = 3
+ambient_light_sky_contribution = 0.1
+reflected_light_source = 2
+tonemap_mode = 3
+ssao_enabled = true
+glow_mix = 0.242
+fog_light_color = Color(0, 0, 0, 1)
+fog_density = 0.1
+fog_height_density = 0.5
+volumetric_fog_density = 0.01
+volumetric_fog_albedo = Color(0.588235, 0.470588, 0.313726, 1)
+volumetric_fog_emission = Color(0.784314, 0.862745, 0.941176, 1)
+volumetric_fog_emission_energy = 0.2
+volumetric_fog_gi_inject = 0.0
+volumetric_fog_anisotropy = 0.9
+volumetric_fog_length = 400.0
+volumetric_fog_sky_affect = 0.0
+volumetric_fog_temporal_reprojection_amount = 0.99

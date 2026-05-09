@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cvueo2ts4rps4"]
+
+[ext_resource type="AudioStream" uid="uid://b13kb0264ijgl" path="res://Audio/Doors/Files/Door_Unlock_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dqaoa0x3d8kjh" path="res://Audio/Doors/Files/Door_Unlock_02.wav" id="2"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+audioClips = [ExtResource("1"), ExtResource("2")]
+volume = -2.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

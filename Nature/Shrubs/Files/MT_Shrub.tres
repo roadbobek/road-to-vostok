@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dv30iqpt871d6"]
+
+[ext_resource type="Shader" uid="uid://rjvair217m04" path="res://Shaders/Tree.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cywykswxjskps" path="res://Nature/Shrubs/Files/TX_Shrub_AL.tga" id="2"]
+[ext_resource type="Texture2D" uid="uid://bye8tynvvvnqa" path="res://Nature/Shrubs/Files/TX_Shrub_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/YNormal = 0.0
+shader_parameter/highlights = true
+shader_parameter/enableWind = true
+shader_parameter/windHeight = 0.0
+shader_parameter/enableSnow = true
+shader_parameter/snowTop = 1.0
+shader_parameter/snowSide = 0.0
+shader_parameter/snowBottom = 0.8
+shader_parameter/rainEffect = 0.25
+shader_parameter/clip = 0.2
+shader_parameter/inverseClip = false
+shader_parameter/shadowClip = false
+shader_parameter/billboard = false
+shader_parameter/nearExposure = 1.2
+shader_parameter/farExposure = 0.8
+shader_parameter/farDistance = 150.0

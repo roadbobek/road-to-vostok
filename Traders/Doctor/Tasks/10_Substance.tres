@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://c36rngieup7b6"]
+
+[ext_resource type="Resource" uid="uid://vjynbn1wvy2" path="res://Items/Lore/Oil_Sample/Oil_Sample.tres" id="1"]
+[ext_resource type="Resource" uid="uid://288shevf8sre" path="res://Items/Keys/Key_Classroom.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Doctor"
+name = "Substance"
+difficulty = "Hard"
+description = "When those tank railcars exploded and the initial fires started, I’m certain there was something else involved besides just standard industrial chemicals.
+
+Acrylonitrile is definitely part of the compound, just as the officials claimed, but I have a theory that it’s only one piece of the puzzle. When burning, acrylonitrile releases toxic gases such as hydrogen cyanide and is classified as a C1 carcinogen, but let me explain my theory.
+
+These kinds of organic compounds have extremely pungent odors. Since we are talking about massive volumes, the smell should have been everywhere, but it wasn’t. On top of this, acrylonitrile alone shouldn’t have such long-lasting effects on the environment and water sources.
+
+This means we are looking at some kind of manufactured substance that is far more toxic. I know it’s just a theory, but there’s only one way to find out, we need to find the source.
+
+Since we know it was delivered in oil tank cars, I would visit the nearest oil terminal and check their samples to see if they really contain oil or something else. These oil sample containers are easy to spot, they look like golden milk jugs and there should be plenty of them."
+deliver = [ExtResource("1"), ExtResource("1"), ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

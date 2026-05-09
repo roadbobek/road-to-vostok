@@ -1,0 +1,65 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bhfrejs0xnnco"]
+
+[ext_resource type="Shader" uid="uid://di66owgqyx0f5" path="res://Shaders/Terrain.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://b5nw0qtwq5pnh" path="res://Terrains/Textures/TX_Grass_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cj4c168tofpsf" path="res://Terrains/Textures/TX_Grass_NR.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dkw713m6mg1mb" path="res://Terrains/Textures/TX_Ground_AL.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dytnvd6xquwo1" path="res://Terrains/Textures/TX_Ground_NR.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d3qejta3n33ta" path="res://Terrains/Textures/TX_Dirt_AL.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://crdmpd2kvk0am" path="res://Terrains/Textures/TX_Dirt_NR.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://ce8cb52pdustp" path="res://Terrains/Textures/TX_Rocks_AL.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://2ahb53fxw6vh" path="res://Terrains/Textures/TX_Rocks_NR.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dmbdbiii3a2r3" path="res://Modular/Textures/TX_Checker.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bn5huoc5gqkp7" path="res://Terrains/Textures/TX_Snow_NR.png" id="11"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/ABaseAlbedo = ExtResource("2")
+shader_parameter/ABaseNormal = ExtResource("3")
+shader_parameter/AOverlayAlbedo = ExtResource("4")
+shader_parameter/AOverlayNormal = ExtResource("5")
+shader_parameter/ADryLimiter = 0.5
+shader_parameter/AWetLimiter = 0.5
+shader_parameter/ABump = 0.5
+shader_parameter/RBaseAlbedo = ExtResource("6")
+shader_parameter/RBaseNormal = ExtResource("7")
+shader_parameter/ROverlayAlbedo = ExtResource("8")
+shader_parameter/ROverlayNormal = ExtResource("9")
+shader_parameter/RBlend = 1.0
+shader_parameter/RDryLimiter = 0.5
+shader_parameter/RWetLimiter = 0.5
+shader_parameter/RBump = 0.5
+shader_parameter/GBaseAlbedo = null
+shader_parameter/GBaseNormal = null
+shader_parameter/GOverlayAlbedo = null
+shader_parameter/GOverlayNormal = null
+shader_parameter/GBlend = 1.0
+shader_parameter/GDryLimiter = 0.5
+shader_parameter/GWetLimiter = 0.5
+shader_parameter/GBump = 0.5
+shader_parameter/BBaseAlbedo = ExtResource("6")
+shader_parameter/BBaseNormal = ExtResource("7")
+shader_parameter/BOverlayAlbedo = ExtResource("8")
+shader_parameter/BOverlayNormal = ExtResource("9")
+shader_parameter/BBlend = 1.0
+shader_parameter/BDryLimiter = 0.5
+shader_parameter/BWetLimiter = 0.5
+shader_parameter/BBump = 0.5
+shader_parameter/enableGrass = true
+shader_parameter/enableHay = false
+shader_parameter/farDistance = 40.0
+shader_parameter/grassFar = null
+shader_parameter/hayFar = null
+shader_parameter/enableRoads = false
+shader_parameter/enableBump = false
+shader_parameter/enableTrash = true
+shader_parameter/roadMask = null
+shader_parameter/roadBump = null
+shader_parameter/trash = null
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = true
+shader_parameter/snowNormal = ExtResource("11")
+shader_parameter/debug = true
+shader_parameter/checkerMap = ExtResource("10")

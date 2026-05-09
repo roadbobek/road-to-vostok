@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://dagajfbp2orar"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 4
+name = "Missing Cat"
+type = "Special"
+map = "Outpost"
+function = "Cat"
+description = "Grandma's cat has gone missing after a sonic boom from a fighter jet spooked the cat and it ran away.
+
+A few days ago, Nomads found the cat wandering in the Outpost and managed to capture it with some sort of box. Once the Nomads started to deliver the cat back to Grandma, they were ambushed by Bandits who apparently took the box.
+
+Locals saw the Bandits tossing the box around in a cruel way and eventually leaving the box somewhere."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

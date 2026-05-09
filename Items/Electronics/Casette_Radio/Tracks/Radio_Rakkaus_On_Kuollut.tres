@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TrackData" format=3 uid="uid://q1v5illq7vrw"]
+
+[ext_resource type="AudioStream" uid="uid://dkevw7s7701qm" path="res://Items/Electronics/Casette_Radio/Files/Radio_Rakkaus_On_Kuollut.ogg" id="1"]
+[ext_resource type="Script" uid="uid://7ayqep5t01a8" path="res://Scripts/TrackData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "Radio Hits - Rakkaus On Kuollut"
+audio = ExtResource("1")
+metadata/_custom_type_script = "uid://7ayqep5t01a8"

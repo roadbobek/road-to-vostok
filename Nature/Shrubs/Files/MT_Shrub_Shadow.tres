@@ -1,0 +1,28 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dg5c4x2nk6reb"]
+
+[ext_resource type="Shader" uid="uid://rjvair217m04" path="res://Shaders/Tree.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://df8m2pbv2wp04" path="res://Nature/Shrubs/Files/TX_Shrub_Billboard_AL.tga" id="2"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = null
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/YNormal = 0.5
+shader_parameter/highlights = false
+shader_parameter/enableWind = true
+shader_parameter/windHeight = 5.0
+shader_parameter/enableSnow = false
+shader_parameter/snowTop = 0.0
+shader_parameter/snowSide = 0.0
+shader_parameter/snowBottom = 0.0
+shader_parameter/rainEffect = 0.25
+shader_parameter/clip = 0.1
+shader_parameter/inverseClip = false
+shader_parameter/shadowClip = true
+shader_parameter/billboard = false
+shader_parameter/nearExposure = 1.2
+shader_parameter/farExposure = 0.8
+shader_parameter/farDistance = 150.0

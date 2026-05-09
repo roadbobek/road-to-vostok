@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cpixle81rvhej"]
+
+[ext_resource type="Resource" uid="uid://botyhd8lgjytn" path="res://Audio/Use/Tourniquet.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://nal8aqgxnrot" path="res://Items/Medical/Tourniquet/Files/Icon_Tourniquet.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://b1vavqig7ukr" path="res://Items/Medical/Tourniquet/Tourniquet_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Tourniquet"
+name = "Tourniquet"
+inventory = "Tourni."
+rotated = "Tourni."
+equipment = "Tourni."
+display = "Tourni."
+type = "Medical"
+weight = 0.1
+value = 150
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+bleeding = true
+material = null
+military = true
+doctor = true

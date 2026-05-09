@@ -1,0 +1,15 @@
+[gd_resource type="ParticleProcessMaterial" format=3 uid="uid://c0rofbbk6kmu"]
+
+[sub_resource type="Gradient" id="Gradient_ylkv2"]
+offsets = PackedFloat32Array(0, 0.5, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0)
+metadata/_snap_enabled = true
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_bdhg4"]
+gradient = SubResource("Gradient_ylkv2")
+
+[resource]
+emission_shape = 1
+emission_sphere_radius = 1.0
+gravity = Vector3(0, 2, 0)
+color_ramp = SubResource("GradientTexture1D_bdhg4")

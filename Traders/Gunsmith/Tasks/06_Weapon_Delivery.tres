@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://cavph0wqavwad"]
+
+[ext_resource type="Resource" uid="uid://bdbagbk4hf55x" path="res://Items/Weapons/AKS-74U/AKS-74U.tres" id="1"]
+[ext_resource type="Resource" uid="uid://s7ch5tgfyf1q" path="res://Items/Weapons/AKM/AKM.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cuwpokohneah6" path="res://Items/Weapons/AK-12/AK-12.tres" id="3"]
+[ext_resource type="Resource" uid="uid://owl7c30wete2" path="res://Assets/Crate_Special/Crate_Special_F.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bwsbaqgsarynb" path="res://Assets/Target_Stand/Target_Stand_F.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Gunsmith"
+name = "Weapon Delivery"
+difficulty = "Intermediate"
+description = "I used to do a lot of business on the other side of the border, but nowadays my networks have dried up.
+
+This has led to a situation where I'm constantly out of stock of those Eastern weapons. It's a damn shame, since I always find their products more reliable compared to the Western ones. You see, in the West, we have an incurable disease of making everything tactical. We add rails, dingles and dongles to everything and the end result is a mess that has too many moving parts.
+
+Since I no longer have those networks active, a quick weapon delivery from the other side would be highly appreciated."
+deliver = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+receive = [ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

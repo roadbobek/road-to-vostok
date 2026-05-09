@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://dix15fm5m3wmx"]
+
+[ext_resource type="Resource" uid="uid://bjhxgu6nhj071" path="res://Audio/Crafting/Craft_Generic.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dwi5pjdds2oul" path="res://Items/Misc/Mess_Kit/Mess_Kit.tres" id="2"]
+[ext_resource type="Resource" uid="uid://lbuuwsdaq4ns" path="res://Items/Consumables/Canned_Pear/Canned_Pear.tres" id="3"]
+[ext_resource type="Resource" uid="uid://dgkutj04adwhb" path="res://Items/Consumables/Canned_Peaches/Canned_Peaches.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b51ellpufckux" path="res://Items/Consumables/Canned_Pineapple/Canned_Pineapple.tres" id="5"]
+[ext_resource type="Resource" uid="uid://cbfv3wplv6l3o" path="res://Items/Consumables/Water_Bottle/Water_Bottle.tres" id="6"]
+[ext_resource type="Resource" uid="uid://qc4ju64rav2n" path="res://Items/Consumables/Sugar/Sugar.tres" id="7"]
+[ext_resource type="Resource" uid="uid://bnwtr8fsnw56l" path="res://Items/Consumables/Kompot/Kompot.tres" id="8"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+name = "Kompot"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7")]
+output = [ExtResource("8")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

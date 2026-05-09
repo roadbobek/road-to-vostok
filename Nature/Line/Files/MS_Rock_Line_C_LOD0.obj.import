@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dw7d6fawlyf0f"
+path="res://.godot/imported/MS_Rock_Line_C_LOD0.obj-4eae5b964be5e53ac552508b5708fe1c.mesh"
+
+[deps]
+
+source_file="res://Nature/Line/Files/MS_Rock_Line_C_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Rock_Line_C_LOD0.obj-4eae5b964be5e53ac552508b5708fe1c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

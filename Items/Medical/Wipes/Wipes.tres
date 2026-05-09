@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c6amibu4amevd"]
+
+[ext_resource type="Resource" uid="uid://daledt152wr06" path="res://Audio/Use/Wipes.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dwx661obotyvf" path="res://Items/Medical/Wipes/Files/Icon_Wipes.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dln0uck345isv" path="res://Items/Medical/Wipes/Wipes_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Wipes"
+name = "Wipes"
+inventory = "Wipes"
+rotated = "Wipes"
+equipment = "Wipes"
+display = "Wipes"
+type = "Medical"
+weight = 0.1
+value = 120
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Wipe"
+audio = ExtResource("1")
+mental = 10.0
+material = null
+civilian = true
+doctor = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

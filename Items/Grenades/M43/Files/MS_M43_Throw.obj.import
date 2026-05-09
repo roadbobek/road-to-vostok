@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brsxrxr04k6c"
+path="res://.godot/imported/MS_M43_Throw.obj-0282f9e49d1758cbed411a036f9041fd.mesh"
+
+[deps]
+
+source_file="res://Items/Grenades/M43/Files/MS_M43_Throw.obj"
+dest_files=["res://.godot/imported/MS_M43_Throw.obj-0282f9e49d1758cbed411a036f9041fd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cvqj33yxu73pv"]
+
+[ext_resource type="Shader" uid="uid://btbk23mo3gy34" path="res://Shaders/Frost.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://dleqdr2swpihb" path="res://Modular/Textures/TX_Frost.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/frost = ExtResource("2")
+shader_parameter/intensity = 1.0
+shader_parameter/scale = 500.0

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dhyomcske7la0"]
+
+[ext_resource type="AudioStream" uid="uid://bdmsstdmr12ia" path="res://Audio/Dynamic/Files/Mosquitos_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://ycx4d3tbbqpv" path="res://Audio/Dynamic/Files/Mosquitos_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cs80y10emh2m2" path="res://Audio/Dynamic/Files/Mosquitos_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dlmcv86areoaw" path="res://Audio/Dynamic/Files/Mosquitos_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://bivcw01c4puqs" path="res://Audio/Dynamic/Files/Mosquitos_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://ry06gpqudqco" path="res://Audio/Dynamic/Files/Mosquitos_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://cul3nppuyvrqa" path="res://Audio/Dynamic/Files/Mosquitos_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bkr1o02oqla2q" path="res://Audio/Dynamic/Files/Mosquitos_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://3mar8o0cyfud" path="res://Audio/Dynamic/Files/Mosquitos_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://d4errc5dh51iy" path="res://Audio/Dynamic/Files/Mosquitos_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://cdokcanmcihvl" path="res://Audio/Dynamic/Files/Mosquitos_11.wav" id="11"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="12"]
+
+[resource]
+script = ExtResource("12")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

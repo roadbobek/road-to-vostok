@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cfk5m3agk0v0t"]
+
+[ext_resource type="AudioStream" uid="uid://dns7kxtkxxxcw" path="res://Items/Weapons/Common/Inspects/Files/Inspect_Start.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+volume = 5.0
+randomPitch = true
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

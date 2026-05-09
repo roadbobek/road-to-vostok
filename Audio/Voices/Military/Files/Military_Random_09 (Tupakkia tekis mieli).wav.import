@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://w72lnojlnf5k"
+path="res://.godot/imported/Military_Random_09 (Tupakkia tekis mieli).wav-ed23f035edd04975807d96312c516ffc.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Random_09 (Tupakkia tekis mieli).wav"
+dest_files=["res://.godot/imported/Military_Random_09 (Tupakkia tekis mieli).wav-ed23f035edd04975807d96312c516ffc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

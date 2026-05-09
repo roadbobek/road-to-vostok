@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dk0rhlkpfn3uk"]
+
+[ext_resource type="AudioStream" uid="uid://b4rlddgvso4h2" path="res://Audio/Use/Files/Eat_Crunch_High_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://ld1sirpeobqv" path="res://Audio/Use/Files/Eat_Crunch_High_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c4cwqwjv0ldy1" path="res://Audio/Use/Files/Eat_Crunch_High_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

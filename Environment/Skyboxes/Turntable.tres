@@ -1,0 +1,34 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b7847prs4hkyg"]
+
+[ext_resource type="Shader" uid="uid://h4ghiq3swhhp" path="res://Shaders/Sky.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://d2c041yuisvdp" path="res://Environment/Textures/Clouds.png" id="2"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/skyColor = Color(0.929715, 0.929715, 0.929715, 1)
+shader_parameter/horizonColor = Color(0, 0, 0, 1)
+shader_parameter/groundColor = Color(0, 0, 0, 1)
+shader_parameter/overcast = 0.0
+shader_parameter/reflection = 1.0
+shader_parameter/horizonBlur = 0.1
+shader_parameter/neutralTexture = ExtResource("2")
+shader_parameter/overcastTexture = null
+shader_parameter/sunColor = Color(1, 1, 1, 1)
+shader_parameter/sunSize = 0.05
+shader_parameter/sunBlur = 0.1
+shader_parameter/sunGlowSize = 0.5
+shader_parameter/sunGlowIntensity = 1.0
+shader_parameter/sunReflection = 20.0
+shader_parameter/moonTexture = null
+shader_parameter/moonColor = Color(0, 0, 0, 1)
+shader_parameter/moonSize = 0.05
+shader_parameter/moonGlowSize = 0.5
+shader_parameter/moonGlowIntensity = 0.05
+shader_parameter/moonReflection = 20.0
+shader_parameter/starsTexture = null
+shader_parameter/starsReflection = 10.0
+shader_parameter/auroraTexture = null
+shader_parameter/auroraColor = Color(0, 0, 0, 1)
+shader_parameter/auroraIntensity = 1.0
+shader_parameter/auroraMovement = 0.5
+shader_parameter/auroraReflection = 10.0

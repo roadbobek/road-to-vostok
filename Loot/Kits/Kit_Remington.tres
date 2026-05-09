@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://chkj86kja3kma"]
+
+[ext_resource type="Resource" uid="uid://ce37binpx2a1q" path="res://Items/Weapons/Remington_870/Remington_870.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b4m46p12jo41r" path="res://Items/Clothing/Jacket_Winter_Red/Jacket_Winter_Red.tres" id="2"]
+[ext_resource type="Resource" uid="uid://ikjjty3jvhpg" path="res://Items/Ammo/Ammo_12x70/Ammo_12x70.tres" id="3"]
+[ext_resource type="Resource" uid="uid://m2iy7n8ivd84" path="res://Items/Medical/Bandage/Bandage.tres" id="4"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://by3pt7jqgx4ln"]
+
+[ext_resource type="Shader" uid="uid://ju06t108qyce" path="res://Shaders/Fish.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://b6vaiyf0epqd3" path="res://Items/Fishing/Roach/Files/TX_Roach_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cx7eiw43fue5k" path="res://Items/Fishing/Roach/Files/TX_Roach_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/swim = true
+shader_parameter/amplitude = 0.1
+shader_parameter/frequency = 5.0
+shader_parameter/speed = 10.0
+shader_parameter/length_scale = 0.3

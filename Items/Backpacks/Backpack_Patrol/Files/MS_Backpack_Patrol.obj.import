@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dccwdh3jevfvq"
+path="res://.godot/imported/MS_Backpack_Patrol.obj-b63e0cc62bc898b16d8aca0d799cbfe9.mesh"
+
+[deps]
+
+source_file="res://Items/Backpacks/Backpack_Patrol/Files/MS_Backpack_Patrol.obj"
+dest_files=["res://.godot/imported/MS_Backpack_Patrol.obj-b63e0cc62bc898b16d8aca0d799cbfe9.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

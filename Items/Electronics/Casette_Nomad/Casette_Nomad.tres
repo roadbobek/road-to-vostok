@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CasetteData" format=3 uid="uid://0d8t8vew0njw"]
+
+[ext_resource type="Texture2D" uid="uid://n4ckyhc8txic" path="res://Items/Electronics/Casette_Nomad/Files/Icon_Casette_Nomad.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dfdrxddetj0cg" path="res://Items/Electronics/Casette_Nomad/Files/Icon_Casette_Nomad_Preview.png" id="2"]
+[ext_resource type="Script" uid="uid://b8syw8cg4twc2" path="res://Scripts/CasetteData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://di6q7dyvxtwbf" path="res://Items/Electronics/Casette_Nomad/Casette_Nomad_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+preview = ExtResource("2")
+artist = "Nomad Tales"
+file = "Casette_Nomad"
+name = "Casette (Nomad)"
+inventory = "Casette"
+rotated = "Casette"
+equipment = "Casette"
+display = "Casette"
+type = "Electronics"
+subtype = "Casette"
+weight = 0.1
+value = 150
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("4")
+audio = null
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://b8syw8cg4twc2"

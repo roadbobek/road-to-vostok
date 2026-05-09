@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dict4m1quyqca"]
+
+[ext_resource type="AudioStream" uid="uid://dmw7ijmbo2l17" path="res://Audio/Dynamic/Files/Bear_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bxopffet4mi8h" path="res://Audio/Dynamic/Files/Bear_02.wav" id="2"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+audioClips = [ExtResource("1"), ExtResource("2")]

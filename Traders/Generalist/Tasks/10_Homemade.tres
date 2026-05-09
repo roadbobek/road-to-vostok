@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://dts6bvj4v7w4c"]
+
+[ext_resource type="Resource" uid="uid://c1nr1gop3fjfd" path="res://Items/Consumables/Kilju/Kilju.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b2gv0wdu4b4wa" path="res://Items/Keys/Key_Attic.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Generalist"
+name = "Homemade"
+difficulty = "Hard"
+description = "When I reach the North, I’m going to surprise the Shaman since he’s a big fan of my homemade sugar wine.
+
+I already had a large batch for him, but since my trip was delayed, I had to make sure the product didn't spoil in my cellar. After a few \"product-quality\" sips, I got carried away and started drinking and now I have nothing left.
+
+I'm going to need a new batch, but I don't have time right now, so perhaps you can cook it. The recipe is really simple, but do not add too much sugar or you're going to ruin the whole thing. Keep it simple, keep it homemade.
+
+If you can make this new batch for me, I will consider giving you a key to my attic, which would be quite an upgrade from your small asbestos cabin."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

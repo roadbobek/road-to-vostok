@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5dcsnhyb7hry"
+path="res://.godot/imported/Military_Idle_07 (En jaksa sinua, oikeasti).wav-fad86202b7c06b31ed5dabb5f0dc3a79.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Idle_07 (En jaksa sinua, oikeasti).wav"
+dest_files=["res://.godot/imported/Military_Idle_07 (En jaksa sinua, oikeasti).wav-fad86202b7c06b31ed5dabb5f0dc3a79.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

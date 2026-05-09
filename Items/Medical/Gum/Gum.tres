@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://by611d8fcgyve"]
+
+[ext_resource type="Resource" uid="uid://da8furukfu8je" path="res://Audio/Use/Gum.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://c5tt3ma18gppa" path="res://Items/Medical/Gum/Files/Icon_Gum.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bk3jnbmh2uhnl" path="res://Items/Medical/Gum/Gum_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Gum"
+name = "Gum"
+inventory = "Gum"
+rotated = "Gum"
+equipment = "Gum"
+display = "Gum"
+type = "Medical"
+weight = 0.1
+value = 40
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Chew"
+audio = ExtResource("1")
+mental = 10.0
+material = null
+civilian = true
+doctor = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bnl6e2r3bbyv3"]
+
+[ext_resource type="AudioStream" uid="uid://jj0gp8ucuxbw" path="res://Audio/Fishing/Files/Rod_Hooked_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://vjswuqje6k8d" path="res://Audio/Fishing/Files/Rod_Hooked_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://haoxqw8076lh" path="res://Audio/Fishing/Files/Rod_Hooked_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bt1wyuijg58fp" path="res://Audio/Fishing/Files/Rod_Hooked_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://b2mp22drqn6hn" path="res://Audio/Fishing/Files/Rod_Hooked_05.wav" id="5"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

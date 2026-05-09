@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bbes57arj2els"]
+
+[ext_resource type="Texture2D" uid="uid://6p186288ef3" path="res://Items/Keys/Files/Icon_Key_Bunker.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://clm6p8ys660uj" path="res://Items/Keys/Key_Bunker_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Key_Bunker"
+name = "Bunker Key"
+inventory = "Bunker K."
+rotated = "Bunker K."
+equipment = "Bunker K."
+display = "Bunker K."
+type = "Key"
+weight = 0.1
+value = 500
+rarity = 3
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

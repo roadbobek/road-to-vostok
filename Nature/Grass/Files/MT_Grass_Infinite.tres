@@ -1,0 +1,35 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bimtovmxhnjp7"]
+
+[ext_resource type="Shader" uid="uid://cdmegr0q0v2h2" path="res://Shaders/Foliage.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://cb05t3r0fdumn" path="res://Nature/Grass/Files/TX_Grass_AL.tga" id="2"]
+[ext_resource type="Texture2D" uid="uid://eq5586obplce" path="res://Nature/Grass/Files/TX_Grass_NR.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cxraaicfpxdtc" path="res://Terrains/Textures/TX_Mask_Noise.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c01aphgfawrc3" path="res://Modular/Textures/TX_Wind_Noise.jpg" id="5"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/YNormal = 0.5
+shader_parameter/highlight = 0.5
+shader_parameter/variationNoise = ExtResource("4")
+shader_parameter/enableNoise = true
+shader_parameter/enableVariation = false
+shader_parameter/groundGradient = true
+shader_parameter/nearClip = 0.1
+shader_parameter/farClip = 0.01
+shader_parameter/clipDistance = 20.0
+shader_parameter/fadeDistance = 400.0
+shader_parameter/windNoise = ExtResource("5")
+shader_parameter/enableWind = true
+shader_parameter/windIntensity = 0.1
+shader_parameter/windSpeed = 1.5
+shader_parameter/rainEffect = 0.25
+shader_parameter/enableSnow = true
+shader_parameter/snowNoise = true
+shader_parameter/snowTop = 0.0
+shader_parameter/snowSide = 0.55000000819566
+shader_parameter/snowBottom = 0.0

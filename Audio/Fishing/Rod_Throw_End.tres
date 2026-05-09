@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://d04stxd3hidbd"]
+
+[ext_resource type="AudioStream" uid="uid://c5xdwk5pjvtg7" path="res://Audio/Fishing/Files/Rod_Throw_End_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bfqj2tf70a2tc" path="res://Audio/Fishing/Files/Rod_Throw_End_02.wav" id="2"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+audioClips = [ExtResource("1"), ExtResource("2")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://n8jxcb81q4cl"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 10
+name = "Gunsmith returns to Outpost"
+type = "Trader"
+map = "Outpost"
+function = "ActivateTrader"
+description = "Gunsmith is a trader who maintains a weapon storage inside one of the Outpost bunkers and specializes in everything related to firearms.
+
+Gunsmith was nowhere to be seen for multiple months but according to rumors, he was taking a \"business trip\" to the other side of the border but has now returned to his beloved bunker in Area 05."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

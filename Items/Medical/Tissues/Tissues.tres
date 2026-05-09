@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ygegi2ve0sds"]
+
+[ext_resource type="Resource" uid="uid://chuvnb2gvcmj2" path="res://Audio/Use/Tissues.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://doo4o4x2bqcpp" path="res://Items/Medical/Tissues/Files/Icon_Tissues.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dm55favt8exmh" path="res://Items/Medical/Tissues/Tissues_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Tissues"
+name = "Tissues"
+inventory = "Tissues"
+rotated = "Tissues"
+equipment = "Tissues"
+display = "Tissues"
+type = "Medical"
+weight = 0.2
+value = 50
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+usable = true
+phrase = "Sneeze"
+audio = ExtResource("1")
+mental = 5.0
+material = null
+civilian = true
+doctor = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

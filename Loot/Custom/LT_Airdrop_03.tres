@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://cx07rpja1pqir"]
+
+[ext_resource type="Resource" uid="uid://b7wkv2c8c7mwf" path="res://Items/Medical/Medkit/Medkit.tres" id="1"]
+[ext_resource type="Resource" uid="uid://ch5e0qnwxlt5j" path="res://Items/Medical/AFAK/AFAK.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cq215iuu1bron" path="res://Items/Consumables/Field_Ration/Field_Ration.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cbfv3wplv6l3o" path="res://Items/Consumables/Water_Bottle/Water_Bottle.tres" id="4"]
+[ext_resource type="Resource" uid="uid://4ii4vylg31st" path="res://Items/Electronics/Battery/Battery.tres" id="5"]
+[ext_resource type="Resource" uid="uid://c5u5yo45p5ru1" path="res://Items/Medical/Antiseptic/Antiseptic.tres" id="6"]
+[ext_resource type="Resource" uid="uid://dnn3w5ss88w67" path="res://Items/Medical/Saline/Saline.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dwibfugefbvvt" path="res://Items/Clothing/Jacket_M62/Jacket_M62.tres" id="8"]
+[ext_resource type="Resource" uid="uid://bpplrpgp6vkwx" path="res://Items/Clothing/Cap_M62/Cap_M62.tres" id="9"]
+[ext_resource type="Resource" uid="uid://dad2ypsjbr8e7" path="res://Items/Clothing/Boots_Combat/Boots_Combat.tres" id="10"]
+[ext_resource type="Resource" uid="uid://cyc8h0o442w2j" path="res://Items/Clothing/Pants_Hiking/Pants_Hiking.tres" id="11"]
+[ext_resource type="Resource" uid="uid://diud7377jvtqe" path="res://Items/Clothing/Gloves_Leather/Gloves_Leather.tres" id="12"]
+[ext_resource type="Resource" uid="uid://ft4ugh4fth52" path="res://Items/Misc/Nails/Nails.tres" id="13"]
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="14"]
+[ext_resource type="Resource" uid="uid://m8akhgds1v0x" path="res://Items/Misc/Matches/Matches.tres" id="15"]
+[ext_resource type="Resource" uid="uid://7n1jq66sgffy" path="res://Items/Misc/Lumber/Lumber.tres" id="16"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="17"]
+
+[resource]
+script = ExtResource("17")
+items = [ExtResource("1"), ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("3"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("5"), ExtResource("5"), ExtResource("5"), ExtResource("6"), ExtResource("6"), ExtResource("7"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("12"), ExtResource("13"), ExtResource("13"), ExtResource("14"), ExtResource("14"), ExtResource("15"), ExtResource("15"), ExtResource("16"), ExtResource("16")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

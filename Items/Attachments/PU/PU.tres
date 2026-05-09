@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://blhms5luhtnsm"]
+
+[ext_resource type="Texture2D" uid="uid://dsn2uaxtbn5q8" path="res://Items/Attachments/PU/Files/Icon_PU.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dy8umfl0pdyac" path="res://Items/Attachments/PU/PU_2x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+scope = true
+hasMount = true
+reticleSizeP = Vector3(0.2, 0.2, 0.3)
+file = "PU"
+name = "PU Scope"
+inventory = "PU Scope"
+rotated = "PU Scope"
+equipment = "PU Scope"
+display = "PU Scope"
+type = "Attachment"
+subtype = "Optic"
+weight = 0.6
+value = 400
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 1)
+audio = null
+material = null
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.06

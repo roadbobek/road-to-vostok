@@ -1,0 +1,10 @@
+[gd_resource type="ParticleProcessMaterial" format=3 uid="uid://djul12ar08v68"]
+
+[resource]
+emission_shape_offset = Vector3(0, 10, 0)
+emission_shape = 3
+emission_box_extents = Vector3(10, 0, 10)
+direction = Vector3(0, -1, 0)
+spread = 0.0
+initial_velocity_min = 10.0
+initial_velocity_max = 10.0

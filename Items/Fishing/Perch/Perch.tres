@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bq3lwwd07yg5s"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://3m8u1xj3g8xs" path="res://Items/Fishing/Perch/Files/Icon_Perch.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bw216soosbt47" path="res://Items/Fishing/Perch/Perch_2x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Perch"
+name = "Perch"
+inventory = "Perch"
+rotated = "Perch"
+equipment = "Perch"
+display = "Perch"
+type = "Fish"
+weight = 0.8
+value = 150
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(2, 1)
+usable = true
+phrase = "Eat Raw"
+audio = ExtResource("1")
+health = -10.0
+energy = 10.0
+hydration = 5.0
+mental = -80.0
+material = null
+orientation = 90.0
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

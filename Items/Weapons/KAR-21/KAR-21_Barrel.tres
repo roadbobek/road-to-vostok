@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="AttachmentData" format=3 uid="uid://d4e6qchnb1gsc"]
+
+[ext_resource type="Texture2D" uid="uid://c044uvanjpiwv" path="res://Items/Weapons/KAR-21/Files/Icon_KAR-21_Barrel.png" id="1"]
+[ext_resource type="Script" uid="uid://ct28p54o3j5ja" path="res://Scripts/AttachmentData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://blamghwg3o45c" path="res://Items/Weapons/KAR-21/KAR-21_Barrel_3x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "KAR_21_Barrel"
+name = "KAR-21 Barrel (.308)"
+inventory = "KAR-21 Barrel"
+rotated = "Barrel"
+equipment = "Barrel"
+display = "Barrel"
+type = "Attachment"
+weight = 0.5
+value = 350
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(3, 1)
+audio = null
+material = null
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.025

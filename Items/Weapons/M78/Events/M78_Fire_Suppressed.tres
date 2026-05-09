@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cpuyqj5c5woox"]
+
+[ext_resource type="AudioStream" uid="uid://b6qsjg0i4up8k" path="res://Items/Weapons/M78/Audio/M78_Fire_Suppressed.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+randomPitch = true
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

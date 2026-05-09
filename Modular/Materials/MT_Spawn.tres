@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ciaoal5p3h0a5"]
+
+[ext_resource type="Shader" uid="uid://ddpdhhb2fjm11" path="res://Shaders/Area.gdshader" id="1"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/color = Color(1, 0, 0, 1)

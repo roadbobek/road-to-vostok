@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dmmqxbmtlubbl"]
+
+[ext_resource type="AudioStream" uid="uid://b44b8po47408l" path="res://Audio/Explosions/Files/Explosion_Medium_Debris_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://4jdagdqsqhgm" path="res://Audio/Explosions/Files/Explosion_Medium_Debris_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bcpvgjc3t8yfl" path="res://Audio/Explosions/Files/Explosion_Medium_Debris_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

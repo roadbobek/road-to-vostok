@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TrackData" format=3 uid="uid://w8550sy2hmub"]
+
+[ext_resource type="AudioStream" uid="uid://dmauqya8ayydi" path="res://Items/Electronics/Casette_OST/Files/Road_to_Vostok_OST_Daybreak.ogg" id="1"]
+[ext_resource type="Script" uid="uid://7ayqep5t01a8" path="res://Scripts/TrackData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "OST - Daybreak"
+audio = ExtResource("1")
+metadata/_custom_type_script = "uid://7ayqep5t01a8"

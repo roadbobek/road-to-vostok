@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://haaxajl65e3e"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 50
+name = "Transmission"
+type = "Special"
+function = "Transmission"
+description = "The signal that started it all has suddenly reappeared.
+
+The transmission is interfering with radio broadcasts and can be heard on all common frequencies.
+
+This is the last event of Early Access [Build 1]. The events and story will continue in upcoming builds."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

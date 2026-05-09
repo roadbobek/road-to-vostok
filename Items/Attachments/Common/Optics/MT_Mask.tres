@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bw5q3dcwmn3q5"]
+
+[ext_resource type="Shader" uid="uid://ccjce8wqbko3x" path="res://Shaders/Mask.gdshader" id="1"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/customFOV = false

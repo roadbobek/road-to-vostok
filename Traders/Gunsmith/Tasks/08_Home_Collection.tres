@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://b03kg27e1bxub"]
+
+[ext_resource type="Resource" uid="uid://bqj4hc7m05bbi" path="res://Items/Weapons/VSS/VSS.tres" id="1"]
+[ext_resource type="Resource" uid="uid://ddqiv32oks27t" path="res://Items/Weapons/VSS/VSS_Magazine.tres" id="2"]
+[ext_resource type="Resource" uid="uid://dg83povdet4o" path="res://Items/Misc/Weapon_Repair_Kit/Weapon_Repair_Kit.tres" id="3"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+trader = "Gunsmith"
+name = "Home Collection"
+difficulty = "Hard"
+description = "Knife collection is one thing, but weapon collection is an art form where you separate the wheat from the chaff.
+
+My personal home collection starts from 1500s-era muskets all the way to 1990s rifles, but anything beyond that is distasteful. I think I have more than 150 guns so far in my collection. The most exotic ones are probably a few Turkish revolver shotguns that I smuggled back from a holiday trip in 1985.
+
+Currently, my main focus is on integrally suppressed pieces, but I've had a hard time finding those. There is especially one Eastern one that I have my eyes on, but it keeps hiding from me."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://wggebdqw68sc"]
+
+[ext_resource type="Shader" uid="uid://hk7tlgs8see7" path="res://Shaders/Underwater.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://blkeet2df3pnx" path="res://Environment/Water/Files/TX_Water_A_NR.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ckxsf3vv6duy8" path="res://Environment/Water/Files/TX_Water_B_NR.png" id="3"]
+
+[resource]
+render_priority = -1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/color = Color(0, 0, 0, 1)
+shader_parameter/waveA = ExtResource("2")
+shader_parameter/waveB = ExtResource("3")
+shader_parameter/waveIntensity = 0.5
+shader_parameter/waveSpeed = 0.2

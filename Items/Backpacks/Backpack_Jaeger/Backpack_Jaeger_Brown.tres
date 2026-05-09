@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cnhlyv176xmd0"]
+
+[ext_resource type="Texture2D" uid="uid://bsymxcvqxig8j" path="res://Items/Backpacks/Backpack_Jaeger/Files/Icon_Backpack_Jaeger_Brown.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://bm70pv0b0li0b" path="res://Items/Backpacks/Backpack_Jaeger/Backpack_Jaeger_Brown_3x5.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Backpack_Jaeger_Brown"
+name = "Jääkäri Backpack (Brown)"
+inventory = "Jääkäri BP."
+rotated = "Jääkäri BP."
+equipment = "Jääkäri BP."
+display = "Jääkäri BP."
+type = "Backpack"
+weight = 1.8
+value = 250
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(3, 5)
+audio = null
+slots = ["Backpack"]
+material = null
+capacity = 30.0
+insulation = 3.0
+civilian = true
+military = true
+gunsmith = true

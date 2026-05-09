@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cjob1vnmi2b33"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://biub3afu6ytp0" path="res://Items/Fishing/Roach/Files/Icon_Roach.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://ca5j704no2uwd" path="res://Items/Fishing/Roach/Roach_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Roach"
+name = "Roach"
+inventory = "Roach"
+rotated = "Roach"
+equipment = "Roach"
+display = "Roach"
+type = "Fish"
+weight = 0.3
+value = 50
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Eat Raw"
+audio = ExtResource("1")
+health = -10.0
+energy = 5.0
+hydration = 5.0
+mental = -80.0
+material = null
+orientation = 90.0
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

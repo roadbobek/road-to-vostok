@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://j8xfihw1wsja"]
+
+[ext_resource type="AudioStream" uid="uid://co3d6qutfgudg" path="res://Items/Weapons/AKS-74U/Audio/AKS-74U_Magazine_Attach_Empty.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

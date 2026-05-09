@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://coors8onjvxqi"]
+
+[ext_resource type="Resource" uid="uid://2t8mghlsrb0q" path="res://Audio/Use/Bandage.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cc8n4e6xkewdx" path="res://Items/Medical/Bandage_Improvised/Files/Icon_Bandage_Improvised.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dlwji045lsyss" path="res://Items/Medical/Bandage_Improvised/Bandage_Improvised_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Bandage_Improvised"
+name = "Bandage (Improvised)"
+inventory = "Bandage"
+rotated = "Bandage"
+equipment = "Bandage"
+display = "Bandage"
+type = "Medical"
+weight = 0.1
+value = 75
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+health = 20.0
+bleeding = true
+material = null
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

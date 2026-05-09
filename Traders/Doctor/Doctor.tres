@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="TraderData" format=3 uid="uid://hqxg6q1h4oae"]
+
+[ext_resource type="Resource" uid="uid://crcocjunyrcs6" path="res://Audio/Voices/Doctor/Doctor_End.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://c55dkp3ei606p" path="res://Traders/Doctor/Files/Icon_Doctor.png" id="2"]
+[ext_resource type="Resource" uid="uid://c7mahwej3yong" path="res://Audio/Voices/Doctor/Doctor_Random.tres" id="3"]
+[ext_resource type="Script" uid="uid://dgp3dpjyuueif" path="res://Scripts/TraderData.gd" id="4"]
+[ext_resource type="Resource" uid="uid://c0npfuch3vhxe" path="res://Audio/Voices/Doctor/Doctor_Start.tres" id="5"]
+[ext_resource type="Resource" uid="uid://bvu4asbrnfitn" path="res://Audio/Voices/Doctor/Doctor_Task.tres" id="6"]
+[ext_resource type="Resource" uid="uid://chut3ibn6f2wx" path="res://Traders/Doctor/Tasks/01_Nasty_Draft.tres" id="7"]
+[ext_resource type="Resource" uid="uid://pat8afhcy7d3" path="res://Traders/Doctor/Tasks/02_Steady_Hands.tres" id="8"]
+[ext_resource type="Resource" uid="uid://b8cwc1yt21ag6" path="res://Traders/Doctor/Tasks/03_Bookworm.tres" id="9"]
+[ext_resource type="Resource" uid="uid://vh0v5h017mo5" path="res://Traders/Doctor/Tasks/04_Dice_Master.tres" id="10"]
+[ext_resource type="Resource" uid="uid://eveth2npbtub" path="res://Traders/Doctor/Tasks/05_Night_Surgery.tres" id="11"]
+[ext_resource type="Resource" uid="uid://bdoyeqlc532r8" path="res://Traders/Doctor/Tasks/06_Infections.tres" id="12"]
+[ext_resource type="Resource" uid="uid://dbf0cju87k43y" path="res://Traders/Doctor/Tasks/07_Hypovolemia.tres" id="13"]
+[ext_resource type="Resource" uid="uid://f0grvf60qcl1" path="res://Traders/Doctor/Tasks/08_Mouth_Organ.tres" id="14"]
+[ext_resource type="Resource" uid="uid://bqfk2sadvagls" path="res://Traders/Doctor/Tasks/09_Patient_Report.tres" id="15"]
+[ext_resource type="Resource" uid="uid://c36rngieup7b6" path="res://Traders/Doctor/Tasks/10_Substance.tres" id="16"]
+[ext_resource type="Resource" uid="uid://ch1fm8tdhlfel" path="res://Audio/Voices/Doctor/Doctor_Trade.tres" id="17"]
+
+[resource]
+script = ExtResource("4")
+icon = ExtResource("2")
+name = "Doctor"
+tax = 200.0
+tasks = [ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16")]
+randomVoices = ExtResource("3")
+startVoices = ExtResource("5")
+endVoices = ExtResource("1")
+tradeVoices = ExtResource("17")
+taskVoices = ExtResource("6")
+metadata/_custom_type_script = "uid://dgp3dpjyuueif"

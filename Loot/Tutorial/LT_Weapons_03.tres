@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://2bib2wxjc1l3"]
+
+[ext_resource type="Resource" uid="uid://onc17mstfho6" path="res://Items/Weapons/SVD/SVD.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bslygnphq4cud" path="res://Items/Weapons/M78/M78.tres" id="2"]
+[ext_resource type="Resource" uid="uid://s7ch5tgfyf1q" path="res://Items/Weapons/AKM/AKM.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cuwpokohneah6" path="res://Items/Weapons/AK-12/AK-12.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bdbagbk4hf55x" path="res://Items/Weapons/AKS-74U/AKS-74U.tres" id="5"]
+[ext_resource type="Resource" uid="uid://bqj4hc7m05bbi" path="res://Items/Weapons/VSS/VSS.tres" id="6"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

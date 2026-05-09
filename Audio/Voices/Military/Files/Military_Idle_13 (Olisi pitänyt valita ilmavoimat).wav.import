@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6hq4yrfncvug"
+path="res://.godot/imported/Military_Idle_13 (Olisi pitänyt valita ilmavoimat).wav-52c8c0c0fdffc19fdacee028ee52d88c.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Idle_13 (Olisi pitänyt valita ilmavoimat).wav"
+dest_files=["res://.godot/imported/Military_Idle_13 (Olisi pitänyt valita ilmavoimat).wav-52c8c0c0fdffc19fdacee028ee52d88c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

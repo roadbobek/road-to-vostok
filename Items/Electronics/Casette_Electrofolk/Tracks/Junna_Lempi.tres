@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TrackData" format=3 uid="uid://dnk3nyyx0i87s"]
+
+[ext_resource type="AudioStream" uid="uid://bjlmj0sa53yyv" path="res://Items/Electronics/Casette_Electrofolk/Files/Junna_Lempi.ogg" id="1"]
+[ext_resource type="Script" uid="uid://7ayqep5t01a8" path="res://Scripts/TrackData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "Junna - Lempi"
+audio = ExtResource("1")
+metadata/_custom_type_script = "uid://7ayqep5t01a8"

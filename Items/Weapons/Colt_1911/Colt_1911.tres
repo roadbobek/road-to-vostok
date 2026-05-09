@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://cx061e27dfjiy"]
+
+[ext_resource type="Resource" uid="uid://dtu78yi4510mj" path="res://Items/Ammo/Ammo_45ACP/Ammo_45ACP.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c1ely4v1yj3vv" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bhg27dtovxneh" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://c5iuq2rtq83lu" path="res://Items/Weapons/Colt_1911/Colt_1911_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://4ucmwplea2im" path="res://Items/Attachments/Rider/Rider.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dvvs61mwpvybv" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Fire.tres" id="6"]
+[ext_resource type="Resource" uid="uid://u05x0flaf8sb" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Fire_Suppressed.tres" id="7"]
+[ext_resource type="Texture2D" uid="uid://dfe7as5nf5b6e" path="res://Items/Weapons/Colt_1911/Files/Icon_Colt_1911.png" id="8"]
+[ext_resource type="Resource" uid="uid://cp6fpfior02vw" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Magazine_Attach_Empty.tres" id="9"]
+[ext_resource type="Resource" uid="uid://bmvinpu8coiwh" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Magazine_Attach_Tactical.tres" id="10"]
+[ext_resource type="Resource" uid="uid://cuehnlt5qps2m" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Magazine_Detach.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cm85d0btvhff3" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Reload_Empty.tres" id="12"]
+[ext_resource type="Resource" uid="uid://yjdppx6nosx4" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Reload_Tactical.tres" id="13"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="14"]
+[ext_resource type="Resource" uid="uid://bv51qaj31jw1i" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Indoor.tres" id="15"]
+[ext_resource type="Resource" uid="uid://deolnh21ftwvm" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Indoor_Suppressed.tres" id="16"]
+[ext_resource type="Resource" uid="uid://cdk78c3bksxvk" path="res://Items/Weapons/Colt_1911/Events/Colt_1911_Tail_Outdoor.tres" id="17"]
+[ext_resource type="Resource" uid="uid://nupfsljlplp" path="res://Items/Weapons/Common/Tails/Pistol_Tail_Outdoor_Supressed.tres" id="18"]
+[ext_resource type="PackedScene" uid="uid://ifpvbrnneaib" path="res://Items/Weapons/Colt_1911/Colt_1911_3x2.tscn" id="19"]
+
+[resource]
+script = ExtResource("14")
+weaponType = "Pistol"
+weaponAction = "Semi"
+fireSemi = ExtResource("6")
+fireAuto = null
+fireSuppressed = ExtResource("7")
+charge = ExtResource("3")
+reloadEmpty = ExtResource("12")
+reloadTactical = ExtResource("13")
+magazineAttachEmpty = ExtResource("9")
+magazineAttachTactical = ExtResource("10")
+magazineDetach = ExtResource("11")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("17")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("15")
+tailIndoorSuppressed = ExtResource("16")
+tailOutdoorSuppressed = ExtResource("18")
+ammo = ExtResource("1")
+caliber = ".45 ACP"
+casing = 1
+damage = 25.0
+penetration = 1
+fireRate = 0.08
+magazineSize = 8
+kick = 0.05
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.25
+horizontalRecoil = 0.02
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.04
+slideSpeed = 2.0
+slideLock = true
+lowPosition = Vector3(0.02, -0.1, -0.25)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.05, -0.3)
+aimPosition = Vector3(0, -0.014, -0.27)
+cantedPosition = Vector3(0, -0.05, -0.22)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(-0.01, -0.04, -0.25)
+inspectRotation = Vector3(0, 0, 10)
+collisionPosition = Vector3(0.03, -0.125, -0.225)
+collisionRotation = Vector3(35, 15, 0)
+file = "Colt_1911"
+name = "C1911"
+inventory = "C1911"
+rotated = "C1911"
+equipment = "C1911"
+display = "C1911"
+type = "Weapon"
+subtype = "Pistol"
+weight = 1.1
+value = 550
+icon = ExtResource("8")
+tetris = ExtResource("19")
+size = Vector2(3, 2)
+suppressorScale = 0.4
+suppressorOffset = -30.0
+magazineSuppressorScale = 0.4
+magazineSuppressorOffset = Vector2(-30, 0)
+audio = null
+compatible = [ExtResource("4"), ExtResource("5")]
+slots = ["Primary", "Secondary"]
+material = null
+showCondition = true
+repairs = true
+civilian = true
+military = true
+generalist = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.02

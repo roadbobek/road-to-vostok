@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://dlg2ppftxgfp5"]
+
+[ext_resource type="Resource" uid="uid://bo8k78rurgtdf" path="res://Audio/Crafting/Craft_Metal.tres" id="1"]
+[ext_resource type="Resource" uid="uid://y3n3l4oble8b" path="res://Items/Weapons/KAR-21/KAR-21_308.tres" id="2"]
+[ext_resource type="Resource" uid="uid://dg83povdet4o" path="res://Items/Misc/Weapon_Repair_Kit/Weapon_Repair_Kit.tres" id="3"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+name = "KAR-21 (.308) Repair"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3")]
+output = [ExtResource("2")]
+repair = true
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

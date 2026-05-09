@@ -1,0 +1,28 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://omxro6syddlg"]
+
+[ext_resource type="Shader" uid="uid://bnpmqgmrvt1yi" path="res://Shaders/Standard.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://khvh23ydotih" path="res://Items/Weapons/M78/Files/TX_M78_Details_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://hvvguall505j" path="res://Items/Weapons/M78/Files/TX_M78_Details_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.0
+shader_parameter/dynamic = true
+shader_parameter/fractional = false
+shader_parameter/enableRain = true
+shader_parameter/enableSnow = false
+shader_parameter/snowTop = 0.0
+shader_parameter/snowSide = 0.0
+shader_parameter/snowBottom = 0.0
+shader_parameter/occlusion = false
+shader_parameter/noise = false
+shader_parameter/metal = true
+shader_parameter/super = false
+shader_parameter/glow = false
+shader_parameter/viewmodel = false
+shader_parameter/fresnel = 0.5

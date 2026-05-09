@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://gtc6e2de0y5v"
+path="res://.godot/imported/MS_Terminal_Asphalt.obj-c4505b70623182d053423da142f53a9d.mesh"
+
+[deps]
+
+source_file="res://Terrains/Terminal/Files/MS_Terminal_Asphalt.obj"
+dest_files=["res://.godot/imported/MS_Terminal_Asphalt.obj-c4505b70623182d053423da142f53a9d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

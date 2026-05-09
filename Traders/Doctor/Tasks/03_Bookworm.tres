@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://b8cwc1yt21ag6"]
+
+[ext_resource type="Resource" uid="uid://cju1vonju1qjb" path="res://Items/Books/Book_Children.tres" id="1"]
+[ext_resource type="Resource" uid="uid://3le3vmcy20lo" path="res://Items/Books/Book_Cooking.tres" id="2"]
+[ext_resource type="Resource" uid="uid://br0s2e6g7dvnj" path="res://Items/Books/Book_Fishing.tres" id="3"]
+[ext_resource type="Resource" uid="uid://c7qsots1fngu7" path="res://Items/Books/Book_Religion.tres" id="4"]
+[ext_resource type="Resource" uid="uid://dqpxs3rfflgl7" path="res://Assets/Cabinet_Medical/Cabinet_Medical_F.tres" id="5"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+trader = "Doctor"
+name = "Bookworm"
+difficulty = "Easy"
+description = "Being a doctor around here is a cyclic job. What I mean by this is that there are days where it's extremely busy and days where no soul is in sight.
+
+On those boring, empty days, I often spend my time reading. The reading material around here is quite random, you cannot really pick what you read, so you must learn to adapt to the available literature.
+
+I actually like to read all kinds of old books, no matter the subject. Whether it's children's stories or religion, I always find it interesting. I think I'm a bit of a bookworm by nature."
+deliver = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+receive = [ExtResource("5")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

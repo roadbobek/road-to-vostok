@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cwjxdkr0hsnl"]
+
+[ext_resource type="Resource" uid="uid://dviesof2vrb62" path="res://Audio/Use/Splint.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bhvpcl03n54vy" path="res://Items/Medical/Splint/Files/Icon_Splint.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://cqtvx8xnyqhy4" path="res://Items/Medical/Splint/Splint_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Splint"
+name = "Splint"
+inventory = "Splint"
+rotated = "Splint"
+equipment = "Splint"
+display = "Splint"
+type = "Medical"
+weight = 0.1
+value = 150
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+fracture = true
+material = null
+civilian = true
+military = true
+doctor = true

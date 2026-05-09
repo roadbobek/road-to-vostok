@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://vh0v5h017mo5"]
+
+[ext_resource type="Resource" uid="uid://dop4v26yunmp" path="res://Items/Misc/Board_Game/Board_Game.tres" id="1"]
+[ext_resource type="Resource" uid="uid://ptqttns1wi8j" path="res://Assets/Locker/Locker_F.tres" id="2"]
+[ext_resource type="Resource" uid="uid://coeeaoy0o4jac" path="res://Assets/Trolley/Trolley_Tall_F.tres" id="3"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+trader = "Doctor"
+name = "Dice Master"
+difficulty = "Easy"
+description = "Me and the Generalist have known each other since we were kids. He's a grumpy old man for sure, but once you get to know him, he's somewhat tolerable.
+
+Just a few years ago, we often went fishing together, but that poor guy has multiple herniated disks, so fishing trips are no longer an option for him. We still have a few other common hobbies like horse races and gambling.
+
+Like you probably already guessed, only one of those is available nowadays, so our friendship is currently purely built on gambling with card and dice games. However, every time we play dice, he always magically wins and I'm starting to wonder if his dices are rigged somehow, since nobody is that lucky.
+
+You know what, if you happen to find one of those dice games, bring one for me. Next time we play, it's going to be on my set. That way, I can rule out the possibility of cheating and we'll see who the true dice master is."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

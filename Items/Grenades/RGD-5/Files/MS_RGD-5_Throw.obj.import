@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btxk4tik7wf1p"
+path="res://.godot/imported/MS_RGD-5_Throw.obj-8574fad942b0f4d04ac8d6b4a3012976.mesh"
+
+[deps]
+
+source_file="res://Items/Grenades/RGD-5/Files/MS_RGD-5_Throw.obj"
+dest_files=["res://.godot/imported/MS_RGD-5_Throw.obj-8574fad942b0f4d04ac8d6b4a3012976.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

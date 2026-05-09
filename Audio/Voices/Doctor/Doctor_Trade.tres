@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ch1fm8tdhlfel"]
+
+[ext_resource type="AudioStream" uid="uid://drvegjwcnb2rh" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://nlrusctckxe5" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dujba46v4snn5" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://din7iea2gg0a0" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://dhqlrbxip16ii" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bvcdk0xpbdjem" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://l2s6alk0xhvh" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://c4otx4nfdasve" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://cbhjjxxvv224e" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://c3wwmkuebmjw7" path="res://Audio/Voices/Doctor/Files/Doctor_Trade_10.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]
+volume = -17.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

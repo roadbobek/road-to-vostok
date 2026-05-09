@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bpplrpgp6vkwx"]
+
+[ext_resource type="Texture2D" uid="uid://fvi7bfgexbc4" path="res://Items/Clothing/Cap_M62/Files/Icon_Cap_M62.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://b6xstvo6041mf" path="res://Items/Clothing/Cap_M62/Cap_M62_2x2.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Cap_M62"
+name = "M62 Cap"
+inventory = "M62 Cap"
+rotated = "M62 Cap"
+equipment = "M62 Cap"
+display = "M62 Cap"
+type = "Clothing"
+weight = 0.1
+value = 75
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 2)
+audio = null
+slots = ["Head"]
+material = null
+insulation = 2.0
+civilian = true
+military = true
+gunsmith = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

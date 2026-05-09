@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bw5h0lqwnyapi"]
+
+[ext_resource type="AudioStream" uid="uid://8liquqnfnyd5" path="res://Audio/Interaction/Files/Sleep_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cib77k4srmq1e" path="res://Audio/Interaction/Files/Sleep_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://dxp081owtmb36" path="res://Audio/Interaction/Files/Sleep_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bffv818dn1c3j" path="res://Audio/Interaction/Files/Sleep_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

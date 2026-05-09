@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://qtei2gm7er1e"]
+
+[ext_resource type="Resource" uid="uid://bobupe4aei6w7" path="res://Audio/Use/Drink_Can.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dbuyrcpuxcqu2" path="res://Items/Consumables/Beer/Files/Icon_Beer.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dib5slkuavjkb" path="res://Items/Consumables/Beer/Beer_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Beer"
+name = "Beer"
+inventory = "Beer"
+rotated = "Beer"
+equipment = "Beer"
+display = "Beer"
+type = "Consumables"
+weight = 0.3
+value = 250
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+energy = 10.0
+hydration = 30.0
+mental = 40.0
+material = null
+freezable = true
+civilian = true

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://c4p7ktt5gcnoq"]
+
+[ext_resource type="AudioStream" uid="uid://ckpasplvswk1u" path="res://Audio/Knives/Files/Knife_Inspect_Start.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]

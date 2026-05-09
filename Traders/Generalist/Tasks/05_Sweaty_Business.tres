@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://6md82jggjvjg"]
+
+[ext_resource type="Resource" uid="uid://d1333r7v0mwe0" path="res://Items/Medical/Deodorant/Deodorant.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c6amibu4amevd" path="res://Items/Medical/Wipes/Wipes.tres" id="2"]
+[ext_resource type="Resource" uid="uid://b265qyyaja50l" path="res://Items/Rigs/Vest_Fishing/Vest_Fishing.tres" id="3"]
+[ext_resource type="Resource" uid="uid://b8fl50ujxkcdy" path="res://Items/Fishing/Fishing_Rod/Fishing_Rod.tres" id="4"]
+[ext_resource type="Resource" uid="uid://d210hulmawjni" path="res://Items/Misc/Tackle_Box/Tackle_Box.tres" id="5"]
+[ext_resource type="Resource" uid="uid://pfrku2gts7cu" path="res://Items/Knives/Jaeger_140/Jaeger_140.tres" id="6"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+trader = "Generalist"
+name = "Sweaty Business"
+difficulty = "Intermediate"
+description = "The days out here are long and sweaty, especially in the summertime.
+
+Since air conditioning, showers and running water are just a faint memory from the past, it's important that you maintain personal hygiene and odor control for the sake of the others. You might wonder why not just go wash in the lake or sea? Well, let me tell you why that's a bad idea.
+
+After the initial explosion, these waters are far from refreshing and there's something nasty going on. I have seen so many dead fish lately that my ass is not going into that water, that's for sure and I highly recommend the same for you.
+
+It’s a sweaty business, but we just have to figure out some alternative methods to stay fresh."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

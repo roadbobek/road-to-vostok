@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bdvqiws2x6otv"]
+
+[ext_resource type="AudioStream" uid="uid://bvdw7e7cu1x6s" path="res://Audio/Hits/Files/Hit_Generic_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://d1dadqqt8q2n8" path="res://Audio/Hits/Files/Hit_Generic_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://5jv1lfmt33rm" path="res://Audio/Hits/Files/Hit_Generic_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://obh32ujj6mg1" path="res://Audio/Hits/Files/Hit_Generic_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://dsjtmbeo57sur" path="res://Audio/Hits/Files/Hit_Generic_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dgrului00jvgy" path="res://Audio/Hits/Files/Hit_Generic_06.wav" id="6"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

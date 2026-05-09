@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yt2ky62asrha"
+path="res://.godot/imported/MS_Book.obj-dd7cdf2daac25a0abcb4479a7606d3e4.mesh"
+
+[deps]
+
+source_file="res://Items/Books/Files/MS_Book.obj"
+dest_files=["res://.godot/imported/MS_Book.obj-dd7cdf2daac25a0abcb4479a7606d3e4.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

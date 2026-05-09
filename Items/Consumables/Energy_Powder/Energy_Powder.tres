@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bjb4q7suv4y2h"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://clqgnn23oog2n" path="res://Items/Consumables/Energy_Powder/Files/Icon_Energy_Powder.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://dep20m0emypkf" path="res://Items/Consumables/Energy_Powder/Energy_Powder_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Energy_Powder"
+name = "Energy Powder"
+inventory = "E. Powder"
+rotated = "E. Powder"
+equipment = "E. Powder"
+display = "E. Powder"
+type = "Consumables"
+weight = 0.1
+value = 100
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Chew"
+audio = ExtResource("1")
+energy = 50.0
+hydration = -10.0
+mental = -10.0
+material = null
+civilian = true
+doctor = true

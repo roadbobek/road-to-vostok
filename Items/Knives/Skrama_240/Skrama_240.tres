@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="KnifeData" format=3 uid="uid://b4i42kg6wf6oo"]
+
+[ext_resource type="Texture2D" uid="uid://bp7yaxhvh2x55" path="res://Items/Knives/Skrama_240/Files/Icon_Skrama_240.png" id="1"]
+[ext_resource type="Script" uid="uid://bcabv268vnjb7" path="res://Scripts/KnifeData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://b5x1gtyexsx6d" path="res://Items/Knives/Skrama_240/Skrama_240_3x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+damage = 30.0
+collisionSize = Vector3(0.05, 0.06, 0.4)
+highPosition = Vector3(-0.02, -0.05, -0.15)
+highRotation = Vector3(0, 0, -2)
+lowPosition = Vector3(-0.02, -0.05, -0.15)
+lowRotation = Vector3(0, 0, -2)
+inspectPosition = Vector3(0, -0.08, -0.14)
+inspectRotation = Vector3(0, 0, -15)
+collisionPosition = Vector3(-0.02, -0.05, -0.15)
+collisionRotation = Vector3(0, 0, -5)
+file = "Skrama_240"
+name = "Skrama 240"
+inventory = "Skrama 240"
+rotated = "Skrama"
+equipment = "Skrama 240"
+display = "Skrama"
+type = "Knife"
+weight = 0.5
+value = 450
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(3, 1)
+suppressorOffset = 1.0
+audio = null
+slots = ["Knife"]
+material = null
+military = true
+orientation = 90.0
+wallOffset = 0.02

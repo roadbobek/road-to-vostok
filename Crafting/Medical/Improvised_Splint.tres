@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://bjaoytcaw8fxj"]
+
+[ext_resource type="Resource" uid="uid://bdhorw6h3eb62" path="res://Audio/Crafting/Craft_Fabric.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dk1t0xewej74t" path="res://Items/Misc/Rags/Rags.tres" id="2"]
+[ext_resource type="Resource" uid="uid://vomiyw8ijn2i" path="res://Items/Misc/Sticks/Sticks.tres" id="3"]
+[ext_resource type="Resource" uid="uid://o5hiiqvev8j5" path="res://Items/Misc/Duct_Tape/Duct_Tape.tres" id="4"]
+[ext_resource type="Resource" uid="uid://gwwl34o8j8b4" path="res://Items/Medical/Splint_Improvised/Splint_Improvised.tres" id="5"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+name = "Splint (Improvised)"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4")]
+output = [ExtResource("5")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

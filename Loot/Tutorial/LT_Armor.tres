@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://cn6702vlki4ws"]
+
+[ext_resource type="Resource" uid="uid://6ymqq0mji2u8" path="res://Items/Helmets/SSh-39/SSh-39.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cwxjaoxnaqi2j" path="res://Items/Helmets/Helmet_Police/Helmet_Police.tres" id="2"]
+[ext_resource type="Resource" uid="uid://chkpttcyr5p52" path="res://Items/Armor/Armor_Plate_II.tres" id="3"]
+[ext_resource type="Resource" uid="uid://b0gycju3narj2" path="res://Items/Armor/Armor_Plate_IIIA.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b3sjx7xiu6io0" path="res://Items/Armor/Armor_Plate_III.tres" id="5"]
+[ext_resource type="Resource" uid="uid://b513263cvisw" path="res://Items/Armor/Armor_Plate_III+.tres" id="6"]
+[ext_resource type="Resource" uid="uid://bn4kyo7csu6qs" path="res://Items/Armor/Armor_Plate_IV.tres" id="7"]
+[ext_resource type="Resource" uid="uid://di0yvm31slkkw" path="res://Items/Rigs/LVPC/LVPC_M05.tres" id="8"]
+[ext_resource type="Resource" uid="uid://c8uojeljtbo8i" path="res://Items/Rigs/LVPC/LVPC_Winter.tres" id="9"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="10"]
+
+[resource]
+script = ExtResource("10")
+items = [ExtResource("1"), ExtResource("1"), ExtResource("2"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

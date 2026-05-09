@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1qgyjh6d4ek2"
+path="res://.godot/imported/Military_Combat_11 (Ylitit rajan, sinun ei käy hyvin!).wav-2a3d86c4696242acffea9c6a7d145dab.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_11 (Ylitit rajan, sinun ei käy hyvin!).wav"
+dest_files=["res://.godot/imported/Military_Combat_11 (Ylitit rajan, sinun ei käy hyvin!).wav-2a3d86c4696242acffea9c6a7d145dab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

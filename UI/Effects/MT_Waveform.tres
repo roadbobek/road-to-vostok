@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c1v7swd73p5ky"]
+
+[ext_resource type="Shader" uid="uid://cgndosb25lv3b" path="res://Shaders/Waveform.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="GrenadeData" format=3 uid="uid://hsn4uvwfsftr"]
+
+[ext_resource type="Texture2D" uid="uid://t5igttdnvbr4" path="res://Items/Grenades/M50/Files/Icon_M50.png" id="1"]
+[ext_resource type="Script" uid="uid://uecx1x5krjd3" path="res://Scripts/GrenadeData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cp2soiqkfgyh1" path="res://Items/Grenades/M50/M50_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+highPosition = Vector3(0, -0.05, -0.2)
+lowPosition = Vector3(0, -0.05, -0.2)
+inspectPosition = Vector3(0, -0.05, -0.25)
+collisionPosition = Vector3(0, -0.05, -0.2)
+file = "M50"
+name = "M50"
+inventory = "M50"
+rotated = "M50"
+equipment = "M50"
+display = "M50"
+type = "Grenade"
+weight = 0.4
+value = 500
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+slots = ["Grenade_1", "Grenade_2"]
+material = null
+military = true
+orientation = -90.0
+wallOffset = 0.04

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ci5igjkgr0py1"]
+
+[ext_resource type="AudioStream" uid="uid://du6le53wspxwm" path="res://Audio/Grenades/Files/Grenade_Bounce_Concrete_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://47fc3rylyuaf" path="res://Audio/Grenades/Files/Grenade_Bounce_Concrete_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://5a6dr5ijccyl" path="res://Audio/Grenades/Files/Grenade_Bounce_Concrete_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://khsf551gao45"]
+
+[ext_resource type="AudioStream" uid="uid://b8c0xjh6hn07a" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://np353gnv13xf" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://q1dtnl85j65q" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://6mya121b5lnp" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://du7qykfvovp1b" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://1m1xf6hdffe6" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bwjsyharrpl0p" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://c7j2y7tdtibo0" path="res://Audio/Footsteps/Files/Footstep_Metal_Solid_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+volume = -5.0

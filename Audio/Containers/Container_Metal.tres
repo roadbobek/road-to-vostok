@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cg2y7pcg3k6el"]
+
+[ext_resource type="AudioStream" uid="uid://cfny71d80upwf" path="res://Audio/Containers/Files/Container_Metal_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dlf4iefeojqpu" path="res://Audio/Containers/Files/Container_Metal_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://kwsvbli80g0l" path="res://Audio/Containers/Files/Container_Metal_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+volume = -1.0

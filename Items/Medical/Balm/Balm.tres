@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dsuhmpvpsv7xw"]
+
+[ext_resource type="Resource" uid="uid://crokxhj3cbhqj" path="res://Audio/Use/Lotion.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cs3qjnit2iah0" path="res://Items/Medical/Balm/Files/Icon_Balm.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://c0eebqm0vk8lm" path="res://Items/Medical/Balm/Balm_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Balm"
+name = "Balm"
+inventory = "Balm"
+rotated = "Balm"
+equipment = "Balm"
+display = "Balm"
+type = "Medical"
+weight = 0.1
+value = 85
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+burn = true
+material = null
+civilian = true
+doctor = true

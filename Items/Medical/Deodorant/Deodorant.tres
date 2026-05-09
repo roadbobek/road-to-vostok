@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d1333r7v0mwe0"]
+
+[ext_resource type="Resource" uid="uid://cafm36bln3q8m" path="res://Audio/Use/Deodorant.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://6urqprf3v03b" path="res://Items/Medical/Deodorant/Files/Icon_Deodorant.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bnb1chi56jnjc" path="res://Items/Medical/Deodorant/Deodorant_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Deodorant"
+name = "Deodorant"
+inventory = "Deodora."
+rotated = "Deodorant"
+equipment = "Deodorant"
+display = "Deodora."
+type = "Medical"
+weight = 0.2
+value = 75
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Spray"
+audio = ExtResource("1")
+mental = 10.0
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

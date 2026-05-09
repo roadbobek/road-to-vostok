@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://m2iy7n8ivd84"]
+
+[ext_resource type="Resource" uid="uid://dai4pomnchway" path="res://Audio/Use/Bandage_Plastic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://r64eibjnh278" path="res://Items/Medical/Bandage/Files/Icon_Bandage.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://cnte5dhu0s80w" path="res://Items/Medical/Bandage/Bandage_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Bandage"
+name = "Bandage"
+inventory = "Bandage"
+rotated = "Bandage"
+equipment = "Bandage"
+display = "Bandage"
+type = "Medical"
+weight = 0.1
+value = 150
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+health = 25.0
+bleeding = true
+material = null
+civilian = true
+military = true
+generalist = true
+doctor = true

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LootTable" format=3 uid="uid://bfvs0kdpks1eh"]
+
+[ext_resource type="Resource" uid="uid://comkdkef4s0ur" path="res://Items/Weapons/Mosin/Mosin.tres" id="1"]
+[ext_resource type="Resource" uid="uid://8oa16vvtseh5" path="res://Items/Ammo/Ammo_762x54R/Ammo_762x54R.tres" id="2"]
+[ext_resource type="Resource" uid="uid://m2iy7n8ivd84" path="res://Items/Medical/Bandage/Bandage.tres" id="3"]
+[ext_resource type="Resource" uid="uid://da2viav1v5xdp" path="res://Items/Consumables/Canned_Meat/Canned_Meat.tres" id="4"]
+[ext_resource type="Script" uid="uid://24gv34vqff1y" path="res://Scripts/LootTable.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+items = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+metadata/_custom_type_script = "uid://24gv34vqff1y"

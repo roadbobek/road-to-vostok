@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://by0vmrducy0lo"]
+
+[ext_resource type="Resource" uid="uid://lvcxlfxwwon7" path="res://Items/Misc/Toilet_Paper/Toilet_Paper.tres" id="1"]
+[ext_resource type="Resource" uid="uid://oo5jlw61gvyr" path="res://Assets/Television/Television_F.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Generalist"
+name = "Prime Time"
+difficulty = "Easy"
+description = "Well, well... you must be that guy the Nomads found last week. Didn't they put you up in that old tiny cabin? We used to get drunk and play poker there sometimes, but that place always gave me a headache, I'm pretty sure there's asbestos in the ceiling or something.
+
+Nevertheless, you’ve arrived at the prime time, because I’m out of toilet paper and the situation is getting urgent.
+
+Speaking of prime time, I just finished repairing some electronics and I have this fully functional TV ready to go. Mark my words, at the moment, this is the only working TV in Area 05.
+
+If you bring me that toilet paper, the TV is yours. It has all the channels pre-configured, vibrant colors and prime time shows are running as we speak."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

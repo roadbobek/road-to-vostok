@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bbhpytltji7pv"]
+
+[ext_resource type="AudioStream" uid="uid://vjiaj0gt6vyt" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dmbe7r107p2e5" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cekrouaehbkup" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://i3mge7rh60d4" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://dbqg8tqmc5bqa" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://ti8j4ex7jg0" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c2sycissh7hm8" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bkolic3oh167g" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://ckn6qd6kbfc2n" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://bvay7wgotmbrs" path="res://Audio/Voices/Gunsmith/Files/Gunsmith_Random_10.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]
+volume = -17.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

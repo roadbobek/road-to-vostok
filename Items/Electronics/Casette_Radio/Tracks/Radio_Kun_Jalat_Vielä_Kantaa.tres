@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TrackData" format=3 uid="uid://dyvm3vcew026"]
+
+[ext_resource type="AudioStream" uid="uid://dro8gsyjs1vpp" path="res://Items/Electronics/Casette_Radio/Files/Radio_Kun_Jalat_Vielä_Kantaa.ogg" id="1"]
+[ext_resource type="Script" uid="uid://7ayqep5t01a8" path="res://Scripts/TrackData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "Radio Hits - Kun Jalat Vielä Kantaa"
+audio = ExtResource("1")
+metadata/_custom_type_script = "uid://7ayqep5t01a8"

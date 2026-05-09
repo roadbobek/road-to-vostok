@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://bpewi4lte26uw"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 20
+name = "Outpost gets compromised"
+type = "Dynamic"
+map = "Outpost"
+function = "BTR"
+description = "Given the previous events, the situation at the Border Zone is escalating quickly and nearby areas face the consequences.
+
+Military BTR's can now enter the Outpost map and Area 05 is no longer considered safe.
+
+News of the event spread quickly among Area 05 locals and traders, but it is only considered rumors by the media and authorities outside of Area 05."
+possibility = 25
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

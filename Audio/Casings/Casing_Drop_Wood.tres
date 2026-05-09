@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://gj0pansue0vj"]
+
+[ext_resource type="AudioStream" uid="uid://c6r1w183s2u3l" path="res://Audio/Casings/Files/Casing_Drop_Wood_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dghldh8rfw1gg" path="res://Audio/Casings/Files/Casing_Drop_Wood_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://bl1kgdauh4la0" path="res://Audio/Casings/Files/Casing_Drop_Wood_05.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://chga7n8dm26cj" path="res://Audio/Casings/Files/Casing_Drop_Wood_06.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cqcbc2wjitsxh" path="res://Audio/Casings/Files/Casing_Drop_Wood_07.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://dy1iwtxrlbkgk" path="res://Audio/Casings/Files/Casing_Drop_Wood_08.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://0bma8wkvmn8c" path="res://Audio/Casings/Files/Casing_Drop_Wood_09.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://vq4dbwi6swnf" path="res://Audio/Casings/Files/Casing_Drop_Wood_10.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]

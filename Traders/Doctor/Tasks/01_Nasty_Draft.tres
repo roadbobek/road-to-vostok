@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://chut3ibn6f2wx"]
+
+[ext_resource type="Resource" uid="uid://o5hiiqvev8j5" path="res://Items/Misc/Duct_Tape/Duct_Tape.tres" id="1"]
+[ext_resource type="Resource" uid="uid://ygegi2ve0sds" path="res://Items/Medical/Tissues/Tissues.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Doctor"
+name = "Nasty Draft"
+difficulty = "Easy"
+description = "I haven't seen you here before, you must be a new patient?
+
+Welcome to my improvised clinic. It ain't much, but with these limited resources, it's the best that we've got.
+
+I used to teach health education for elementary students in this school. It was a long time ago, but I have good memories of this place. The building is old and has seen better days, but I'm sure it can be restored when things settle down.
+
+Nowadays, my current concern is mostly related to heat insulation, since our windows are pretty much gone. Especially in winter, it's a bit chilly for my patients. I think an emergency solution would just require some duct tape to keep the nasty draft under control."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c8vaivedw5bbc"]
+
+[ext_resource type="Texture2D" uid="uid://c6av8bhkki8dn" path="res://Effects/Files/TX_Explosion.png" id="1"]
+
+[resource]
+render_priority = 1
+transparency = 1
+specular_mode = 2
+albedo_texture = ExtResource("1")
+backlight = Color(1, 1, 1, 1)
+billboard_mode = 3
+particles_anim_h_frames = 5
+particles_anim_v_frames = 5
+particles_anim_loop = false
+proximity_fade_enabled = true

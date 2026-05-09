@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://k51psarudfxl"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 30
+name = "Traders leave Area 05"
+type = "Trader"
+zone = "Area 05"
+function = "DeactivateTrader"
+description = "After the Outpost was compromised, all traders started making preparations and leaving Area 05.
+
+It seems that the traders are doing this as a temporary measure and will return if and when things calm down."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

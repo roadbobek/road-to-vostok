@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://dm78pkeeni4a4"]
+
+[ext_resource type="Resource" uid="uid://crd2iuncw3jni" path="res://Items/Ammo/Ammo_46x30/Ammo_46x30.tres" id="1"]
+[ext_resource type="Resource" uid="uid://kilq74t4jow2" path="res://Items/Weapons/MP7/Events/MP7_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bs1qb87s1yhvj" path="res://Items/Weapons/MP7/Events/MP7_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bkxyqpr8dt2u8" path="res://Items/Weapons/MP7/MP7_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://moa25x0m0x5r" path="res://Items/Attachments/ACOG/ACOG.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dv56bjr6htpe0" path="res://Items/Attachments/EXPS/EXPS.tres" id="6"]
+[ext_resource type="Resource" uid="uid://c1nusi3dm47xo" path="res://Items/Attachments/HMR/HMR.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dt8kkgj5siffd" path="res://Items/Attachments/Hybrid/Hybrid.tres" id="8"]
+[ext_resource type="Resource" uid="uid://dx62y7184t26a" path="res://Items/Attachments/Kobra/Kobra.tres" id="9"]
+[ext_resource type="Resource" uid="uid://c6hedss4rdsdn" path="res://Items/Attachments/Leopard/Leopard.tres" id="10"]
+[ext_resource type="Resource" uid="uid://qkbwug4sq5q8" path="res://Items/Attachments/Micro/Micro.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cogfxlhwg5nil" path="res://Items/Attachments/MRO/MRO.tres" id="12"]
+[ext_resource type="Resource" uid="uid://cmfdm0lrdrnup" path="res://Items/Attachments/OZ5/OZ5.tres" id="13"]
+[ext_resource type="Resource" uid="uid://cqv2tuvswh0cu" path="res://Items/Attachments/PRO/PRO.tres" id="14"]
+[ext_resource type="Resource" uid="uid://byn6o8jflcgin" path="res://Items/Attachments/Vudu/Vudu.tres" id="15"]
+[ext_resource type="Resource" uid="uid://b8txn3xwvwhy5" path="res://Items/Attachments/ANPEQ/ANPEQ.tres" id="16"]
+[ext_resource type="Resource" uid="uid://8hklwg6gubgb" path="res://Items/Weapons/MP7/Events/MP7_Fire_Auto.tres" id="17"]
+[ext_resource type="Resource" uid="uid://n71rb2gxj0oq" path="res://Items/Weapons/MP7/Events/MP7_Fire_Semi.tres" id="18"]
+[ext_resource type="Resource" uid="uid://bdhyt8o8eynw5" path="res://Items/Weapons/MP7/Events/MP7_Fire_Suppressed.tres" id="19"]
+[ext_resource type="Texture2D" uid="uid://i81bpyisetuv" path="res://Items/Weapons/MP7/Files/Icon_MP7.png" id="20"]
+[ext_resource type="Resource" uid="uid://najree8w20ip" path="res://Items/Weapons/MP7/Events/MP7_Magazine_Attach_Empty.tres" id="21"]
+[ext_resource type="Resource" uid="uid://mq06prww6tpx" path="res://Items/Weapons/MP7/Events/MP7_Magazine_Attach_Tactical.tres" id="22"]
+[ext_resource type="Resource" uid="uid://dqi1lqn7oc4pk" path="res://Items/Weapons/MP7/Events/MP7_Magazine_Detach.tres" id="23"]
+[ext_resource type="Resource" uid="uid://b60pf5036r56h" path="res://Items/Weapons/MP7/Events/MP7_Reload_Empty.tres" id="24"]
+[ext_resource type="Resource" uid="uid://cg6pnamsl3jdk" path="res://Items/Weapons/MP7/Events/MP7_Reload_Tactical.tres" id="25"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="26"]
+[ext_resource type="Resource" uid="uid://d2g7df648qmbh" path="res://Items/Weapons/Common/Tails/SMG_Tail_Indoor.tres" id="27"]
+[ext_resource type="Resource" uid="uid://cbieyouwpkuas" path="res://Items/Weapons/Common/Tails/SMG_Tail_Indoor_Suppressed.tres" id="28"]
+[ext_resource type="Resource" uid="uid://b67n0lb7xxp4s" path="res://Items/Weapons/MP7/Events/MP7_Tail_Outdoor.tres" id="29"]
+[ext_resource type="Resource" uid="uid://cgqu47axau7a" path="res://Items/Weapons/Common/Tails/SMG_Tail_Outdoor_Suppressed.tres" id="30"]
+[ext_resource type="PackedScene" uid="uid://wvkdmdb1rw5g" path="res://Items/Weapons/MP7/MP7_4x2.tscn" id="31"]
+
+[resource]
+script = ExtResource("26")
+weaponType = "SMG"
+weaponAction = "Semi-Auto"
+fireSemi = ExtResource("18")
+fireAuto = ExtResource("17")
+fireSuppressed = ExtResource("19")
+charge = ExtResource("3")
+reloadEmpty = ExtResource("24")
+reloadTactical = ExtResource("25")
+magazineAttachEmpty = ExtResource("21")
+magazineAttachTactical = ExtResource("22")
+magazineDetach = ExtResource("23")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("29")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("27")
+tailIndoorSuppressed = ExtResource("28")
+tailOutdoorSuppressed = ExtResource("30")
+ammo = ExtResource("1")
+caliber = "4.6x30"
+casing = 2
+damage = 25.0
+penetration = 2
+fireRate = 0.07
+magazineSize = 40
+kick = 0.04
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.05
+horizontalRecoil = 0.01
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.1
+slideSpeed = 100.0
+selectorRotation = Vector2(0, -20)
+lowPosition = Vector3(0.02, -0.15, -0.28)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.08, -0.24)
+aimPosition = Vector3(0, -0.065, -0.24)
+cantedPosition = Vector3(0, -0.08, -0.24)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(0, -0.08, -0.2)
+inspectRotation = Vector3(0, 0, 10)
+collisionPosition = Vector3(0.03, -0.15, -0.12)
+collisionRotation = Vector3(45, 15, 0)
+file = "MP7"
+name = "PM7"
+inventory = "PM7"
+rotated = "PM7"
+equipment = "PM7"
+display = "PM7"
+type = "Weapon"
+weight = 2.1
+value = 4150
+rarity = 1
+icon = ExtResource("20")
+tetris = ExtResource("31")
+size = Vector2(4, 2)
+magazineScale = 0.4
+magazineOffset = 15.0
+opticScale = 0.45
+opticOffset = -5.0
+suppressorScale = 0.45
+suppressorOffset = -20.0
+magazineOpticScale = 0.35
+magazineOpticOffset = 10.0
+magazineSuppressorScale = 0.4
+magazineSuppressorOffset = Vector2(-10, 15)
+opticSuppressorScale = 0.45
+opticSuppressorOffset = Vector2(-20, -5)
+fullyModdedScale = 0.35
+fullyModdedOffset = Vector2(-15, 10)
+audio = null
+compatible = [ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16")]
+slots = ["Primary", "Secondary"]
+material = null
+showCondition = true
+repairs = true
+military = true
+orientation = 90.0
+wallOffset = 0.04

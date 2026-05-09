@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://efq4qx5ik1iv"
+path="res://.godot/imported/Military_Combat_16 (Kutsu BTR!).wav-1e40b65d27478463d2a8e966bf118978.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_16 (Kutsu BTR!).wav"
+dest_files=["res://.godot/imported/Military_Combat_16 (Kutsu BTR!).wav-1e40b65d27478463d2a8e966bf118978.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

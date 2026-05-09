@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://dbdfo4g4ha6b0"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 9
+name = "Helicopter Crash Sites"
+type = "Dynamic"
+function = "CrashSite"
+description = "After airspace violations, aerial incidents were unavoidable and multiple attack helicopters were shot down on both sides of the border.
+
+Helicopter crash sites are scattered around multiple locations and contain high-value loot, which also makes them hotspots for AI activity."
+instant = true
+possibility = 10
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

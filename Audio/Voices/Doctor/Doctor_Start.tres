@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://c0npfuch3vhxe"]
+
+[ext_resource type="AudioStream" uid="uid://dffn835mou6q" path="res://Audio/Voices/Doctor/Files/Doctor_Start_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bdoq5wkvaegqu" path="res://Audio/Voices/Doctor/Files/Doctor_Start_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://53d2gmsd8cy7" path="res://Audio/Voices/Doctor/Files/Doctor_Start_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://gbql1cmippwp" path="res://Audio/Voices/Doctor/Files/Doctor_Start_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cfldnsi3lsegg" path="res://Audio/Voices/Doctor/Files/Doctor_Start_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cfwy40xytgu1g" path="res://Audio/Voices/Doctor/Files/Doctor_Start_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://6cfpx676nlda" path="res://Audio/Voices/Doctor/Files/Doctor_Start_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://1mn730b2ht8l" path="res://Audio/Voices/Doctor/Files/Doctor_Start_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://bnmb8jrwdp5bv" path="res://Audio/Voices/Doctor/Files/Doctor_Start_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://dpeb6ubt53xie" path="res://Audio/Voices/Doctor/Files/Doctor_Start_10.wav" id="10"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="11"]
+
+[resource]
+script = ExtResource("11")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10")]
+volume = -17.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

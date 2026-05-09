@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://djq8ud2p4o8fi"]
+
+[ext_resource type="Shader" uid="uid://ct2ohfsf4tikk" path="res://Shaders/Reticle.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://jtq50apa3hcv" path="res://Items/Attachments/Vudu/Files/TX_Vudu_Reticle.png" id="2"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/scope = true
+shader_parameter/reticle = ExtResource("2")
+shader_parameter/opacity = 1.0
+shader_parameter/size = 0.1
+shader_parameter/intensity = 10.0

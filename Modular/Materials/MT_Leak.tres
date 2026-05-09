@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://udkssxaikb50"]
+
+[ext_resource type="Shader" uid="uid://3iknxtpthaia" path="res://Shaders/Leak.gdshader" id="1"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")

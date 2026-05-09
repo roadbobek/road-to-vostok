@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TrackData" format=3 uid="uid://ckno2m1qkp2y5"]
+
+[ext_resource type="AudioStream" uid="uid://6flhrc0isdnc" path="res://Items/Electronics/Casette_OST/Files/Road_to_Vostok_OST_Far.ogg" id="1"]
+[ext_resource type="Script" uid="uid://7ayqep5t01a8" path="res://Scripts/TrackData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "OST - Far"
+audio = ExtResource("1")
+metadata/_custom_type_script = "uid://7ayqep5t01a8"

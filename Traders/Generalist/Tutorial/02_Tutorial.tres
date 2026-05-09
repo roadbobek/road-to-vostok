@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://cqgi1bqrpyj6v"]
+
+[ext_resource type="Resource" uid="uid://dw7qpuw15pitk" path="res://Items/Consumables/Cooked_Meatballs/Cooked_Meatballs.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c0miqekrbn64x" path="res://Items/Consumables/Potato/Potato.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Generalist"
+name = "Tutorial Task 2 (Complex)"
+difficulty = "Intermediate"
+description = "Now let's add some complexity.
+
+Some tasks might require crafting-based delivery items, like this task requires Meatballs (Cooked), which can only be obtained through crafting.
+
+Go to the Items billboard, grab Canned Meatballs, Mess Kit and Water Bottle. You are also going to need matches, you can find those from the Equipment billboard.
+
+Next, find the Meatballs (Cooked) recipe from the Tools UI using the Crafting button. When you look at the recipe, it has a proximity requirement Heat, meaning you will need a heat source to unlock that recipe.
+
+In order to craft the Meatballs (Cooked), do the following:
+1. Go to the Firepot, equip matches and light the fire
+2. Open the Meatballs (Cooked) recipe and notice the heat symbol turned green
+3. Press Start Input
+4. Select Mess Kit, Canned Meatballs and Water Bottle
+5. Press Craft
+
+Now you have successfully crafted the required task item and you can complete the task."
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

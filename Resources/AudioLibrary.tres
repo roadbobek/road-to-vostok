@@ -1,0 +1,336 @@
+[gd_resource type="Resource" script_class="AudioLibrary" format=3 uid="uid://c2gx3typd37yf"]
+
+[ext_resource type="Resource" uid="uid://htd6ymncpcqd" path="res://Audio/UI/UI_Armor.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bt7ybpjke3nvh" path="res://Audio/UI/UI_Attach.tres" id="2"]
+[ext_resource type="Resource" uid="uid://xpq8bodhot5n" path="res://Audio/UI/UI_Casette_Play.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bpj3q3cfnppi3" path="res://Audio/UI/UI_Casette_Stop.tres" id="4"]
+[ext_resource type="Resource" uid="uid://dwdxwue17edvq" path="res://Audio/UI/UI_Click.tres" id="5"]
+[ext_resource type="Resource" uid="uid://vgu6g244frp4" path="res://Audio/UI/UI_Drop.tres" id="6"]
+[ext_resource type="Resource" uid="uid://kpexv4e7yflg" path="res://Audio/UI/UI_Equip.tres" id="7"]
+[ext_resource type="Resource" uid="uid://bawm1tbgwy7k4" path="res://Audio/UI/UI_Error.tres" id="8"]
+[ext_resource type="Resource" uid="uid://3a2gq0tdmhf3" path="res://Audio/UI/UI_Furniture.tres" id="9"]
+[ext_resource type="Resource" uid="uid://dxbqj5b53g451" path="res://Audio/UI/UI_Load.tres" id="10"]
+[ext_resource type="Resource" uid="uid://cr666jm1st8im" path="res://Audio/UI/UI_Stack.tres" id="11"]
+[ext_resource type="Resource" uid="uid://bhhytvx01imkl" path="res://Audio/UI/UI_Teleport.tres" id="12"]
+[ext_resource type="Resource" uid="uid://0a66hc5kq3mc" path="res://Audio/UI/UI_Trader_Close.tres" id="13"]
+[ext_resource type="Resource" uid="uid://du5p3sh35b4or" path="res://Audio/UI/UI_Trader_Open.tres" id="14"]
+[ext_resource type="Resource" uid="uid://bgaucrm3jhvau" path="res://Audio/UI/UI_Trader_Reset.tres" id="15"]
+[ext_resource type="Resource" uid="uid://c3kdxf1vvqb4e" path="res://Audio/UI/UI_Trader_Task.tres" id="16"]
+[ext_resource type="Resource" uid="uid://dykhmi5n37ill" path="res://Audio/UI/UI_Trader_Trade.tres" id="17"]
+[ext_resource type="Resource" uid="uid://droybtk3vr5k0" path="res://Audio/UI/UI_Unequip.tres" id="18"]
+[ext_resource type="Resource" uid="uid://d02heolx3h6f5" path="res://Audio/Airdrop/Airdrop_Bounce.tres" id="19"]
+[ext_resource type="Resource" uid="uid://cropyjtb2sn0m" path="res://Audio/Airdrop/Airdrop_Release.tres" id="20"]
+[ext_resource type="Resource" uid="uid://dm8rrecmmccbe" path="res://Audio/Ammo/Ammo_Load.tres" id="21"]
+[ext_resource type="Resource" uid="uid://cvuxsmkvs7ubh" path="res://Audio/Ammo/Ammo_Load_Instant.tres" id="22"]
+[ext_resource type="Resource" uid="uid://cr6m5inlqm8bj" path="res://Audio/Character/Armor.tres" id="23"]
+[ext_resource type="Resource" uid="uid://0xg272qcnm64" path="res://Audio/Character/Armor_Break.tres" id="24"]
+[ext_resource type="Resource" uid="uid://cnk2qhoh62jx6" path="res://Audio/Medical/Bleeding.tres" id="25"]
+[ext_resource type="Resource" uid="uid://bnhhtbrdabid2" path="res://Audio/Bullets/Bullet_Crack.tres" id="26"]
+[ext_resource type="Resource" uid="uid://byp25jrs76r74" path="res://Audio/Bullets/Bullet_Flyby.tres" id="27"]
+[ext_resource type="Resource" uid="uid://eancy281vfyi" path="res://Audio/Medical/Burn.tres" id="28"]
+[ext_resource type="Resource" uid="uid://capeyge1ubadg" path="res://Audio/Casings/Casing_Drop_Hard.tres" id="29"]
+[ext_resource type="Resource" uid="uid://cubkebtmj4i2h" path="res://Audio/Casings/Casing_Drop_Soft.tres" id="30"]
+[ext_resource type="Resource" uid="uid://gj0pansue0vj" path="res://Audio/Casings/Casing_Drop_Wood.tres" id="31"]
+[ext_resource type="Resource" uid="uid://c12rgsg7aawk5" path="res://Audio/Interaction/Container.tres" id="32"]
+[ext_resource type="Resource" uid="uid://d22h4d2kjikh2" path="res://Audio/Character/Damage.tres" id="33"]
+[ext_resource type="Resource" uid="uid://kh31amh7437t" path="res://Audio/Character/Death.tres" id="34"]
+[ext_resource type="Resource" uid="uid://c1sfdx0boridj" path="res://Audio/Medical/Dehydration.tres" id="35"]
+[ext_resource type="Resource" uid="uid://bod7qa2nrd171" path="res://Audio/Doors/Door_Metal.tres" id="36"]
+[ext_resource type="Resource" uid="uid://cvueo2ts4rps4" path="res://Audio/Doors/Door_Unlock.tres" id="37"]
+[ext_resource type="Resource" uid="uid://bus4hvikxckr7" path="res://Audio/Doors/Door_Wood.tres" id="38"]
+[ext_resource type="Resource" uid="uid://cmeurn2r37wdl" path="res://Audio/Interaction/Equip.tres" id="39"]
+[ext_resource type="Resource" uid="uid://cclmojhkoe2ww" path="res://Audio/Explosions/Explosion_Medium_Close.tres" id="40"]
+[ext_resource type="Resource" uid="uid://dmmqxbmtlubbl" path="res://Audio/Explosions/Explosion_Medium_Debris.tres" id="41"]
+[ext_resource type="Resource" uid="uid://hmcuf2y36llw" path="res://Audio/Explosions/Explosion_Medium_Far.tres" id="42"]
+[ext_resource type="Resource" uid="uid://bn3ymcjpieumj" path="res://Audio/Explosions/Explosion_Medium_Near.tres" id="43"]
+[ext_resource type="Resource" uid="uid://b8wygmeb3r5jr" path="res://Audio/Explosions/Explosion_Tinnitus.tres" id="44"]
+[ext_resource type="Resource" uid="uid://brfwtn0slll3y" path="res://Audio/Interaction/Extinguish.tres" id="45"]
+[ext_resource type="Resource" uid="uid://b13kmq7rmoov0" path="res://Audio/Interaction/Firemode_Auto.tres" id="46"]
+[ext_resource type="Resource" uid="uid://cvxa4ngh15ajk" path="res://Audio/Interaction/Firemode_Semi.tres" id="47"]
+[ext_resource type="Resource" uid="uid://1c4hmcdwupbp" path="res://Audio/Interaction/Flashlight.tres" id="48"]
+[ext_resource type="Resource" uid="uid://k25c3sa1sv0l" path="res://Audio/Footsteps/Footstep_Asphalt.tres" id="49"]
+[ext_resource type="Resource" uid="uid://dbvygophav74b" path="res://Audio/Footsteps/Footstep_Asphalt_Land.tres" id="50"]
+[ext_resource type="Resource" uid="uid://rswmv2kgqiq" path="res://Audio/Footsteps/Footstep_Concrete.tres" id="51"]
+[ext_resource type="Resource" uid="uid://d4kvwghbgnlrq" path="res://Audio/Footsteps/Footstep_Concrete_Land.tres" id="52"]
+[ext_resource type="Resource" uid="uid://cy7o7hm8hgxpu" path="res://Audio/Footsteps/Footstep_Dirt.tres" id="53"]
+[ext_resource type="Resource" uid="uid://isvf3h4tuk4l" path="res://Audio/Footsteps/Footstep_Dirt_Land.tres" id="54"]
+[ext_resource type="Resource" uid="uid://df2xoa6d7u7tp" path="res://Audio/Footsteps/Footstep_Generic.tres" id="55"]
+[ext_resource type="Resource" uid="uid://cd8qxfjbpejhd" path="res://Audio/Footsteps/Footstep_Generic_Land.tres" id="56"]
+[ext_resource type="Resource" uid="uid://4ggew4e3walh" path="res://Audio/Footsteps/Footstep_Grass.tres" id="57"]
+[ext_resource type="Resource" uid="uid://88hfpgu22rgp" path="res://Audio/Footsteps/Footstep_Grass_Land.tres" id="58"]
+[ext_resource type="Resource" uid="uid://khsf551gao45" path="res://Audio/Footsteps/Footstep_Metal_Solid.tres" id="59"]
+[ext_resource type="Resource" uid="uid://b2eh3cfye584u" path="res://Audio/Footsteps/Footstep_Metal_Solid_Land.tres" id="60"]
+[ext_resource type="Resource" uid="uid://b1eyohx8m0i82" path="res://Audio/Footsteps/Footstep_Rock.tres" id="61"]
+[ext_resource type="Resource" uid="uid://bl12xk6fff7iu" path="res://Audio/Footsteps/Footstep_Rock_Land.tres" id="62"]
+[ext_resource type="Resource" uid="uid://dmkspftteq2qg" path="res://Audio/Footsteps/Footstep_Snow_Hard.tres" id="63"]
+[ext_resource type="Resource" uid="uid://dfbrbst61i2lh" path="res://Audio/Footsteps/Footstep_Snow_Hard_Land.tres" id="64"]
+[ext_resource type="Resource" uid="uid://bwqnt1gtqrhnu" path="res://Audio/Footsteps/Footstep_Snow_Soft.tres" id="65"]
+[ext_resource type="Resource" uid="uid://c5i1lhduho4px" path="res://Audio/Footsteps/Footstep_Snow_Soft_Land.tres" id="66"]
+[ext_resource type="Resource" uid="uid://d3200j02g0vbn" path="res://Audio/Footsteps/Footstep_Water.tres" id="67"]
+[ext_resource type="Resource" uid="uid://usctnp3xo7wx" path="res://Audio/Footsteps/Footstep_Water_Land.tres" id="68"]
+[ext_resource type="Resource" uid="uid://l2rulmbn2ke2" path="res://Audio/Footsteps/Footstep_Wood_Thin.tres" id="69"]
+[ext_resource type="Resource" uid="uid://fus01u8pwm4e" path="res://Audio/Footsteps/Footstep_Wood_Thin_Land.tres" id="70"]
+[ext_resource type="Resource" uid="uid://b42o1skosnl3" path="res://Audio/Medical/Fracture.tres" id="71"]
+[ext_resource type="Resource" uid="uid://dadm5krg7xfeh" path="res://Audio/Medical/Frostbite.tres" id="72"]
+[ext_resource type="Resource" uid="uid://ci5igjkgr0py1" path="res://Audio/Grenades/Grenade_Bounce_Concrete.tres" id="73"]
+[ext_resource type="Resource" uid="uid://cwy07lwjal7yq" path="res://Audio/Grenades/Grenade_Bounce_Dirt.tres" id="74"]
+[ext_resource type="Resource" uid="uid://dkumy8mwi3jmf" path="res://Audio/Grenades/Grenade_Bounce_Grass.tres" id="75"]
+[ext_resource type="Resource" uid="uid://bkm0dakknm2pi" path="res://Audio/Grenades/Grenade_Bounce_Metal.tres" id="76"]
+[ext_resource type="Resource" uid="uid://dkrotcgkfpmn3" path="res://Audio/Grenades/Grenade_Bounce_Wood.tres" id="77"]
+[ext_resource type="Resource" uid="uid://cf47jxcy30s53" path="res://Audio/Grenades/Grenade_Explosion_Indoor_Close.tres" id="78"]
+[ext_resource type="Resource" uid="uid://cjy0821k8jx20" path="res://Audio/Grenades/Grenade_Explosion_Indoor_Far.tres" id="79"]
+[ext_resource type="Resource" uid="uid://dw4jcv7tw4cmw" path="res://Audio/Grenades/Grenade_Explosion_Indoor_Near.tres" id="80"]
+[ext_resource type="Resource" uid="uid://c8ywjbohxkdja" path="res://Audio/Grenades/Grenade_Explosion_Outdoor_Close.tres" id="81"]
+[ext_resource type="Resource" uid="uid://cncqtf7el2egu" path="res://Audio/Grenades/Grenade_Explosion_Outdoor_Far.tres" id="82"]
+[ext_resource type="Resource" uid="uid://dsgshcnljc1nx" path="res://Audio/Grenades/Grenade_Explosion_Outdoor_Near.tres" id="83"]
+[ext_resource type="Resource" uid="uid://cideauajjhrn" path="res://Audio/Grenades/Grenade_Explosion_Tinnitus.tres" id="84"]
+[ext_resource type="Resource" uid="uid://bqot43jpi676n" path="res://Audio/Grenades/Grenade_Handle_Drop.tres" id="85"]
+[ext_resource type="Resource" uid="uid://6vdxlo5qv15t" path="res://Audio/Grenades/Grenade_Handle_Release.tres" id="86"]
+[ext_resource type="Resource" uid="uid://buweldfaf5dqe" path="res://Audio/Grenades/Grenade_Pin_Attach.tres" id="87"]
+[ext_resource type="Resource" uid="uid://danjcrl8ra6us" path="res://Audio/Grenades/Grenade_Pin_Remove.tres" id="88"]
+[ext_resource type="Resource" uid="uid://csq786uqr6y6n" path="res://Audio/Grenades/Grenade_Throw_High.tres" id="89"]
+[ext_resource type="Resource" uid="uid://dxo7j438f812a" path="res://Audio/Grenades/Grenade_Throw_Low.tres" id="90"]
+[ext_resource type="Resource" uid="uid://c88avbj3cgi4r" path="res://Audio/Grenades/Grenade_Throw_Prepare.tres" id="91"]
+[ext_resource type="Resource" uid="uid://dxacg5xnruxq6" path="res://Audio/Medical/Headshot.tres" id="92"]
+[ext_resource type="Resource" uid="uid://dnrt30nraev8u" path="res://Audio/Hits/Hit_Asphalt.tres" id="93"]
+[ext_resource type="Resource" uid="uid://d2aqh8e1hrq1f" path="res://Audio/Hits/Hit_Concrete.tres" id="94"]
+[ext_resource type="Resource" uid="uid://dmea8le8q2mik" path="res://Audio/Hits/Hit_Dirt.tres" id="95"]
+[ext_resource type="Resource" uid="uid://bdvqiws2x6otv" path="res://Audio/Hits/Hit_Generic.tres" id="96"]
+[ext_resource type="Resource" uid="uid://crjhjpw2f04up" path="res://Audio/Hits/Hit_Grass.tres" id="97"]
+[ext_resource type="Resource" uid="uid://lbttem35wlvx" path="res://Audio/Hits/Hit_Metal.tres" id="98"]
+[ext_resource type="Resource" uid="uid://ch1k6xut8y6kp" path="res://Audio/Hits/Hit_Rock.tres" id="99"]
+[ext_resource type="Resource" uid="uid://ckqrnrdxfyk36" path="res://Audio/Hits/Hit_Snow_Hard.tres" id="100"]
+[ext_resource type="Resource" uid="uid://cgp0jeojxd808" path="res://Audio/Hits/Hit_Snow_Soft.tres" id="101"]
+[ext_resource type="Resource" uid="uid://b2o1vyixkmcyf" path="res://Audio/Hits/Hit_Target.tres" id="102"]
+[ext_resource type="Resource" uid="uid://bqqwo07qw2ne5" path="res://Audio/Hits/Hit_Water.tres" id="103"]
+[ext_resource type="Resource" uid="uid://bqgjns0k62tdv" path="res://Audio/Hits/Hit_Wood.tres" id="104"]
+[ext_resource type="Resource" uid="uid://c5i81ix52v43g" path="res://Audio/Interaction/Ignite.tres" id="105"]
+[ext_resource type="Resource" uid="uid://bct3142ex82ly" path="res://Audio/Character/Impact.tres" id="106"]
+[ext_resource type="Resource" uid="uid://bnjnydfnlckgw" path="res://Audio/Medical/Indicator.tres" id="107"]
+[ext_resource type="Resource" uid="uid://c68ilnmoig1qv" path="res://Audio/Medical/Insanity.tres" id="108"]
+[ext_resource type="Resource" uid="uid://b0a50dwn8pb0f" path="res://Items/Weapons/Common/Inspects/Inspect_End.tres" id="109"]
+[ext_resource type="Resource" uid="uid://yv8eq0id4m4t" path="res://Items/Weapons/Common/Inspects/Inspect_Rotate.tres" id="110"]
+[ext_resource type="Resource" uid="uid://cfk5m3agk0v0t" path="res://Items/Weapons/Common/Inspects/Inspect_Start.tres" id="111"]
+[ext_resource type="Resource" uid="uid://cvpt3r80m3meq" path="res://Audio/Knives/Knife_Bounce_Metal.tres" id="112"]
+[ext_resource type="Resource" uid="uid://3b5vccy8pgw5" path="res://Audio/Knives/Knife_Bounce_Soil.tres" id="113"]
+[ext_resource type="Resource" uid="uid://hc467m61a60q" path="res://Audio/Knives/Knife_Bounce_Wood.tres" id="114"]
+[ext_resource type="Resource" uid="uid://bkkekttoc4dn6" path="res://Audio/Knives/Knife_Draw.tres" id="115"]
+[ext_resource type="Resource" uid="uid://ro6if7usftvw" path="res://Audio/Knives/Knife_Hit_Flesh_Slash.tres" id="116"]
+[ext_resource type="Resource" uid="uid://cpe7frjec735g" path="res://Audio/Knives/Knife_Hit_Flesh_Stab.tres" id="117"]
+[ext_resource type="Resource" uid="uid://bdfyusr5ihklh" path="res://Audio/Knives/Knife_Hit_Hard.tres" id="118"]
+[ext_resource type="Resource" uid="uid://docjqw4wl5vgn" path="res://Audio/Knives/Knife_Hit_Metal.tres" id="119"]
+[ext_resource type="Resource" uid="uid://phe8chga74u2" path="res://Audio/Knives/Knife_Hit_Soft.tres" id="120"]
+[ext_resource type="Resource" uid="uid://cupary3pubiw" path="res://Audio/Knives/Knife_Hit_Wood.tres" id="121"]
+[ext_resource type="Resource" uid="uid://up8qu18pn6rw" path="res://Audio/Knives/Knife_Holster.tres" id="122"]
+[ext_resource type="Resource" uid="uid://dladsk6875j2t" path="res://Audio/Knives/Knife_Inspect_End.tres" id="123"]
+[ext_resource type="Resource" uid="uid://c4p7ktt5gcnoq" path="res://Audio/Knives/Knife_Inspect_Start.tres" id="124"]
+[ext_resource type="Resource" uid="uid://g1030qgpsa72" path="res://Audio/Knives/Knife_Inspect_Turn.tres" id="125"]
+[ext_resource type="Resource" uid="uid://ceg3ty7xb4ck0" path="res://Audio/Knives/Knife_Slash.tres" id="126"]
+[ext_resource type="Resource" uid="uid://5h6faqya8iwc" path="res://Audio/Knives/Knife_Stab.tres" id="127"]
+[ext_resource type="Resource" uid="uid://cj2yaa6lm7f1u" path="res://Audio/Knives/Knife_Stick_Flesh.tres" id="128"]
+[ext_resource type="Resource" uid="uid://dol28nmxo3vus" path="res://Audio/Knives/Knife_Stick_Soil.tres" id="129"]
+[ext_resource type="Resource" uid="uid://dgra0q0pcen6q" path="res://Audio/Knives/Knife_Stick_Wood.tres" id="130"]
+[ext_resource type="Resource" uid="uid://cl882yx8a7vnt" path="res://Audio/Knives/Knife_Throw_End.tres" id="131"]
+[ext_resource type="Resource" uid="uid://4sodrcj2a2mg" path="res://Audio/Knives/Knife_Throw_Start.tres" id="132"]
+[ext_resource type="Resource" uid="uid://ckcua4m0xj7e5" path="res://Audio/Fishing/Lure_Impact_Generic.tres" id="133"]
+[ext_resource type="Resource" uid="uid://bky1xl3gg6duf" path="res://Audio/Fishing/Lure_Impact_Water.tres" id="134"]
+[ext_resource type="Resource" uid="uid://vxlwrg1i8nk6" path="res://Audio/Malfunction/Malfunction.tres" id="135"]
+[ext_resource type="Resource" uid="uid://ch85qa7lpiw4y" path="res://Audio/Malfunction/Malfunction_Clear_Pistol.tres" id="136"]
+[ext_resource type="Resource" uid="uid://b1618w2ls4yjn" path="res://Audio/Malfunction/Malfunction_Clear_Rifle.tres" id="137"]
+[ext_resource type="Resource" uid="uid://b7ep5hs5m3c4l" path="res://Audio/Movement/Movement_Cloth.tres" id="138"]
+[ext_resource type="Resource" uid="uid://ckpbfiof3qnug" path="res://Audio/Movement/Movement_Gear.tres" id="139"]
+[ext_resource type="Resource" uid="uid://c2ivo7a6a6807" path="res://Audio/Medical/Overweight.tres" id="140"]
+[ext_resource type="Resource" uid="uid://c0u7ixswjfb3n" path="res://Audio/Interaction/Pickup.tres" id="141"]
+[ext_resource type="Resource" uid="uid://btuj8kea5ott7" path="res://Audio/Interaction/Radio.tres" id="142"]
+[ext_resource type="Resource" uid="uid://dtovsxmqqsgtk" path="res://Audio/Ragdoll/Ragdoll.tres" id="143"]
+[ext_resource type="Resource" uid="uid://bgwmevdx3edlq" path="res://Audio/Fishing/Rod_Catch.tres" id="144"]
+[ext_resource type="Resource" uid="uid://bnl6e2r3bbyv3" path="res://Audio/Fishing/Rod_Hooked.tres" id="145"]
+[ext_resource type="Resource" uid="uid://bjfj4b0y042vi" path="res://Audio/Fishing/Rod_Reel_End.tres" id="146"]
+[ext_resource type="Resource" uid="uid://d04stxd3hidbd" path="res://Audio/Fishing/Rod_Throw_End.tres" id="147"]
+[ext_resource type="Resource" uid="uid://cmu8usrqrky84" path="res://Audio/Fishing/Rod_Throw_Reset.tres" id="148"]
+[ext_resource type="Resource" uid="uid://omfd2nnglfog" path="res://Audio/Fishing/Rod_Throw_Start.tres" id="149"]
+[ext_resource type="Resource" uid="uid://viu7n8naj5v7" path="res://Audio/Medical/Rupture.tres" id="150"]
+[ext_resource type="Script" uid="uid://dmagjq54dsx0j" path="res://Scripts/AudioLibrary.gd" id="151"]
+[ext_resource type="Resource" uid="uid://cf0xvggobn7nt" path="res://Audio/Casings/Shell_Drop_Hard.tres" id="152"]
+[ext_resource type="Resource" uid="uid://gt08whibmtqt" path="res://Audio/Casings/Shell_Drop_Soft.tres" id="153"]
+[ext_resource type="Resource" uid="uid://bw5h0lqwnyapi" path="res://Audio/Interaction/Sleep.tres" id="154"]
+[ext_resource type="Resource" uid="uid://dpbi3xydf7iwe" path="res://Audio/Medical/Starvation.tres" id="155"]
+[ext_resource type="Resource" uid="uid://ru55o43w1334" path="res://Audio/Water/Swim_Submerged.tres" id="156"]
+[ext_resource type="Resource" uid="uid://bhro0didtogxa" path="res://Audio/Water/Swim_Surface.tres" id="157"]
+[ext_resource type="Resource" uid="uid://dg53bbmww4nal" path="res://Audio/Interaction/Switch.tres" id="158"]
+[ext_resource type="Resource" uid="uid://4t0yk3d5qrdy" path="res://Audio/Interaction/Transition.tres" id="159"]
+[ext_resource type="Resource" uid="uid://dmym4mdquplgn" path="res://Audio/Interaction/Unequip.tres" id="160"]
+[ext_resource type="Resource" uid="uid://ckmc7k34lnq0x" path="res://Audio/Use/Unload.tres" id="161"]
+[ext_resource type="Resource" uid="uid://bk0we43rb4tx8" path="res://Audio/Use/Unload_End.tres" id="162"]
+[ext_resource type="Resource" uid="uid://benytgvkdo76x" path="res://Audio/Vostok/Vostok_Enter.tres" id="163"]
+[ext_resource type="Resource" uid="uid://dbuj6lt8537h2" path="res://Audio/Water/Water_Dive.tres" id="164"]
+[ext_resource type="Resource" uid="uid://bln64ltdqb1nx" path="res://Audio/Water/Water_Gasp.tres" id="165"]
+[ext_resource type="Resource" uid="uid://dm4ha5sr8kbwt" path="res://Audio/Water/Water_Surface.tres" id="166"]
+
+[resource]
+script = ExtResource("151")
+damage = ExtResource("33")
+impact = ExtResource("106")
+armor = ExtResource("23")
+armorBreak = ExtResource("24")
+death = ExtResource("34")
+indicator = ExtResource("107")
+overweight = ExtResource("140")
+starvation = ExtResource("155")
+dehydration = ExtResource("35")
+bleeding = ExtResource("25")
+fracture = ExtResource("71")
+burn = ExtResource("28")
+insanity = ExtResource("108")
+frostbite = ExtResource("72")
+rupture = ExtResource("150")
+headshot = ExtResource("92")
+doorWood = ExtResource("38")
+doorMetal = ExtResource("36")
+doorUnlock = ExtResource("37")
+pickup = ExtResource("141")
+equip = ExtResource("39")
+unequip = ExtResource("160")
+transition = ExtResource("159")
+flashlight = ExtResource("48")
+radio = ExtResource("142")
+firemodeSemi = ExtResource("47")
+firemodeAuto = ExtResource("46")
+ignite = ExtResource("105")
+extinguish = ExtResource("45")
+container = ExtResource("32")
+switch = ExtResource("158")
+sleep = ExtResource("154")
+UIClick = ExtResource("5")
+UIEquip = ExtResource("7")
+UIUnequip = ExtResource("18")
+UIDrop = ExtResource("6")
+UIAttach = ExtResource("2")
+UIArmor = ExtResource("1")
+UIError = ExtResource("8")
+UIStack = ExtResource("11")
+UILoad = ExtResource("10")
+UITeleport = ExtResource("12")
+UICasettePlay = ExtResource("3")
+UICasetteStop = ExtResource("4")
+UIFurniture = ExtResource("9")
+UITraderOpen = ExtResource("14")
+UITraderClose = ExtResource("13")
+UITraderTrade = ExtResource("17")
+UITraderReset = ExtResource("15")
+UITraderTask = ExtResource("16")
+vostokEnter = ExtResource("163")
+malfunction = ExtResource("135")
+malfunctionClearPistol = ExtResource("136")
+malfunctionClearRifle = ExtResource("137")
+bulletCrack = ExtResource("26")
+bulletFlyby = ExtResource("27")
+hitGeneric = ExtResource("96")
+hitGrass = ExtResource("97")
+hitDirt = ExtResource("95")
+hitAsphalt = ExtResource("93")
+hitRock = ExtResource("99")
+hitWood = ExtResource("104")
+hitMetal = ExtResource("98")
+hitConcrete = ExtResource("94")
+hitTarget = ExtResource("102")
+hitWater = ExtResource("103")
+hitSnowSoft = ExtResource("101")
+hitSnowHard = ExtResource("100")
+unload = ExtResource("161")
+unloadEnd = ExtResource("162")
+footstepGeneric = ExtResource("55")
+footstepGenericLand = ExtResource("56")
+footstepGrass = ExtResource("57")
+footstepGrassLand = ExtResource("58")
+footstepDirt = ExtResource("53")
+footstepDirtLand = ExtResource("54")
+footstepAsphalt = ExtResource("49")
+footstepAsphaltLand = ExtResource("50")
+footstepRock = ExtResource("61")
+footstepRockLand = ExtResource("62")
+footstepWood = ExtResource("69")
+footstepWoodLand = ExtResource("70")
+footstepMetal = ExtResource("59")
+footstepMetalLand = ExtResource("60")
+footstepConcrete = ExtResource("51")
+footstepConcreteLand = ExtResource("52")
+footstepSnowSoft = ExtResource("65")
+footstepSnowSoftLand = ExtResource("66")
+footstepSnowHard = ExtResource("63")
+footstepSnowHardLand = ExtResource("64")
+footstepWater = ExtResource("67")
+footstepWaterLand = ExtResource("68")
+movementCloth = ExtResource("138")
+movementGear = ExtResource("139")
+waterGasp = ExtResource("165")
+waterDive = ExtResource("164")
+waterSurface = ExtResource("166")
+swimSurface = ExtResource("157")
+swimSubmerged = ExtResource("156")
+inspectStart = ExtResource("111")
+inspectRotate = ExtResource("110")
+inspectEnd = ExtResource("109")
+ammoLoad = ExtResource("21")
+ammoLoadInstant = ExtResource("22")
+ragdoll = ExtResource("143")
+airdropRelease = ExtResource("20")
+airdropBounce = ExtResource("19")
+casingDropSoft = ExtResource("30")
+casingDropHard = ExtResource("29")
+casingDropWood = ExtResource("31")
+shellDropHard = ExtResource("152")
+shellDropSoft = ExtResource("153")
+rodThrowStart = ExtResource("149")
+rodThrowReset = ExtResource("148")
+rodThrowEnd = ExtResource("147")
+rodReelEnd = ExtResource("146")
+rodHooked = ExtResource("145")
+rodCatch = ExtResource("144")
+lureImpactWater = ExtResource("134")
+lureImpactGeneric = ExtResource("133")
+knifeDraw = ExtResource("115")
+knifeHolster = ExtResource("122")
+knifeSlash = ExtResource("126")
+knifeStab = ExtResource("127")
+knifeThrowStart = ExtResource("132")
+knifeThrowEnd = ExtResource("131")
+knifeInspectStart = ExtResource("124")
+knifeInspectEnd = ExtResource("123")
+knifeInspectTurn = ExtResource("125")
+knifeBounceSoil = ExtResource("113")
+knifeBounceWood = ExtResource("114")
+knifeBounceMetal = ExtResource("112")
+knifeStickSoil = ExtResource("129")
+knifeStickWood = ExtResource("130")
+knifeStickFlesh = ExtResource("128")
+knifeHitSoft = ExtResource("120")
+knifeHitWood = ExtResource("121")
+knifeHitHard = ExtResource("118")
+knifeHitMetal = ExtResource("119")
+knifeHitFleshSlash = ExtResource("116")
+knifeHitFleshStab = ExtResource("117")
+explosionTinnitus = ExtResource("44")
+explosionMediumClose = ExtResource("40")
+explosionMediumNear = ExtResource("43")
+explosionMediumFar = ExtResource("42")
+explosionMediumDebris = ExtResource("41")
+grenadeThrowPrepare = ExtResource("91")
+grenadeThrowLow = ExtResource("90")
+grenadeThrowHigh = ExtResource("89")
+grenadePinRemove = ExtResource("88")
+grenadePinAttach = ExtResource("87")
+grenadeHandleRelease = ExtResource("86")
+grenadeHandleDrop = ExtResource("85")
+grenadeBounceGrass = ExtResource("75")
+grenadeBounceDirt = ExtResource("74")
+grenadeBounceWood = ExtResource("77")
+grenadeBounceMetal = ExtResource("76")
+grenadeBounceConcrete = ExtResource("73")
+grenadeExplosionIndoorClose = ExtResource("78")
+grenadeExplosionIndoorNear = ExtResource("80")
+grenadeExplosionIndoorFar = ExtResource("79")
+grenadeExplosionOutdoorClose = ExtResource("81")
+grenadeExplosionOutdoorNear = ExtResource("83")
+grenadeExplosionOutdoorFar = ExtResource("82")
+grenadeExplosionTinnitus = ExtResource("84")

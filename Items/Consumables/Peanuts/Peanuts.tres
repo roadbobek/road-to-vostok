@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://0xpux55m2dlg"]
+
+[ext_resource type="Resource" uid="uid://ce3cv6isp2d4q" path="res://Audio/Use/Eat_Crunch_Low.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bvlk46r23eofy" path="res://Items/Consumables/Peanuts/Files/Icon_Peanuts.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bxi6x78ogft68" path="res://Items/Consumables/Peanuts/Peanuts_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Peanuts"
+name = "Peanuts"
+inventory = "Peanuts"
+rotated = "Peanuts"
+equipment = "Peanuts"
+display = "Peanuts"
+type = "Consumables"
+weight = 0.1
+value = 40
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 10.0
+hydration = -5.0
+mental = 5.0
+material = null
+civilian = true
+generalist = true

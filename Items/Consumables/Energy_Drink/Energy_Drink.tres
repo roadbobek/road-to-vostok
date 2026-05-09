@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://drbmbs25hk4qy"]
+
+[ext_resource type="Resource" uid="uid://dfgroek3kc1sm" path="res://Audio/Use/Drink_Bottle.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cpn6e5ei7maey" path="res://Items/Consumables/Energy_Drink/Files/Icon_Energy_Drink.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://xxa3tgu6lpiy" path="res://Items/Consumables/Energy_Drink/Energy_Drink_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Energy_Drink"
+name = "Energy Drink"
+inventory = "E. Drink"
+rotated = "E. Drink"
+equipment = "E. Drink"
+display = "E. Drink"
+type = "Consumable"
+weight = 0.5
+value = 400
+rarity = 3
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+energy = 50.0
+hydration = 100.0
+mental = 25.0
+material = null
+freezable = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

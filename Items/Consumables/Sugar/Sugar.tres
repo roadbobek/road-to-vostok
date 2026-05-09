@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://qc4ju64rav2n"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dgbeqxk4jn47x" path="res://Items/Consumables/Sugar/Files/Icon_Sugar.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://brm63t2sayk11" path="res://Items/Consumables/Sugar/Sugar_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Sugar"
+name = "Sugar"
+inventory = "Sugar"
+rotated = "Sugar"
+equipment = "Sugar"
+display = "Sugar"
+type = "Consumables"
+value = 120
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 20.0
+hydration = -10.0
+mental = 10.0
+material = null
+civilian = true
+grandma = true

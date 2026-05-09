@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cryvk47ad2vkm"]
+
+[ext_resource type="Resource" uid="uid://crokxhj3cbhqj" path="res://Audio/Use/Lotion.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bc0dym8y4808g" path="res://Items/Medical/Lotion/Files/Icon_Lotion.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://xgco8xyb1nvi" path="res://Items/Medical/Lotion/Lotion_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Lotion"
+name = "Lotion"
+inventory = "Lotion"
+rotated = "Lotion"
+equipment = "Lotion"
+display = "Lotion"
+type = "Medical"
+weight = 0.2
+value = 75
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Heal"
+audio = ExtResource("1")
+burn = true
+material = null
+civilian = true
+doctor = true

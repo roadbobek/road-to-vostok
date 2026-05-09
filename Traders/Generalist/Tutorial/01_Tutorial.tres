@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://d3k4k6jmqdyxm"]
+
+[ext_resource type="Resource" uid="uid://byrjl4t6b0ft4" path="res://Items/Consumables/Canned_Pea_Soup/Canned_Pea_Soup.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c0miqekrbn64x" path="res://Items/Consumables/Potato/Potato.tres" id="2"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+trader = "Generalist"
+name = "Tutorial Task 1 (Simple)"
+difficulty = "Easy"
+description = "Let's start with something simple.
+
+Go to the Items billboard and grab Canned Pea Soup. Once you have the delivery item in your inventory:
+1. Press Start Delivery
+2. Select Canned Pea Soup
+3. Press Complete"
+deliver = [ExtResource("1")]
+receive = [ExtResource("2")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

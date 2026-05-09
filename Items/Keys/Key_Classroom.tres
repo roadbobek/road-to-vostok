@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://288shevf8sre"]
+
+[ext_resource type="Texture2D" uid="uid://cvnb4gcvlpsot" path="res://Items/Keys/Files/Icon_Key_Classroom.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dfnhs1jk4g2q8" path="res://Items/Keys/Key_Classroom_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Key_Classroom"
+name = "Classroom Key"
+inventory = "Class. K."
+rotated = "Class. K."
+equipment = "Class. K."
+display = "Class. K."
+type = "Key"
+weight = 0.1
+value = 500
+rarity = 3
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ddqiv32oks27t"]
+
+[ext_resource type="Resource" uid="uid://dpfi4kbpusfoa" path="res://Items/Ammo/Ammo_9x39/Ammo_9x39.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://b4qyavu6eiyjw" path="res://Items/Weapons/VSS/Files/Icon_VSS_Magazine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://be258p5d17cib" path="res://Items/Weapons/VSS/VSS_Magazine_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "VSS_Magazine"
+name = "SS Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+weight = 0.2
+value = 150
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+audio = null
+compatible = [ExtResource("1")]
+material = null
+showAmount = true
+defaultAmount = 20
+maxAmount = 20
+military = true
+orientation = 90.0
+wallOffset = 0.025
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

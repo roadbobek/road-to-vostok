@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Events" format=3 uid="uid://7rtqs70tgu7a"]
+
+[ext_resource type="Resource" uid="uid://dby1xyquujtjb" path="res://Events/List/D1_Generalist.tres" id="1"]
+[ext_resource type="Resource" uid="uid://cxb82pd0gd1y8" path="res://Events/List/D2_Doctor.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cbnl1p74mbg8i" path="res://Events/List/D3_Fighters.tres" id="3"]
+[ext_resource type="Resource" uid="uid://dagajfbp2orar" path="res://Events/List/D4_Cat.tres" id="4"]
+[ext_resource type="Resource" uid="uid://mpjmnwl3b4qj" path="res://Events/List/D5_Punisher.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dwcav1nhev0as" path="res://Events/List/D6_Airdrops.tres" id="6"]
+[ext_resource type="Resource" uid="uid://bqssaiuxxdtaq" path="res://Events/List/D7_BTR.tres" id="7"]
+[ext_resource type="Resource" uid="uid://b4xar871ujh" path="res://Events/List/D8_Helicopters.tres" id="8"]
+[ext_resource type="Resource" uid="uid://dbdfo4g4ha6b0" path="res://Events/List/D9_Crashes.tres" id="9"]
+[ext_resource type="Resource" uid="uid://n8jxcb81q4cl" path="res://Events/List/D10_Gunsmith.tres" id="10"]
+[ext_resource type="Resource" uid="uid://bpewi4lte26uw" path="res://Events/List/D20_Outpost.tres" id="11"]
+[ext_resource type="Resource" uid="uid://k51psarudfxl" path="res://Events/List/D30_Escape.tres" id="12"]
+[ext_resource type="Resource" uid="uid://bcirlkj34etsw" path="res://Events/List/D40_Return.tres" id="13"]
+[ext_resource type="Resource" uid="uid://haaxajl65e3e" path="res://Events/List/D50_Transmission.tres" id="14"]
+[ext_resource type="Script" uid="uid://cdjrx2f6bdlql" path="res://Scripts/Events.gd" id="15"]
+
+[resource]
+script = ExtResource("15")
+events = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")]
+metadata/_custom_type_script = "uid://cdjrx2f6bdlql"

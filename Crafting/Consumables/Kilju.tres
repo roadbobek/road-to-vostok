@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="RecipeData" format=3 uid="uid://cixh5w5qiae5d"]
+
+[ext_resource type="Resource" uid="uid://cfw3t4gdadtr6" path="res://Audio/Crafting/Craft_Kilju.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bohb7builytcn" path="res://Items/Misc/Bucket/Bucket.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bivdbtv152u4k" path="res://Items/Misc/Water_Lock/Water_Lock.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cbfv3wplv6l3o" path="res://Items/Consumables/Water_Bottle/Water_Bottle.tres" id="4"]
+[ext_resource type="Resource" uid="uid://qc4ju64rav2n" path="res://Items/Consumables/Sugar/Sugar.tres" id="5"]
+[ext_resource type="Resource" uid="uid://bwk3xklr53qoc" path="res://Items/Consumables/Yeast/Yeast.tres" id="6"]
+[ext_resource type="Resource" uid="uid://c1nr1gop3fjfd" path="res://Items/Consumables/Kilju/Kilju.tres" id="7"]
+[ext_resource type="Script" uid="uid://b0blnq3ea0tae" path="res://Scripts/RecipeData.gd" id="8"]
+
+[resource]
+script = ExtResource("8")
+name = "Kilju"
+time = 10.0
+audio = ExtResource("1")
+input = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("4"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+output = [ExtResource("7")]
+metadata/_custom_type_script = "uid://b0blnq3ea0tae"

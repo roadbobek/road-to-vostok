@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="TraderData" format=3 uid="uid://bygeyyc07erda"]
+
+[ext_resource type="Resource" uid="uid://dt0efmbjb1w3w" path="res://Audio/Voices/Gunsmith/Gunsmith_End.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dtk1ptwbo5ssi" path="res://Traders/Gunsmith/Files/Icon_Gunsmith.png" id="2"]
+[ext_resource type="Resource" uid="uid://bbhpytltji7pv" path="res://Audio/Voices/Gunsmith/Gunsmith_Random.tres" id="3"]
+[ext_resource type="Script" uid="uid://dgp3dpjyuueif" path="res://Scripts/TraderData.gd" id="4"]
+[ext_resource type="Resource" uid="uid://bttfxa6512dcb" path="res://Audio/Voices/Gunsmith/Gunsmith_Start.tres" id="5"]
+[ext_resource type="Resource" uid="uid://i5si6eg1g6jq" path="res://Audio/Voices/Gunsmith/Gunsmith_Task.tres" id="6"]
+[ext_resource type="Resource" uid="uid://6f2fcyeuakfv" path="res://Traders/Gunsmith/Tasks/01_Bloodsuckers.tres" id="7"]
+[ext_resource type="Resource" uid="uid://d0g1pesw5xwga" path="res://Traders/Gunsmith/Tasks/02_Warm_Meal.tres" id="8"]
+[ext_resource type="Resource" uid="uid://b13brcx2l260n" path="res://Traders/Gunsmith/Tasks/03_Nordic_Trade.tres" id="9"]
+[ext_resource type="Resource" uid="uid://dy30jw7glfv4w" path="res://Traders/Gunsmith/Tasks/04_Big_Blades.tres" id="10"]
+[ext_resource type="Resource" uid="uid://cjm05cyr0nt8v" path="res://Traders/Gunsmith/Tasks/05_Ammo_Delivery.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cavph0wqavwad" path="res://Traders/Gunsmith/Tasks/06_Weapon_Delivery.tres" id="12"]
+[ext_resource type="Resource" uid="uid://cbgn40sjxbf45" path="res://Traders/Gunsmith/Tasks/07_Medic.tres" id="13"]
+[ext_resource type="Resource" uid="uid://b03kg27e1bxub" path="res://Traders/Gunsmith/Tasks/08_Home_Collection.tres" id="14"]
+[ext_resource type="Resource" uid="uid://djnyrgnqxuk5c" path="res://Traders/Gunsmith/Tasks/09_Everymans_Right.tres" id="15"]
+[ext_resource type="Resource" uid="uid://cgdo2mat053xg" path="res://Traders/Gunsmith/Tasks/10_Hitman.tres" id="16"]
+[ext_resource type="Resource" uid="uid://c140g3r8p1vfi" path="res://Audio/Voices/Gunsmith/Gunsmith_Trade.tres" id="17"]
+
+[resource]
+script = ExtResource("4")
+icon = ExtResource("2")
+name = "Gunsmith"
+tax = 300.0
+tasks = [ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16")]
+randomVoices = ExtResource("3")
+startVoices = ExtResource("5")
+endVoices = ExtResource("1")
+tradeVoices = ExtResource("17")
+taskVoices = ExtResource("6")
+metadata/_custom_type_script = "uid://dgp3dpjyuueif"

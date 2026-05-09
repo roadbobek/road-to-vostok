@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b2gv0wdu4b4wa"]
+
+[ext_resource type="Texture2D" uid="uid://b5qm8a2n3tcfn" path="res://Items/Keys/Files/Icon_Key_Attic.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cgyqg8evsetsp" path="res://Items/Keys/Key_Attic_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Key_Attic"
+name = "Attic Key"
+inventory = "Attic K."
+rotated = "Attic K."
+equipment = "Attic K."
+display = "Attic K."
+type = "Key"
+weight = 0.1
+value = 500
+rarity = 3
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dngt4qwdur6wa"]
+
+[ext_resource type="Texture2D" uid="uid://dalsa7ls565yo" path="res://Items/Ammo/Ammo_545x39/Files/Icon_Ammo_545x39.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://ce2fito2gqs32" path="res://Items/Ammo/Ammo_545x39/Ammo_545x39_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Ammo_545x39"
+name = "5.45x39"
+inventory = "5.45"
+rotated = "5.45"
+equipment = "5.45"
+display = "5.45"
+type = "Ammo"
+weight = 0.4
+value = 325
+icon = ExtResource("1")
+tetris = ExtResource("3")
+audio = null
+material = null
+showAmount = true
+defaultAmount = 30
+maxAmount = 300
+stackable = true
+military = true
+gunsmith = true

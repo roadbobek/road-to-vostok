@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c6q8lx8cutyuk"]
+
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dut4je3klfxly" path="res://Items/Weapons/Glock_17/Files/Icon_Glock_17_Magazine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://du2pc0asnmtdp" path="res://Items/Weapons/Glock_17/Glock_17_Magazine_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Glock_17_Magazine"
+name = "G7 Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+weight = 0.1
+value = 90
+icon = ExtResource("2")
+tetris = ExtResource("4")
+audio = null
+compatible = [ExtResource("1")]
+material = null
+showAmount = true
+defaultAmount = 17
+maxAmount = 17
+civilian = true
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.02
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

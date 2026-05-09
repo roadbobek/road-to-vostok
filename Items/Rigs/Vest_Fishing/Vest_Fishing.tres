@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b265qyyaja50l"]
+
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://bogp1uji4ok7u" path="res://Items/Rigs/Vest_Fishing/Vest_Fishing_3x4.tscn" id="2"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_se606"]
+load_path = "res://.godot/imported/Icon_Vest_Fishing.png-2ef066baf4704610812bb2fd8c00c49e.s3tc.ctex"
+
+[resource]
+script = ExtResource("1")
+file = "Vest_Fishing"
+name = "Fishing Vest"
+inventory = "Fishing Vest"
+rotated = "Fishing Vest"
+equipment = "Fishing Vest"
+display = "F. Vest"
+type = "Rig"
+weight = 0.8
+value = 140
+icon = SubResource("CompressedTexture2D_se606")
+tetris = ExtResource("2")
+size = Vector2(3, 4)
+slots = Array[String](["Rig"])
+capacity = 15.0
+insulation = 4.0
+civilian = true
+generalist = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

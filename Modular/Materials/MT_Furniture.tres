@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bk2rd5xnhsqwl"]
+
+[ext_resource type="Shader" uid="uid://c40x2yx2ay4hb" path="res://Shaders/Furniture.gdshader" id="1"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/valid = true

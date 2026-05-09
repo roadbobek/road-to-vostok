@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfycqy2h0n0pp"
+path="res://.godot/imported/MS_Casette.obj-dc88c4d3e8361a6522da66b3169022d0.mesh"
+
+[deps]
+
+source_file="res://Items/0 - Shared/MS_Casette.obj"
+dest_files=["res://.godot/imported/MS_Casette.obj-dc88c4d3e8361a6522da66b3169022d0.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

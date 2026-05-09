@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dtovsxmqqsgtk"]
+
+[ext_resource type="AudioStream" uid="uid://bah2qybuxmdje" path="res://Audio/Ragdoll/Files/Ragdoll_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cgi0vjihn8bye" path="res://Audio/Ragdoll/Files/Ragdoll_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://6ypw5ucb5krx" path="res://Audio/Ragdoll/Files/Ragdoll_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://d3xt71ocph8le" path="res://Audio/Ragdoll/Files/Ragdoll_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cumpwx1ntqq5p" path="res://Audio/Ragdoll/Files/Ragdoll_05.wav" id="5"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+volume = -2.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ban5hwfsmmpqk"]
+
+[ext_resource type="AudioStream" uid="uid://psvit2pdb16r" path="res://Audio/Dynamic/Files/Seagull_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://b3s4rswqbwx3e" path="res://Audio/Dynamic/Files/Seagull_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://df24kcv2v7pda" path="res://Audio/Dynamic/Files/Seagull_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://crw8o2r2wupig" path="res://Audio/Dynamic/Files/Seagull_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://c7la71t2craru" path="res://Audio/Dynamic/Files/Seagull_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://d4ki02iixyhsl" path="res://Audio/Dynamic/Files/Seagull_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://dn042ct5rg61s" path="res://Audio/Dynamic/Files/Seagull_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bleorgvehiyqh" path="res://Audio/Dynamic/Files/Seagull_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://c630pkrilvyme" path="res://Audio/Dynamic/Files/Seagull_Group_01.wav" id="9"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="10"]
+
+[resource]
+script = ExtResource("10")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")]

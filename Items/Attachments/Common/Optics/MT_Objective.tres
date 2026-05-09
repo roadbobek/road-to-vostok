@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://chtlu3sgjwtq2"]
+
+[ext_resource type="Shader" uid="uid://c5grt3o8uuyj2" path="res://Shaders/Objective.gdshader" id="1"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")

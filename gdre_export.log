@@ -1,0 +1,42 @@
+GDRE Tools v2.5.0-beta.5
+Windows 10.0.26200, NVIDIA GeForce RTX 4070, vulkan
+WARNING: Could not find embedded pck in EXE, found pck file, loading from: C:/Program Files (x86)/Steam/steamapps/common/Road to Vostok/RTV.pck
+   at: GDRESettings::sort_and_validate_pck_files (modules\gdsdecomp\utility\gdre_settings.cpp:613)
+Opening file: C:/Program Files (x86)/Steam/steamapps/common/Road to Vostok/RTV.pck
+Opening file: C:/Program Files (x86)/Steam/steamapps/common/Road to Vostok/RTV.pck
+ERROR: Can't load PCK, already loaded from C:/Program Files (x86)/Steam/steamapps/common/Road to Vostok/RTV.pck
+   at: GDRESettings::_add_pack (modules\gdsdecomp\utility\gdre_settings.cpp:684)
+Loaded 8726 imported files
+Detected Engine Version: 4.6.2
+Detected Bytecode Revision: 4.5.0-stable (ebc36a7)
+Verified 17729 files, no errors detected!
+Extracted 17729 files, no errors detected!
+
+Exporting scenes...
+*** Exporting 42 scenes took 19.39s
+
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     175
+Failed scripts:                         0
+Imported resources for export session:  8726
+Successfully converted:                 8726
+Lossy:                                  2359
+Rewrote metadata:                       5085
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.6.2 to edit the project.
+
+*******************************************************************************
+

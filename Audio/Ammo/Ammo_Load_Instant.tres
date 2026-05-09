@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cvuxsmkvs7ubh"]
+
+[ext_resource type="AudioStream" uid="uid://u4klhms5k8xk" path="res://Audio/Ammo/Files/Ammo_Load_Instant_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://brjqo5ttkfcps" path="res://Audio/Ammo/Files/Ammo_Load_Instant_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cs2jfslgahbne" path="res://Audio/Ammo/Files/Ammo_Load_Instant_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://cf0hnbeln8x12" path="res://Audio/Ammo/Files/Ammo_Load_Instant_04.wav" id="4"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4")]
+volume = -2.0
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

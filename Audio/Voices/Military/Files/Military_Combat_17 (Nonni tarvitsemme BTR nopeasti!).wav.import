@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0n1xjinjlq5d"
+path="res://.godot/imported/Military_Combat_17 (Nonni tarvitsemme BTR nopeasti!).wav-2d7f2d4902f94e5d1de4ae08a59db6a6.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Combat_17 (Nonni tarvitsemme BTR nopeasti!).wav"
+dest_files=["res://.godot/imported/Military_Combat_17 (Nonni tarvitsemme BTR nopeasti!).wav-2d7f2d4902f94e5d1de4ae08a59db6a6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0

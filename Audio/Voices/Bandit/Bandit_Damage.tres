@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://buxngn3m5a4xr"]
+
+[ext_resource type="AudioStream" uid="uid://bfxc0tkpt160x" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://cpltcj1ewveh7" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c3q2vphrj1dbt" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bws0rhum1afil" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://c46h6wv1maoph" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://csfl4vn7k8o2h" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://c0q2t2xxtxefk" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://jyltvield7kn" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://dw1q0m2tf5jlk" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cjs0x5fcghdru" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://ctftpfekr3w7b" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_11.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://y6ny1uaqurmi" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_12.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://ipy84t4a32e4" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_13.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://pexkn4o5fq76" path="res://Audio/Voices/Bandit/Files/Bandit_Damage_14.wav" id="14"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="15"]
+
+[resource]
+script = ExtResource("15")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

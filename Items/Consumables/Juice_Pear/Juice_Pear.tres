@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://omernjihogx0"]
+
+[ext_resource type="Resource" uid="uid://vc3eav73mrx8" path="res://Audio/Use/Drink_Straw.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cahw5ipy02daj" path="res://Items/Consumables/Juice_Pear/Files/Icon_Juice_Pear.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bpjl6uu3thgii" path="res://Items/Consumables/Juice_Pear/Juice_Pear_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Juice_Pear"
+name = "Juice (Pear)"
+inventory = "Juice"
+rotated = "Juice"
+equipment = "Juice"
+display = "Juice P."
+type = "Consumables"
+weight = 0.2
+value = 50
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Drink"
+audio = ExtResource("1")
+energy = 5.0
+hydration = 30.0
+mental = 10.0
+material = null
+freezable = true
+civilian = true
+generalist = true

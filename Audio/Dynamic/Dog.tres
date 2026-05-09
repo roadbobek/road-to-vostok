@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://df16trfm5my7q"]
+
+[ext_resource type="AudioStream" uid="uid://c8yyaotw87gs0" path="res://Audio/Dynamic/Files/Dog_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://biqgsgqrdf13a" path="res://Audio/Dynamic/Files/Dog_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://ck6jidq0abr5a" path="res://Audio/Dynamic/Files/Dog_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://c5de1ivraovko" path="res://Audio/Dynamic/Files/Dog_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://go55aovl4va5" path="res://Audio/Dynamic/Files/Dog_Guard_01.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://qgifisa8qjgy" path="res://Audio/Dynamic/Files/Dog_Guard_02.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://bykw3w6a78pfi" path="res://Audio/Dynamic/Files/Dog_Guard_03.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://ckw5h8ckhnw0i" path="res://Audio/Dynamic/Files/Dog_Guard_04.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]

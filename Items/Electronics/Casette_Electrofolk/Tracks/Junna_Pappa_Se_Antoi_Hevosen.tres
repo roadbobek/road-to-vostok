@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TrackData" format=3 uid="uid://dx64pn8aoaeuu"]
+
+[ext_resource type="AudioStream" uid="uid://bvxw3be5mlb6b" path="res://Items/Electronics/Casette_Electrofolk/Files/Junna_Pappa_Se_Antoi_Hevosen.ogg" id="1"]
+[ext_resource type="Script" uid="uid://7ayqep5t01a8" path="res://Scripts/TrackData.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+name = "Junna - Pappa Se Antoi Hevosen"
+audio = ExtResource("1")
+metadata/_custom_type_script = "uid://7ayqep5t01a8"

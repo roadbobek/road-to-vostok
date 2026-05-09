@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://kjok2gb536b6"]
+
+[ext_resource type="Resource" uid="uid://dk0rhlkpfn3uk" path="res://Audio/Use/Eat_Crunch_High.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://qc0vdvhsbbrd" path="res://Items/Consumables/Crackers/Files/Icon_Crackers.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://by4xe4gik766a" path="res://Items/Consumables/Crackers/Crackers_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Crackers"
+name = "Crackers"
+inventory = "Crackers"
+rotated = "Crackers"
+equipment = "Crackers"
+display = "Crackers"
+type = "Consumables"
+weight = 0.2
+value = 50
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 15.0
+hydration = -5.0
+mental = 5.0
+material = null
+civilian = true
+generalist = true

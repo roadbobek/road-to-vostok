@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="GrenadeData" format=3 uid="uid://cd6kxphaliqe2"]
+
+[ext_resource type="Texture2D" uid="uid://d3gsjci74r6lv" path="res://Items/Grenades/M43/Files/Icon_M43.png" id="1"]
+[ext_resource type="Script" uid="uid://uecx1x5krjd3" path="res://Scripts/GrenadeData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://oln6j1j45as5" path="res://Items/Grenades/M43/M43_1x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+highPosition = Vector3(0, -0.05, -0.2)
+lowPosition = Vector3(0, -0.05, -0.2)
+inspectPosition = Vector3(0, -0.05, -0.25)
+collisionPosition = Vector3(0, -0.05, -0.2)
+file = "M43"
+name = "M43"
+inventory = "M43"
+rotated = "M43"
+equipment = "M43"
+display = "M43"
+type = "Grenade"
+weight = 0.5
+value = 450
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("3")
+suppressorOffset = 1.0
+audio = null
+slots = ["Grenade_1", "Grenade_2"]
+material = null
+military = true
+gunsmith = true
+orientation = -90.0
+wallOffset = 0.04

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://by56nbnnhotaw"]
+
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://bkmhuvghfhumo" path="res://Items/Weapons/P320/Files/Icon_P320_Magazine.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://gbtgplmksrdp" path="res://Items/Weapons/P320/P320_Magazine_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "P320_Magazine"
+name = "P3 Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+weight = 0.1
+value = 110
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+audio = null
+compatible = [ExtResource("1")]
+material = null
+showAmount = true
+defaultAmount = 15
+maxAmount = 15
+military = true
+gunsmith = true
+orientation = 90.0
+wallOffset = 0.02
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

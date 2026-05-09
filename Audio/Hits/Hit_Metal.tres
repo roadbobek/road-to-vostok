@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://lbttem35wlvx"]
+
+[ext_resource type="AudioStream" uid="uid://bgtvcviugubuw" path="res://Audio/Hits/Files/Hit_Metal_A_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://ct6faw61mk1vt" path="res://Audio/Hits/Files/Hit_Metal_A_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c3cy2p8qiw8m3" path="res://Audio/Hits/Files/Hit_Metal_A_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://y3o8n1gr4x6l" path="res://Audio/Hits/Files/Hit_Metal_A_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://4wg5k3ovsegt" path="res://Audio/Hits/Files/Hit_Metal_A_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://cy0xrhusbci26" path="res://Audio/Hits/Files/Hit_Metal_A_06.wav" id="6"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]

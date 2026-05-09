@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bsyvlfxm3wrko"]
+
+[ext_resource type="Texture2D" uid="uid://cv7mf03r08hgs" path="res://Items/Clothing/Hoodie_Gray/Files/Icon_Hoodie_Gray.png" id="1"]
+[ext_resource type="Material" uid="uid://ccv4wva6qqf50" path="res://Items/Clothing/Hoodie_Gray/Files/MT_Hoodie_Gray_Sleeves.tres" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://d4k2xip342srf" path="res://Items/Clothing/Hoodie_Gray/Hoodie_Gray_2x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Hoodie_Gray"
+name = "Hoodie (Gray)"
+inventory = "Hoodie"
+rotated = "Hoodie"
+equipment = "Hoodie"
+display = "Hoodie"
+type = "Clothing"
+weight = 0.4
+value = 25
+icon = ExtResource("1")
+tetris = ExtResource("4")
+size = Vector2(2, 2)
+audio = null
+slots = ["Torso"]
+material = ExtResource("2")
+capacity = 5.0
+insulation = 15.0
+civilian = true
+generalist = true

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8i8v8ys0njt6"
+path="res://.godot/imported/MS_Village_Grass.obj-2a8c1e7116806264f4b477b1abbbd118.mesh"
+
+[deps]
+
+source_file="res://Terrains/Village/Files/MS_Village_Grass.obj"
+dest_files=["res://.godot/imported/MS_Village_Grass.obj-2a8c1e7116806264f4b477b1abbbd118.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

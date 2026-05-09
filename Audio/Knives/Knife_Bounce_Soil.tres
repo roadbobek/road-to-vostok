@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://3b5vccy8pgw5"]
+
+[ext_resource type="AudioStream" uid="uid://leweisv1pa5g" path="res://Audio/Knives/Files/Knife_Bounce_Soil_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dpp2qo0tyiahb" path="res://Audio/Knives/Files/Knife_Bounce_Soil_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://c5443alkrnky" path="res://Audio/Knives/Files/Knife_Bounce_Soil_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]

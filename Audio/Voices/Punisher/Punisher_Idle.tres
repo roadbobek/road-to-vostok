@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://dy7vb3ui7p7y5"]
+
+[ext_resource type="AudioStream" uid="uid://btejvuy036lkg" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://e7uk5v5wc8b6" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://diiltiy7ul8io" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://tm8epnyebf1h" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://ceegpx1c2hg12" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bx8cfr8ljgpgi" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://blfvhikcrv0q7" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://b4dei3n1yqort" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://4lcup7g34ffk" path="res://Audio/Voices/Punisher/Files/Punisher_Idle_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://cymmpcppa87qd" path="res://Audio/Voices/Punisher/Files/Punisher_Random_01.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://b8atqw8pkent1" path="res://Audio/Voices/Punisher/Files/Punisher_Random_02.wav" id="11"]
+[ext_resource type="AudioStream" uid="uid://bc8ckkceagg6t" path="res://Audio/Voices/Punisher/Files/Punisher_Random_03.wav" id="12"]
+[ext_resource type="AudioStream" uid="uid://c52p3ju1nnaxo" path="res://Audio/Voices/Punisher/Files/Punisher_Random_04.wav" id="13"]
+[ext_resource type="AudioStream" uid="uid://b50p5t5wa2ef8" path="res://Audio/Voices/Punisher/Files/Punisher_Random_05.wav" id="14"]
+[ext_resource type="AudioStream" uid="uid://cchoxpta6c3r7" path="res://Audio/Voices/Punisher/Files/Punisher_Random_06.wav" id="15"]
+[ext_resource type="AudioStream" uid="uid://cn7xfs60n6g48" path="res://Audio/Voices/Punisher/Files/Punisher_Random_07.wav" id="16"]
+[ext_resource type="AudioStream" uid="uid://17ha12ai2kpe" path="res://Audio/Voices/Punisher/Files/Punisher_Random_08.wav" id="17"]
+[ext_resource type="AudioStream" uid="uid://umxmk2eikmdl" path="res://Audio/Voices/Punisher/Files/Punisher_Random_09.wav" id="18"]
+[ext_resource type="AudioStream" uid="uid://r7xjig4jkqdq" path="res://Audio/Voices/Punisher/Files/Punisher_Random_10.wav" id="19"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="20"]
+
+[resource]
+script = ExtResource("20")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("19")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

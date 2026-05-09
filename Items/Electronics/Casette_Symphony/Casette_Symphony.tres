@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="CasetteData" format=3 uid="uid://cevitqu3laen4"]
+
+[ext_resource type="Texture2D" uid="uid://bsocbe0g1qbah" path="res://Items/Electronics/Casette_Symphony/Files/Icon_Casette_Symphony.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cyjuo8fpfun5h" path="res://Items/Electronics/Casette_Symphony/Files/Icon_Casette_Symphony_Preview.png" id="2"]
+[ext_resource type="Script" uid="uid://b8syw8cg4twc2" path="res://Scripts/CasetteData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://v138oqhhj5og" path="res://Items/Electronics/Casette_Symphony/Casette_Symphony_1x1.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://csgxoaw7dqytv" path="res://Items/Electronics/Casette_Symphony/Tracks/Vostok_Symphony.tres" id="5"]
+
+[resource]
+script = ExtResource("3")
+preview = ExtResource("2")
+artist = "Symphony"
+tracks = [ExtResource("5")]
+file = "Casette_Symphony"
+name = "Casette (Symphony)"
+inventory = "Casette"
+rotated = "Casette"
+equipment = "Casette"
+display = "Casette (Symphony)"
+type = "Electronics"
+subtype = "Casette"
+weight = 0.1
+value = 150
+rarity = 1
+icon = ExtResource("1")
+tetris = ExtResource("4")
+audio = null
+material = null
+civilian = true
+metadata/_custom_type_script = "uid://b8syw8cg4twc2"

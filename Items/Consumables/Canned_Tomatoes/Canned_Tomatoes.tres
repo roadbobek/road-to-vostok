@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cfb4xbj2prj61"]
+
+[ext_resource type="Resource" uid="uid://dlsru3tyaywdu" path="res://Audio/Use/Eat_Can.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dkkwpkt45uvju" path="res://Items/Consumables/Canned_Tomatoes/Files/Icon_Canned_Tomatoes.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://cwc0tafgdmcwk" path="res://Items/Consumables/Canned_Tomatoes/Canned_Tomatoes_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Canned_Tomatoes"
+name = "Canned Tomatoes"
+inventory = "Tomatoes"
+rotated = "Tomatoes"
+equipment = "Tomatoes"
+display = "Tomatoes"
+type = "Consumables"
+weight = 0.5
+value = 80
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 10.0
+hydration = 20.0
+mental = 5.0
+material = null
+freezable = true
+civilian = true
+generalist = true

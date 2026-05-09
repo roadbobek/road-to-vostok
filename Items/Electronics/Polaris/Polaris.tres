@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bb7m04vfguheg"]
+
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://ce772if6iau4h" path="res://Items/Electronics/Polaris/Files/Icon_Polaris.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://bkxm7fdey8avk" path="res://Items/Electronics/Polaris/Polaris_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Polaris"
+name = "Polaris"
+inventory = "Polaris"
+rotated = "Polaris"
+equipment = "Polaris"
+display = "Polaris"
+type = "Electronics"
+subtype = "Light"
+weight = 0.1
+value = 375
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+audio = null
+compatible = [ExtResource("1")]
+slots = ["Light"]
+material = null
+showCondition = true
+power = 2
+color = Color(1, 1, 1, 1)
+civilian = true
+industrial = true
+military = true
+gunsmith = true

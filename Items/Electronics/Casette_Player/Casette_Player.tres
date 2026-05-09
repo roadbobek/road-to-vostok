@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c04t23mut6d6c"]
+
+[ext_resource type="Resource" uid="uid://b1424tusx84nr" path="res://Items/Electronics/Batteries/Batteries.tres" id="1"]
+[ext_resource type="Resource" uid="uid://crygwxhtsanj7" path="res://Items/Electronics/Casette_Electrofolk/Casette_Electrofolk.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cevitqu3laen4" path="res://Items/Electronics/Casette_Symphony/Casette_Symphony.tres" id="3"]
+[ext_resource type="Resource" uid="uid://otcuy746h7dx" path="res://Items/Electronics/Casette_OST/Casette_OST.tres" id="4"]
+[ext_resource type="Resource" uid="uid://ck4tywl25mlta" path="res://Items/Electronics/Casette_Radio/Casette_Radio.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://bokx1wo6f5tvy" path="res://Items/Electronics/Casette_Player/Files/Icon_Casette_Player.png" id="6"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="7"]
+[ext_resource type="PackedScene" uid="uid://dfog0g4hyvep6" path="res://Items/Electronics/Casette_Player/Casette_Player_1x1.tscn" id="8"]
+
+[resource]
+script = ExtResource("7")
+file = "Casette_Player"
+name = "Casette Player"
+inventory = "C. Player"
+rotated = "C. Player"
+equipment = "C. Player"
+display = "C. Player"
+type = "Electronics"
+weight = 0.2
+value = 250
+rarity = 2
+icon = ExtResource("6")
+tetris = ExtResource("8")
+audio = null
+compatible = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+slots = ["Player"]
+material = null
+showCondition = true
+civilian = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djppc2qiqk13w"
+path="res://.godot/imported/MS_MRO_Active.obj-ddeb49420891848fb1a922d8b1696207.mesh"
+
+[deps]
+
+source_file="res://Items/Attachments/MRO/Files/MS_MRO_Active.obj"
+dest_files=["res://.godot/imported/MS_MRO_Active.obj-ddeb49420891848fb1a922d8b1696207.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

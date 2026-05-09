@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://bo01h674q8tkt"]
+
+[ext_resource type="AudioStream" uid="uid://bakqcvwmkcw7c" path="res://Audio/Dynamic/Files/Woodpecker_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://8gfugxowogwm" path="res://Audio/Dynamic/Files/Woodpecker_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://ctk7djw5qjqjp" path="res://Audio/Dynamic/Files/Woodpecker_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dd0pljrydw58n" path="res://Audio/Dynamic/Files/Woodpecker_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://cdk78eknusp3w" path="res://Audio/Dynamic/Files/Woodpecker_05.wav" id="5"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]

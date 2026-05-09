@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://mpjmnwl3b4qj"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 5
+name = "Punisher arrives to Area 05"
+type = "Dynamic"
+zone = "Area 05"
+function = "Police"
+description = "Punisher is a bandit boss and a feared debt collector in the Finnish criminal world.
+
+Punisher and his minions have stolen a local police van and are taking routine drives across Area 05."
+possibility = 10
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

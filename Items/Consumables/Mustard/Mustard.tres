@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://doge2grske7b0"]
+
+[ext_resource type="Resource" uid="uid://bxjgehu6pv60g" path="res://Audio/Use/Eat_Generic.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://d3x2v6off674p" path="res://Items/Consumables/Mustard/Files/Icon_Mustard.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://8tns1eqvm5xg" path="res://Items/Consumables/Mustard/Mustard_1x2.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Mustard"
+name = "Mustard"
+inventory = "Mustard"
+rotated = "Mustard"
+equipment = "Mustard"
+display = "Mustard"
+type = "Consumables"
+weight = 0.2
+value = 75
+rarity = 1
+icon = ExtResource("2")
+tetris = ExtResource("4")
+size = Vector2(1, 2)
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 10.0
+hydration = 5.0
+mental = -5.0
+material = null
+civilian = true
+grandma = true

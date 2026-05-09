@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://d3200j02g0vbn"]
+
+[ext_resource type="AudioStream" uid="uid://bo7tu8c73t5v1" path="res://Audio/Footsteps/Files/Footstep_Water_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dbi3yes1ufuks" path="res://Audio/Footsteps/Files/Footstep_Water_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cn0l7l8j65g4u" path="res://Audio/Footsteps/Files/Footstep_Water_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://bu7bbb0apxm3x" path="res://Audio/Footsteps/Files/Footstep_Water_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://bong40fax0adg" path="res://Audio/Footsteps/Files/Footstep_Water_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://csdjgw33cr47u" path="res://Audio/Footsteps/Files/Footstep_Water_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://sj28at6qoafx" path="res://Audio/Footsteps/Files/Footstep_Water_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://bpj7njcmqv00k" path="res://Audio/Footsteps/Files/Footstep_Water_08.wav" id="8"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="9"]
+
+[resource]
+script = ExtResource("9")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+volume = -5.0

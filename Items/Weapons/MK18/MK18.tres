@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://csidq6e15jnub"]
+
+[ext_resource type="Resource" uid="uid://b3y84rcw1bp43" path="res://Items/Ammo/Ammo_223/Ammo_223.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bsvpmyu6poukw" path="res://Items/Weapons/MK18/Events/MK18_Magazine_Check.tres" id="2"]
+[ext_resource type="Resource" uid="uid://bjfff3ttx0mfk" path="res://Items/Weapons/MK18/Events/MK18_Charge.tres" id="3"]
+[ext_resource type="Resource" uid="uid://ucfkjsytbq0a" path="res://Items/Weapons/M4A1/STANAG_Magazine.tres" id="4"]
+[ext_resource type="Resource" uid="uid://moa25x0m0x5r" path="res://Items/Attachments/ACOG/ACOG.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dv56bjr6htpe0" path="res://Items/Attachments/EXPS/EXPS.tres" id="6"]
+[ext_resource type="Resource" uid="uid://c1nusi3dm47xo" path="res://Items/Attachments/HMR/HMR.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dt8kkgj5siffd" path="res://Items/Attachments/Hybrid/Hybrid.tres" id="8"]
+[ext_resource type="Resource" uid="uid://dx62y7184t26a" path="res://Items/Attachments/Kobra/Kobra.tres" id="9"]
+[ext_resource type="Resource" uid="uid://c6hedss4rdsdn" path="res://Items/Attachments/Leopard/Leopard.tres" id="10"]
+[ext_resource type="Resource" uid="uid://qkbwug4sq5q8" path="res://Items/Attachments/Micro/Micro.tres" id="11"]
+[ext_resource type="Resource" uid="uid://cppuy3n62ydju" path="res://Items/Attachments/Monster/Monster.tres" id="12"]
+[ext_resource type="Resource" uid="uid://cogfxlhwg5nil" path="res://Items/Attachments/MRO/MRO.tres" id="13"]
+[ext_resource type="Resource" uid="uid://cmfdm0lrdrnup" path="res://Items/Attachments/OZ5/OZ5.tres" id="14"]
+[ext_resource type="Resource" uid="uid://cqv2tuvswh0cu" path="res://Items/Attachments/PRO/PRO.tres" id="15"]
+[ext_resource type="Resource" uid="uid://bot7nd2iribcq" path="res://Items/Attachments/SOCOM/SOCOM.tres" id="16"]
+[ext_resource type="Resource" uid="uid://cdauqaxtic7we" path="res://Items/Attachments/Thor/Thor.tres" id="17"]
+[ext_resource type="Resource" uid="uid://byn6o8jflcgin" path="res://Items/Attachments/Vudu/Vudu.tres" id="18"]
+[ext_resource type="Resource" uid="uid://b8txn3xwvwhy5" path="res://Items/Attachments/ANPEQ/ANPEQ.tres" id="19"]
+[ext_resource type="Resource" uid="uid://c0dpmvlg55ntv" path="res://Items/Weapons/M4A1/Events/M4A1_Fire_Auto.tres" id="20"]
+[ext_resource type="Resource" uid="uid://b5cs2m7j5cuik" path="res://Items/Weapons/M4A1/Events/M4A1_Fire_Semi.tres" id="21"]
+[ext_resource type="Resource" uid="uid://d8chm63bh25v" path="res://Items/Weapons/M4A1/Events/M4A1_Fire_Suppressed.tres" id="22"]
+[ext_resource type="Texture2D" uid="uid://c715bwjgmysop" path="res://Items/Weapons/MK18/Files/Icon_MK18.png" id="23"]
+[ext_resource type="Resource" uid="uid://105hbl7bign4" path="res://Items/Weapons/MK18/Events/MK18_Magazine_Attach_Empty.tres" id="24"]
+[ext_resource type="Resource" uid="uid://b7if5mw2u4jah" path="res://Items/Weapons/MK18/Events/MK18_Magazine_Attach_Tactical.tres" id="25"]
+[ext_resource type="Resource" uid="uid://dm0wfqdvw30lb" path="res://Items/Weapons/MK18/Events/MK18_Magazine_Detach.tres" id="26"]
+[ext_resource type="Resource" uid="uid://dhbqm2p134s24" path="res://Items/Weapons/MK18/Events/MK18_Reload_Empty.tres" id="27"]
+[ext_resource type="Resource" uid="uid://16oqrwbg35wq" path="res://Items/Weapons/MK18/Events/MK18_Reload_Tactical.tres" id="28"]
+[ext_resource type="Script" uid="uid://dsq6b2e0iudvb" path="res://Scripts/WeaponData.gd" id="29"]
+[ext_resource type="Resource" uid="uid://dgwwanxgihdd6" path="res://Items/Weapons/Common/Tails/Rifle_Tail_Indoor.tres" id="30"]
+[ext_resource type="Resource" uid="uid://djgwyvd4ll43d" path="res://Items/Weapons/Common/Tails/Rifle_Tail_Indoor_Suppressed.tres" id="31"]
+[ext_resource type="Resource" uid="uid://chigi1l1e5olr" path="res://Items/Weapons/MK18/Events/MK18_Tail_Outdoor.tres" id="32"]
+[ext_resource type="Resource" uid="uid://c2si02h2x4lnr" path="res://Items/Weapons/Common/Tails/Rifle_Tail_Outdoor_Suppressed.tres" id="33"]
+[ext_resource type="PackedScene" uid="uid://cckkq0h8v8c5x" path="res://Items/Weapons/MK18/MK18_6x2.tscn" id="34"]
+
+[resource]
+script = ExtResource("29")
+weaponType = "Rifle"
+weaponAction = "Semi-Auto"
+fireSemi = ExtResource("21")
+fireAuto = ExtResource("20")
+fireSuppressed = ExtResource("22")
+charge = ExtResource("3")
+reloadEmpty = ExtResource("27")
+reloadTactical = ExtResource("28")
+magazineAttachEmpty = ExtResource("24")
+magazineAttachTactical = ExtResource("25")
+magazineDetach = ExtResource("26")
+ammoCheck = ExtResource("2")
+tailOutdoor = ExtResource("32")
+reload = null
+insertStart = null
+insertEnd = null
+insert = null
+tailIndoor = ExtResource("30")
+tailIndoorSuppressed = ExtResource("31")
+tailOutdoorSuppressed = ExtResource("33")
+ammo = ExtResource("1")
+caliber = ".223"
+casing = 2
+damage = 40.0
+penetration = 3
+fireRate = 0.08
+magazineSize = 30
+kick = 0.06
+kickPower = 20.0
+kickRecovery = 20.0
+verticalRecoil = 0.06
+horizontalRecoil = 0.01
+rotationPower = 20.0
+rotationRecovery = 20.0
+slideDirection = 2
+slideMovement = -0.12
+slideSpeed = 2.0
+selectorRotation = Vector2(0, -90)
+foldSights = true
+foldSightsRotation = -1.6
+lowPosition = Vector3(0.02, -0.11, -0.18)
+lowRotation = Vector3(15, 20, 0)
+highPosition = Vector3(0.05, -0.065, -0.16)
+aimPosition = Vector3(0, -0.067, -0.14)
+cantedPosition = Vector3(0, -0.075, -0.16)
+cantedRotation = Vector3(0, 0, -45)
+inspectPosition = Vector3(0.04, -0.1, -0.14)
+inspectRotation = Vector3(-6, 0, -2.5)
+collisionPosition = Vector3(0.03, -0.15, -0.12)
+collisionRotation = Vector3(45, 15, 0)
+file = "MK18"
+name = "KM18"
+inventory = "KM18"
+rotated = "KM18"
+equipment = "KM18"
+display = "KM18"
+type = "Weapon"
+subtype = "Rifle"
+weight = 2.75
+value = 3250
+rarity = 1
+icon = ExtResource("23")
+tetris = ExtResource("34")
+size = Vector2(6, 2)
+magazineOffset = 5.0
+opticOffset = -10.0
+suppressorOffset = -20.0
+magazineOpticOffset = -4.0
+magazineSuppressorOffset = Vector2(-20, 5)
+opticSuppressorOffset = Vector2(-20, -10)
+fullyModdedOffset = Vector2(-20, -4)
+audio = null
+compatible = [ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14"), ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18"), ExtResource("19")]
+slots = ["Primary"]
+material = null
+showCondition = true
+repairs = true
+military = true
+orientation = 90.0
+wallOffset = 0.04

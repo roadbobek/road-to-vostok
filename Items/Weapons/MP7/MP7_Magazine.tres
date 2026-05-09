@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bkxyqpr8dt2u8"]
+
+[ext_resource type="Resource" uid="uid://crd2iuncw3jni" path="res://Items/Ammo/Ammo_46x30/Ammo_46x30.tres" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://bt812irla4cek" path="res://Items/Weapons/MP7/MP7_Magazine_1x2.tscn" id="3"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2ocqg"]
+load_path = "res://.godot/imported/Icon_MP7_Magazine.png-c253d868515a3f78cfa34774a1c8677c.s3tc.ctex"
+
+[resource]
+script = ExtResource("2")
+file = "MP7_Magazine"
+name = "MP7 Magazine"
+inventory = "Mag."
+rotated = "Mag."
+equipment = "Mag."
+display = "Mag."
+type = "Attachment"
+subtype = "Magazine"
+value = 170
+rarity = 1
+icon = SubResource("CompressedTexture2D_2ocqg")
+tetris = ExtResource("3")
+size = Vector2(1, 2)
+suppressorOffset = 1.0
+compatible = Array[ExtResource("2")]([ExtResource("1")])
+showAmount = true
+defaultAmount = 40
+maxAmount = 40
+military = true
+orientation = 90.0
+wallOffset = 0.03

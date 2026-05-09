@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://brt3lmueq3qsi"]
+
+[ext_resource type="Texture2D" uid="uid://dv6sr50i156fv" path="res://Items/Belts/Kukkaro/Files/Icon_Kukkaro_Brown.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dpqihtk7qmf3o" path="res://Items/Belts/Kukkaro/Kukkaro_Brown_2x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Kukkaro_Brown"
+name = "Kukkaro (Brown)"
+inventory = "Kukkaro"
+rotated = "Kukkaro"
+equipment = "Kukkaro"
+display = "Kukkaro"
+type = "Belt Pouch"
+weight = 0.2
+value = 70
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(2, 1)
+audio = null
+slots = ["Belt"]
+material = null
+capacity = 2.0
+insulation = 1.0
+civilian = true
+military = true
+gunsmith = true

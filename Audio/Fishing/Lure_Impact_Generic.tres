@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://ckcua4m0xj7e5"]
+
+[ext_resource type="AudioStream" uid="uid://c5esyu7mnsdkj" path="res://Audio/Fishing/Files/Lure_Impact_Generic_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://dssg5s5c0wkgl" path="res://Audio/Fishing/Files/Lure_Impact_Generic_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://b7sjfifykydev" path="res://Audio/Fishing/Files/Lure_Impact_Generic_03.wav" id="3"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

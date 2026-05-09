@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://vfqxdkk5mi5m"]
+
+[ext_resource type="AudioStream" uid="uid://beqskcp8tpby6" path="res://Audio/Voices/Guard/Files/Guard_Damage_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://bexocfcubadr8" path="res://Audio/Voices/Guard/Files/Guard_Damage_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://2kksi70k8aco" path="res://Audio/Voices/Guard/Files/Guard_Damage_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://kjnxxhj2pg2m" path="res://Audio/Voices/Guard/Files/Guard_Damage_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://1hhp61mpdyto" path="res://Audio/Voices/Guard/Files/Guard_Damage_05.wav" id="5"]
+[ext_resource type="AudioStream" uid="uid://bglgvu1ar888" path="res://Audio/Voices/Guard/Files/Guard_Damage_06.wav" id="6"]
+[ext_resource type="AudioStream" uid="uid://ch5mcg7gjy0m5" path="res://Audio/Voices/Guard/Files/Guard_Damage_07.wav" id="7"]
+[ext_resource type="AudioStream" uid="uid://3pjh33m2s1i0" path="res://Audio/Voices/Guard/Files/Guard_Damage_08.wav" id="8"]
+[ext_resource type="AudioStream" uid="uid://b5cu2dgy5oa8" path="res://Audio/Voices/Guard/Files/Guard_Damage_09.wav" id="9"]
+[ext_resource type="AudioStream" uid="uid://b32j1or1rtc5j" path="res://Audio/Voices/Guard/Files/Guard_Damage_10.wav" id="10"]
+[ext_resource type="AudioStream" uid="uid://x3gu2dy0ovmj" path="res://Audio/Voices/Guard/Files/Guard_Damage_11.wav" id="11"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="12"]
+
+[resource]
+script = ExtResource("12")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11")]
+metadata/_custom_type_script = "uid://bxji3ejc3yirv"

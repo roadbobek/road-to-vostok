@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://dy30jw7glfv4w"]
+
+[ext_resource type="Resource" uid="uid://bmntroomtw10g" path="res://Items/Knives/Skrama_200/Skrama_200.tres" id="1"]
+[ext_resource type="Resource" uid="uid://b4i42kg6wf6oo" path="res://Items/Knives/Skrama_240/Skrama_240.tres" id="2"]
+[ext_resource type="Resource" uid="uid://6ymqq0mji2u8" path="res://Items/Helmets/SSh-39/SSh-39.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cq215iuu1bron" path="res://Items/Consumables/Field_Ration/Field_Ration.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b3y84rcw1bp43" path="res://Items/Ammo/Ammo_223/Ammo_223.tres" id="5"]
+[ext_resource type="Resource" uid="uid://caoxynlo2jhgc" path="res://Items/Ammo/Ammo_9x19/Ammo_9x19.tres" id="6"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+trader = "Gunsmith"
+name = "Big Blades"
+difficulty = "Intermediate"
+description = "You can tell a lot about a man based on the blade he carries. If you ever see a guy with a small pocket knife, you don't want to be around those people.
+
+When it comes to blades, the rule is the bigger, the better. I myself prefer machetes that are suitable for wood chopping and clearing obstructions in a dense forest. Even though we're not in a jungle here, you still need a big blade since there will be times when you'll wish you had one.
+
+Collecting blades is also an elegant hobby. I do have quite an extensive collection, but there are still a few big blades that I'm missing."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

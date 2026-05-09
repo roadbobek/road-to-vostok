@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://c2ivo7a6a6807"]
+
+[ext_resource type="AudioStream" uid="uid://bnjduewknxvnh" path="res://Audio/Medical/Files/Overweight.wav" id="1"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+audioClips = [ExtResource("1")]
+volume = -5.0

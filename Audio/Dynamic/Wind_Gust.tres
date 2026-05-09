@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AudioEvent" format=3 uid="uid://cgk77n0nypg8s"]
+
+[ext_resource type="AudioStream" uid="uid://dryxiu3w55vlj" path="res://Audio/Dynamic/Files/Wind_Gust_01.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://1e5bu162klxl" path="res://Audio/Dynamic/Files/Wind_Gust_02.wav" id="2"]
+[ext_resource type="AudioStream" uid="uid://cbrec5dr23ddy" path="res://Audio/Dynamic/Files/Wind_Gust_03.wav" id="3"]
+[ext_resource type="AudioStream" uid="uid://dpgcwea68um8n" path="res://Audio/Dynamic/Files/Wind_Gust_04.wav" id="4"]
+[ext_resource type="AudioStream" uid="uid://4jalor05u6em" path="res://Audio/Dynamic/Files/Wind_Gust_05.wav" id="5"]
+[ext_resource type="Script" uid="uid://bxji3ejc3yirv" path="res://Scripts/AudioEvent.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+audioClips = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]

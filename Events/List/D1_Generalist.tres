@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="EventData" format=3 uid="uid://dby1xyquujtjb"]
+
+[ext_resource type="Script" uid="uid://bgmmxsv8h0j83" path="res://Scripts/EventData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+day = 1
+name = "Generalist returns to Village"
+type = "Trader"
+map = "Village"
+function = "ActivateTrader"
+description = "Generalist is a \"jack of all trades\" trader who runs a small shop inside the Village garage building in Area 05 and specializes in common goods.
+
+After taking a small mental break, Generalist is once again back in business and ready to serve his loyal customers with decent prices."
+metadata/_custom_type_script = "uid://bgmmxsv8h0j83"

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="TaskData" format=3 uid="uid://d0g1pesw5xwga"]
+
+[ext_resource type="Resource" uid="uid://cwvdetajqdvif" path="res://Items/Consumables/Cooked_Pea_Soup/Cooked_Pea_Soup.tres" id="1"]
+[ext_resource type="Resource" uid="uid://doge2grske7b0" path="res://Items/Consumables/Mustard/Mustard.tres" id="2"]
+[ext_resource type="Resource" uid="uid://yguneuugo101" path="res://Assets/Crate_Military/Crate_Military_F.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bcwd8o2x2rapf" path="res://Items/Misc/Sleeping_Bag/Sleeping_Bag.tres" id="4"]
+[ext_resource type="Script" uid="uid://ys7u8u54lq8b" path="res://Scripts/TaskData.gd" id="5"]
+
+[resource]
+script = ExtResource("5")
+trader = "Gunsmith"
+name = "Warm Meal"
+difficulty = "Easy"
+description = "As a military man, I like to stick with rations, but even I have a limit to eating the same porridge and dry snacks multiple weeks in a row.
+
+Back in the day, these rations at least had proper canned food, but nowadays most rations only have some nasty meat paste and modern outdoor food in them. I'm not putting that synthetic shit in my mouth, that's for sure.
+
+It has been a while since I have seen a proper warm meal. Maybe this is your moment to shine and our professional relationship could take the next step forward. Maybe a mess kit filled with proper Finnish pea soup with a bit of mustard on the side, would do the trick."
+deliver = [ExtResource("1"), ExtResource("2")]
+receive = [ExtResource("3"), ExtResource("4")]
+metadata/_custom_type_script = "uid://ys7u8u54lq8b"

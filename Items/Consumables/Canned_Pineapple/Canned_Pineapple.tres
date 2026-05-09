@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b51ellpufckux"]
+
+[ext_resource type="Resource" uid="uid://dlsru3tyaywdu" path="res://Audio/Use/Eat_Can.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://x6ck8xkabk3h" path="res://Items/Consumables/Canned_Pineapple/Files/Icon_Canned_Pineapple.png" id="2"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://huswfqgfxlio" path="res://Items/Consumables/Canned_Pineapple/Canned_Pineapple_1x1.tscn" id="4"]
+
+[resource]
+script = ExtResource("3")
+file = "Canned_Pineapple"
+name = "Canned Pineapple"
+inventory = "Pineapple"
+rotated = "Pineapple"
+equipment = "Pineapple"
+display = "Pineapple"
+type = "Consumables"
+weight = 0.5
+value = 120
+icon = ExtResource("2")
+tetris = ExtResource("4")
+usable = true
+phrase = "Eat"
+audio = ExtResource("1")
+energy = 20.0
+hydration = 20.0
+mental = 10.0
+material = null
+freezable = true
+civilian = true
+generalist = true

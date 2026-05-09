@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvnwv8ijfh8hv"
+path="res://.godot/imported/Military_Random_13 (Pitäisikö painua vittuun täältä).wav-993c9a353b24c6b576a0c86308dd03a9.sample"
+
+[deps]
+
+source_file="res://Audio/Voices/Military/Files/Military_Random_13 (Pitäisikö painua vittuun täältä).wav"
+dest_files=["res://.godot/imported/Military_Random_13 (Pitäisikö painua vittuun täältä).wav-993c9a353b24c6b576a0c86308dd03a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=48000
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=0
+compress/mode=0
