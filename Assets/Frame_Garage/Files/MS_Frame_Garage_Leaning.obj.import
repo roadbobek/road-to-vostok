@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bor4x7op57ne7"
+path="res://.godot/imported/MS_Frame_Garage_Leaning.obj-c03b8677c2499f7ad9cbf3dd7febc8c2.mesh"
+
+[deps]
+
+source_file="res://Assets/Frame_Garage/Files/MS_Frame_Garage_Leaning.obj"
+dest_files=["res://.godot/imported/MS_Frame_Garage_Leaning.obj-c03b8677c2499f7ad9cbf3dd7febc8c2.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

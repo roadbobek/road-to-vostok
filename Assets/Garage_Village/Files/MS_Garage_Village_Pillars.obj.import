@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjsw77xeifknj"
+path="res://.godot/imported/MS_Garage_Village_Pillars.obj-97dc79a797f8dce63bb4ef80eaf20588.mesh"
+
+[deps]
+
+source_file="res://Assets/Garage_Village/Files/MS_Garage_Village_Pillars.obj"
+dest_files=["res://.godot/imported/MS_Garage_Village_Pillars.obj-97dc79a797f8dce63bb4ef80eaf20588.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c08a31ehhct71"
+path="res://.godot/imported/MS_Cable_Reel.obj-b3162412642a0015ef578d902ce53dd5.mesh"
+
+[deps]
+
+source_file="res://Assets/Cable_Reel/Files/MS_Cable_Reel.obj"
+dest_files=["res://.godot/imported/MS_Cable_Reel.obj-b3162412642a0015ef578d902ce53dd5.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

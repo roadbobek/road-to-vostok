@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cclnsoyo1i0ab"
+path="res://.godot/imported/MS_Bed_Nomad_Collider.obj-5907d7b888310f1ad3a400f40b0f2df1.mesh"
+
+[deps]
+
+source_file="res://Assets/Bed_Nomad/Files/MS_Bed_Nomad_Collider.obj"
+dest_files=["res://.godot/imported/MS_Bed_Nomad_Collider.obj-5907d7b888310f1ad3a400f40b0f2df1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

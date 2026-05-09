@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b0074fpm3mu6f"]
+
+[ext_resource type="Shader" uid="uid://c638ny6pv177r" path="res://Shaders/Clip.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://b3rpal5nsqu70" path="res://Assets/Horse/Files/TX_Horse_Hair_AL.tga" id="2"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = null
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.1
+shader_parameter/opacity = 1.0
+shader_parameter/fractional = false
+shader_parameter/enableRain = false
+shader_parameter/enableSnow = false
+shader_parameter/snowAmount = 0.0
+shader_parameter/metal = false

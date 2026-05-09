@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcdgiq7j4pwl4"
+path="res://.godot/imported/MS_Container_Shipping.obj-77524361547980db8f7d6cc760b33ff1.mesh"
+
+[deps]
+
+source_file="res://Assets/Container_Shipping/Files/MS_Container_Shipping.obj"
+dest_files=["res://.godot/imported/MS_Container_Shipping.obj-77524361547980db8f7d6cc760b33ff1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

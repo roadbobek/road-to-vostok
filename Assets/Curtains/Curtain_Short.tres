@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cnkrekunt0gml"]
+
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+icon = null
+tetris = null
+suppressorOffset = 1.0
+audio = null
+material = null

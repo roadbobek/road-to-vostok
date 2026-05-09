@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6nsf18nn50mr"
+path="res://.godot/imported/MS_Bunker_Main_Collider.obj-b87c2a4ef285a475004cf4c1ff70e4dd.mesh"
+
+[deps]
+
+source_file="res://Assets/Bunker/Files/MS_Bunker_Main_Collider.obj"
+dest_files=["res://.godot/imported/MS_Bunker_Main_Collider.obj-b87c2a4ef285a475004cf4c1ff70e4dd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fdjfngjxo0io"
+path="res://.godot/imported/MS_Trench_Junction_LOD0.obj-85b45533b3d7a8e9231743311baaeafa.mesh"
+
+[deps]
+
+source_file="res://Assets/Trench/Files/MS_Trench_Junction_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Trench_Junction_LOD0.obj-85b45533b3d7a8e9231743311baaeafa.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgh7fo6hkd4wc"
+path="res://.godot/imported/MS_Firepot_Collider.obj-6c325802784ea84303ae73157f99b5b5.mesh"
+
+[deps]
+
+source_file="res://Assets/Firepot/Files/MS_Firepot_Collider.obj"
+dest_files=["res://.godot/imported/MS_Firepot_Collider.obj-6c325802784ea84303ae73157f99b5b5.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

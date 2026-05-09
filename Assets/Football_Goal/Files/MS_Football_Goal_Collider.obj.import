@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqytvqxnqxxhv"
+path="res://.godot/imported/MS_Football_Goal_Collider.obj-45bfaa2c2cd7a46d6ddfa6bd34679f25.mesh"
+
+[deps]
+
+source_file="res://Assets/Football_Goal/Files/MS_Football_Goal_Collider.obj"
+dest_files=["res://.godot/imported/MS_Football_Goal_Collider.obj-45bfaa2c2cd7a46d6ddfa6bd34679f25.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

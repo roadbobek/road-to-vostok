@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crijq2bnvg3wk"
+path="res://.godot/imported/MS_Totem_Terminal.obj-e03168ed0a8512d93e3c689f962c2585.mesh"
+
+[deps]
+
+source_file="res://Assets/Totem_Terminal/Files/MS_Totem_Terminal.obj"
+dest_files=["res://.godot/imported/MS_Totem_Terminal.obj-e03168ed0a8512d93e3c689f962c2585.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

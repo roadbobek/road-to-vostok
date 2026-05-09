@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bxsr6ri33o3xx"
+path="res://.godot/imported/MS_Trash_Bin_Concrete_Collider.obj-cbf9e93e183785e950ae8ae177ce56f1.mesh"
+
+[deps]
+
+source_file="res://Assets/Trash_Bin_Concrete/Files/MS_Trash_Bin_Concrete_Collider.obj"
+dest_files=["res://.godot/imported/MS_Trash_Bin_Concrete_Collider.obj-cbf9e93e183785e950ae8ae177ce56f1.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

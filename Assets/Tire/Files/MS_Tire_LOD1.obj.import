@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://o7o8ymm5c3x7"
+path="res://.godot/imported/MS_Tire_LOD1.obj-ce8f43f7121557bc44e4f3f285013b3e.mesh"
+
+[deps]
+
+source_file="res://Assets/Tire/Files/MS_Tire_LOD1.obj"
+dest_files=["res://.godot/imported/MS_Tire_LOD1.obj-ce8f43f7121557bc44e4f3f285013b3e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

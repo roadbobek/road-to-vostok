@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6j2guo5rdrnv"
+path="res://.godot/imported/MS_Bench_A.obj-40c916ef129964ca5cb9002fb06d9e85.mesh"
+
+[deps]
+
+source_file="res://Assets/Bench/Files/MS_Bench_A.obj"
+dest_files=["res://.godot/imported/MS_Bench_A.obj-40c916ef129964ca5cb9002fb06d9e85.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

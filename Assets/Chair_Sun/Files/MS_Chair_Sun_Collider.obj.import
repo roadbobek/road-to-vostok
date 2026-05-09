@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvohe3w0ercn"
+path="res://.godot/imported/MS_Chair_Sun_Collider.obj-6cd7d94931fb26ec9a7a9d6c31494720.mesh"
+
+[deps]
+
+source_file="res://Assets/Chair_Sun/Files/MS_Chair_Sun_Collider.obj"
+dest_files=["res://.godot/imported/MS_Chair_Sun_Collider.obj-6cd7d94931fb26ec9a7a9d6c31494720.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

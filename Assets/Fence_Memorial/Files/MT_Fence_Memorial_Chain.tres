@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dcoq2yk23pa6r"]
+
+[ext_resource type="Shader" uid="uid://c638ny6pv177r" path="res://Shaders/Clip.gdshader" id="1"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xoyjr"]
+load_path = "res://.godot/imported/TX_Fence_Memorial_AL.tga-40d01bd75b3f33edc9efe4c04f93e68e.s3tc.ctex"
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = SubResource("CompressedTexture2D_xoyjr")
+shader_parameter/normal = null
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/limiter = 0.1
+shader_parameter/opacity = 0.4
+shader_parameter/fractional = false
+shader_parameter/enableRain = false
+shader_parameter/enableSnow = false
+shader_parameter/snowAmount = 0.0
+shader_parameter/metal = false

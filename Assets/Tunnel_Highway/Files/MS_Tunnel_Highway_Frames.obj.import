@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yniq67t06wt0"
+path="res://.godot/imported/MS_Tunnel_Highway_Frames.obj-f771d5cc9eb9fa18057f39f46771852b.mesh"
+
+[deps]
+
+source_file="res://Assets/Tunnel_Highway/Files/MS_Tunnel_Highway_Frames.obj"
+dest_files=["res://.godot/imported/MS_Tunnel_Highway_Frames.obj-f771d5cc9eb9fa18057f39f46771852b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

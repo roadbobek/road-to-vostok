@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c5i0mp3wnytn4"]
+
+[ext_resource type="Shader" uid="uid://cdww0h20gqk7k" path="res://Shaders/Tutorial.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://balombl3wcn3v" path="res://Assets/Tutorial/Billboards/Files/TX_Sign_Billboard_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bg61sorkgudij" path="res://Assets/Tutorial/Billboards/Files/TX_Tutorial_Interface.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/text = ExtResource("3")

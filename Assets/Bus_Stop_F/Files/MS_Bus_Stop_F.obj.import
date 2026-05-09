@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1bwtc43sf21"
+path="res://.godot/imported/MS_Bus_Stop_F.obj-11f2943afcad5ee167df1ee7a2599b47.mesh"
+
+[deps]
+
+source_file="res://Assets/Bus_Stop_F/Files/MS_Bus_Stop_F.obj"
+dest_files=["res://.godot/imported/MS_Bus_Stop_F.obj-11f2943afcad5ee167df1ee7a2599b47.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

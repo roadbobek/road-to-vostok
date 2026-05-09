@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://doslglial0sv3"
+path="res://.godot/imported/MS_Tunnel_Highway_Entrance.obj-c9f1f8a99740dddb1249932f1f594745.mesh"
+
+[deps]
+
+source_file="res://Assets/Tunnel_Highway/Files/MS_Tunnel_Highway_Entrance.obj"
+dest_files=["res://.godot/imported/MS_Tunnel_Highway_Entrance.obj-c9f1f8a99740dddb1249932f1f594745.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

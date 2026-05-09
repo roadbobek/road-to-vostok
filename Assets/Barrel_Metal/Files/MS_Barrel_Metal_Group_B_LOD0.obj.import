@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://sglhb0gvd65a"
+path="res://.godot/imported/MS_Barrel_Metal_Group_B_LOD0.obj-892bbd4a81af77102a91de4f9c64f76f.mesh"
+
+[deps]
+
+source_file="res://Assets/Barrel_Metal/Files/MS_Barrel_Metal_Group_B_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Barrel_Metal_Group_B_LOD0.obj-892bbd4a81af77102a91de4f9c64f76f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

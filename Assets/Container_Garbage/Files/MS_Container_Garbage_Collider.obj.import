@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqwokla5lq2uj"
+path="res://.godot/imported/MS_Container_Garbage_Collider.obj-c1157fd7b5bae7024f2c44fe4efdde2f.mesh"
+
+[deps]
+
+source_file="res://Assets/Container_Garbage/Files/MS_Container_Garbage_Collider.obj"
+dest_files=["res://.godot/imported/MS_Container_Garbage_Collider.obj-c1157fd7b5bae7024f2c44fe4efdde2f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bjgcv3xyro8h0"]
+
+[ext_resource type="Shader" uid="uid://q23s2ykspwpt" path="res://Shaders/Searchlight.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://h82044b08acn" path="res://Assets/Helicopter/Files/TX_Light_Cone_Noise.png" id="2"]
+
+[resource]
+render_priority = 1
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/noise = ExtResource("2")
+shader_parameter/silhuette = 20.0
+shader_parameter/startFade = 1.0
+shader_parameter/endFade = 1.0
+shader_parameter/noiseSpeed = Vector2(0.1, 0.1)
+shader_parameter/noiseScale = Vector2(0.2, 0.2)
+shader_parameter/depthFade = true
+shader_parameter/depthFadeDistance = 10.0

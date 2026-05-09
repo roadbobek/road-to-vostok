@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bt427unbybjih"]
+
+[ext_resource type="Shader" uid="uid://cjywx70ga1xjy" path="res://Shaders/Television.gdshader" id="1"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")

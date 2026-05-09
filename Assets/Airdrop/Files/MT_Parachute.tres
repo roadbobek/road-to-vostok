@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://drgyvr7ynbngg"]
+
+[ext_resource type="Shader" uid="uid://cja152th7lfq8" path="res://Shaders/Parachute.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://mgnowom41mun" path="res://Assets/Airdrop/Files/TX_Parachute_AL.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://42u0xqwjka58" path="res://Assets/Airdrop/Files/TX_Parachute_NR.png" id="3"]
+
+[resource]
+render_priority = 0
+next_pass = null
+shader = ExtResource("1")
+shader_parameter/albedo = ExtResource("2")
+shader_parameter/normal = ExtResource("3")
+shader_parameter/progress = -1.0

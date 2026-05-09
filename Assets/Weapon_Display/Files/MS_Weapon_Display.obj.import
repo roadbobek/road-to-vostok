@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://iiy6w48emnjq"
+path="res://.godot/imported/MS_Weapon_Display.obj-5f1a15f3b57eeaf70f7638c3877a509f.mesh"
+
+[deps]
+
+source_file="res://Assets/Weapon_Display/Files/MS_Weapon_Display.obj"
+dest_files=["res://.godot/imported/MS_Weapon_Display.obj-5f1a15f3b57eeaf70f7638c3877a509f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2yrhvntipqpu"
+path="res://.godot/imported/MS_Debris_Rope_Pile_B_LOD0.obj-c4b2d4807eb92d6b38ea18433eb96e37.mesh"
+
+[deps]
+
+source_file="res://Assets/Debris/Rope/Files/MS_Debris_Rope_Pile_B_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Debris_Rope_Pile_B_LOD0.obj-c4b2d4807eb92d6b38ea18433eb96e37.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

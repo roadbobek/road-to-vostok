@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b66q1dmyvw5nr"
+path="res://.godot/imported/MS_BTR_Collider.obj-04576c75e2b60159301ea4d6fa0bd156.mesh"
+
+[deps]
+
+source_file="res://Assets/Vehicles/BTR/Files/MS_BTR_Collider.obj"
+dest_files=["res://.godot/imported/MS_BTR_Collider.obj-04576c75e2b60159301ea4d6fa0bd156.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

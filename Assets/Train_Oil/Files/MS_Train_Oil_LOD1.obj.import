@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6aognu8r6oh8"
+path="res://.godot/imported/MS_Train_Oil_LOD1.obj-928ea5fc7162c3a88b1a92e082eb6681.mesh"
+
+[deps]
+
+source_file="res://Assets/Train_Oil/Files/MS_Train_Oil_LOD1.obj"
+dest_files=["res://.godot/imported/MS_Train_Oil_LOD1.obj-928ea5fc7162c3a88b1a92e082eb6681.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

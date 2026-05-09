@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clom7y0aed58g"
+path="res://.godot/imported/MS_Volvo_LOD0.obj-c220f97388d256261ce057d8067c5913.mesh"
+
+[deps]
+
+source_file="res://Assets/Vehicles/Volvo/Files/MS_Volvo_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Volvo_LOD0.obj-c220f97388d256261ce057d8067c5913.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

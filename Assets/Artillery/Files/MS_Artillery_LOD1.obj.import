@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2noymwv7curd"
+path="res://.godot/imported/MS_Artillery_LOD1.obj-103919ab42f37b110eb6148a5e5c137e.mesh"
+
+[deps]
+
+source_file="res://Assets/Artillery/Files/MS_Artillery_LOD1.obj"
+dest_files=["res://.godot/imported/MS_Artillery_LOD1.obj-103919ab42f37b110eb6148a5e5c137e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=true

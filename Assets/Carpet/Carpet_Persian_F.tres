@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c010y5m3l3nga"]
+
+[ext_resource type="Texture2D" uid="uid://c8g351nh6xfri" path="res://Assets/Carpet/Files/Icon_Carpet_Persian.png" id="1"]
+[ext_resource type="Script" uid="uid://u2h8xa0l83va" path="res://Scripts/ItemData.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://dmp4xcqm0a1du" path="res://Assets/Carpet/Carpet_Persian_4x1.tscn" id="3"]
+
+[resource]
+script = ExtResource("2")
+file = "Carpet_Persian"
+name = "Carpet (Persian)"
+inventory = "Carpet (Persian)"
+rotated = "Carpet P."
+equipment = "Carpet (Persian)"
+display = "Carpet P."
+type = "Furniture"
+value = 250
+rarity = 4
+icon = ExtResource("1")
+tetris = ExtResource("3")
+size = Vector2(4, 1)
+audio = null
+material = null
+generalist = true
+grandma = true
+metadata/_custom_type_script = "uid://u2h8xa0l83va"

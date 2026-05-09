@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8cg4abs4bqyh"
+path="res://.godot/imported/MS_Fence_Garbage.obj-060281892994f89aba1e87eb1ec3fbe8.mesh"
+
+[deps]
+
+source_file="res://Assets/Fence_Garbage/Files/MS_Fence_Garbage.obj"
+dest_files=["res://.godot/imported/MS_Fence_Garbage.obj-060281892994f89aba1e87eb1ec3fbe8.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

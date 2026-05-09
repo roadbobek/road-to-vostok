@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cadh8k7pqqaf6"
+path="res://.godot/imported/MS_Hay_Stack_B_LOD0.obj-da85b2f2d6a7a6ffccc1e33b365e9e80.mesh"
+
+[deps]
+
+source_file="res://Assets/Hay_Bale/Files/MS_Hay_Stack_B_LOD0.obj"
+dest_files=["res://.godot/imported/MS_Hay_Stack_B_LOD0.obj-da85b2f2d6a7a6ffccc1e33b365e9e80.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

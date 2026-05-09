@@ -1,0 +1,23 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dk5wjheowfdob"
+path="res://.godot/imported/MS_Helicopter_Crash_Collider.obj-35347699574e7fd0f9217962289b6251.mesh"
+
+[deps]
+
+source_file="res://Assets/Helicopter/Files/MS_Helicopter_Crash_Collider.obj"
+dest_files=["res://.godot/imported/MS_Helicopter_Crash_Collider.obj-35347699574e7fd0f9217962289b6251.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=false
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
